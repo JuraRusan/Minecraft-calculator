@@ -1,0 +1,453 @@
+@import "../Variables.scss";
+
+body {
+  .modalMain {
+    position: absolute;
+    z-index: 12001;
+    border-left: 1px solid $color-7;
+    background: $color-1;
+    top: 0;
+    left: 65%;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    overflow-x: hidden;
+    outline: none !important;
+
+    .wrapperModal {
+      display: flex;
+      flex-direction: column;
+
+      .searchCraft {
+        width: 100%;
+        height: 32px;
+        outline: none;
+        background: $color-5;
+        border: none;
+        border-bottom: 1px solid $color-7;
+        transition: all 0.25s ease-in-out;
+        color: $color-3;
+        padding: 0 8px;
+        margin-bottom: 4px;
+        font-size: 12px;
+
+        &:hover,
+        &:focus,
+        &:active {
+          outline: none;
+          color: $color-4;
+        }
+      }
+
+      .rowCraftOne {
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+        transition: all 0.35s ease;
+        margin: 1px 0;
+
+        &:hover {
+          background: #000c14;
+        }
+
+        .image {
+          width: 28px;
+          min-width: 28px;
+          max-width: 28px;
+          height: 28px;
+          min-height: 28px;
+          max-height: 28px;
+          margin: 0 4px;
+          cursor: pointer;
+        }
+
+        .nameCraft {
+          line-height: 28px;
+          height: 28px;
+          color: $color-3;
+          font-size: 12px;
+          margin-right: 4px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .wrapperPrevCraft {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 16px 0;
+
+      .oneBox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 178px;
+        margin: 0 4px 16px 4px;
+        padding: 4px;
+        border: 1px solid $color-1;
+        background: $color-5;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.35s ease;
+
+        &:hover {
+          border: 1px solid $color-8;
+        }
+
+        .prevCraft {
+          width: 48px;
+          min-width: 48px;
+          max-width: 48px;
+          height: 48px;
+          min-height: 48px;
+          max-height: 48px;
+          border: 1px solid $color-1;
+          margin: 4px;
+        }
+      }
+    }
+  }
+
+  .customWight {
+    left: 55% !important;
+  }
+
+  .overlayModal {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 12002;
+    background: $color-5;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  .lineNoContentTop {
+    position: absolute;
+    top: 0;
+    height: 200px;
+    width: 100%;
+    background: $color-5;
+    background: linear-gradient(180deg, $color-5 0%, rgba(0, 6, 11, 0) 100%);
+    z-index: 1;
+  }
+
+  .lineNoContentBottom {
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    background: $color-5;
+    background: linear-gradient(0deg, $color-5 0%, rgba(0, 6, 11, 0) 100%);
+    z-index: 1;
+  }
+
+  .calcBox {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 85vh;
+    width: 80%;
+    border: 1px solid $color-7;
+    border-radius: 4px;
+    background: $color-5;
+    margin: 0 auto;
+    padding-top: 32px;
+
+    .countBox {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      width: auto;
+      margin: 0 auto 16px auto;
+
+      .countInput {
+        width: 120px;
+        text-align: center;
+        height: 24px;
+        line-height: 24px;
+        outline: none;
+        background: $color-5;
+        border: 1px solid $color-7;
+        border-radius: 4px;
+        transition: all 0.25s ease-in-out;
+        color: $color-3;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 2px;
+
+        &:hover,
+        &:focus,
+        &:active {
+          outline: none;
+          color: $color-4;
+        }
+      }
+    }
+
+    .craftContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border: 1px solid $color-7;
+      border-radius: 4px;
+      background: $color-5;
+      height: 232px;
+      width: auto;
+      max-width: max-content;
+      margin: 0 auto;
+
+      .swipeGlobalCraftPrev,
+      .swipeGlobalCraftNext {
+        width: 32px;
+        cursor: pointer;
+        border: none;
+        color: $color-3;
+        font-size: 18px;
+        transition: all 0.35s ease;
+
+        &:hover {
+          color: $color-2;
+        }
+
+        &:disabled{
+          color: $color-7;
+          cursor: default;
+        }
+      }
+
+      .swipeGlobalCraftPrev {
+        margin-right: 64px;
+        background: linear-gradient(90deg, $color-1 0%, rgba(0, 0, 0, 0) 100%);
+      }
+
+      .swipeGlobalCraftNext {
+        margin-left: 64px;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, $color-1 100%);
+      }
+
+      .crafter {
+        display: flex;
+        flex-direction: row;
+
+        .requiredContainer {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+          width: 210px;
+          height: 210px;
+          padding: 10px 0;
+
+          .craftOne {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            border: 1px solid $color-7;
+            border-radius: 4px;
+            margin: 5px;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+
+        .separatorContainer {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 230px;
+          width: auto;
+          margin: 0 8px;
+
+          span {
+            font-size: 64px;
+            color: $color-7;
+          }
+        }
+
+        .outputContainer {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 230px;
+          width: auto;
+          position: relative;
+
+          .outputName {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            top: 48px;
+            color: $color-3;
+            font-size: 12px;
+            width: max-content;
+          }
+
+          .output {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            border: 1px solid $color-7;
+            border-radius: 4px;
+            margin: 5px;
+            position: relative;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+
+            span {
+              position: absolute;
+              right: 4px;
+              bottom: 4px;
+              font-size: 16px;
+              color: $color-3;
+            }
+          }
+
+          .btnWrapper {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            bottom: 48px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .btnSwipe {
+              width: auto;
+              height: 20px;
+              padding: 0 8px;
+              cursor: pointer;
+              border: 1px solid $color-7;
+              border-radius: 2px;
+              background: $color-5;
+              margin: 0 4px;
+              color: $color-3;
+              font-size: 10px;
+              transition: all 0.35s ease;
+
+              &:hover {
+                color: $color-2;
+              }
+
+              &:disabled {
+                cursor: default;
+                color: $color-7;
+
+                &:hover {
+                  color: $color-7
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .outFullBox {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      max-width: 95%;
+      margin: 0 auto;
+
+      .result {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+
+        .name {
+          height: 20px;
+          line-height: 20px;
+          font-weight: 400;
+          font-size: 13px;
+          margin-top: 4px;
+          margin-left: 2px;
+          color: $color-3;
+
+        }
+      }
+    }
+
+    .buttonBox {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: auto;
+      height: auto;
+      margin: 8px 0;
+
+      .btn {
+        width: 100px;
+        height: 22px;
+        line-height: 22px;
+        cursor: pointer;
+        border: 1px solid $color-7;
+        border-radius: 2px;
+        background: $color-5;
+        margin: 0 16px;
+        color: $color-3;
+        font-size: 10px;
+        transition: all 0.35s ease;
+
+        &:hover {
+          color: $color-2;
+        }
+      }
+    }
+  }
+
+  .calculated {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    margin-left: 8px;
+
+    .outCountBox {
+      display: flex;
+      flex-direction: row;
+      width: auto;
+      height: auto;
+
+      .outImgShulker {
+        width: 24px;
+        min-width: 24px;
+        max-width: 24px;
+        height: 24px;
+        min-height: 24px;
+        max-height: 24px;
+      }
+
+      span,
+      label {
+        height: 20px;
+        line-height: 20px;
+        margin-right: 4px;
+        font-weight: 400;
+        font-size: 13px;
+        margin-top: 4px;
+        color: $color-3;
+      }
+    }
+  }
+}
