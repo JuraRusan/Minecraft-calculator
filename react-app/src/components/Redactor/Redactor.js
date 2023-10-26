@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {items_name_array} from "../../сrafting-calculator/array_name";
+import {items_name_array} from "../../data/array_name";
 
 import "./Redactor.scss";
 

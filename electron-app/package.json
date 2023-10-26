@@ -1,5 +1,5 @@
 {
-  "name": "Minecraft calculator",
+  "name": "MinecraftCalculator",
   "version": "1.0.0",
   "description": "Custom minecraft calculator and craft all resources",
   "main": "main.js",

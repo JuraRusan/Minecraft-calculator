@@ -1,4 +1,5 @@
 import React from 'react';
+import NameFormat from "../NameFormat/NameFormat";
 
 const ViewItem = ({itemName, setCraft, craft}) => {
 
@@ -26,7 +27,7 @@ const ViewItem = ({itemName, setCraft, craft}) => {
           src={`./image/minecraft-item/${craft[itemName]}.webp`}
           alt="none"
           data-aos="flip-left"
-          title={craft[itemName].replace(/_/g, ' ').charAt(0).toUpperCase() + craft[itemName].replace(/_/g, ' ').slice(1)}
+          title={NameFormat(craft[itemName])}
         />
       }
     </div>

@@ -2,10 +2,10 @@ import React, {useEffect, useState} from "react";
 import Modal from 'react-modal';
 import AOS from "aos";
 import LineOuput from "../components/LineOuput/LineOut";
-import ViewItem from "./ViewItem";
+import ViewItem from "../components/ViewItem/ViewItem";
 import NameFormat from "../components/NameFormat/NameFormat";
 import Error from "../components/Error/Error";
-import {craftAll} from "./array.js";
+import {craftAll} from "../data/array.js";
 import {debounce} from "lodash";
 // import Redactor from "../components/Redactor/Redactor";
 
