@@ -4,9 +4,10 @@
 /react-app/node_modules
 /electron-app/node_modules
 /electron-app/out
-/electron-app/scr
+/electron-app/src
 /electron-app/.idea
 /react-app/.idea
+/react-app/build
 /.idea
 /.pnp
 .pnp.js
