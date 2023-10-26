@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import Modal from 'react-modal';
 import AOS from "aos";
-import LineOuput from "../components/LineOuput/LineOut";
+import LineOutput from "../components/LineOutput/LineOutput";
 import ViewItem from "../components/ViewItem/ViewItem";
 import NameFormat from "../components/NameFormat/NameFormat";
 import Error from "../components/Error/Error";
@@ -220,6 +220,7 @@ const CraftingCalculator = () => {
       arrA: 0,
       arrL: Array.isArray(craftAll[indexGlobal]) ? craftAll[indexGlobal].length - 1 : 0
     });
+    sumCraft(craft);
   }
 
   return (
@@ -228,7 +229,7 @@ const CraftingCalculator = () => {
       <div className="calcBox">
         <div className="countBox">
           <input name="count" placeholder="required" onChange={handleChangeCount} className="countInput"/>
-          <LineOuput numbers={count}/>
+          <LineOutput numbers={count} multiple={output.qty} type="in"/>
         </div>
         <div className="craftContainer">
           <button className="swipeGlobalCraftPrev" onClick={decrementIndex} disabled={output.id === 0}>&#129144;</button>
@@ -283,8 +284,8 @@ const CraftingCalculator = () => {
           {Object.keys(result).map((key) => (
             <div key={key} className="result">
               <img src={`./image/minecraft-item/${key}.webp`} alt="none" width="24px" height="24px"/>
-              <p className="name">{key} = {parseFloat((result[key] * (count / output.qty)).toFixed(2))}</p>
-              <LineOuput numbers={result[key] * (count / output.qty)}/>
+              <p className="name">{key}</p>
+              <LineOutput numbers={result[key] * (count / output.qty)} multiple={result[key]} type="out"/>
             </div>
           ))}
         </div>
