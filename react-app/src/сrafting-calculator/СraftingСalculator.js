@@ -223,6 +223,27 @@ const CraftingCalculator = () => {
     sumCraft(craft);
   }
 
+
+  const [decomposed, setDecomposed] = useState([])
+
+  useEffect(() => {
+    const matchingIndexes = [];
+    for (const key in result) {
+      if (result.hasOwnProperty(key)) {
+        for (let i = 0; i < craftAll.length; i++) {
+          const el = craftAll[i];
+          const compareValue = Array.isArray(el) ? el[0].out : el.out;
+          if (key === compareValue) {
+            matchingIndexes.push(i);
+          }
+        }
+      }
+    }
+    setDecomposed(matchingIndexes);
+  }, [result]);
+
+  console.log(result)
+
   return (
     <div className="wrapper">
       <div className="lineNoContentTop"></div>

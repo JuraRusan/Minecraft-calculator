@@ -11467,8 +11467,6 @@ const craftAll = craftAllNoSort.sort((a, b) => {
   return 0;
 });
 
-console.log(craftAll)
-
 module.exports.craftAll = craftAll;
 
 
