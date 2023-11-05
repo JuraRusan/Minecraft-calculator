@@ -1,33 +1,17 @@
 import React from 'react';
 import NameFormat from "../NameFormat/NameFormat";
+import {craftAll} from "../../data/array";
 
-const ViewItem = ({itemName, setCraft, craft}) => {
-
-  const handleLeftClick = () => {
-  };
-
-  const handleRightClick = () => {
-    setCraft((prevCraft) => ({
-      ...prevCraft,
-      [itemName]: null,
-    }));
-  };
+const ViewItem = ({obj, itemName}) => {
 
   return (
-    <div
-      onClick={handleLeftClick}
-      onContextMenu={(e) => {
-        e.preventDefault();
-        handleRightClick();
-      }}
-      className="craftOne"
-    >
-      {craft[itemName] === null ? undefined :
+    <div className="craftOne">
+      {!obj[itemName] || obj[itemName] === "air" ? null :
         <img
-          src={`./image/minecraft-item/${craft[itemName]}.webp`}
+          src={`./image/minecraft-item/${obj[itemName]}.webp`}
           alt="none"
           data-aos="flip-left"
-          title={NameFormat(craft[itemName])}
+          title={NameFormat(obj[itemName])}
         />
       }
     </div>

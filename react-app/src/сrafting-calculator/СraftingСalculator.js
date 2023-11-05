@@ -1,16 +1,53 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useState, useMemo} from "react";
 import Modal from 'react-modal';
 import AOS from "aos";
 import LineOutput from "../components/LineOutput/LineOutput";
-import ViewItem from "../components/ViewItem/ViewItem";
+import OneCraft from "../components/oneCraft/oneCraft";
 import NameFormat from "../components/NameFormat/NameFormat";
 import Error from "../components/Error/Error";
 import {craftAll} from "../data/array.js";
-import {debounce} from "lodash";
-// import Redactor from "../components/Redactor/Redactor";
 
 import "./СraftingСalculator.scss";
 import "aos/dist/aos.css";
+
+const MAX_COUNT = 268435456;
+
+const KEYS_TO = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
+
+const ERROR_MESSAGE = `Enter a number from 0 to ${new Intl.NumberFormat('en-US').format(MAX_COUNT)}`
+
+function sumCraft(craft, localId, count) {
+  const craftArray = Array.isArray(craft) ? craft[localId] : craft;
+  const out = {}
+
+  for (const key in craftArray) {
+    const item = craftArray[key];
+    if (item !== null && item !== "air" && KEYS_TO.includes(key)) {
+      if (out[item]) {
+        out[item] += 1;
+      }
+      else {
+        out[item] = 1;
+      }
+    }
+  }
+
+  for (const key in out) {
+    out[key] *= count;
+  }
+
+  return out;
+}
+
+function roundToMultiple(number, multiple) {
+  let result;
+  if (number % multiple === 0) {
+    result = number
+  } else {
+    result = Math.ceil(number / multiple) * multiple
+  }
+  return result;
+}
 
 const CraftingCalculator = () => {
 
@@ -18,13 +55,41 @@ const CraftingCalculator = () => {
     AOS.init({duration: 350});
   }, []);
 
-  const maxCount = 268435456;
   const [count, setCount] = useState(1);
 
   const [showError, setShowError] = useState(false);
-  const [errorMessage, setErrorMessage] = useState(null);
 
   const [modalIsOpenChoice, setIsOpenChoice] = useState(false);
+  const [modalIsOpenVariables, setIsOpenVariables] = useState(false);
+
+  const [indexGlobal, setIndexGlobal] = useState(0);
+  const [localId, setLocalId] = useState(0)
+
+  const decrementLocalId = () => {
+    if (localId > 0) {
+      setLocalId(localId - 1)
+    }
+  };
+
+  const incrementLocalId = () => {
+    if (localId < craftAll[indexGlobal].length - 1) {
+      setLocalId(localId + 1)
+    }
+  };
+
+  const decrementIndexGlobal = () => {
+    if (indexGlobal > 0) {
+      const newIndex = indexGlobal - 1;
+      setIndexGlobal(newIndex);
+    }
+  };
+
+  const incrementIndexGlobal = () => {
+    if (indexGlobal < craftAll.length - 1) {
+      const newIndex = indexGlobal + 1;
+      setIndexGlobal(newIndex);
+    }
+  };
 
   function openModalChoice() {
     setIsOpenChoice(true);
@@ -34,8 +99,6 @@ const CraftingCalculator = () => {
     setIsOpenChoice(false);
   }
 
-  const [modalIsOpenVariables, setIsOpenVariables] = useState(false);
-
   function openModalVariables() {
     setIsOpenVariables(true);
   }
@@ -44,272 +107,84 @@ const CraftingCalculator = () => {
     setIsOpenVariables(false);
   }
 
-  const [querySearchCraft, setQuerySearchCraft] = useState("");
-  const craftAllFiltered = craftAll.filter(fill => {
-    if (Array.isArray(fill) && fill[0] && fill[0].out && fill[0].out.includes(querySearchCraft)) {
-      return true;
-    } else if (fill.out && fill.out.includes(querySearchCraft)) {
-      return true;
-    }
-    return false;
-  });
-
-  const [craft, setCraft] = useState({
-    one_item: null,
-    two_item: null,
-    three_item: null,
-    four_item: null,
-    five_item: null,
-    six_item: null,
-    seven_item: null,
-    eight_item: null,
-    nine_item: null,
-  });
-  const handleChangeSetCraftReset = () => {
-    setCraft({
-      one_item: null,
-      two_item: null,
-      three_item: null,
-      four_item: null,
-      five_item: null,
-      six_item: null,
-      seven_item: null,
-      eight_item: null,
-      nine_item: null
-    })
-  }
-
-  const [output, setOutput] = useState({
-    out: null,
-    qty: 1,
-    id: 0,
-    arr: false,
-    arrA: 0,
-    arrL: 0
-  });
-  const handleChangeSetOutputReset = () => {
-    setOutput({
-      out: null,
-      qty: 1,
-      id: 0,
-      arr: false,
-      arrA: 0,
-      arrL: 0
-    })
-  }
-
-  useEffect(() => {
-    if (craft.one_item === null && craft.two_item === null && craft.three_item === null && craft.four_item === null && craft.five_item === null && craft.six_item === null && craft.seven_item === null && craft.eight_item === null && craft.nine_item === null) {
-      handleChangeSetOutputReset()
-    }
-  }, [craft]);
-
-  function sumCraft(craft) {
-    const out = {};
-
-    for (const key in craft) {
-      const item = craft[key];
-      if (item !== null) {
-        if (out[item]) {
-          out[item] += 1;
-        } else {
-          out[item] = 1;
-        }
-      }
-    }
-
-    return out;
-  }
-
-  const result = sumCraft(craft);
+  const y = Array.isArray(craftAll[indexGlobal]) ? craftAll[indexGlobal][localId].qty : craftAll[indexGlobal].qty;
+  const result = sumCraft(craftAll[indexGlobal], localId, count / y);
 
   const handleChangeCount = (e) => {
-    const value = e.target.value;
+    const value =  e.target.value;
+    const f = Array.isArray(craftAll[indexGlobal]) ? craftAll[indexGlobal][0] : craftAll[indexGlobal]
+    const round =  roundToMultiple(value, f.qty)
 
-    if (/^[0-9]*$/.test(value)) {
-      const numberValue = parseInt(value, 10);
-      if (numberValue >= 0 && numberValue <= maxCount) {
-        setCount(value);
-        setErrorMessage(null);
+    if (/^[0-9]*$/.test(round)) {
+      const numberValue = parseInt(round, 10);
+      if (numberValue >= 0 && numberValue <= MAX_COUNT) {
+        setCount(round);
         setShowError(false)
       } else {
         setShowError(true)
-        setErrorMessage(`Enter a number from 0 to ${new Intl.NumberFormat('en-US').format(maxCount)}`);
       }
     } else {
       setShowError(true)
-      setErrorMessage(`Enter a number from 0 to ${new Intl.NumberFormat('en-US').format(maxCount)}`);
     }
   };
-
-  const updateCraft = (index) => {
-    setCraft({
-      one_item: craftAllFiltered[output.id][index]["1"],
-      two_item: craftAllFiltered[output.id][index]["2"],
-      three_item: craftAllFiltered[output.id][index]["3"],
-      four_item: craftAllFiltered[output.id][index]["4"],
-      five_item: craftAllFiltered[output.id][index]["5"],
-      six_item: craftAllFiltered[output.id][index]["6"],
-      seven_item: craftAllFiltered[output.id][index]["7"],
-      eight_item: craftAllFiltered[output.id][index]["8"],
-      nine_item: craftAllFiltered[output.id][index]["9"]
-    });
-    setOutput({
-      ...output,
-      arrA: index,
-      out: craftAllFiltered[output.id][index].out,
-      qty: craftAllFiltered[output.id][index].qty,
-    });
-  }
-
-  const decrementArrA = () => {
-    if (output.arrA > 0) {
-      updateCraft(output.arrA - 1)
-    }
-  };
-
-  const incrementArrA = () => {
-    if (output.arrA < output.arrL) {
-      updateCraft(output.arrA + 1)
-    }
-  };
-
-  const [indexGlobal, setIndexGlobal] = useState(-1);
-
-  useEffect(() => {
-    const matchingIndices = craftAll.reduce((indices, fill, index) => {
-      if (fill.out === output.out || (fill[0] && fill[0].out === output.out))
-        return setIndexGlobal(index);
-    }, []);
-  }, [output, craftAll]);
-
-  const decrementIndex = () => {
-    if (indexGlobal > 0) {
-      const newIndex = indexGlobal - 1;
-      setIndexGlobal(newIndex);
-      newCraft(newIndex);
-    }
-  };
-
-  const incrementIndex = () => {
-    if (indexGlobal < craftAll.length - 1) {
-      const newIndex = indexGlobal + 1;
-      setIndexGlobal(newIndex);
-      newCraft(newIndex);
-    }
-  };
-
-  const newCraft = (indexGlobal) => {
-    const craftItem = Array.isArray(craftAll[indexGlobal]) ? craftAll[indexGlobal][0] : craftAll[indexGlobal];
-    setCraft({
-      one_item: craftItem["1"],
-      two_item: craftItem["2"],
-      three_item: craftItem["3"],
-      four_item: craftItem["4"],
-      five_item: craftItem["5"],
-      six_item: craftItem["6"],
-      seven_item: craftItem["7"],
-      eight_item: craftItem["8"],
-      nine_item: craftItem["9"]
-    });
-    setOutput({
-      out: craftItem.out,
-      qty: craftItem.qty,
-      id: indexGlobal,
-      arr: !!Array.isArray(craftAll[indexGlobal]),
-      arrA: 0,
-      arrL: Array.isArray(craftAll[indexGlobal]) ? craftAll[indexGlobal].length - 1 : 0
-    });
-    sumCraft(craft);
-  }
 
   const decomposed = useMemo(() => {
     const matchingIndexes = [];
     for (const key in result) {
-      if (result.hasOwnProperty(key)) {
+      if (result?.[key]) {
         for (let i = 0; i < craftAll.length; i++) {
           const el = craftAll[i];
-          const compareValue = Array.isArray(el) ? el[0].out : el.out;
-          if (key === compareValue) {
-            matchingIndexes.push({ id: i, qty: result[key] });
+          const compareValueOut = Array.isArray(el) ? el[0].out : el.out;
+          if (key === compareValueOut) {
+            matchingIndexes.push({id: i, log: compareValueOut, qty: result[key]});
           }
         }
       }
-      return matchingIndexes;
     }
-  }, [result]);
+    return matchingIndexes;
+  }, [result, count]);
+
+  useEffect(() => {
+    const f = Array.isArray(craftAll[indexGlobal]) ? craftAll[indexGlobal][0] : craftAll[indexGlobal]
+    setCount(f.qty)
+  }, [indexGlobal])
 
   return (
     <div className="wrapper">
-      <div className="lineNoContentTop"></div>
       <div className="calcBox">
+        <div className="buttonBox">
+          <button onClick={() => {setIndexGlobal(0)}} className="btn">RESET</button>
+          <button onClick={() => {openModalChoice()}} className="btn">BOOK</button>
+        </div>
         <div className="countBox">
           <input name="count" placeholder="required" onChange={handleChangeCount} className="countInput"/>
-          <LineOutput numbers={count} multiple={output.qty} type="in"/>
         </div>
         <div className="craftContainer">
-          <button className="swipeGlobalCraftPrev" onClick={decrementIndex} disabled={output.id === 0}>&#129144;</button>
-          <div className="crafter">
-            <div className="requiredContainer">
-              <ViewItem itemName="one_item" craft={craft} setCraft={setCraft}/>
-              <ViewItem itemName="two_item" craft={craft} setCraft={setCraft}/>
-              <ViewItem itemName="three_item" craft={craft} setCraft={setCraft}/>
-              <ViewItem itemName="four_item" craft={craft} setCraft={setCraft}/>
-              <ViewItem itemName="five_item" craft={craft} setCraft={setCraft}/>
-              <ViewItem itemName="six_item" craft={craft} setCraft={setCraft}/>
-              <ViewItem itemName="seven_item" craft={craft} setCraft={setCraft}/>
-              <ViewItem itemName="eight_item" craft={craft} setCraft={setCraft}/>
-              <ViewItem itemName="nine_item" craft={craft} setCraft={setCraft}/>
-            </div>
-            <div className="separatorContainer">
-              <span className="arrow">&#10132;</span>
-            </div>
-            <div className="outputContainer">
-              {output.out === null ? undefined : <h2 className="outputName">{NameFormat(output.out)}</h2>}
-              <div
-                className="output"
-                onContextMenu={(e) => {
-                  e.preventDefault();
-                  handleChangeSetCraftReset();
-                  handleChangeSetOutputReset();
-                }}
-              >
-                {output.out === null ? undefined :
-                  <>
-                    <img src={`./image/minecraft-item/${output.out}.webp`} alt="none" data-aos="flip-left"/>
-                    <span data-aos="flip-left">{output.qty}</span>
-                  </>
-                }
-              </div>
-              {output.arr === false ? undefined :
-                <div className="btnWrapper">
-                  <button className="btnSwipe" onClick={decrementArrA} disabled={output.arrA === 0}>&#129144;</button>
-                  <button className="btnSwipe" onClick={openModalVariables}>?</button>
-                  <button className="btnSwipe" onClick={incrementArrA} disabled={output.arrA === output.arrL}>&#129146;</button>
-                </div>
-              }
-            </div>
-          </div>
-          <button className="swipeGlobalCraftNext" onClick={incrementIndex} disabled={indexGlobal === craftAllFiltered.length - 1}>&#129146;</button>
+          <button className="swipeGlobalCraftPrev" onClick={decrementIndexGlobal} disabled={indexGlobal < 2}>&#129144;</button>
+          <OneCraft
+            id={indexGlobal}
+            result={result}
+            localId={localId}
+            count={count}
+            onClickNext={decrementLocalId}
+            onClickPrew={incrementLocalId}
+            onClickVariables={openModalVariables}
+          />
+          <button className="swipeGlobalCraftNext" onClick={incrementIndexGlobal} disabled={indexGlobal === craftAll.length - 1}>&#129146;</button>
         </div>
-        <div className="buttonBox">
-          <button onClick={() => {handleChangeSetCraftReset(); handleChangeSetOutputReset(); setIndexGlobal(-1)}} className="btn">RESET</button>
-          <button onClick={() => {setQuerySearchCraft(""); openModalChoice()}} className="btn">BOOK</button>
-        </div>
-        <div className="outFullBox">
-          {Object.keys(result).map((key) => (
-            <div key={key} className="result">
-              <img src={`./image/minecraft-item/${key}.webp`} alt="none" width="24px" height="24px"/>
-              <p className="name">{key}</p>
-              <LineOutput numbers={result[key] * (count / output.qty)} multiple={result[key]} type="out"/>
-            </div>
-          ))}
-        </div>
-        {showError === false ? undefined : <Error message={errorMessage}/>}
+        {!showError ? null : <Error message={ERROR_MESSAGE}/>}
 
-        {/* --- dev --- */}
-        {/*<Redactor/>*/}
-        {/* --- dev --- */}
+        {!decomposed ? null :
+          <>
+            {decomposed.map((el, i) => {
+              return (
+                <div key={i} className="craftContainer">
+                  <OneCraft id={el.id} localId="0" result={sumCraft(craftAll[el.id], 0, el.qty)} count={el.qty}/>
+                </div>
+              )
+            })}
+          </>
+        }
 
         <Modal
           isOpen={modalIsOpenChoice}
@@ -319,8 +194,8 @@ const CraftingCalculator = () => {
           ariaHideApp={false}
         >
           <div className="wrapperModal" data-aos="fade-left">
-            <input type="search" name="string" placeholder="search" className="searchCraft" onChange={debounce((e) => setQuerySearchCraft(e.target.value.toLowerCase()), 350)}/>
-            {craftAllFiltered.map((el, i) => {
+            <input type="search" name="string" placeholder="search" className="searchCraft"/>
+            {craftAll.map((el, i) => {
               const craftItem = Array.isArray(el) ? el[0] : el;
 
               return (
@@ -329,33 +204,15 @@ const CraftingCalculator = () => {
                   key={i}
                   onClick={() => {
                     closeModalChoice();
-                    handleChangeSetCraftReset();
-                    handleChangeSetOutputReset();
-                    setTimeout(() => {
-                      setCraft({
-                        one_item: craftItem["1"],
-                        two_item: craftItem["2"],
-                        three_item: craftItem["3"],
-                        four_item: craftItem["4"],
-                        five_item: craftItem["5"],
-                        six_item: craftItem["6"],
-                        seven_item: craftItem["7"],
-                        eight_item: craftItem["8"],
-                        nine_item: craftItem["9"]
-                      });
-                      setOutput({
-                        out: craftItem.out,
-                        qty: craftItem.qty,
-                        id: i,
-                        arr: !!Array.isArray(el),
-                        arrA: 0,
-                        arrL: Array.isArray(el) ? el.length - 1 : 0
-                      });
-                    }, 50);
+                    setIndexGlobal(i);
                   }}
                 >
-                  <img src={`./image/minecraft-item/${Array.isArray(el) ? el[0].out : el.out}.webp`} className="image" alt="#"/>
-                  <label className="nameCraft">{NameFormat(craftItem.out)}</label>
+                  {craftItem.out === "air" ? null :
+                    <>
+                      <img src={`./image/minecraft-item/${craftItem.out}.webp`} className="image" alt="#"/>
+                      <label className="nameCraft">{NameFormat(craftItem.out)}</label>
+                    </>
+                  }
                 </div>
               )
             })}
@@ -372,13 +229,14 @@ const CraftingCalculator = () => {
           <div className="wrapperPrevCraft" data-aos="fade-left">
             {modalIsOpenVariables === false ? undefined :
               <>
-                {craftAllFiltered[output.id].map((el, i) => (
-                  <div key={i} className="oneBox" onClick={() => {updateCraft(i); closeModalVariables()}}>
+                {craftAll[indexGlobal].map((el, i) => (
+                  <div key={i} className="oneBox" onClick={() => {
+                    setLocalId(i);
+                    closeModalVariables()
+                  }}>
                     {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((index) => (
                       <div key={index}>
-                        {el[index] === null ? (
-                          <div className="prevCraft"></div>
-                        ) : (
+                        {el[index] === null ? (<div className="prevCraft"></div>) : (
                           <img
                             src={`./image/minecraft-item/${el[index]}.webp`}
                             className="prevCraft"
@@ -396,9 +254,62 @@ const CraftingCalculator = () => {
         </Modal>
 
       </div>
-      <div className="lineNoContentBottom"></div>
+
     </div>
   );
 };
 
 export default CraftingCalculator;
+
+// <div className="craftWrapper">
+//   <div className="crafter">
+//     <div className="requiredContainer">
+//       <ViewItem itemName="1" id={indexGlobal}/>
+//       <ViewItem itemName="2" id={indexGlobal}/>
+//       <ViewItem itemName="3" id={indexGlobal}/>
+//       <ViewItem itemName="4" id={indexGlobal}/>
+//       <ViewItem itemName="5" id={indexGlobal}/>
+//       <ViewItem itemName="6" id={indexGlobal}/>
+//       <ViewItem itemName="7" id={indexGlobal}/>
+//       <ViewItem itemName="8" id={indexGlobal}/>
+//       <ViewItem itemName="9" id={indexGlobal}/>
+//     </div>
+//     <div className="separatorContainer">
+//       <span className="arrow">&#10132;</span>
+//     </div>
+//     <div className="outputContainer">
+//       {output.out === null ? undefined : <h2 className="outputName">{NameFormat(output.out)}</h2>}
+//       <div
+//         className="output"
+//         onContextMenu={(e) => {
+//           e.preventDefault();
+//           handleChangeSetCraftReset();
+//           handleChangeSetOutputReset();
+//         }}
+//       >
+//         {output.out === null ? undefined :
+//           <>
+//             <img src={`./image/minecraft-item/${output.out}.webp`} alt="none" data-aos="flip-left"/>
+//             <span data-aos="flip-left">{output.qty}</span>
+//           </>
+//         }
+//       </div>
+//       {output.arr === false ? undefined :
+//         <div className="btnWrapper">
+//           <button className="btnSwipe" onClick={decrementArrA} disabled={output.arrA === 0}>&#129144;</button>
+//           <button className="btnSwipe" onClick={openModalVariables}>?</button>
+//           <button className="btnSwipe" onClick={incrementArrA} disabled={output.arrA === output.arrL}>&#129146;</button>
+//         </div>
+//       }
+//     </div>
+//   </div>
+//   <div className="outFullBox">
+//     {Object.keys(result).map((key) => (
+//       <div key={key} className="result">
+//         <img src={`./image/minecraft-item/${key}.webp`} alt="none" width="24px" height="24px"/>
+//         <p className="name">{key}</p>
+//         <LineOutput numbers={result[key] * (count / output.qty)} multiple={result[key]} type="out"/>
+//       </div>
+//     ))}
+//   </div>
+// </div>

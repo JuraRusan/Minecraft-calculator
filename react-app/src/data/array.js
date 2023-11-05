@@ -1,3 +1,19 @@
+const air = [
+  {
+    1: "air",
+    2: "air",
+    3: "air",
+    4: "air",
+    5: "air",
+    6: "air",
+    7: "air",
+    8: "air",
+    9: "air",
+    out: "air",
+    qty: 1
+  },
+];
+
 const craftAllNoSort = [
   {
     1: null,
@@ -11453,11 +11469,196 @@ const craftAllNoSort = [
     out: "conduit",
     qty: 1
   }, // "conduit"
-
+  [
+    {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: "iron_block",
+      6: null,
+      7: null,
+      8: null,
+      9: null,
+      out: "iron_ingot",
+      qty: 9
+    }, // "iron_ingot"
+    {
+      1: "iron_nugget",
+      2: "iron_nugget",
+      3: "iron_nugget",
+      4: "iron_nugget",
+      5: "iron_nugget",
+      6: "iron_nugget",
+      7: "iron_nugget",
+      8: "iron_nugget",
+      9: "iron_nugget",
+      out: "iron_ingot",
+      qty: 1
+    }, // "iron_ingot"
+  ],
+  [
+    {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: "oak_planks",
+      6: null,
+      7: null,
+      8: "oak_planks",
+      9: null,
+      out: "stick",
+      qty: 4
+    }, // "stick"
+    {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: "spruce_planks",
+      6: null,
+      7: null,
+      8: "spruce_planks",
+      9: null,
+      out: "stick",
+      qty: 4
+    }, // "stick"
+    {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: "birch_planks",
+      6: null,
+      7: null,
+      8: "birch_planks",
+      9: null,
+      out: "stick",
+      qty: 4
+    }, // "stick"
+    {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: "jungle_planks",
+      6: null,
+      7: null,
+      8: "jungle_planks",
+      9: null,
+      out: "stick",
+      qty: 4
+    }, // "stick"
+    {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: "acacia_planks",
+      6: null,
+      7: null,
+      8: "acacia_planks",
+      9: null,
+      out: "stick",
+      qty: 4
+    }, // "stick"
+    {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: "cherry_planks",
+      6: null,
+      7: null,
+      8: "cherry_planks",
+      9: null,
+      out: "stick",
+      qty: 4
+    }, // "stick"
+    {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: "dark_oak_planks",
+      6: null,
+      7: null,
+      8: "dark_oak_planks",
+      9: null,
+      out: "stick",
+      qty: 4
+    }, // "stick"
+    {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: "mangrove_planks",
+      6: null,
+      7: null,
+      8: "mangrove_planks",
+      9: null,
+      out: "stick",
+      qty: 4
+    }, // "stick"
+    {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: "bamboo_planks",
+      6: null,
+      7: null,
+      8: "bamboo_planks",
+      9: null,
+      out: "stick",
+      qty: 4
+    }, // "stick"
+    {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: "crimson_planks",
+      6: null,
+      7: null,
+      8: "crimson_planks",
+      9: null,
+      out: "stick",
+      qty: 4
+    }, // "stick"
+    {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: "warped_planks",
+      6: null,
+      7: null,
+      8: "warped_planks",
+      9: null,
+      out: "stick",
+      qty: 4
+    }, // "stick"
+    {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: "bamboo",
+      6: null,
+      7: null,
+      8: "bamboo",
+      9: null,
+      out: "stick",
+      qty: 1
+    }, // "stick"
+  ],
 
 ]
 
-const craftAll = craftAllNoSort.sort((a, b) => {
+const craftAllSorted = craftAllNoSort.sort((a, b) => {
   const aOut = (typeof a === 'object' && 'out' in a) ? a.out : (Array.isArray(a) && 'out' in a[0]) ? a[0].out : null;
   const bOut = (typeof b === 'object' && 'out' in b) ? b.out : (Array.isArray(b) && 'out' in b[0]) ? b[0].out : null;
 
@@ -11467,23 +11668,6 @@ const craftAll = craftAllNoSort.sort((a, b) => {
   return 0;
 });
 
-module.exports.craftAll = craftAll;
+air.push(...craftAllSorted);
 
-
-/*
-
-{
-  1: null,
-  2: null,
-  3: null,
-  4: null,
-  5: null,
-  6: null,
-  7: null,
-  8: null,
-  9: null,
-  out: null,
-  qty: 1
-},
-
-*/
+module.exports.craftAll = air;
