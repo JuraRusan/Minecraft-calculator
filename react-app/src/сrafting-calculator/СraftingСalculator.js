@@ -1,32 +1,34 @@
-import React, {useEffect, useState, useMemo} from "react";
-import Modal from 'react-modal';
+import React, { useEffect, useState, useMemo } from "react";
+import Modal from "react-modal";
 import AOS from "aos";
-import LineOutput from "../components/LineOutput/LineOutput";
+
 import OneCraft from "../components/oneCraft/oneCraft";
 import NameFormat from "../components/NameFormat/NameFormat";
 import Error from "../components/Error/Error";
-import {craftAll} from "../data/array.js";
+import { craftAll } from "../data/array.js";
 
 import "./СraftingСalculator.scss";
 import "aos/dist/aos.css";
+import VariablesModal from "./components/Variables.modal";
 
 const MAX_COUNT = 268435456;
 
-const KEYS_TO = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
+const KEYS_TO = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
-const ERROR_MESSAGE = `Enter a number from 0 to ${new Intl.NumberFormat('en-US').format(MAX_COUNT)}`
+const ERROR_MESSAGE = `Enter a number from 0 to ${new Intl.NumberFormat(
+  "en-US"
+).format(MAX_COUNT)}`;
 
-function sumCraft(craft, localId, count) {
+export function sumCraft(craft, localId, count) {
   const craftArray = Array.isArray(craft) ? craft[localId] : craft;
-  const out = {}
+  const out = {};
 
   for (const key in craftArray) {
     const item = craftArray[key];
     if (item !== null && item !== "air" && KEYS_TO.includes(key)) {
       if (out[item]) {
         out[item] += 1;
-      }
-      else {
+      } else {
         out[item] = 1;
       }
     }
@@ -42,40 +44,31 @@ function sumCraft(craft, localId, count) {
 function roundToMultiple(number, multiple) {
   let result;
   if (number % multiple === 0) {
-    result = number
+    result = number;
   } else {
-    result = Math.ceil(number / multiple) * multiple
+    result = Math.ceil(number / multiple) * multiple;
   }
   return result;
 }
 
 const CraftingCalculator = () => {
-
   useEffect(() => {
-    AOS.init({duration: 350});
+    AOS.init({ duration: 350 });
   }, []);
 
   const [count, setCount] = useState(1);
-
   const [showError, setShowError] = useState(false);
-
   const [modalIsOpenChoice, setIsOpenChoice] = useState(false);
   const [modalIsOpenVariables, setIsOpenVariables] = useState(false);
+  const [dataForVariablesModa, setDataForVariablesModal] = useState(null);
 
   const [indexGlobal, setIndexGlobal] = useState(0);
-  const [localId, setLocalId] = useState(0)
+  const [localId, setLocalId] = useState(0);
 
-  const decrementLocalId = () => {
-    if (localId > 0) {
-      setLocalId(localId - 1)
-    }
-  };
-
-  const incrementLocalId = () => {
-    if (localId < craftAll[indexGlobal].length - 1) {
-      setLocalId(localId + 1)
-    }
-  };
+  const [nestedLocalData, setNestedLocalData] = useState({
+    itemIndex: null,
+    needUpdate: false,
+  });
 
   const decrementIndexGlobal = () => {
     if (indexGlobal > 0) {
@@ -99,92 +92,161 @@ const CraftingCalculator = () => {
     setIsOpenChoice(false);
   }
 
-  function openModalVariables() {
-    setIsOpenVariables(true);
-  }
-
   function closeModalVariables() {
     setIsOpenVariables(false);
+    setDataForVariablesModal(null);
   }
 
-  const y = Array.isArray(craftAll[indexGlobal]) ? craftAll[indexGlobal][localId].qty : craftAll[indexGlobal].qty;
-  const result = sumCraft(craftAll[indexGlobal], localId, count / y);
+  function openParentCraftModal() {
+    setIsOpenVariables(true);
+
+    const selectedData = craftAll[indexGlobal];
+    setDataForVariablesModal(selectedData);
+
+    setNestedLocalData(() => ({
+      itemIndex: indexGlobal,
+    }));
+  }
+
+  function openNestedOneCraftModal(el) {
+    setIsOpenVariables(true);
+
+    const selectedData = craftAll[el.id];
+
+    setDataForVariablesModal(selectedData);
+  }
+
+  const y = Array.isArray(craftAll[indexGlobal])
+    ? craftAll[indexGlobal][localId].qty
+    : craftAll[indexGlobal].qty;
+
+  const result = useMemo(
+    () => sumCraft(craftAll[indexGlobal], localId, count / y),
+    [indexGlobal, count, y, localId]
+  );
 
   const handleChangeCount = (e) => {
-    const value =  e.target.value;
-    const f = Array.isArray(craftAll[indexGlobal]) ? craftAll[indexGlobal][0] : craftAll[indexGlobal]
-    const round =  roundToMultiple(value, f.qty)
+    const value = e.target.value;
+    const f = Array.isArray(craftAll[indexGlobal])
+      ? craftAll[indexGlobal][0]
+      : craftAll[indexGlobal];
+    const round = roundToMultiple(value, f.qty);
 
     if (/^[0-9]*$/.test(round)) {
       const numberValue = parseInt(round, 10);
       if (numberValue >= 0 && numberValue <= MAX_COUNT) {
         setCount(round);
-        setShowError(false)
+        setShowError(false);
       } else {
-        setShowError(true)
+        setShowError(true);
       }
     } else {
-      setShowError(true)
+      setShowError(true);
     }
   };
 
   const decomposed = useMemo(() => {
     const matchingIndexes = [];
+
     for (const key in result) {
       if (result?.[key]) {
         for (let i = 0; i < craftAll.length; i++) {
           const el = craftAll[i];
           const compareValueOut = Array.isArray(el) ? el[0].out : el.out;
           if (key === compareValueOut) {
-            matchingIndexes.push({id: i, log: compareValueOut, qty: result[key]});
+            matchingIndexes.push({
+              id: i,
+              log: compareValueOut,
+              qty: result[key],
+            });
           }
         }
       }
     }
+
     return matchingIndexes;
   }, [result, count]);
 
   useEffect(() => {
-    const f = Array.isArray(craftAll[indexGlobal]) ? craftAll[indexGlobal][0] : craftAll[indexGlobal]
-    setCount(f.qty)
-  }, [indexGlobal])
+    const f = Array.isArray(craftAll[indexGlobal])
+      ? craftAll[indexGlobal][0]
+      : craftAll[indexGlobal];
+    setCount(f.qty);
+  }, [indexGlobal]);
 
   return (
     <div className="wrapper">
       <div className="calcBox">
         <div className="buttonBox">
-          <button onClick={() => {setIndexGlobal(0)}} className="btn">RESET</button>
-          <button onClick={() => {openModalChoice()}} className="btn">BOOK</button>
+          <button
+            onClick={() => {
+              setIndexGlobal(0);
+            }}
+            className="btn"
+          >
+            RESET
+          </button>
+          <button
+            onClick={() => {
+              openModalChoice();
+            }}
+            className="btn"
+          >
+            BOOK
+          </button>
         </div>
         <div className="countBox">
-          <input name="count" placeholder="required" onChange={handleChangeCount} className="countInput"/>
+          <input
+            name="count"
+            placeholder="required"
+            onChange={handleChangeCount}
+            className="countInput"
+          />
         </div>
         <div className="craftContainer">
-          <button className="swipeGlobalCraftPrev" onClick={decrementIndexGlobal} disabled={indexGlobal < 2}>&#129144;</button>
+          <button
+            className="swipeGlobalCraftPrev"
+            onClick={decrementIndexGlobal}
+            disabled={indexGlobal < 2}
+          >
+            &#129144;
+          </button>
+
           <OneCraft
             id={indexGlobal}
             result={result}
-            localId={localId}
             count={count}
-            onClickNext={decrementLocalId}
-            onClickPrew={incrementLocalId}
-            onClickVariables={openModalVariables}
+            onClickVariables={openParentCraftModal}
+            setNestedLocalData={setNestedLocalData}
           />
-          <button className="swipeGlobalCraftNext" onClick={incrementIndexGlobal} disabled={indexGlobal === craftAll.length - 1}>&#129146;</button>
-        </div>
-        {!showError ? null : <Error message={ERROR_MESSAGE}/>}
 
-        {!decomposed ? null :
-          <>
-            {decomposed.map((el, i) => {
+          <button
+            className="swipeGlobalCraftNext"
+            onClick={incrementIndexGlobal}
+            disabled={indexGlobal === craftAll.length - 1}
+          >
+            &#129146;
+          </button>
+        </div>
+        {!showError ? null : <Error message={ERROR_MESSAGE} />}
+
+        {!decomposed
+          ? null
+          : decomposed.map((el, i) => {
               return (
                 <div key={i} className="craftContainer">
-                  <OneCraft id={el.id} localId="0" result={sumCraft(craftAll[el.id], 0, el.qty)} count={el.qty}/>
+                  <OneCraft
+                    id={el.id}
+                    result={sumCraft(craftAll[el.id], 0, el.qty)}
+                    count={el.qty}
+                    onClickVariables={() => {
+                      openNestedOneCraftModal(el, i);
+                    }}
+                    nestedLocalData={nestedLocalData}
+                  />
                 </div>
-              )
+              );
             })}
-          </>
-        }
 
         <Modal
           isOpen={modalIsOpenChoice}
@@ -194,7 +256,12 @@ const CraftingCalculator = () => {
           ariaHideApp={false}
         >
           <div className="wrapperModal" data-aos="fade-left">
-            <input type="search" name="string" placeholder="search" className="searchCraft"/>
+            <input
+              type="search"
+              name="string"
+              placeholder="search"
+              className="searchCraft"
+            />
             {craftAll.map((el, i) => {
               const craftItem = Array.isArray(el) ? el[0] : el;
 
@@ -205,56 +272,38 @@ const CraftingCalculator = () => {
                   onClick={() => {
                     closeModalChoice();
                     setIndexGlobal(i);
+                    setNestedLocalData({
+                      itemIndex: null,
+                      needUpdate: false,
+                    });
                   }}
                 >
-                  {craftItem.out === "air" ? null :
+                  {craftItem.out === "air" ? null : (
                     <>
-                      <img src={`./image/minecraft-item/${craftItem.out}.webp`} className="image" alt="#"/>
-                      <label className="nameCraft">{NameFormat(craftItem.out)}</label>
+                      <img
+                        src={`./image/minecraft-item/${craftItem.out}.webp`}
+                        className="image"
+                        alt="#"
+                      />
+                      <label className="nameCraft">
+                        {NameFormat(craftItem.out)}
+                      </label>
                     </>
-                  }
+                  )}
                 </div>
-              )
+              );
             })}
           </div>
         </Modal>
 
-        <Modal
-          isOpen={modalIsOpenVariables}
-          onRequestClose={closeModalVariables}
-          className="modalMain customWight"
-          overlayClassName="overlayModal"
-          ariaHideApp={false}
-        >
-          <div className="wrapperPrevCraft" data-aos="fade-left">
-            {modalIsOpenVariables === false ? undefined :
-              <>
-                {craftAll[indexGlobal].map((el, i) => (
-                  <div key={i} className="oneBox" onClick={() => {
-                    setLocalId(i);
-                    closeModalVariables()
-                  }}>
-                    {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((index) => (
-                      <div key={index}>
-                        {el[index] === null ? (<div className="prevCraft"></div>) : (
-                          <img
-                            src={`./image/minecraft-item/${el[index]}.webp`}
-                            className="prevCraft"
-                            alt="#"
-                            title={NameFormat(el[index])}
-                          />
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                ))}
-              </>
-            }
-          </div>
-        </Modal>
-
+        <VariablesModal
+          data={dataForVariablesModa}
+          show={modalIsOpenVariables}
+          setLocalId={setLocalId}
+          handleClose={closeModalVariables}
+          setNestedLocalData={setNestedLocalData}
+        />
       </div>
-
     </div>
   );
 };
