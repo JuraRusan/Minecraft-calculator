@@ -223,10 +223,7 @@ const CraftingCalculator = () => {
     sumCraft(craft);
   }
 
-
-  const [decomposed, setDecomposed] = useState([])
-
-  useEffect(() => {
+  const decomposed = useMemo(() => {
     const matchingIndexes = [];
     for (const key in result) {
       if (result.hasOwnProperty(key)) {
@@ -234,15 +231,13 @@ const CraftingCalculator = () => {
           const el = craftAll[i];
           const compareValue = Array.isArray(el) ? el[0].out : el.out;
           if (key === compareValue) {
-            matchingIndexes.push(i);
+            matchingIndexes.push({ id: i, qty: result[key] });
           }
         }
       }
+      return matchingIndexes;
     }
-    setDecomposed(matchingIndexes);
   }, [result]);
-
-  console.log(result)
 
   return (
     <div className="wrapper">
