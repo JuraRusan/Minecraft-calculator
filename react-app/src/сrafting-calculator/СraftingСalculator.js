@@ -1,11 +1,11 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useState, useRef} from "react";
 import AOS from "aos";
 import OneCraft from "../components/oneCraft/oneCraft";
 import Error from "../components/Error/Error";
 import {craftAll} from "../data/array.js";
 import GlobalModals from "../components/modals/GlobalModals";
 import MiniBTN from "../components/button/MiniBTN";
-import roundToMultiple from "../components/roundToMultiple/RoundToMultiple"
+import {debounce} from "lodash";
 
 import "./СraftingСalculator.scss";
 import "aos/dist/aos.css";
@@ -16,7 +16,8 @@ const ERROR_MESSAGE = `Enter a number from 0 to ${new Intl.NumberFormat('en-US')
 
 const CraftingCalculator = () => {
 
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
+  const inputRef = useRef('');
   const [showError, setShowError] = useState(false);
   const [indexGlobal, setIndexGlobal] = useState(0);
   const [modalIsOpenChoice, setIsOpenChoice] = useState(false);
@@ -38,6 +39,7 @@ const CraftingCalculator = () => {
 
   function openModalChoice() {
     setIsOpenChoice(true);
+    setImportIndex(0)
   }
 
   function closeModalChoice() {
@@ -46,13 +48,11 @@ const CraftingCalculator = () => {
 
   const handleChangeCount = (e) => {
     const value = e.target.value;
-    const f = Array.isArray(craftAll[indexGlobal]) ? craftAll[indexGlobal][importIndex] : craftAll[indexGlobal]
-    const round = roundToMultiple(value, f.qty)
 
-    if (/^[0-9]*$/.test(round)) {
-      const numberValue = parseInt(round, 10);
+    if (/^[0-9]*$/.test(value)) {
+      const numberValue = parseInt(value, 10);
       if (numberValue >= 0 && numberValue <= MAX_COUNT) {
-        setCount(round);
+        setCount(value);
         setShowError(false)
       } else {
         setShowError(true)
@@ -68,7 +68,8 @@ const CraftingCalculator = () => {
 
   useEffect(() => {
     const f = Array.isArray(craftAll[indexGlobal]) ? craftAll[indexGlobal][importIndex] : craftAll[indexGlobal]
-    setCount(f.qty)
+    setCount(f.qty);
+    inputRef.current.value = f.qty;
   }, [indexGlobal, importIndex])
 
   return (
@@ -81,7 +82,13 @@ const CraftingCalculator = () => {
           <MiniBTN onClick={incrementIndexGlobal} label="&#129146;" disabled={indexGlobal === craftAll.length - 1}/>
         </div>
         <div className="countBox">
-          <input name="count" placeholder="required" onChange={(e) => {handleChangeCount(e); setImportIndex(0)}} className="countInput"/>
+          <input
+            ref={inputRef}
+            name="count"
+            placeholder="required"
+            className="countInput"
+            onChange={debounce((e) => {handleChangeCount(e)}, 350)}
+          />
         </div>
         <div className="craftContainer">
           <OneCraft id={indexGlobal} count={count} setImportIndex={setImportIndex}/>

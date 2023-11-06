@@ -10604,7 +10604,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "white_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "white_stained_glass_pane"
   ],
   [
@@ -10632,7 +10632,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "orange_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "orange_stained_glass_pane"
   ],
   [
@@ -10660,7 +10660,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "magenta_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "magenta_stained_glass_pane"
   ],
   [
@@ -10688,7 +10688,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "light_blue_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "light_blue_stained_glass_pane"
   ],
   [
@@ -10716,7 +10716,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "yellow_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "yellow_stained_glass_pane"
   ],
   [
@@ -10744,7 +10744,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "lime_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "lime_stained_glass_pane"
   ],
   [
@@ -10772,7 +10772,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "pink_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "pink_stained_glass_pane"
   ],
   [
@@ -10800,7 +10800,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "gray_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "gray_stained_glass_pane"
   ],
   [
@@ -10828,7 +10828,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "light_gray_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "light_gray_stained_glass_pane"
   ],
   [
@@ -10856,7 +10856,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "cyan_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "cyan_stained_glass_pane"
   ],
   [
@@ -10884,7 +10884,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "purple_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "purple_stained_glass_pane"
   ],
   [
@@ -10912,7 +10912,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "blue_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "blue_stained_glass_pane"
   ],
   [
@@ -10940,7 +10940,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "brown_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "brown_stained_glass_pane"
   ],
   [
@@ -10968,7 +10968,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "green_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "green_stained_glass_pane"
   ],
   [
@@ -10996,7 +10996,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "red_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "red_stained_glass_pane"
   ],
   [
@@ -11024,7 +11024,7 @@ const craftAllNoSort = [
       8: "glass_pane",
       9: "glass_pane",
       out: "black_stained_glass_pane",
-      qty: 1
+      qty: 8
     }, // "black_stained_glass_pane"
   ],
   {
@@ -11655,7 +11655,6 @@ const craftAllNoSort = [
       qty: 1
     }, // "stick"
   ],
-
 ]
 
 const craftAllSorted = craftAllNoSort.sort((a, b) => {
@@ -11669,5 +11668,21 @@ const craftAllSorted = craftAllNoSort.sort((a, b) => {
 });
 
 air.push(...craftAllSorted);
+
+// // total craft variables
+// function countElementsInNestedArray(arr) {
+//   let count = 0;
+//   arr.forEach(function (item) {
+//     if (Array.isArray(item)) {
+//       count += countElementsInNestedArray(item);
+//     } else {
+//       count++;
+//     }
+//   });
+//   return count;
+// }
+//
+// let totalCount = countElementsInNestedArray(craftAllNoSort);
+// console.log("total = " + totalCount);
 
 module.exports.craftAll = air;

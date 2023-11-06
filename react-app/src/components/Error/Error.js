@@ -2,10 +2,10 @@ import React from 'react';
 
 import "./Error.scss";
 
-const Error = (props) => {
+const Error = ({message}) => {
   return (
     <div className="wrapperError">
-      <p className="errorMessage">{props.message}</p>
+      <p className="errorMessage">{message}</p>
     </div>
   );
 };

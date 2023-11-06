@@ -2,6 +2,8 @@ import React, {useMemo, useState} from 'react';
 import {craftAll} from "../../data/array";
 import OneCraft from "../oneCraft/oneCraft";
 
+import "./decomposed.scss"
+
 const Decomposed = ({result}) => {
 
   const [decomposedShow, setDecomposedShow] = useState(false);
@@ -33,15 +35,15 @@ const Decomposed = ({result}) => {
 
   return (
     <>
-      {decomposed.length !== 0 && <input type="checkbox" onChange={handleCheckboxChange} checked={decomposedShow}/>}
+      {decomposed.length !== 0 && <input className="input_checkbox" type="checkbox" onChange={handleCheckboxChange} checked={decomposedShow}/>}
       {decomposedShow &&
-        decomposed.map((el, i) => {
-          return (
-            <div key={i} className="craftContainer">
-              <OneCraft id={el.id} count={el.qty}/>
-            </div>
-          )
-        })
+        <div className="decomposed">
+          {decomposed.map((el, i) => {
+            return (
+              <OneCraft key={i} id={el.id} count={el.qty}/>
+            )
+          })}
+        </div>
       }
     </>
   )

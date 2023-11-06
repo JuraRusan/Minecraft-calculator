@@ -6,20 +6,22 @@
   justify-content: center;
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
 
   .calcBox {
     z-index: 2;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 95vh;
+    height: auto;
+    min-height: 75vh;
     width: 95%;
     border: 1px solid $color-7;
     border-radius: 4px;
     background: $color-5;
-    margin: 0 auto;
-    padding: 8px;
+    margin: 32px auto 32px auto;
+    padding: 8px 8px 16px 8px;
 
     .buttonBox {
       display: flex;

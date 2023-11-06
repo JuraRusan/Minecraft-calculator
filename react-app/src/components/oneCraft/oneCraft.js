@@ -7,6 +7,7 @@ import {sumCraft} from "../sumCraft/SumCraft";
 import VariablesModal from "../modals/VariablesModal";
 import MiniBTN from "../button/MiniBTN";
 import Decomposed from "../decomposed/decomposed";
+import roundToMultiple from "../roundToMultiple/RoundToMultiple";
 
 import "./oneCraft.scss";
 
@@ -19,7 +20,8 @@ const OneCraft = ({id, count, setImportIndex}) => {
   const obj = Array.isArray(craftAll[id]) ? craftAll[id][localId] : craftAll[id];
 
   const y = Array.isArray(craftAll[id]) ? craftAll[id][localId].qty : craftAll[id].qty;
-  const result = sumCraft(craftAll[id], localId, count / y);
+  const countRound = roundToMultiple(count, y)
+  const result = sumCraft(craftAll[id], localId, countRound / y);
 
   const decrementLocalId = () => {
     if (localId > 0) {
@@ -45,13 +47,17 @@ const OneCraft = ({id, count, setImportIndex}) => {
     if (typeof setImportIndex === 'function') {
       setImportIndex(localId);
     }
-  }, [localId]);
+  }, [localId, setImportIndex]);
+
+  useEffect(() => {
+    setLocalId(0)
+  }, [id])
 
   return (
     <div className="craftWrapper">
       <div className="viewCraft">
         <div className="required_count">
-          <LineOutput numbers={count}/>
+          <LineOutput numbers={countRound}/>
         </div>
         <div className="crafter">
           <div className="requiredContainer">
@@ -91,7 +97,7 @@ const OneCraft = ({id, count, setImportIndex}) => {
           {Object.keys(result).map((key, i) => (
             <div key={i} className="result">
               <img src={`./image/minecraft-item/${key}.webp`} alt="none" width="24px" height="24px"/>
-              <p className="name">{key}</p>
+              <p className="name">{NameFormat(key)}</p>
               <LineOutput numbers={result[key]}/>
             </div>
           ))}

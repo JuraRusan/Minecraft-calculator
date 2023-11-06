@@ -2,9 +2,9 @@ import React from "react";
 
 import "./LineOutput.scss"
 
-const LineOutput = (props) => {
+const LineOutput = ({numbers}) => {
 
-  const count =  props.numbers
+  const count = numbers
   const countStack = 64
   const countShulker = 1728
 

@@ -5671,5 +5671,6 @@ const items_name_array = [
     "type": "lingering_potion",
     "item_name_ru": "Туманное зелье плавного падения"
   }
-]; ;
+];
+
 module.exports.items_name_array = items_name_array;
