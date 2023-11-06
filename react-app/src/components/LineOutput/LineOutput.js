@@ -14,7 +14,7 @@ const LineOutput = (props) => {
 
   return (
     <div className="calculated">
-      {!funcStack && !funcShulker && count === countStack && count === countShulker ? null :
+      {!funcStack && !funcShulker ? null :
         <div className="outCountBox">
           <label>{count} = </label>
         </div>
