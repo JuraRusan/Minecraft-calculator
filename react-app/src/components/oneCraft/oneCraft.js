@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import ViewItem from "../ViewItem/ViewItem";
 import NameFormat from "../NameFormat/NameFormat";
 import LineOutput from "../LineOutput/LineOutput";
-import {craftAll} from "../../data/array";
+import {craftAll} from "../../data/array.js";
 import {sumCraft} from "../sumCraft/SumCraft";
 import VariablesModal from "../modals/VariablesModal";
 import MiniBTN from "../button/MiniBTN";

@@ -1,6 +1,5 @@
 import React from 'react';
 import NameFormat from "../NameFormat/NameFormat";
-import {craftAll} from "../../data/array";
 
 const ViewItem = ({obj, itemName}) => {
 

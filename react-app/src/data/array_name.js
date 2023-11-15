@@ -1,4 +1,4 @@
-const items_name_array = [
+export const items_name_array = [
   {
     "type": "stone",
     "item_name_ru": "Камень"
@@ -5672,5 +5672,3 @@ const items_name_array = [
     "item_name_ru": "Туманное зелье плавного падения"
   }
 ];
-
-module.exports.items_name_array = items_name_array;

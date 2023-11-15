@@ -11669,6 +11669,8 @@ const craftAllSorted = craftAllNoSort.sort((a, b) => {
 
 air.push(...craftAllSorted);
 
+export const craftAll = air
+
 // // total craft variables
 // function countElementsInNestedArray(arr) {
 //   let count = 0;
@@ -11684,5 +11686,3 @@ air.push(...craftAllSorted);
 //
 // let totalCount = countElementsInNestedArray(craftAllNoSort);
 // console.log("total = " + totalCount);
-
-module.exports.craftAll = air;

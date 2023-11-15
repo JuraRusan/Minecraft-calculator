@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Modal from "react-modal";
-import {craftAll} from "../../data/array";
+import {craftAll} from "../../data/array.js";
 import NameFormat from "../NameFormat/NameFormat";
 import {debounce} from "lodash";
 

@@ -1,5 +1,5 @@
 import React, {useMemo, useState} from 'react';
-import {craftAll} from "../../data/array";
+import {craftAll} from "../../data/array.js";
 import OneCraft from "../oneCraft/oneCraft";
 
 import "./decomposed.scss"
