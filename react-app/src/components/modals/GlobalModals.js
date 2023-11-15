@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Modal from "react-modal";
 import {craftAll} from "../../data/array.js";
 import NameFormat from "../NameFormat/NameFormat";
@@ -9,6 +9,12 @@ import "./Modals.scss"
 const GlobalModals = ({open, close, setIndexGlobal}) => {
 
   const [search, serSearch] = useState('')
+
+  useEffect(() => {
+    if (!open) {
+      serSearch('')
+    }
+  }, [open])
 
   return (
     <Modal
@@ -37,6 +43,7 @@ const GlobalModals = ({open, close, setIndexGlobal}) => {
                 onClick={() => {
                   close();
                   setIndexGlobal(i);
+                  serSearch('')
                 }}
               >
                 <img src={`./image/minecraft-item/${craftItem.out}.webp`} className="image" alt="#"/>
