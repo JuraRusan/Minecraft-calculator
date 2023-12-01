@@ -1,13 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/react-app/node_modules
-/electron-app/node_modules
-/electron-app/out
-/electron-app/src
-/electron-app/.idea
-/react-app/.idea
-/react-app/build
+/node_modules
 /.idea
 /.pnp
 .pnp.js
