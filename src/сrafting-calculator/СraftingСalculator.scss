@@ -1,0 +1,74 @@
+@import "../Variables.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+
+  .calcBox {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    min-height: 75vh;
+    width: 95%;
+    border: 1px solid $color-7;
+    border-radius: 4px;
+    background: $color-5;
+    margin: 32px auto 32px auto;
+    padding: 8px 8px 16px 8px;
+
+    .buttonBox {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: auto;
+      height: auto;
+      margin: 8px 0;
+    }
+
+    .countBox {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      width: auto;
+      margin: 0 auto 8px auto;
+
+      .countInput {
+        width: 120px;
+        text-align: center;
+        height: 24px;
+        line-height: 24px;
+        outline: none;
+        background: $color-5;
+        border: 1px solid $color-7;
+        border-radius: 4px;
+        transition: all 0.25s ease-in-out;
+        color: $color-3;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 2px;
+
+        &:hover,
+        &:focus,
+        &:active {
+          outline: none;
+          color: $color-4;
+        }
+      }
+    }
+
+    .craftContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+}

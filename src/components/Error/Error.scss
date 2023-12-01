@@ -1,0 +1,34 @@
+@import "../../Variables";
+
+@keyframes slide-up {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  100% {
+    bottom: 25px;
+    opacity: 1;
+  }
+}
+
+.wrapperError {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 25px;
+  border: 1px solid $color-7;
+  border-radius: 4px;
+  background: $color-1;
+  animation: slide-up 0.35s ease-in-out;
+
+  .errorMessage {
+    color: $color-3;
+    font-size: 13px;
+    padding: 0 16px;
+  }
+}
