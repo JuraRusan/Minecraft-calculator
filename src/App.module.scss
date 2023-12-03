@@ -1,0 +1,76 @@
+@import "./Variables.scss";
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+div#root {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_body_page {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background: $site-color-4;
+  //background: url(./img/Main-background.webp) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  box-shadow: 0 0 1000px 150px $site-color-12 inset;
+
+  .shadow_top {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    height: 200px;
+    width: 100%;
+    background: $site-color-3;
+    background: linear-gradient(180deg, $site-color-3 0%, transparent 100%);
+  }
+
+  .shadow_bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    height: 200px;
+    width: 100%;
+    background: $site-color-3;
+    background: linear-gradient(0deg, $site-color-3 0%, transparent 100%);
+  }
+
+  .index {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 2;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  background-color: $site-color-7;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $site-color-6;
+  transition: 2s all ease;
+}

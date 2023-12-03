@@ -1,0 +1,135 @@
+@import "../../Variables";
+
+.craft_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid $site-color-5;
+  border-radius: 4px;
+  background: $site-color-4;
+  width: auto;
+  margin: 0 0 16px 0;
+  min-width: 500px;
+
+  .required_round_count {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: auto;
+  }
+
+  .crafter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .required_container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      width: 160px;
+      height: 160px;
+      padding: 2px;
+    }
+
+    .separator_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 160px;
+      width: auto;
+      margin: 0 16px;
+
+      .arrow {
+        font-size: 48px;
+        color: $site-color-5;
+      }
+    }
+
+    .output_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      min-height: 160px;
+      width: auto;
+      min-width: 80px;
+      position: relative;
+
+      .name {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 8px;
+        color: $site-color-2;
+        font-size: 12px;
+        font-weight: 400;
+        width: auto;
+        min-width: 180px;
+        line-height: 1.35;
+        text-align: center;
+      }
+
+      .output {
+        width: 64px;
+        height: 64px;
+        display: flex;
+        border: 1px solid $site-color-5;
+        background: $site-color-12;
+        border-radius: 4px;
+        margin: 4px auto;
+        position: relative;
+        transition: all 0.35s ease;
+
+        &:hover {
+          background: $site-color-1;
+        }
+
+        .count {
+          position: absolute;
+          right: 4px;
+          bottom: 4px;
+          font-size: 15px;
+          color: $site-color-2;
+        }
+      }
+    }
+  }
+
+  .output_result_container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 0 auto 4px auto;
+
+    .result_one {
+      display: flex;
+      flex-direction: row;
+      width: auto;
+      height: auto;
+
+      .name {
+        height: 20px;
+        line-height: 20px;
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 4px;
+        margin-left: 2px;
+        color: $site-color-2;
+      }
+    }
+  }
+}
+
+.lock_wight {
+  max-width: 1800px;
+  overflow-x: auto;
+
+  &::-webkit-scrollbar {
+    height: 6px;
+    background-color: $site-color-7;
+  }
+}

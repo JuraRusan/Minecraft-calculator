@@ -1,0 +1,41 @@
+@import "../../Variables";
+
+.view_one_item {
+  width: 48px;
+  min-width: 48px;
+  max-width: 48px;
+  height: 48px;
+  min-height: 48px;
+  max-height: 48px;
+  border-radius: 4px;
+  margin: 2px;
+  border: 1px solid $site-color-5;
+  background: $site-color-12;
+  position: relative;
+
+  .image {
+    transition: all 0.35s ease;
+  }
+
+  .help_variant {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    color: $site-color-9;
+    font-weight: 400;
+    font-size: 8px;
+    text-align: center;
+    z-index: 1;
+  }
+}
+
+.view_one_item_hover {
+   &:hover {
+    transition: all 0.35s ease;
+    background: $site-color-1;
+  }
+
+  .image {
+    cursor: pointer;
+  }
+}

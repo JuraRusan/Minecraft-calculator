@@ -1,0 +1,60 @@
+@import "../../Variables.scss";
+
+.main_modal_variables_recipes {
+  position: absolute;
+  z-index: 12001;
+  border-left: 1px solid $site-color-5;
+  background: $site-color-4;
+  top: 0;
+  left: 72.1%; // 49%
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  overflow-x: hidden;
+  outline: none !important;
+}
+
+.overlay_modal_variables_recipes {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 12002;
+  background: $site-color-12;
+}
+
+.wrapper_variables_recipes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding: 8px;
+
+  .box_one_variant {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background: $site-color-12;
+    border: 1px solid $site-color-5;
+    margin: 2px;
+    cursor: pointer;
+    transition: all 0.35s ease;
+
+    &:hover {
+      > .image {
+        background: $site-color-1;
+      }
+    }
+
+    .image {
+      width: 64px;
+      height: 64px;
+      margin: 2px;
+      transition: all 0.35s ease;
+    }
+  }
+}

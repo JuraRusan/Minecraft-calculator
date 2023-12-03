@@ -1,11 +1,16 @@
-import CraftingCalculator from "./сrafting-calculator/СraftingСalculator";
+import classNames from "classnames";
+import Main from "./main/Main";
 
-import "./App.scss";
+import styles from "./App.module.scss";
 
 function App() {
   return (
-    <div className="main">
-      <CraftingCalculator/>
+    <div className={classNames(styles["main_body_page"])}>
+      <div className={classNames(styles["shadow_top"])}></div>
+      <div className={classNames(styles["index"])}>
+        <Main/>
+      </div>
+      <div className={classNames(styles["shadow_bottom"])}></div>
     </div>
   );
 }

@@ -1,0 +1,28 @@
+@import "../../Variables";
+
+.button {
+  width: auto;
+  height: 20px;
+  padding: 0 8px;
+  cursor: pointer;
+  border: 1px solid $site-color-5;
+  border-radius: 2px;
+  background: $site-color-12;
+  margin: 0 4px;
+  color: $site-color-2;
+  font-size: 10px;
+  transition: all 0.35s ease;
+
+  &:hover {
+    color: $site-color-8;
+  }
+
+  &:disabled {
+    cursor: default;
+    color: $site-color-5;
+
+    &:hover {
+      color: $site-color-5
+    }
+  }
+}
