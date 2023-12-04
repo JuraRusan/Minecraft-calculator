@@ -8,6 +8,7 @@ import Variables from "../../functions/Variables";
 import LineOutput from "../line-output/LineOutput";
 import roundToMultiple from "../../functions/RoundToMultiple";
 import Decomposed from "../decomposed/decomposed";
+import MiniButton from "../mini-button/MiniButton";
 
 import styles from "./CraftContainer.module.scss";
 import "aos/dist/aos.css";
@@ -41,6 +42,20 @@ const CraftContainer = ({indexGlobal, count, type}) => {
 
   const [indexVariables, setIndexVariables] = useState(VARIABLES)
   const [recipesActive, setRecipesActive] = useState(RECIPES)
+  const [recipesVariables, setRecipesVariables] = useState(0)
+  const [showButton, setShowButton] = useState(false)
+
+  const decrementRecipesVariables = () => {
+    if (recipesVariables > 0) {
+      setRecipesVariables(recipesVariables - 1)
+    }
+  };
+
+  const incrementRecipesVariables = () => {
+    if (recipesVariables < recipes_array[indexGlobal].length - 1) {
+      setRecipesVariables(recipesVariables + 1)
+    }
+  };
 
   const calculatedValues = useMemo(() => {
     const result = {};
@@ -69,61 +84,84 @@ const CraftContainer = ({indexGlobal, count, type}) => {
     AOS.init({duration: 350});
   }, []);
 
-  useEffect(() => {
-    setIndexVariables(VARIABLES)
-  }, [indexGlobal]);
+  function updateIngredients(key, active, allIngredients, maxLength, booleanModal, item) {
+    setIndexVariables(prevState => {
+      return prevState.map(item => {
+        if (item.key === key) {
+          return {
+            ...item,
+            globalTag: allIngredients.map(obj => obj.item),
+            active: active,
+            max_length: maxLength,
+            booleanModal: booleanModal,
+          };
+        }
+        return item;
+      });
+    });
+    return item;
+  }
 
-  useEffect(() => {
-    if (!recipes_array[indexGlobal].ingredients) {
+  useMemo(() => {
+    setIndexVariables(VARIABLES)
+
+    const o = Array.isArray(recipes_array[indexGlobal])
+      ? recipes_array[indexGlobal][recipesVariables]
+      : recipes_array[indexGlobal]
+
+    if (Array.isArray(recipes_array[indexGlobal])) {
+      setShowButton(true)
+    } else {
+      setShowButton(false)
+    }
+
+    if (!o.ingredients) {
       setRecipesActive({
-        "1_key": !recipes_array[indexGlobal]?.patterns?.pattern_row_1?.["1_key"]?.tag ? recipes_array[indexGlobal]?.patterns?.pattern_row_1?.["1_key"]?.item : Variables(1, indexVariables, setIndexVariables, recipes_array[indexGlobal]?.patterns?.pattern_row_1?.["1_key"]?.tag),
-        "2_key": !recipes_array[indexGlobal]?.patterns?.pattern_row_1?.["2_key"]?.tag ? recipes_array[indexGlobal]?.patterns?.pattern_row_1?.["2_key"]?.item : Variables(2, indexVariables, setIndexVariables, recipes_array[indexGlobal]?.patterns?.pattern_row_1?.["2_key"]?.tag),
-        "3_key": !recipes_array[indexGlobal]?.patterns?.pattern_row_1?.["3_key"]?.tag ? recipes_array[indexGlobal]?.patterns?.pattern_row_1?.["3_key"]?.item : Variables(3, indexVariables, setIndexVariables, recipes_array[indexGlobal]?.patterns?.pattern_row_1?.["3_key"]?.tag),
-        "4_key": !recipes_array[indexGlobal]?.patterns?.pattern_row_2?.["1_key"]?.tag ? recipes_array[indexGlobal]?.patterns?.pattern_row_2?.["1_key"]?.item : Variables(4, indexVariables, setIndexVariables, recipes_array[indexGlobal]?.patterns?.pattern_row_2?.["1_key"]?.tag),
-        "5_key": !recipes_array[indexGlobal]?.patterns?.pattern_row_2?.["2_key"]?.tag ? recipes_array[indexGlobal]?.patterns?.pattern_row_2?.["2_key"]?.item : Variables(5, indexVariables, setIndexVariables, recipes_array[indexGlobal]?.patterns?.pattern_row_2?.["2_key"]?.tag),
-        "6_key": !recipes_array[indexGlobal]?.patterns?.pattern_row_2?.["3_key"]?.tag ? recipes_array[indexGlobal]?.patterns?.pattern_row_2?.["3_key"]?.item : Variables(6, indexVariables, setIndexVariables, recipes_array[indexGlobal]?.patterns?.pattern_row_2?.["3_key"]?.tag),
-        "7_key": !recipes_array[indexGlobal]?.patterns?.pattern_row_3?.["1_key"]?.tag ? recipes_array[indexGlobal]?.patterns?.pattern_row_3?.["1_key"]?.item : Variables(7, indexVariables, setIndexVariables, recipes_array[indexGlobal]?.patterns?.pattern_row_3?.["1_key"]?.tag),
-        "8_key": !recipes_array[indexGlobal]?.patterns?.pattern_row_3?.["2_key"]?.tag ? recipes_array[indexGlobal]?.patterns?.pattern_row_3?.["2_key"]?.item : Variables(8, indexVariables, setIndexVariables, recipes_array[indexGlobal]?.patterns?.pattern_row_3?.["2_key"]?.tag),
-        "9_key": !recipes_array[indexGlobal]?.patterns?.pattern_row_3?.["3_key"]?.tag ? recipes_array[indexGlobal]?.patterns?.pattern_row_3?.["3_key"]?.item : Variables(9, indexVariables, setIndexVariables, recipes_array[indexGlobal]?.patterns?.pattern_row_3?.["3_key"]?.tag),
-        "output_key": recipes_array[indexGlobal].item,
-        "output_count": recipes_array[indexGlobal].count,
+        "1_key": !o?.patterns?.pattern_row_1?.["1_key"]?.tag ? o?.patterns?.pattern_row_1?.["1_key"]?.item : Variables(1, indexVariables, setIndexVariables, o?.patterns?.pattern_row_1?.["1_key"]?.tag),
+        "2_key": !o?.patterns?.pattern_row_1?.["2_key"]?.tag ? o?.patterns?.pattern_row_1?.["2_key"]?.item : Variables(2, indexVariables, setIndexVariables, o?.patterns?.pattern_row_1?.["2_key"]?.tag),
+        "3_key": !o?.patterns?.pattern_row_1?.["3_key"]?.tag ? o?.patterns?.pattern_row_1?.["3_key"]?.item : Variables(3, indexVariables, setIndexVariables, o?.patterns?.pattern_row_1?.["3_key"]?.tag),
+        "4_key": !o?.patterns?.pattern_row_2?.["1_key"]?.tag ? o?.patterns?.pattern_row_2?.["1_key"]?.item : Variables(4, indexVariables, setIndexVariables, o?.patterns?.pattern_row_2?.["1_key"]?.tag),
+        "5_key": !o?.patterns?.pattern_row_2?.["2_key"]?.tag ? o?.patterns?.pattern_row_2?.["2_key"]?.item : Variables(5, indexVariables, setIndexVariables, o?.patterns?.pattern_row_2?.["2_key"]?.tag),
+        "6_key": !o?.patterns?.pattern_row_2?.["3_key"]?.tag ? o?.patterns?.pattern_row_2?.["3_key"]?.item : Variables(6, indexVariables, setIndexVariables, o?.patterns?.pattern_row_2?.["3_key"]?.tag),
+        "7_key": !o?.patterns?.pattern_row_3?.["1_key"]?.tag ? o?.patterns?.pattern_row_3?.["1_key"]?.item : Variables(7, indexVariables, setIndexVariables, o?.patterns?.pattern_row_3?.["1_key"]?.tag),
+        "8_key": !o?.patterns?.pattern_row_3?.["2_key"]?.tag ? o?.patterns?.pattern_row_3?.["2_key"]?.item : Variables(8, indexVariables, setIndexVariables, o?.patterns?.pattern_row_3?.["2_key"]?.tag),
+        "9_key": !o?.patterns?.pattern_row_3?.["3_key"]?.tag ? o?.patterns?.pattern_row_3?.["3_key"]?.item : Variables(9, indexVariables, setIndexVariables, o?.patterns?.pattern_row_3?.["3_key"]?.tag),
+        "output_key": o.item,
+        "output_count": o.count,
       })
     } else {
-      const ingredientsArray = recipes_array[indexGlobal].ingredients;
-      const maxKeys = 9;
+      const finalObject = {};
+      for (let i = 1; i <= 9; i++) {
+        const ingredientsArray = o.ingredients[i - 1];
+        finalObject[`${i}_key`] = Array.isArray(ingredientsArray)
+          ?
+          (updateIngredients(i, indexVariables[i - 1].active, ingredientsArray, ingredientsArray.length, true, ingredientsArray[indexVariables[i - 1].active].item))
+          :
+          !ingredientsArray?.tag ?
+            ingredientsArray?.item :
+            Variables(i, indexVariables, setIndexVariables, ingredientsArray?.tag);
+      }
+      finalObject["output_key"] = o.item;
+      finalObject["output_count"] = o.count;
 
-      const initialKeys = Array.from({ length: maxKeys }, (_, i) => i + 1);
-
-      const updatedKeys = initialKeys.reduce((acc, key, index) => {
-        if (index < ingredientsArray.length) {
-          const y = Array.isArray(ingredientsArray[index]) ? ingredientsArray[index][0] : ingredientsArray[index]
-          const f = !y.tag ? y.item : Variables(index + 1, indexVariables, setIndexVariables, y.tag)
-          acc[`${key}_key`] = f
-        } else {
-          acc[`${key}_key`] = "air";
-        }
-        return acc;
-      }, {});
-
-      const finalObject = {
-        ...updatedKeys,
-        "output_key": recipes_array[indexGlobal].item,
-        "output_count": recipes_array[indexGlobal].count,
-      };
       setRecipesActive(finalObject);
     }
-  }, [indexGlobal, indexVariables[0].active, indexVariables[1].active, indexVariables[2].active, indexVariables[3].active, indexVariables[4].active, indexVariables[5].active, indexVariables[6].active, indexVariables[7].active, indexVariables[8].active])
+  }, [indexGlobal, recipesVariables, indexVariables[0].active, indexVariables[1].active, indexVariables[2].active, indexVariables[3].active, indexVariables[4].active, indexVariables[5].active, indexVariables[6].active, indexVariables[7].active, indexVariables[8].active])
 
-  useEffect(() => {
-    const scrollContainer = document.getElementById('yourHorizontalScrollContainer');
-    if (scrollContainer) {
-      scrollContainer.scrollLeft = (scrollContainer.scrollWidth - scrollContainer.clientWidth) / 2;
-    }
-  }, [calculatedValues.length]);
+
+  // useEffect(() => {
+  //   const scrollContainer = document.getElementById("scroll_container");
+  //   if (scrollContainer) {
+  //     scrollContainer.scrollLeft = (scrollContainer.scrollWidth - scrollContainer.clientWidth) / 2;
+  //   }
+  // }, [calculatedValues.length, type]);
+
+  console.log(indexVariables)
+  console.log(recipesActive)
 
   return (
     <div
-      id="yourHorizontalScrollContainer"
+      // id="scroll_container"
       className={classNames(styles["craft_container"], {[styles["lock_wight"]]: type === true})}
     >
       <div className={classNames(styles["required_round_count"])}>
@@ -131,60 +169,15 @@ const CraftContainer = ({indexGlobal, count, type}) => {
       </div>
       <div className={classNames(styles["crafter"])}>
         <div className={classNames(styles["required_container"])}>
-          <ViewOneItem
-            itemName={recipesActive["1_key"]}
-            indexVariables={indexVariables}
-            setIndexVariables={setIndexVariables}
-            number="1"
-          />
-          <ViewOneItem
-            itemName={recipesActive["2_key"]}
-            indexVariables={indexVariables}
-            setIndexVariables={setIndexVariables}
-            number="2"
-          />
-          <ViewOneItem
-            itemName={recipesActive["3_key"]}
-            indexVariables={indexVariables}
-            setIndexVariables={setIndexVariables}
-            number="3"
-          />
-          <ViewOneItem
-            itemName={recipesActive["4_key"]}
-            indexVariables={indexVariables}
-            setIndexVariables={setIndexVariables}
-            number="4"
-          />
-          <ViewOneItem
-            itemName={recipesActive["5_key"]}
-            indexVariables={indexVariables}
-            setIndexVariables={setIndexVariables}
-            number="5"
-          />
-          <ViewOneItem
-            itemName={recipesActive["6_key"]}
-            indexVariables={indexVariables}
-            setIndexVariables={setIndexVariables}
-            number="6"
-          />
-          <ViewOneItem
-            itemName={recipesActive["7_key"]}
-            indexVariables={indexVariables}
-            setIndexVariables={setIndexVariables}
-            number="7"
-          />
-          <ViewOneItem
-            itemName={recipesActive["8_key"]}
-            indexVariables={indexVariables}
-            setIndexVariables={setIndexVariables}
-            number="8"
-          />
-          <ViewOneItem
-            itemName={recipesActive["9_key"]}
-            indexVariables={indexVariables}
-            setIndexVariables={setIndexVariables}
-            number="9"
-          />
+          {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((number) => (
+            <ViewOneItem
+              key={number}
+              itemName={recipesActive[`${number}_key`]}
+              indexVariables={indexVariables}
+              setIndexVariables={setIndexVariables}
+              number={number.toString()}
+            />
+          ))}
         </div>
         <div className={classNames(styles["separator_container"])}>
           <span className={classNames(styles["arrow"])}>&#10132;</span>
@@ -205,6 +198,20 @@ const CraftContainer = ({indexGlobal, count, type}) => {
               <span className={classNames(styles["count"])}>{recipesActive.output_count}</span>
             }
           </div>
+          {showButton &&
+            <div className={classNames(styles["button_wrapper"])}>
+              <MiniButton
+                label="&#129144;"
+                onClick={decrementRecipesVariables}
+                disabled={recipesVariables === 0}
+              />
+              <MiniButton
+                label="&#129146;"
+                onClick={incrementRecipesVariables}
+                disabled={recipesVariables === recipes_array[indexGlobal].length - 1}
+              />
+            </div>
+          }
         </div>
       </div>
       <div className={classNames(styles["output_result_container"])}>
@@ -227,3 +234,109 @@ const CraftContainer = ({indexGlobal, count, type}) => {
 };
 
 export default CraftContainer;
+
+
+// const ingredientsArray = o.ingredients;
+// const maxKeys = 9;
+//
+// const initialKeys = Array.from({length: maxKeys}, (_, i) => i + 1);
+//
+// const updatedKeys = initialKeys.reduce((acc, key, index) => {
+//   setIndexVariables(VARIABLES)
+//   const y = Array.isArray(ingredientsArray[index]) ? ingredientsArray[index][indexVariables[key].active] : ingredientsArray[index]
+//   if (index < ingredientsArray.length) {
+//     acc[`${key}_key`] = !y.tag ? y.item : Variables(key, indexVariables, setIndexVariables, y.tag)
+//   } else {
+//     acc[`${key}_key`] = "air"
+//   }
+//   // setIndexVariables(VARIABLES)
+//   // if (index < ingredientsArray.length) {
+//   //   const y = Array.isArray(ingredientsArray[index]) ? ingredientsArray[index][indexIngredients[index].active] : ingredientsArray[index]
+//   //   acc[`${key}_key`] = !y.tag ? y.item : Variables(key, indexVariables, setIndexVariables, y.tag)
+//   //   const s = Array.isArray(ingredientsArray[index]) ? ingredientsArray[index] : []
+//   //
+//   //   updateIngredients(key, s, !ingredientsArray[index].length ? 0 : ingredientsArray[index].length, true);
+//   // } else {
+//   //   acc[`${key}_key`] = "air";
+//   //
+//   //   updateIngredients(key, [], 0, false);
+//   // }
+//   return acc;
+// }, {});
+
+// const finalObject = {
+//   // ...updatedKeys,
+//   "1_key": Array.isArray(o.ingredients[0]) ?        !o.ingredients[0][0].tag ? o.ingredients[0][0].item : Variables(1, indexVariables, setIndexVariables, o.ingredients[0][0].tag)      : !o.ingredients[0].tag ? o.ingredients[0].item : Variables(1, indexVariables, setIndexVariables, o.ingredients[0].tag),
+//   "2_key": Array.isArray(o.ingredients[1]) ?        !o.ingredients[1][0].tag ? o.ingredients[1][0].item : Variables(2, indexVariables, setIndexVariables, o.ingredients[1][0].tag)      : !o.ingredients[1].tag ? o.ingredients[1].item : Variables(2, indexVariables, setIndexVariables, o.ingredients[1].tag),
+//   "3_key": Array.isArray(o.ingredients[2]) ?        !o.ingredients[2][0].tag ? o.ingredients[2][0].item : Variables(3, indexVariables, setIndexVariables, o.ingredients[2][0].tag)      : !o.ingredients[2].tag ? o.ingredients[2].item : Variables(3, indexVariables, setIndexVariables, o.ingredients[2].tag),
+//   "4_key": Array.isArray(o.ingredients[3]) ?        !o.ingredients[3][0].tag ? o.ingredients[3][0].item : Variables(4, indexVariables, setIndexVariables, o.ingredients[3][0].tag)      : !o.ingredients[3].tag ? o.ingredients[3].item : Variables(4, indexVariables, setIndexVariables, o.ingredients[3].tag),
+//   "5_key": Array.isArray(o.ingredients[4]) ?        !o.ingredients[4][0].tag ? o.ingredients[4][0].item : Variables(5, indexVariables, setIndexVariables, o.ingredients[4][0].tag)      : !o.ingredients[4].tag ? o.ingredients[4].item : Variables(5, indexVariables, setIndexVariables, o.ingredients[4].tag),
+//   "6_key": Array.isArray(o.ingredients[5]) ?        !o.ingredients[5][0].tag ? o.ingredients[5][0].item : Variables(6, indexVariables, setIndexVariables, o.ingredients[5][0].tag)      : !o.ingredients[5].tag ? o.ingredients[5].item : Variables(6, indexVariables, setIndexVariables, o.ingredients[5].tag),
+//   "7_key": Array.isArray(o.ingredients[6]) ?        !o.ingredients[6][0].tag ? o.ingredients[6][0].item : Variables(7, indexVariables, setIndexVariables, o.ingredients[6][0].tag)      : !o.ingredients[6].tag ? o.ingredients[6].item : Variables(7, indexVariables, setIndexVariables, o.ingredients[6].tag),
+//   "8_key": Array.isArray(o.ingredients[7]) ?        !o.ingredients[7][0].tag ? o.ingredients[7][0].item : Variables(8, indexVariables, setIndexVariables, o.ingredients[7][0].tag)      : !o.ingredients[7].tag ? o.ingredients[7].item : Variables(8, indexVariables, setIndexVariables, o.ingredients[7].tag),
+//   "9_key": Array.isArray(o.ingredients[8]) ?        !o.ingredients[8][0].tag ? o.ingredients[8][0].item : Variables(9, indexVariables, setIndexVariables, o.ingredients[8][0].tag)      : !o.ingredients[8].tag ? o.ingredients[8].item : Variables(9, indexVariables, setIndexVariables, o.ingredients[8].tag),
+//   "output_key": o.item,
+//   "output_count": o.count,
+// };
+// setRecipesActive(finalObject);
+
+
+// const updateIngredients = (key, allIngredients, maxLength, booleanModal) => {
+//   // setIndexIngredients(prevIngredients => {
+//   //   return prevIngredients.map(ingredient => {
+//   //     if (ingredient.key === key) {
+//   //       return {
+//   //         ...ingredient,
+//   //         allIngredients: allIngredients,
+//   //         max_length: maxLength,
+//   //         booleanModal: booleanModal,
+//   //       };
+//   //     } else {
+//   //       return ingredient;
+//   //     }
+//   //   });
+//   // });
+//   setIndexVariables(prevVariables => {
+//     return prevVariables.map(variables => {
+//       if (variables.key === key) {
+//         return {
+//           ...variables,
+//           globalTag: allIngredients.map(obj => obj.item),
+//           max_length: maxLength,
+//           booleanModal: booleanModal,
+//         };
+//       } else {
+//         return variables;
+//       }
+//     });
+//   });
+// };
+
+// const updateIngredients = (key, allIngredients, maxLength, booleanModal) => {
+//   setIndexVariables(prevVariables => {
+//     return prevVariables.map(variables => {
+//       if (variables.key === key) {
+//         return {
+//           ...variables,
+//           globalTag: allIngredients.map(obj => obj.item),
+//           max_length: maxLength,
+//           booleanModal: booleanModal,
+//         };
+//       } else {
+//         return variables;
+//       }
+//     });
+//   });
+// };
+
+// const updateIngredients = (key, allIngredients, maxLength, booleanModal) => {
+//   setIndexVariables(prevVariables => {
+//     prevVariables.forEach(variables => {
+//       if (variables.key === key) {
+//         variables.globalTag = allIngredients?.map(obj => obj.item);
+//         variables.max_length = maxLength;
+//         variables.booleanModal = booleanModal;
+//       }
+//     });
+//   });
+// };

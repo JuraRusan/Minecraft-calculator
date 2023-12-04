@@ -25,22 +25,26 @@ const VariablesRecipes = ({open, close, setIndexVariables, indexVariables, numbe
       ariaHideApp={false}
     >
       <div className={classNames(styles["wrapper_variables_recipes"])}>
-        {indexVariables[number - 1].globalTag.map((el, index) => (
-          <div
-            className={classNames(styles["box_one_variant"])}
-            key={index}
-            onClick={() => handleItemClick(indexVariables[number - 1].key, index)}
-          >
-            <img
-              className={classNames(styles["image"])}
-              src={`./image/minecraft-item/${el}.webp`}
-              alt="none"
-              width="100%"
-              height="100%"
-              title={NameFormat(el)}
-            />
-          </div>
-        ))}
+        {!open ? null :
+          <>
+            {indexVariables[number - 1].globalTag.map((el, index) => (
+              <div
+                className={classNames(styles["box_one_variant"])}
+                key={index}
+                onClick={() => handleItemClick(indexVariables[number - 1].key, index)}
+              >
+                <img
+                  className={classNames(styles["image"])}
+                  src={`./image/minecraft-item/${el}.webp`}
+                  alt="none"
+                  width="100%"
+                  height="100%"
+                  title={NameFormat(el)}
+                />
+              </div>
+            ))}
+          </>
+        }
       </div>
     </Modal>
   );

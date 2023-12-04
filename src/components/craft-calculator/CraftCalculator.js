@@ -1,9 +1,10 @@
-import React, {useState, useRef} from "react";
+import React, {useState} from "react";
 import classNames from "classnames";
 import CraftContainer from "../craft-container/CraftContainer";
 import RecipesSwipe from "../recipes-swipe/RecipesSwipe";
 import AllRecipes from "../../modals/all-recipes/AllRecipes";
-import {debounce} from "lodash";
+import Alert from "../alert/Alert";
+import InputCountRequired from "../input count required/InputCountRequired";
 
 import styles from "./CraftCalculator.module.scss";
 
@@ -13,11 +14,9 @@ const ERROR_MESSAGE = `Enter a number from 0 to ${new Intl.NumberFormat('en-US')
 const CraftCalculator = () => {
 
   const [count, setCount] = useState(1);
-  const inputRef = useRef('');
   const [indexGlobal, setIndexGlobal] = useState(0);
   const [modalIsOpenRecipes, setIsOpenRecipes] = useState(false);
-
-  // const [showError, setShowError] = useState(false);
+  const [showError, setShowError] = useState(false);
 
   function openModalRecipes() {
     setIsOpenRecipes(true);
@@ -27,22 +26,6 @@ const CraftCalculator = () => {
     setIsOpenRecipes(false);
   }
 
-  const handleChangeCount = (e) => {
-    const value = e.target.value;
-
-    if (/^[0-9]*$/.test(value)) {
-      const numberValue = parseInt(value, 10);
-      if (numberValue >= 0 && numberValue <= MAX_COUNT) {
-        setCount(value);
-        // setShowError(false)
-      } else {
-        // setShowError(true)
-      }
-    } else {
-      // setShowError(true)
-    }
-  };
-
   return (
     <div className={classNames(styles["calculator"])}>
       <RecipesSwipe
@@ -51,14 +34,11 @@ const CraftCalculator = () => {
         openModalRecipes={openModalRecipes}
       />
       <div className={classNames(styles["required_input_count"])}>
-        <input
-          ref={inputRef}
-          name="count"
-          placeholder="required"
-          className={classNames(styles["count_input"])}
-          onChange={debounce((e) => {
-            handleChangeCount(e)
-          }, 350)}
+        <InputCountRequired
+          indexGlobal={indexGlobal}
+          setCount={setCount}
+          setShowError={setShowError}
+          maxCount={MAX_COUNT}
         />
       </div>
       <CraftContainer
@@ -71,6 +51,7 @@ const CraftCalculator = () => {
         close={closeModalRecipes}
         setIndexGlobal={setIndexGlobal}
       />
+      {showError && <Alert message={ERROR_MESSAGE}/>}
     </div>
   );
 };

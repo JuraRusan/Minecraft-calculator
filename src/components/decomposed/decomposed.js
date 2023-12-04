@@ -10,30 +10,19 @@ const Decomposed = ({result}) => {
   const [decomposedShow, setDecomposedShow] = useState(false);
 
   const decomposed = useMemo(() => {
-    const matchingIndexes = {};
-
+    const matchingIndexes = [];
     for (const key in result) {
       if (result?.[key]) {
         for (let i = 0; i < recipes_array.length; i++) {
-          const el = recipes_array[i];
+          const el = Array.isArray(recipes_array[i]) ? recipes_array[i][0] : recipes_array[i];
           const compareValueOut = el.item;
           if (key === compareValueOut) {
-            if (!matchingIndexes[compareValueOut]) {
-              matchingIndexes[compareValueOut] = [];
-            }
-
-            matchingIndexes[compareValueOut].push({
-              id: i,
-              item: el.item,
-              count: result[key],
-            });
+            matchingIndexes.push({id: i, item: el.item, count: result[key]});
           }
         }
       }
     }
-    const resultArray = Object.values(matchingIndexes);
-
-    return resultArray.length === 1 ? resultArray[0] : resultArray;
+    return matchingIndexes;
   }, [result]);
 
   const handleCheckboxChange = (event) => {
@@ -46,11 +35,6 @@ const Decomposed = ({result}) => {
   };
 
   const uniqueCheckboxId = generateUniqueId();
-
-  function customWidth() {
-    const d = decomposed.length
-    return (520 * d)
-  }
 
   if (!decomposed) {
     return null
@@ -71,14 +55,12 @@ const Decomposed = ({result}) => {
         </>
       }
       {decomposedShow &&
-        <div className={classNames(styles["decomposed"])} style={{minWidth: `${customWidth()}px`}}>
+        <div className={classNames(styles["decomposed"])}>
           {decomposed.map((el, i) => {
-            const arr = Array.isArray(el) ? el[0] : el
-
             return (
               <div className={classNames(styles["key_wrapper"])} key={i}>
                 <div className={classNames(styles["space_tab"])}></div>
-                <CraftContainer indexGlobal={arr.id} count={arr.count} type={false}/>
+                <CraftContainer indexGlobal={el.id} count={el.count} type={false}/>
                 <div className={classNames(styles["space_tab"])}></div>
               </div>
             )

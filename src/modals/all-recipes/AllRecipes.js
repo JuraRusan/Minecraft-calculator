@@ -34,7 +34,7 @@ const AllRecipes = ({open, close, setIndexGlobal}) => {
           onChange={debounce((e) => setSearch(e.target.value.toLowerCase()), 350)}
         />
         {recipes_array.map((el, i) => {
-          const recipes = el.item
+          const recipes = Array.isArray(el) ? el[0].item : el.item
 
           return (
             recipes === "air" || !recipes.includes(search) ? null :
@@ -48,13 +48,13 @@ const AllRecipes = ({open, close, setIndexGlobal}) => {
                 }}
               >
                 <img
-                  src={`./image/minecraft-item/${el.item}.webp`}
+                  src={`./image/minecraft-item/${recipes}.webp`}
                   className={classNames(styles["image"])}
                   alt="#"
                   width="100%"
                   height="100%"
                 />
-                <label className={classNames(styles["name_recipes"])}>{NameFormat(el.item)}</label>
+                <label className={classNames(styles["name_recipes"])}>{NameFormat(recipes)}</label>
               </div>
           )
         })}

@@ -15,29 +15,5 @@
     height: auto;
     width: auto;
     margin: 0 auto 8px auto;
-
-    .count_input {
-      width: 120px;
-      text-align: center;
-      height: 24px;
-      line-height: 24px;
-      outline: none;
-      background: $site-color-4;
-      border: 1px solid $site-color-5;
-      border-radius: 4px;
-      transition: all 0.25s ease-in-out;
-      color: $site-color-2;
-      padding-left: 4px;
-      padding-right: 4px;
-      padding-top: 2px;
-
-      &:hover,
-      &:focus,
-      &:active {
-        outline: none;
-        color: $site-color-10;
-        background: $site-color-1;
-      }
-    }
   }
 }

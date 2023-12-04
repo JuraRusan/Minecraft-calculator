@@ -42,7 +42,6 @@ const air = [
 
 const recipes = [
   {
-    "file": "acacia_boat.json",
     "item": "acacia_boat",
     "count": 1,
     "patterns": {
@@ -82,18 +81,40 @@ const recipes = [
     }
   },
   {
-    "file": "acacia_button.json",
     "item": "acacia_button",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "acacia_planks"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "acacia_chest_boat.json",
     "item": "acacia_chest_boat",
     "count": 1,
     "patterns": {},
@@ -103,11 +124,31 @@ const recipes = [
       },
       {
         "item": "acacia_boat"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "acacia_door.json",
     "item": "acacia_door",
     "count": 3,
     "patterns": {
@@ -147,7 +188,6 @@ const recipes = [
     }
   },
   {
-    "file": "acacia_fence.json",
     "item": "acacia_fence",
     "count": 3,
     "patterns": {
@@ -187,7 +227,6 @@ const recipes = [
     }
   },
   {
-    "file": "acacia_fence_gate.json",
     "item": "acacia_fence_gate",
     "count": 1,
     "patterns": {
@@ -227,7 +266,6 @@ const recipes = [
     }
   },
   {
-    "file": "acacia_hanging_sign.json",
     "item": "acacia_hanging_sign",
     "count": 6,
     "patterns": {
@@ -267,18 +305,40 @@ const recipes = [
     }
   },
   {
-    "file": "acacia_planks.json",
     "item": "acacia_planks",
     "count": 4,
     "patterns": {},
     "ingredients": [
       {
         "tag": "acacia_logs"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "acacia_pressure_plate.json",
     "item": "acacia_pressure_plate",
     "count": 1,
     "patterns": {
@@ -318,7 +378,6 @@ const recipes = [
     }
   },
   {
-    "file": "acacia_sign.json",
     "item": "acacia_sign",
     "count": 3,
     "patterns": {
@@ -358,7 +417,6 @@ const recipes = [
     }
   },
   {
-    "file": "acacia_slab.json",
     "item": "acacia_slab",
     "count": 6,
     "patterns": {
@@ -398,7 +456,6 @@ const recipes = [
     }
   },
   {
-    "file": "acacia_stairs.json",
     "item": "acacia_stairs",
     "count": 4,
     "patterns": {
@@ -438,7 +495,6 @@ const recipes = [
     }
   },
   {
-    "file": "acacia_trapdoor.json",
     "item": "acacia_trapdoor",
     "count": 2,
     "patterns": {
@@ -478,7 +534,6 @@ const recipes = [
     }
   },
   {
-    "file": "acacia_wood.json",
     "item": "acacia_wood",
     "count": 3,
     "patterns": {
@@ -518,7 +573,6 @@ const recipes = [
     }
   },
   {
-    "file": "activator_rail.json",
     "item": "activator_rail",
     "count": 6,
     "patterns": {
@@ -558,7 +612,6 @@ const recipes = [
     }
   },
   {
-    "file": "amethyst_block.json",
     "item": "amethyst_block",
     "count": 1,
     "patterns": {
@@ -598,7 +651,6 @@ const recipes = [
     }
   },
   {
-    "file": "andesite.json",
     "item": "andesite",
     "count": 2,
     "patterns": {},
@@ -608,11 +660,31 @@ const recipes = [
       },
       {
         "item": "cobblestone"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "andesite_slab.json",
     "item": "andesite_slab",
     "count": 6,
     "patterns": {
@@ -652,7 +724,6 @@ const recipes = [
     }
   },
   {
-    "file": "andesite_stairs.json",
     "item": "andesite_stairs",
     "count": 4,
     "patterns": {
@@ -692,7 +763,6 @@ const recipes = [
     }
   },
   {
-    "file": "andesite_wall.json",
     "item": "andesite_wall",
     "count": 6,
     "patterns": {
@@ -732,7 +802,6 @@ const recipes = [
     }
   },
   {
-    "file": "anvil.json",
     "item": "anvil",
     "count": 1,
     "patterns": {
@@ -772,7 +841,6 @@ const recipes = [
     }
   },
   {
-    "file": "armor_stand.json",
     "item": "armor_stand",
     "count": 1,
     "patterns": {
@@ -812,7 +880,6 @@ const recipes = [
     }
   },
   {
-    "file": "arrow.json",
     "item": "arrow",
     "count": 4,
     "patterns": {
@@ -852,7 +919,6 @@ const recipes = [
     }
   },
   {
-    "file": "bamboo_block.json",
     "item": "bamboo_block",
     "count": 1,
     "patterns": {},
@@ -887,18 +953,40 @@ const recipes = [
     ]
   },
   {
-    "file": "bamboo_button.json",
     "item": "bamboo_button",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "bamboo_planks"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "bamboo_chest_raft.json",
     "item": "bamboo_chest_raft",
     "count": 1,
     "patterns": {},
@@ -908,11 +996,31 @@ const recipes = [
       },
       {
         "item": "bamboo_raft"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "bamboo_door.json",
     "item": "bamboo_door",
     "count": 3,
     "patterns": {
@@ -952,7 +1060,6 @@ const recipes = [
     }
   },
   {
-    "file": "bamboo_fence.json",
     "item": "bamboo_fence",
     "count": 3,
     "patterns": {
@@ -992,7 +1099,6 @@ const recipes = [
     }
   },
   {
-    "file": "bamboo_fence_gate.json",
     "item": "bamboo_fence_gate",
     "count": 1,
     "patterns": {
@@ -1032,7 +1138,6 @@ const recipes = [
     }
   },
   {
-    "file": "bamboo_hanging_sign.json",
     "item": "bamboo_hanging_sign",
     "count": 6,
     "patterns": {
@@ -1072,7 +1177,6 @@ const recipes = [
     }
   },
   {
-    "file": "bamboo_mosaic.json",
     "item": "bamboo_mosaic",
     "count": 1,
     "patterns": {
@@ -1112,7 +1216,6 @@ const recipes = [
     }
   },
   {
-    "file": "bamboo_mosaic_slab.json",
     "item": "bamboo_mosaic_slab",
     "count": 6,
     "patterns": {
@@ -1152,7 +1255,6 @@ const recipes = [
     }
   },
   {
-    "file": "bamboo_mosaic_stairs.json",
     "item": "bamboo_mosaic_stairs",
     "count": 4,
     "patterns": {
@@ -1192,18 +1294,40 @@ const recipes = [
     }
   },
   {
-    "file": "bamboo_planks.json",
     "item": "bamboo_planks",
     "count": 2,
     "patterns": {},
     "ingredients": [
       {
         "tag": "bamboo_blocks"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "bamboo_pressure_plate.json",
     "item": "bamboo_pressure_plate",
     "count": 1,
     "patterns": {
@@ -1243,7 +1367,6 @@ const recipes = [
     }
   },
   {
-    "file": "bamboo_raft.json",
     "item": "bamboo_raft",
     "count": 1,
     "patterns": {
@@ -1283,7 +1406,6 @@ const recipes = [
     }
   },
   {
-    "file": "bamboo_sign.json",
     "item": "bamboo_sign",
     "count": 3,
     "patterns": {
@@ -1323,7 +1445,6 @@ const recipes = [
     }
   },
   {
-    "file": "bamboo_slab.json",
     "item": "bamboo_slab",
     "count": 6,
     "patterns": {
@@ -1363,7 +1484,6 @@ const recipes = [
     }
   },
   {
-    "file": "bamboo_stairs.json",
     "item": "bamboo_stairs",
     "count": 4,
     "patterns": {
@@ -1403,7 +1523,6 @@ const recipes = [
     }
   },
   {
-    "file": "bamboo_trapdoor.json",
     "item": "bamboo_trapdoor",
     "count": 2,
     "patterns": {
@@ -1443,7 +1562,6 @@ const recipes = [
     }
   },
   {
-    "file": "barrel.json",
     "item": "barrel",
     "count": 1,
     "patterns": {
@@ -1483,7 +1601,6 @@ const recipes = [
     }
   },
   {
-    "file": "beacon.json",
     "item": "beacon",
     "count": 1,
     "patterns": {
@@ -1523,7 +1640,6 @@ const recipes = [
     }
   },
   {
-    "file": "beehive.json",
     "item": "beehive",
     "count": 1,
     "patterns": {
@@ -1563,7 +1679,6 @@ const recipes = [
     }
   },
   {
-    "file": "beetroot_soup.json",
     "item": "beetroot_soup",
     "count": 1,
     "patterns": {},
@@ -1588,11 +1703,16 @@ const recipes = [
       },
       {
         "item": "beetroot"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "birch_boat.json",
     "item": "birch_boat",
     "count": 1,
     "patterns": {
@@ -1632,18 +1752,40 @@ const recipes = [
     }
   },
   {
-    "file": "birch_button.json",
     "item": "birch_button",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "birch_planks"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "birch_chest_boat.json",
     "item": "birch_chest_boat",
     "count": 1,
     "patterns": {},
@@ -1653,11 +1795,31 @@ const recipes = [
       },
       {
         "item": "birch_boat"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "birch_door.json",
     "item": "birch_door",
     "count": 3,
     "patterns": {
@@ -1697,7 +1859,6 @@ const recipes = [
     }
   },
   {
-    "file": "birch_fence.json",
     "item": "birch_fence",
     "count": 3,
     "patterns": {
@@ -1737,7 +1898,6 @@ const recipes = [
     }
   },
   {
-    "file": "birch_fence_gate.json",
     "item": "birch_fence_gate",
     "count": 1,
     "patterns": {
@@ -1777,7 +1937,6 @@ const recipes = [
     }
   },
   {
-    "file": "birch_hanging_sign.json",
     "item": "birch_hanging_sign",
     "count": 6,
     "patterns": {
@@ -1817,18 +1976,40 @@ const recipes = [
     }
   },
   {
-    "file": "birch_planks.json",
     "item": "birch_planks",
     "count": 4,
     "patterns": {},
     "ingredients": [
       {
         "tag": "birch_logs"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "birch_pressure_plate.json",
     "item": "birch_pressure_plate",
     "count": 1,
     "patterns": {
@@ -1868,7 +2049,6 @@ const recipes = [
     }
   },
   {
-    "file": "birch_sign.json",
     "item": "birch_sign",
     "count": 3,
     "patterns": {
@@ -1908,7 +2088,6 @@ const recipes = [
     }
   },
   {
-    "file": "birch_slab.json",
     "item": "birch_slab",
     "count": 6,
     "patterns": {
@@ -1948,7 +2127,6 @@ const recipes = [
     }
   },
   {
-    "file": "birch_stairs.json",
     "item": "birch_stairs",
     "count": 4,
     "patterns": {
@@ -1988,7 +2166,6 @@ const recipes = [
     }
   },
   {
-    "file": "birch_trapdoor.json",
     "item": "birch_trapdoor",
     "count": 2,
     "patterns": {
@@ -2028,7 +2205,6 @@ const recipes = [
     }
   },
   {
-    "file": "birch_wood.json",
     "item": "birch_wood",
     "count": 3,
     "patterns": {
@@ -2068,7 +2244,6 @@ const recipes = [
     }
   },
   {
-    "file": "blackstone_slab.json",
     "item": "blackstone_slab",
     "count": 6,
     "patterns": {
@@ -2108,7 +2283,6 @@ const recipes = [
     }
   },
   {
-    "file": "blackstone_stairs.json",
     "item": "blackstone_stairs",
     "count": 4,
     "patterns": {
@@ -2148,7 +2322,6 @@ const recipes = [
     }
   },
   {
-    "file": "blackstone_wall.json",
     "item": "blackstone_wall",
     "count": 6,
     "patterns": {
@@ -2188,7 +2361,6 @@ const recipes = [
     }
   },
   {
-    "file": "black_banner.json",
     "item": "black_banner",
     "count": 1,
     "patterns": {
@@ -2227,48 +2399,126 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "black_bed.json",
-    "item": "black_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "black_wool"
+  [
+    {
+      "item": "black_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "black_wool"
+          },
+          "2_key": {
+            "item": "black_wool"
+          },
+          "3_key": {
+            "item": "black_wool"
+          }
         },
-        "2_key": {
-          "item": "black_wool"
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
         },
-        "3_key": {
-          "item": "black_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "black_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "black_dye"
+        },
+        [
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
+  ],
   {
-    "file": "black_candle.json",
     "item": "black_candle",
     "count": 1,
     "patterns": {},
@@ -2278,51 +2528,150 @@ const recipes = [
       },
       {
         "item": "black_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
-  {
-    "file": "black_carpet.json",
-    "item": "black_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "black_wool"
+  [
+    {
+      "item": "black_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "black_wool"
+          },
+          "2_key": {
+            "item": "black_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "black_wool"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "black_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "black_dye"
+        },
+        [
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
+  ],
   {
-    "file": "black_concrete_powder.json",
     "item": "black_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -2356,30 +2705,77 @@ const recipes = [
       }
     ]
   },
+  [
+    {
+      "item": "black_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "ink_sac"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "black_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "wither_rose"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "black_dye.json",
-    "item": "black_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "ink_sac"
-      }
-    ]
-  },
-  {
-    "file": "black_dye_from_wither_rose.json",
-    "item": "black_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "wither_rose"
-      }
-    ]
-  },
-  {
-    "file": "black_stained_glass.json",
     "item": "black_stained_glass",
     "count": 8,
     "patterns": {
@@ -2418,88 +2814,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "black_stained_glass_pane.json",
-    "item": "black_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "black_stained_glass"
+  [
+    {
+      "item": "black_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "black_stained_glass"
+          },
+          "2_key": {
+            "item": "black_stained_glass"
+          },
+          "3_key": {
+            "item": "black_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "black_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "black_stained_glass"
+          },
+          "2_key": {
+            "item": "black_stained_glass"
+          },
+          "3_key": {
+            "item": "black_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "black_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "black_stained_glass"
+      }
+    },
+    {
+      "item": "black_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "black_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "black_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "black_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "black_stained_glass_pane_from_glass_pane.json",
-    "item": "black_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "black_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "black_terracotta.json",
     "item": "black_terracotta",
     "count": 8,
     "patterns": {
@@ -2539,7 +2934,6 @@ const recipes = [
     }
   },
   {
-    "file": "blast_furnace.json",
     "item": "blast_furnace",
     "count": 1,
     "patterns": {
@@ -2579,18 +2973,40 @@ const recipes = [
     }
   },
   {
-    "file": "blaze_powder.json",
     "item": "blaze_powder",
     "count": 2,
     "patterns": {},
     "ingredients": [
       {
         "item": "blaze_rod"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "blue_banner.json",
     "item": "blue_banner",
     "count": 1,
     "patterns": {
@@ -2629,48 +3045,126 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "blue_bed.json",
-    "item": "blue_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "blue_wool"
+  [
+    {
+      "item": "blue_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "blue_wool"
+          },
+          "2_key": {
+            "item": "blue_wool"
+          },
+          "3_key": {
+            "item": "blue_wool"
+          }
         },
-        "2_key": {
-          "item": "blue_wool"
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
         },
-        "3_key": {
-          "item": "blue_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "blue_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "blue_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
+  ],
   {
-    "file": "blue_candle.json",
     "item": "blue_candle",
     "count": 1,
     "patterns": {},
@@ -2680,51 +3174,150 @@ const recipes = [
       },
       {
         "item": "blue_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
-  {
-    "file": "blue_carpet.json",
-    "item": "blue_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "blue_wool"
+  [
+    {
+      "item": "blue_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "blue_wool"
+          },
+          "2_key": {
+            "item": "blue_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "blue_wool"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "blue_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "blue_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
+  ],
   {
-    "file": "blue_concrete_powder.json",
     "item": "blue_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -2758,30 +3351,77 @@ const recipes = [
       }
     ]
   },
+  [
+    {
+      "item": "blue_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "lapis_lazuli"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "blue_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "cornflower"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "blue_dye.json",
-    "item": "blue_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "lapis_lazuli"
-      }
-    ]
-  },
-  {
-    "file": "blue_dye_from_cornflower.json",
-    "item": "blue_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "cornflower"
-      }
-    ]
-  },
-  {
-    "file": "blue_ice.json",
     "item": "blue_ice",
     "count": 1,
     "patterns": {},
@@ -2816,7 +3456,6 @@ const recipes = [
     ]
   },
   {
-    "file": "blue_stained_glass.json",
     "item": "blue_stained_glass",
     "count": 8,
     "patterns": {
@@ -2855,88 +3494,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "blue_stained_glass_pane.json",
-    "item": "blue_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "blue_stained_glass"
+  [
+    {
+      "item": "blue_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "blue_stained_glass"
+          },
+          "2_key": {
+            "item": "blue_stained_glass"
+          },
+          "3_key": {
+            "item": "blue_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "blue_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "blue_stained_glass"
+          },
+          "2_key": {
+            "item": "blue_stained_glass"
+          },
+          "3_key": {
+            "item": "blue_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "blue_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "blue_stained_glass"
+      }
+    },
+    {
+      "item": "blue_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "blue_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "blue_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "blue_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "blue_stained_glass_pane_from_glass_pane.json",
-    "item": "blue_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "blue_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "blue_terracotta.json",
     "item": "blue_terracotta",
     "count": 8,
     "patterns": {
@@ -2976,7 +3614,6 @@ const recipes = [
     }
   },
   {
-    "file": "bone_block.json",
     "item": "bone_block",
     "count": 1,
     "patterns": {
@@ -3015,30 +3652,77 @@ const recipes = [
       }
     }
   },
+  [
+    {
+      "item": "bone_meal",
+      "count": 3,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "bone"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "bone_meal",
+      "count": 9,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "bone_block"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "bone_meal.json",
-    "item": "bone_meal",
-    "count": 3,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "bone"
-      }
-    ]
-  },
-  {
-    "file": "bone_meal_from_bone_block.json",
-    "item": "bone_meal",
-    "count": 9,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "bone_block"
-      }
-    ]
-  },
-  {
-    "file": "book.json",
     "item": "book",
     "count": 1,
     "patterns": {},
@@ -3054,11 +3738,25 @@ const recipes = [
       },
       {
         "item": "leather"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "bookshelf.json",
     "item": "bookshelf",
     "count": 1,
     "patterns": {
@@ -3098,7 +3796,6 @@ const recipes = [
     }
   },
   {
-    "file": "bow.json",
     "item": "bow",
     "count": 1,
     "patterns": {
@@ -3138,7 +3835,6 @@ const recipes = [
     }
   },
   {
-    "file": "bowl.json",
     "item": "bowl",
     "count": 4,
     "patterns": {
@@ -3178,7 +3874,6 @@ const recipes = [
     }
   },
   {
-    "file": "bread.json",
     "item": "bread",
     "count": 1,
     "patterns": {
@@ -3218,7 +3913,6 @@ const recipes = [
     }
   },
   {
-    "file": "brewing_stand.json",
     "item": "brewing_stand",
     "count": 1,
     "patterns": {
@@ -3258,7 +3952,6 @@ const recipes = [
     }
   },
   {
-    "file": "bricks.json",
     "item": "bricks",
     "count": 1,
     "patterns": {
@@ -3298,7 +3991,6 @@ const recipes = [
     }
   },
   {
-    "file": "brick_slab.json",
     "item": "brick_slab",
     "count": 6,
     "patterns": {
@@ -3338,7 +4030,6 @@ const recipes = [
     }
   },
   {
-    "file": "brick_stairs.json",
     "item": "brick_stairs",
     "count": 4,
     "patterns": {
@@ -3378,7 +4069,6 @@ const recipes = [
     }
   },
   {
-    "file": "brick_wall.json",
     "item": "brick_wall",
     "count": 6,
     "patterns": {
@@ -3418,7 +4108,6 @@ const recipes = [
     }
   },
   {
-    "file": "brown_banner.json",
     "item": "brown_banner",
     "count": 1,
     "patterns": {
@@ -3457,48 +4146,126 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "brown_bed.json",
-    "item": "brown_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "brown_wool"
+  [
+    {
+      "item": "brown_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "brown_wool"
+          },
+          "2_key": {
+            "item": "brown_wool"
+          },
+          "3_key": {
+            "item": "brown_wool"
+          }
         },
-        "2_key": {
-          "item": "brown_wool"
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
         },
-        "3_key": {
-          "item": "brown_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "brown_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "brown_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
+  ],
   {
-    "file": "brown_candle.json",
     "item": "brown_candle",
     "count": 1,
     "patterns": {},
@@ -3508,51 +4275,150 @@ const recipes = [
       },
       {
         "item": "brown_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
-  {
-    "file": "brown_carpet.json",
-    "item": "brown_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "brown_wool"
+  [
+    {
+      "item": "brown_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "brown_wool"
+          },
+          "2_key": {
+            "item": "brown_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "brown_wool"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "brown_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "brown_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
+  ],
   {
-    "file": "brown_concrete_powder.json",
     "item": "brown_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -3587,18 +4453,40 @@ const recipes = [
     ]
   },
   {
-    "file": "brown_dye.json",
     "item": "brown_dye",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "cocoa_beans"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "brown_stained_glass.json",
     "item": "brown_stained_glass",
     "count": 8,
     "patterns": {
@@ -3637,88 +4525,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "brown_stained_glass_pane.json",
-    "item": "brown_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "brown_stained_glass"
+  [
+    {
+      "item": "brown_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "brown_stained_glass"
+          },
+          "2_key": {
+            "item": "brown_stained_glass"
+          },
+          "3_key": {
+            "item": "brown_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "brown_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "brown_stained_glass"
+          },
+          "2_key": {
+            "item": "brown_stained_glass"
+          },
+          "3_key": {
+            "item": "brown_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "brown_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "brown_stained_glass"
+      }
+    },
+    {
+      "item": "brown_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "brown_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "brown_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "brown_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "brown_stained_glass_pane_from_glass_pane.json",
-    "item": "brown_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "brown_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "brown_terracotta.json",
     "item": "brown_terracotta",
     "count": 8,
     "patterns": {
@@ -3758,7 +4645,6 @@ const recipes = [
     }
   },
   {
-    "file": "brush.json",
     "item": "brush",
     "count": 1,
     "patterns": {
@@ -3798,7 +4684,6 @@ const recipes = [
     }
   },
   {
-    "file": "bucket.json",
     "item": "bucket",
     "count": 1,
     "patterns": {
@@ -3838,7 +4723,6 @@ const recipes = [
     }
   },
   {
-    "file": "cake.json",
     "item": "cake",
     "count": 1,
     "patterns": {
@@ -3878,7 +4762,6 @@ const recipes = [
     }
   },
   {
-    "file": "calibrated_sculk_sensor.json",
     "item": "calibrated_sculk_sensor",
     "count": 1,
     "patterns": {
@@ -3918,7 +4801,6 @@ const recipes = [
     }
   },
   {
-    "file": "campfire.json",
     "item": "campfire",
     "count": 1,
     "patterns": {
@@ -3958,7 +4840,6 @@ const recipes = [
     }
   },
   {
-    "file": "candle.json",
     "item": "candle",
     "count": 1,
     "patterns": {
@@ -3998,7 +4879,6 @@ const recipes = [
     }
   },
   {
-    "file": "carrot_on_a_stick.json",
     "item": "carrot_on_a_stick",
     "count": 1,
     "patterns": {
@@ -4038,7 +4918,6 @@ const recipes = [
     }
   },
   {
-    "file": "cartography_table.json",
     "item": "cartography_table",
     "count": 1,
     "patterns": {
@@ -4078,7 +4957,6 @@ const recipes = [
     }
   },
   {
-    "file": "cauldron.json",
     "item": "cauldron",
     "count": 1,
     "patterns": {
@@ -4118,7 +4996,6 @@ const recipes = [
     }
   },
   {
-    "file": "chain.json",
     "item": "chain",
     "count": 1,
     "patterns": {
@@ -4158,7 +5035,6 @@ const recipes = [
     }
   },
   {
-    "file": "cherry_boat.json",
     "item": "cherry_boat",
     "count": 1,
     "patterns": {
@@ -4198,18 +5074,40 @@ const recipes = [
     }
   },
   {
-    "file": "cherry_button.json",
     "item": "cherry_button",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "cherry_planks"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "cherry_chest_boat.json",
     "item": "cherry_chest_boat",
     "count": 1,
     "patterns": {},
@@ -4219,11 +5117,31 @@ const recipes = [
       },
       {
         "item": "cherry_boat"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "cherry_door.json",
     "item": "cherry_door",
     "count": 3,
     "patterns": {
@@ -4263,7 +5181,6 @@ const recipes = [
     }
   },
   {
-    "file": "cherry_fence.json",
     "item": "cherry_fence",
     "count": 3,
     "patterns": {
@@ -4303,7 +5220,6 @@ const recipes = [
     }
   },
   {
-    "file": "cherry_fence_gate.json",
     "item": "cherry_fence_gate",
     "count": 1,
     "patterns": {
@@ -4343,7 +5259,6 @@ const recipes = [
     }
   },
   {
-    "file": "cherry_hanging_sign.json",
     "item": "cherry_hanging_sign",
     "count": 6,
     "patterns": {
@@ -4383,18 +5298,40 @@ const recipes = [
     }
   },
   {
-    "file": "cherry_planks.json",
     "item": "cherry_planks",
     "count": 4,
     "patterns": {},
     "ingredients": [
       {
         "tag": "cherry_logs"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "cherry_pressure_plate.json",
     "item": "cherry_pressure_plate",
     "count": 1,
     "patterns": {
@@ -4434,7 +5371,6 @@ const recipes = [
     }
   },
   {
-    "file": "cherry_sign.json",
     "item": "cherry_sign",
     "count": 3,
     "patterns": {
@@ -4474,7 +5410,6 @@ const recipes = [
     }
   },
   {
-    "file": "cherry_slab.json",
     "item": "cherry_slab",
     "count": 6,
     "patterns": {
@@ -4514,7 +5449,6 @@ const recipes = [
     }
   },
   {
-    "file": "cherry_stairs.json",
     "item": "cherry_stairs",
     "count": 4,
     "patterns": {
@@ -4554,7 +5488,6 @@ const recipes = [
     }
   },
   {
-    "file": "cherry_trapdoor.json",
     "item": "cherry_trapdoor",
     "count": 2,
     "patterns": {
@@ -4594,7 +5527,6 @@ const recipes = [
     }
   },
   {
-    "file": "cherry_wood.json",
     "item": "cherry_wood",
     "count": 3,
     "patterns": {
@@ -4634,7 +5566,6 @@ const recipes = [
     }
   },
   {
-    "file": "chest.json",
     "item": "chest",
     "count": 1,
     "patterns": {
@@ -4674,7 +5605,6 @@ const recipes = [
     }
   },
   {
-    "file": "chest_minecart.json",
     "item": "chest_minecart",
     "count": 1,
     "patterns": {},
@@ -4684,11 +5614,31 @@ const recipes = [
       },
       {
         "item": "minecart"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "chiseled_bookshelf.json",
     "item": "chiseled_bookshelf",
     "count": 1,
     "patterns": {
@@ -4728,7 +5678,6 @@ const recipes = [
     }
   },
   {
-    "file": "chiseled_deepslate.json",
     "item": "chiseled_deepslate",
     "count": 1,
     "patterns": {
@@ -4768,7 +5717,6 @@ const recipes = [
     }
   },
   {
-    "file": "chiseled_nether_bricks.json",
     "item": "chiseled_nether_bricks",
     "count": 1,
     "patterns": {
@@ -4808,7 +5756,6 @@ const recipes = [
     }
   },
   {
-    "file": "chiseled_polished_blackstone.json",
     "item": "chiseled_polished_blackstone",
     "count": 1,
     "patterns": {
@@ -4848,7 +5795,6 @@ const recipes = [
     }
   },
   {
-    "file": "chiseled_quartz_block.json",
     "item": "chiseled_quartz_block",
     "count": 1,
     "patterns": {
@@ -4888,7 +5834,6 @@ const recipes = [
     }
   },
   {
-    "file": "chiseled_red_sandstone.json",
     "item": "chiseled_red_sandstone",
     "count": 1,
     "patterns": {
@@ -4928,7 +5873,6 @@ const recipes = [
     }
   },
   {
-    "file": "chiseled_sandstone.json",
     "item": "chiseled_sandstone",
     "count": 1,
     "patterns": {
@@ -4968,7 +5912,6 @@ const recipes = [
     }
   },
   {
-    "file": "chiseled_stone_bricks.json",
     "item": "chiseled_stone_bricks",
     "count": 1,
     "patterns": {
@@ -5008,7 +5951,6 @@ const recipes = [
     }
   },
   {
-    "file": "clay.json",
     "item": "clay",
     "count": 1,
     "patterns": {
@@ -5048,7 +5990,6 @@ const recipes = [
     }
   },
   {
-    "file": "clock.json",
     "item": "clock",
     "count": 1,
     "patterns": {
@@ -5088,18 +6029,40 @@ const recipes = [
     }
   },
   {
-    "file": "coal.json",
     "item": "coal",
     "count": 9,
     "patterns": {},
     "ingredients": [
       {
         "item": "coal_block"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "coal_block.json",
     "item": "coal_block",
     "count": 1,
     "patterns": {
@@ -5139,7 +6102,6 @@ const recipes = [
     }
   },
   {
-    "file": "coarse_dirt.json",
     "item": "coarse_dirt",
     "count": 4,
     "patterns": {
@@ -5179,7 +6141,6 @@ const recipes = [
     }
   },
   {
-    "file": "coast_armor_trim_smithing_template.json",
     "item": "coast_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -5219,7 +6180,6 @@ const recipes = [
     }
   },
   {
-    "file": "cobbled_deepslate_slab.json",
     "item": "cobbled_deepslate_slab",
     "count": 6,
     "patterns": {
@@ -5259,7 +6219,6 @@ const recipes = [
     }
   },
   {
-    "file": "cobbled_deepslate_stairs.json",
     "item": "cobbled_deepslate_stairs",
     "count": 4,
     "patterns": {
@@ -5299,7 +6258,6 @@ const recipes = [
     }
   },
   {
-    "file": "cobbled_deepslate_wall.json",
     "item": "cobbled_deepslate_wall",
     "count": 6,
     "patterns": {
@@ -5339,7 +6297,6 @@ const recipes = [
     }
   },
   {
-    "file": "cobblestone_slab.json",
     "item": "cobblestone_slab",
     "count": 6,
     "patterns": {
@@ -5379,7 +6336,6 @@ const recipes = [
     }
   },
   {
-    "file": "cobblestone_stairs.json",
     "item": "cobblestone_stairs",
     "count": 4,
     "patterns": {
@@ -5419,7 +6375,6 @@ const recipes = [
     }
   },
   {
-    "file": "cobblestone_wall.json",
     "item": "cobblestone_wall",
     "count": 6,
     "patterns": {
@@ -5459,7 +6414,6 @@ const recipes = [
     }
   },
   {
-    "file": "comparator.json",
     "item": "comparator",
     "count": 1,
     "patterns": {
@@ -5499,7 +6453,6 @@ const recipes = [
     }
   },
   {
-    "file": "compass.json",
     "item": "compass",
     "count": 1,
     "patterns": {
@@ -5539,7 +6492,6 @@ const recipes = [
     }
   },
   {
-    "file": "composter.json",
     "item": "composter",
     "count": 1,
     "patterns": {
@@ -5579,7 +6531,6 @@ const recipes = [
     }
   },
   {
-    "file": "conduit.json",
     "item": "conduit",
     "count": 1,
     "patterns": {
@@ -5619,7 +6570,6 @@ const recipes = [
     }
   },
   {
-    "file": "cookie.json",
     "item": "cookie",
     "count": 8,
     "patterns": {
@@ -5659,7 +6609,6 @@ const recipes = [
     }
   },
   {
-    "file": "copper_block.json",
     "item": "copper_block",
     "count": 1,
     "patterns": {
@@ -5698,30 +6647,77 @@ const recipes = [
       }
     }
   },
+  [
+    {
+      "item": "copper_ingot",
+      "count": 9,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "copper_block"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "copper_ingot",
+      "count": 9,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "waxed_copper_block"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "copper_ingot.json",
-    "item": "copper_ingot",
-    "count": 9,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "copper_block"
-      }
-    ]
-  },
-  {
-    "file": "copper_ingot_from_waxed_copper_block.json",
-    "item": "copper_ingot",
-    "count": 9,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "waxed_copper_block"
-      }
-    ]
-  },
-  {
-    "file": "crafting_table.json",
     "item": "crafting_table",
     "count": 1,
     "patterns": {
@@ -5761,7 +6757,6 @@ const recipes = [
     }
   },
   {
-    "file": "creeper_banner_pattern.json",
     "item": "creeper_banner_pattern",
     "count": 1,
     "patterns": {},
@@ -5771,22 +6766,65 @@ const recipes = [
       },
       {
         "item": "creeper_head"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "crimson_button.json",
     "item": "crimson_button",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "crimson_planks"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "crimson_door.json",
     "item": "crimson_door",
     "count": 3,
     "patterns": {
@@ -5826,7 +6864,6 @@ const recipes = [
     }
   },
   {
-    "file": "crimson_fence.json",
     "item": "crimson_fence",
     "count": 3,
     "patterns": {
@@ -5866,7 +6903,6 @@ const recipes = [
     }
   },
   {
-    "file": "crimson_fence_gate.json",
     "item": "crimson_fence_gate",
     "count": 1,
     "patterns": {
@@ -5906,7 +6942,6 @@ const recipes = [
     }
   },
   {
-    "file": "crimson_hanging_sign.json",
     "item": "crimson_hanging_sign",
     "count": 6,
     "patterns": {
@@ -5946,7 +6981,6 @@ const recipes = [
     }
   },
   {
-    "file": "crimson_hyphae.json",
     "item": "crimson_hyphae",
     "count": 3,
     "patterns": {
@@ -5986,18 +7020,40 @@ const recipes = [
     }
   },
   {
-    "file": "crimson_planks.json",
     "item": "crimson_planks",
     "count": 4,
     "patterns": {},
     "ingredients": [
       {
         "tag": "crimson_stems"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "crimson_pressure_plate.json",
     "item": "crimson_pressure_plate",
     "count": 1,
     "patterns": {
@@ -6037,7 +7093,6 @@ const recipes = [
     }
   },
   {
-    "file": "crimson_sign.json",
     "item": "crimson_sign",
     "count": 3,
     "patterns": {
@@ -6077,7 +7132,6 @@ const recipes = [
     }
   },
   {
-    "file": "crimson_slab.json",
     "item": "crimson_slab",
     "count": 6,
     "patterns": {
@@ -6117,7 +7171,6 @@ const recipes = [
     }
   },
   {
-    "file": "crimson_stairs.json",
     "item": "crimson_stairs",
     "count": 4,
     "patterns": {
@@ -6157,7 +7210,6 @@ const recipes = [
     }
   },
   {
-    "file": "crimson_trapdoor.json",
     "item": "crimson_trapdoor",
     "count": 2,
     "patterns": {
@@ -6197,7 +7249,6 @@ const recipes = [
     }
   },
   {
-    "file": "crossbow.json",
     "item": "crossbow",
     "count": 1,
     "patterns": {
@@ -6237,7 +7288,6 @@ const recipes = [
     }
   },
   {
-    "file": "cut_copper.json",
     "item": "cut_copper",
     "count": 4,
     "patterns": {
@@ -6277,7 +7327,6 @@ const recipes = [
     }
   },
   {
-    "file": "cut_copper_slab.json",
     "item": "cut_copper_slab",
     "count": 6,
     "patterns": {
@@ -6317,7 +7366,6 @@ const recipes = [
     }
   },
   {
-    "file": "cut_copper_stairs.json",
     "item": "cut_copper_stairs",
     "count": 4,
     "patterns": {
@@ -6357,7 +7405,6 @@ const recipes = [
     }
   },
   {
-    "file": "cut_red_sandstone.json",
     "item": "cut_red_sandstone",
     "count": 4,
     "patterns": {
@@ -6397,7 +7444,6 @@ const recipes = [
     }
   },
   {
-    "file": "cut_red_sandstone_slab.json",
     "item": "cut_red_sandstone_slab",
     "count": 6,
     "patterns": {
@@ -6437,7 +7483,6 @@ const recipes = [
     }
   },
   {
-    "file": "cut_sandstone.json",
     "item": "cut_sandstone",
     "count": 4,
     "patterns": {
@@ -6477,7 +7522,6 @@ const recipes = [
     }
   },
   {
-    "file": "cut_sandstone_slab.json",
     "item": "cut_sandstone_slab",
     "count": 6,
     "patterns": {
@@ -6517,7 +7561,6 @@ const recipes = [
     }
   },
   {
-    "file": "cyan_banner.json",
     "item": "cyan_banner",
     "count": 1,
     "patterns": {
@@ -6556,48 +7599,126 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "cyan_bed.json",
-    "item": "cyan_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "cyan_wool"
+  [
+    {
+      "item": "cyan_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "cyan_wool"
+          },
+          "2_key": {
+            "item": "cyan_wool"
+          },
+          "3_key": {
+            "item": "cyan_wool"
+          }
         },
-        "2_key": {
-          "item": "cyan_wool"
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
         },
-        "3_key": {
-          "item": "cyan_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "cyan_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "cyan_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
+  ],
   {
-    "file": "cyan_candle.json",
     "item": "cyan_candle",
     "count": 1,
     "patterns": {},
@@ -6607,51 +7728,150 @@ const recipes = [
       },
       {
         "item": "cyan_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
-  {
-    "file": "cyan_carpet.json",
-    "item": "cyan_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "cyan_wool"
+  [
+    {
+      "item": "cyan_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "cyan_wool"
+          },
+          "2_key": {
+            "item": "cyan_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "cyan_wool"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "cyan_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "cyan_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
+  ],
   {
-    "file": "cyan_concrete_powder.json",
     "item": "cyan_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -6685,33 +7905,77 @@ const recipes = [
       }
     ]
   },
+  [
+    {
+      "item": "cyan_dye",
+      "count": 2,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "blue_dye"
+        },
+        {
+          "item": "green_dye"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "cyan_dye",
+      "count": 2,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "pitcher_plant"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "cyan_dye.json",
-    "item": "cyan_dye",
-    "count": 2,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "blue_dye"
-      },
-      {
-        "item": "green_dye"
-      }
-    ]
-  },
-  {
-    "file": "cyan_dye_from_pitcher_plant.json",
-    "item": "cyan_dye",
-    "count": 2,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "pitcher_plant"
-      }
-    ]
-  },
-  {
-    "file": "cyan_stained_glass.json",
     "item": "cyan_stained_glass",
     "count": 8,
     "patterns": {
@@ -6750,88 +8014,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "cyan_stained_glass_pane.json",
-    "item": "cyan_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "cyan_stained_glass"
+  [
+    {
+      "item": "cyan_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "cyan_stained_glass"
+          },
+          "2_key": {
+            "item": "cyan_stained_glass"
+          },
+          "3_key": {
+            "item": "cyan_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "cyan_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "cyan_stained_glass"
+          },
+          "2_key": {
+            "item": "cyan_stained_glass"
+          },
+          "3_key": {
+            "item": "cyan_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "cyan_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "cyan_stained_glass"
+      }
+    },
+    {
+      "item": "cyan_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "cyan_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "cyan_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "cyan_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "cyan_stained_glass_pane_from_glass_pane.json",
-    "item": "cyan_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "cyan_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "cyan_terracotta.json",
     "item": "cyan_terracotta",
     "count": 8,
     "patterns": {
@@ -6871,7 +8134,6 @@ const recipes = [
     }
   },
   {
-    "file": "dark_oak_boat.json",
     "item": "dark_oak_boat",
     "count": 1,
     "patterns": {
@@ -6911,18 +8173,40 @@ const recipes = [
     }
   },
   {
-    "file": "dark_oak_button.json",
     "item": "dark_oak_button",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "dark_oak_planks"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "dark_oak_chest_boat.json",
     "item": "dark_oak_chest_boat",
     "count": 1,
     "patterns": {},
@@ -6932,11 +8216,31 @@ const recipes = [
       },
       {
         "item": "dark_oak_boat"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "dark_oak_door.json",
     "item": "dark_oak_door",
     "count": 3,
     "patterns": {
@@ -6976,7 +8280,6 @@ const recipes = [
     }
   },
   {
-    "file": "dark_oak_fence.json",
     "item": "dark_oak_fence",
     "count": 3,
     "patterns": {
@@ -7016,7 +8319,6 @@ const recipes = [
     }
   },
   {
-    "file": "dark_oak_fence_gate.json",
     "item": "dark_oak_fence_gate",
     "count": 1,
     "patterns": {
@@ -7056,7 +8358,6 @@ const recipes = [
     }
   },
   {
-    "file": "dark_oak_hanging_sign.json",
     "item": "dark_oak_hanging_sign",
     "count": 6,
     "patterns": {
@@ -7096,18 +8397,40 @@ const recipes = [
     }
   },
   {
-    "file": "dark_oak_planks.json",
     "item": "dark_oak_planks",
     "count": 4,
     "patterns": {},
     "ingredients": [
       {
         "tag": "dark_oak_logs"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "dark_oak_pressure_plate.json",
     "item": "dark_oak_pressure_plate",
     "count": 1,
     "patterns": {
@@ -7147,7 +8470,6 @@ const recipes = [
     }
   },
   {
-    "file": "dark_oak_sign.json",
     "item": "dark_oak_sign",
     "count": 3,
     "patterns": {
@@ -7187,7 +8509,6 @@ const recipes = [
     }
   },
   {
-    "file": "dark_oak_slab.json",
     "item": "dark_oak_slab",
     "count": 6,
     "patterns": {
@@ -7227,7 +8548,6 @@ const recipes = [
     }
   },
   {
-    "file": "dark_oak_stairs.json",
     "item": "dark_oak_stairs",
     "count": 4,
     "patterns": {
@@ -7267,7 +8587,6 @@ const recipes = [
     }
   },
   {
-    "file": "dark_oak_trapdoor.json",
     "item": "dark_oak_trapdoor",
     "count": 2,
     "patterns": {
@@ -7307,7 +8626,6 @@ const recipes = [
     }
   },
   {
-    "file": "dark_oak_wood.json",
     "item": "dark_oak_wood",
     "count": 3,
     "patterns": {
@@ -7347,7 +8665,6 @@ const recipes = [
     }
   },
   {
-    "file": "dark_prismarine.json",
     "item": "dark_prismarine",
     "count": 1,
     "patterns": {
@@ -7387,7 +8704,6 @@ const recipes = [
     }
   },
   {
-    "file": "dark_prismarine_slab.json",
     "item": "dark_prismarine_slab",
     "count": 6,
     "patterns": {
@@ -7427,7 +8743,6 @@ const recipes = [
     }
   },
   {
-    "file": "dark_prismarine_stairs.json",
     "item": "dark_prismarine_stairs",
     "count": 4,
     "patterns": {
@@ -7467,7 +8782,6 @@ const recipes = [
     }
   },
   {
-    "file": "daylight_detector.json",
     "item": "daylight_detector",
     "count": 1,
     "patterns": {
@@ -7507,7 +8821,6 @@ const recipes = [
     }
   },
   {
-    "file": "decorated_pot_simple.json",
     "item": "decorated_pot",
     "count": 1,
     "patterns": {
@@ -7547,7 +8860,6 @@ const recipes = [
     }
   },
   {
-    "file": "deepslate_bricks.json",
     "item": "deepslate_bricks",
     "count": 4,
     "patterns": {
@@ -7587,7 +8899,6 @@ const recipes = [
     }
   },
   {
-    "file": "deepslate_brick_slab.json",
     "item": "deepslate_brick_slab",
     "count": 6,
     "patterns": {
@@ -7627,7 +8938,6 @@ const recipes = [
     }
   },
   {
-    "file": "deepslate_brick_stairs.json",
     "item": "deepslate_brick_stairs",
     "count": 4,
     "patterns": {
@@ -7667,7 +8977,6 @@ const recipes = [
     }
   },
   {
-    "file": "deepslate_brick_wall.json",
     "item": "deepslate_brick_wall",
     "count": 6,
     "patterns": {
@@ -7707,7 +9016,6 @@ const recipes = [
     }
   },
   {
-    "file": "deepslate_tiles.json",
     "item": "deepslate_tiles",
     "count": 4,
     "patterns": {
@@ -7747,7 +9055,6 @@ const recipes = [
     }
   },
   {
-    "file": "deepslate_tile_slab.json",
     "item": "deepslate_tile_slab",
     "count": 6,
     "patterns": {
@@ -7787,7 +9094,6 @@ const recipes = [
     }
   },
   {
-    "file": "deepslate_tile_stairs.json",
     "item": "deepslate_tile_stairs",
     "count": 4,
     "patterns": {
@@ -7827,7 +9133,6 @@ const recipes = [
     }
   },
   {
-    "file": "deepslate_tile_wall.json",
     "item": "deepslate_tile_wall",
     "count": 6,
     "patterns": {
@@ -7867,7 +9172,6 @@ const recipes = [
     }
   },
   {
-    "file": "detector_rail.json",
     "item": "detector_rail",
     "count": 6,
     "patterns": {
@@ -7907,18 +9211,40 @@ const recipes = [
     }
   },
   {
-    "file": "diamond.json",
     "item": "diamond",
     "count": 9,
     "patterns": {},
     "ingredients": [
       {
         "item": "diamond_block"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "diamond_axe.json",
     "item": "diamond_axe",
     "count": 1,
     "patterns": {
@@ -7958,7 +9284,6 @@ const recipes = [
     }
   },
   {
-    "file": "diamond_block.json",
     "item": "diamond_block",
     "count": 1,
     "patterns": {
@@ -7998,7 +9323,6 @@ const recipes = [
     }
   },
   {
-    "file": "diamond_boots.json",
     "item": "diamond_boots",
     "count": 1,
     "patterns": {
@@ -8038,7 +9362,6 @@ const recipes = [
     }
   },
   {
-    "file": "diamond_chestplate.json",
     "item": "diamond_chestplate",
     "count": 1,
     "patterns": {
@@ -8078,7 +9401,6 @@ const recipes = [
     }
   },
   {
-    "file": "diamond_helmet.json",
     "item": "diamond_helmet",
     "count": 1,
     "patterns": {
@@ -8118,7 +9440,6 @@ const recipes = [
     }
   },
   {
-    "file": "diamond_hoe.json",
     "item": "diamond_hoe",
     "count": 1,
     "patterns": {
@@ -8158,7 +9479,6 @@ const recipes = [
     }
   },
   {
-    "file": "diamond_leggings.json",
     "item": "diamond_leggings",
     "count": 1,
     "patterns": {
@@ -8198,7 +9518,6 @@ const recipes = [
     }
   },
   {
-    "file": "diamond_pickaxe.json",
     "item": "diamond_pickaxe",
     "count": 1,
     "patterns": {
@@ -8238,7 +9557,6 @@ const recipes = [
     }
   },
   {
-    "file": "diamond_shovel.json",
     "item": "diamond_shovel",
     "count": 1,
     "patterns": {
@@ -8278,7 +9596,6 @@ const recipes = [
     }
   },
   {
-    "file": "diamond_sword.json",
     "item": "diamond_sword",
     "count": 1,
     "patterns": {
@@ -8318,7 +9635,6 @@ const recipes = [
     }
   },
   {
-    "file": "diorite.json",
     "item": "diorite",
     "count": 2,
     "patterns": {
@@ -8358,7 +9674,6 @@ const recipes = [
     }
   },
   {
-    "file": "diorite_slab.json",
     "item": "diorite_slab",
     "count": 6,
     "patterns": {
@@ -8398,7 +9713,6 @@ const recipes = [
     }
   },
   {
-    "file": "diorite_stairs.json",
     "item": "diorite_stairs",
     "count": 4,
     "patterns": {
@@ -8438,7 +9752,6 @@ const recipes = [
     }
   },
   {
-    "file": "diorite_wall.json",
     "item": "diorite_wall",
     "count": 6,
     "patterns": {
@@ -8478,7 +9791,6 @@ const recipes = [
     }
   },
   {
-    "file": "dispenser.json",
     "item": "dispenser",
     "count": 1,
     "patterns": {
@@ -8518,18 +9830,40 @@ const recipes = [
     }
   },
   {
-    "file": "dried_kelp.json",
     "item": "dried_kelp",
     "count": 9,
     "patterns": {},
     "ingredients": [
       {
         "item": "dried_kelp_block"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "dried_kelp_block.json",
     "item": "dried_kelp_block",
     "count": 1,
     "patterns": {
@@ -8569,7 +9903,6 @@ const recipes = [
     }
   },
   {
-    "file": "dripstone_block.json",
     "item": "dripstone_block",
     "count": 1,
     "patterns": {
@@ -8609,7 +9942,6 @@ const recipes = [
     }
   },
   {
-    "file": "dropper.json",
     "item": "dropper",
     "count": 1,
     "patterns": {
@@ -8649,7 +9981,6 @@ const recipes = [
     }
   },
   {
-    "file": "dune_armor_trim_smithing_template.json",
     "item": "dune_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -8689,123 +10020,6 @@ const recipes = [
     }
   },
   {
-    "file": "dye_black_bed.json",
-    "item": "black_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "black_dye"
-      },
-      [
-        {
-          "item": "blue_bed"
-        },
-        {
-          "item": "brown_bed"
-        },
-        {
-          "item": "cyan_bed"
-        },
-        {
-          "item": "gray_bed"
-        },
-        {
-          "item": "green_bed"
-        },
-        {
-          "item": "light_blue_bed"
-        },
-        {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
-        }
-      ]
-    ]
-  },
-  {
-    "file": "dye_black_carpet.json",
-    "item": "black_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "black_dye"
-      },
-      [
-        {
-          "item": "blue_carpet"
-        },
-        {
-          "item": "brown_carpet"
-        },
-        {
-          "item": "cyan_carpet"
-        },
-        {
-          "item": "gray_carpet"
-        },
-        {
-          "item": "green_carpet"
-        },
-        {
-          "item": "light_blue_carpet"
-        },
-        {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
-        }
-      ]
-    ]
-  },
-  {
-    "file": "dye_black_wool.json",
     "item": "black_wool",
     "count": 1,
     "patterns": {},
@@ -8859,127 +10073,31 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
-    ]
-  },
-  {
-    "file": "dye_blue_bed.json",
-    "item": "blue_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
+      ],
       {
-        "item": "blue_dye"
+        "item": "air"
       },
-      [
-        {
-          "item": "black_bed"
-        },
-        {
-          "item": "brown_bed"
-        },
-        {
-          "item": "cyan_bed"
-        },
-        {
-          "item": "gray_bed"
-        },
-        {
-          "item": "green_bed"
-        },
-        {
-          "item": "light_blue_bed"
-        },
-        {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
-        }
-      ]
-    ]
-  },
-  {
-    "file": "dye_blue_carpet.json",
-    "item": "blue_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
       {
-        "item": "blue_dye"
+        "item": "air"
       },
-      [
-        {
-          "item": "black_carpet"
-        },
-        {
-          "item": "brown_carpet"
-        },
-        {
-          "item": "cyan_carpet"
-        },
-        {
-          "item": "gray_carpet"
-        },
-        {
-          "item": "green_carpet"
-        },
-        {
-          "item": "light_blue_carpet"
-        },
-        {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
-        }
-      ]
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
   {
-    "file": "dye_blue_wool.json",
     "item": "blue_wool",
     "count": 1,
     "patterns": {},
@@ -9033,127 +10151,31 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
-    ]
-  },
-  {
-    "file": "dye_brown_bed.json",
-    "item": "brown_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
+      ],
       {
-        "item": "brown_dye"
+        "item": "air"
       },
-      [
-        {
-          "item": "black_bed"
-        },
-        {
-          "item": "blue_bed"
-        },
-        {
-          "item": "cyan_bed"
-        },
-        {
-          "item": "gray_bed"
-        },
-        {
-          "item": "green_bed"
-        },
-        {
-          "item": "light_blue_bed"
-        },
-        {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
-        }
-      ]
-    ]
-  },
-  {
-    "file": "dye_brown_carpet.json",
-    "item": "brown_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
       {
-        "item": "brown_dye"
+        "item": "air"
       },
-      [
-        {
-          "item": "black_carpet"
-        },
-        {
-          "item": "blue_carpet"
-        },
-        {
-          "item": "cyan_carpet"
-        },
-        {
-          "item": "gray_carpet"
-        },
-        {
-          "item": "green_carpet"
-        },
-        {
-          "item": "light_blue_carpet"
-        },
-        {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
-        }
-      ]
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
   {
-    "file": "dye_brown_wool.json",
     "item": "brown_wool",
     "count": 1,
     "patterns": {},
@@ -9207,127 +10229,31 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
-    ]
-  },
-  {
-    "file": "dye_cyan_bed.json",
-    "item": "cyan_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
+      ],
       {
-        "item": "cyan_dye"
+        "item": "air"
       },
-      [
-        {
-          "item": "black_bed"
-        },
-        {
-          "item": "blue_bed"
-        },
-        {
-          "item": "brown_bed"
-        },
-        {
-          "item": "gray_bed"
-        },
-        {
-          "item": "green_bed"
-        },
-        {
-          "item": "light_blue_bed"
-        },
-        {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
-        }
-      ]
-    ]
-  },
-  {
-    "file": "dye_cyan_carpet.json",
-    "item": "cyan_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
       {
-        "item": "cyan_dye"
+        "item": "air"
       },
-      [
-        {
-          "item": "black_carpet"
-        },
-        {
-          "item": "blue_carpet"
-        },
-        {
-          "item": "brown_carpet"
-        },
-        {
-          "item": "gray_carpet"
-        },
-        {
-          "item": "green_carpet"
-        },
-        {
-          "item": "light_blue_carpet"
-        },
-        {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
-        }
-      ]
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
   {
-    "file": "dye_cyan_wool.json",
     "item": "cyan_wool",
     "count": 1,
     "patterns": {},
@@ -9381,127 +10307,269 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
+      ],
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
-  {
-    "file": "dye_gray_bed.json",
-    "item": "gray_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "gray_dye"
-      },
-      [
+  [
+    {
+      "item": "gray_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_bed"
+          "item": "gray_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_bed"
+          "item": "air"
         },
         {
-          "item": "brown_bed"
+          "item": "air"
         },
         {
-          "item": "cyan_bed"
+          "item": "air"
         },
         {
-          "item": "green_bed"
+          "item": "air"
         },
         {
-          "item": "light_blue_bed"
+          "item": "air"
         },
         {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_gray_carpet.json",
-    "item": "gray_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "gray_dye"
-      },
-      [
+    },
+    {
+      "item": "gray_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "gray_wool"
+          },
+          "2_key": {
+            "item": "gray_wool"
+          },
+          "3_key": {
+            "item": "gray_wool"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "gray_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_carpet"
+          "item": "gray_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_carpet"
+          "item": "air"
         },
         {
-          "item": "brown_carpet"
+          "item": "air"
         },
         {
-          "item": "cyan_carpet"
+          "item": "air"
         },
         {
-          "item": "green_carpet"
+          "item": "air"
         },
         {
-          "item": "light_blue_carpet"
+          "item": "air"
         },
         {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
+          "item": "air"
         }
       ]
-    ]
-  },
+    },
+    {
+      "item": "gray_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "gray_wool"
+          },
+          "2_key": {
+            "item": "gray_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
   {
-    "file": "dye_gray_wool.json",
     "item": "gray_wool",
     "count": 1,
     "patterns": {},
@@ -9555,127 +10623,269 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
+      ],
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
-  {
-    "file": "dye_green_bed.json",
-    "item": "green_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "green_dye"
-      },
-      [
+  [
+    {
+      "item": "green_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_bed"
+          "item": "green_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_bed"
+          "item": "air"
         },
         {
-          "item": "brown_bed"
+          "item": "air"
         },
         {
-          "item": "cyan_bed"
+          "item": "air"
         },
         {
-          "item": "gray_bed"
+          "item": "air"
         },
         {
-          "item": "light_blue_bed"
+          "item": "air"
         },
         {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_green_carpet.json",
-    "item": "green_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "green_dye"
-      },
-      [
+    },
+    {
+      "item": "green_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "green_wool"
+          },
+          "2_key": {
+            "item": "green_wool"
+          },
+          "3_key": {
+            "item": "green_wool"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "green_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_carpet"
+          "item": "green_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_carpet"
+          "item": "air"
         },
         {
-          "item": "brown_carpet"
+          "item": "air"
         },
         {
-          "item": "cyan_carpet"
+          "item": "air"
         },
         {
-          "item": "gray_carpet"
+          "item": "air"
         },
         {
-          "item": "light_blue_carpet"
+          "item": "air"
         },
         {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
+          "item": "air"
         }
       ]
-    ]
-  },
+    },
+    {
+      "item": "green_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "green_wool"
+          },
+          "2_key": {
+            "item": "green_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
   {
-    "file": "dye_green_wool.json",
     "item": "green_wool",
     "count": 1,
     "patterns": {},
@@ -9729,127 +10939,269 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
+      ],
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
-  {
-    "file": "dye_light_blue_bed.json",
-    "item": "light_blue_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "light_blue_dye"
-      },
-      [
+  [
+    {
+      "item": "light_blue_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_bed"
+          "item": "light_blue_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_bed"
+          "item": "air"
         },
         {
-          "item": "brown_bed"
+          "item": "air"
         },
         {
-          "item": "cyan_bed"
+          "item": "air"
         },
         {
-          "item": "gray_bed"
+          "item": "air"
         },
         {
-          "item": "green_bed"
+          "item": "air"
         },
         {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_light_blue_carpet.json",
-    "item": "light_blue_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "light_blue_dye"
-      },
-      [
+    },
+    {
+      "item": "light_blue_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "light_blue_wool"
+          },
+          "2_key": {
+            "item": "light_blue_wool"
+          },
+          "3_key": {
+            "item": "light_blue_wool"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "light_blue_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_carpet"
+          "item": "light_blue_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_carpet"
+          "item": "air"
         },
         {
-          "item": "brown_carpet"
+          "item": "air"
         },
         {
-          "item": "cyan_carpet"
+          "item": "air"
         },
         {
-          "item": "gray_carpet"
+          "item": "air"
         },
         {
-          "item": "green_carpet"
+          "item": "air"
         },
         {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
+          "item": "air"
         }
       ]
-    ]
-  },
+    },
+    {
+      "item": "light_blue_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "light_blue_wool"
+          },
+          "2_key": {
+            "item": "light_blue_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
   {
-    "file": "dye_light_blue_wool.json",
     "item": "light_blue_wool",
     "count": 1,
     "patterns": {},
@@ -9903,127 +11255,269 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
+      ],
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
-  {
-    "file": "dye_light_gray_bed.json",
-    "item": "light_gray_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "light_gray_dye"
-      },
-      [
+  [
+    {
+      "item": "light_gray_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_bed"
+          "item": "light_gray_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_bed"
+          "item": "air"
         },
         {
-          "item": "brown_bed"
+          "item": "air"
         },
         {
-          "item": "cyan_bed"
+          "item": "air"
         },
         {
-          "item": "gray_bed"
+          "item": "air"
         },
         {
-          "item": "green_bed"
+          "item": "air"
         },
         {
-          "item": "light_blue_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_light_gray_carpet.json",
-    "item": "light_gray_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "light_gray_dye"
-      },
-      [
+    },
+    {
+      "item": "light_gray_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "light_gray_wool"
+          },
+          "2_key": {
+            "item": "light_gray_wool"
+          },
+          "3_key": {
+            "item": "light_gray_wool"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "light_gray_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_carpet"
+          "item": "light_gray_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_carpet"
+          "item": "air"
         },
         {
-          "item": "brown_carpet"
+          "item": "air"
         },
         {
-          "item": "cyan_carpet"
+          "item": "air"
         },
         {
-          "item": "gray_carpet"
+          "item": "air"
         },
         {
-          "item": "green_carpet"
+          "item": "air"
         },
         {
-          "item": "light_blue_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
+          "item": "air"
         }
       ]
-    ]
-  },
+    },
+    {
+      "item": "light_gray_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "light_gray_wool"
+          },
+          "2_key": {
+            "item": "light_gray_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
   {
-    "file": "dye_light_gray_wool.json",
     "item": "light_gray_wool",
     "count": 1,
     "patterns": {},
@@ -10077,127 +11571,269 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
+      ],
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
-  {
-    "file": "dye_lime_bed.json",
-    "item": "lime_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "lime_dye"
-      },
-      [
+  [
+    {
+      "item": "lime_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_bed"
+          "item": "lime_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_bed"
+          "item": "air"
         },
         {
-          "item": "brown_bed"
+          "item": "air"
         },
         {
-          "item": "cyan_bed"
+          "item": "air"
         },
         {
-          "item": "gray_bed"
+          "item": "air"
         },
         {
-          "item": "green_bed"
+          "item": "air"
         },
         {
-          "item": "light_blue_bed"
-        },
-        {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_lime_carpet.json",
-    "item": "lime_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "lime_dye"
-      },
-      [
+    },
+    {
+      "item": "lime_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "lime_wool"
+          },
+          "2_key": {
+            "item": "lime_wool"
+          },
+          "3_key": {
+            "item": "lime_wool"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "lime_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_carpet"
+          "item": "lime_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_carpet"
+          "item": "air"
         },
         {
-          "item": "brown_carpet"
+          "item": "air"
         },
         {
-          "item": "cyan_carpet"
+          "item": "air"
         },
         {
-          "item": "gray_carpet"
+          "item": "air"
         },
         {
-          "item": "green_carpet"
+          "item": "air"
         },
         {
-          "item": "light_blue_carpet"
-        },
-        {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
+          "item": "air"
         }
       ]
-    ]
-  },
+    },
+    {
+      "item": "lime_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "lime_wool"
+          },
+          "2_key": {
+            "item": "lime_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
   {
-    "file": "dye_lime_wool.json",
     "item": "lime_wool",
     "count": 1,
     "patterns": {},
@@ -10251,127 +11887,269 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
+      ],
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
-  {
-    "file": "dye_magenta_bed.json",
-    "item": "magenta_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "magenta_dye"
-      },
-      [
+  [
+    {
+      "item": "magenta_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_bed"
+          "item": "magenta_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_bed"
+          "item": "air"
         },
         {
-          "item": "brown_bed"
+          "item": "air"
         },
         {
-          "item": "cyan_bed"
+          "item": "air"
         },
         {
-          "item": "gray_bed"
+          "item": "air"
         },
         {
-          "item": "green_bed"
+          "item": "air"
         },
         {
-          "item": "light_blue_bed"
-        },
-        {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_magenta_carpet.json",
-    "item": "magenta_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "magenta_dye"
-      },
-      [
+    },
+    {
+      "item": "magenta_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "magenta_wool"
+          },
+          "2_key": {
+            "item": "magenta_wool"
+          },
+          "3_key": {
+            "item": "magenta_wool"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "magenta_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_carpet"
+          "item": "magenta_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_carpet"
+          "item": "air"
         },
         {
-          "item": "brown_carpet"
+          "item": "air"
         },
         {
-          "item": "cyan_carpet"
+          "item": "air"
         },
         {
-          "item": "gray_carpet"
+          "item": "air"
         },
         {
-          "item": "green_carpet"
+          "item": "air"
         },
         {
-          "item": "light_blue_carpet"
-        },
-        {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
+          "item": "air"
         }
       ]
-    ]
-  },
+    },
+    {
+      "item": "magenta_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "magenta_wool"
+          },
+          "2_key": {
+            "item": "magenta_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
   {
-    "file": "dye_magenta_wool.json",
     "item": "magenta_wool",
     "count": 1,
     "patterns": {},
@@ -10425,127 +12203,269 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
+      ],
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
-  {
-    "file": "dye_orange_bed.json",
-    "item": "orange_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "orange_dye"
-      },
-      [
+  [
+    {
+      "item": "orange_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_bed"
+          "item": "orange_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_bed"
+          "item": "air"
         },
         {
-          "item": "brown_bed"
+          "item": "air"
         },
         {
-          "item": "cyan_bed"
+          "item": "air"
         },
         {
-          "item": "gray_bed"
+          "item": "air"
         },
         {
-          "item": "green_bed"
+          "item": "air"
         },
         {
-          "item": "light_blue_bed"
-        },
-        {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_orange_carpet.json",
-    "item": "orange_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "orange_dye"
-      },
-      [
+    },
+    {
+      "item": "orange_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "orange_wool"
+          },
+          "2_key": {
+            "item": "orange_wool"
+          },
+          "3_key": {
+            "item": "orange_wool"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "orange_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_carpet"
+          "item": "orange_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_carpet"
+          "item": "air"
         },
         {
-          "item": "brown_carpet"
+          "item": "air"
         },
         {
-          "item": "cyan_carpet"
+          "item": "air"
         },
         {
-          "item": "gray_carpet"
+          "item": "air"
         },
         {
-          "item": "green_carpet"
+          "item": "air"
         },
         {
-          "item": "light_blue_carpet"
-        },
-        {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
+          "item": "air"
         }
       ]
-    ]
-  },
+    },
+    {
+      "item": "orange_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "orange_wool"
+          },
+          "2_key": {
+            "item": "orange_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
   {
-    "file": "dye_orange_wool.json",
     "item": "orange_wool",
     "count": 1,
     "patterns": {},
@@ -10599,127 +12519,269 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
+      ],
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
-  {
-    "file": "dye_pink_bed.json",
-    "item": "pink_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "pink_dye"
-      },
-      [
+  [
+    {
+      "item": "pink_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_bed"
+          "item": "pink_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_bed"
+          "item": "air"
         },
         {
-          "item": "brown_bed"
+          "item": "air"
         },
         {
-          "item": "cyan_bed"
+          "item": "air"
         },
         {
-          "item": "gray_bed"
+          "item": "air"
         },
         {
-          "item": "green_bed"
+          "item": "air"
         },
         {
-          "item": "light_blue_bed"
-        },
-        {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_pink_carpet.json",
-    "item": "pink_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "pink_dye"
-      },
-      [
+    },
+    {
+      "item": "pink_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "pink_wool"
+          },
+          "2_key": {
+            "item": "pink_wool"
+          },
+          "3_key": {
+            "item": "pink_wool"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "pink_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_carpet"
+          "item": "pink_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_carpet"
+          "item": "air"
         },
         {
-          "item": "brown_carpet"
+          "item": "air"
         },
         {
-          "item": "cyan_carpet"
+          "item": "air"
         },
         {
-          "item": "gray_carpet"
+          "item": "air"
         },
         {
-          "item": "green_carpet"
+          "item": "air"
         },
         {
-          "item": "light_blue_carpet"
-        },
-        {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
+          "item": "air"
         }
       ]
-    ]
-  },
+    },
+    {
+      "item": "pink_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "pink_wool"
+          },
+          "2_key": {
+            "item": "pink_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
   {
-    "file": "dye_pink_wool.json",
     "item": "pink_wool",
     "count": 1,
     "patterns": {},
@@ -10773,127 +12835,269 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
+      ],
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
-  {
-    "file": "dye_purple_bed.json",
-    "item": "purple_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "purple_dye"
-      },
-      [
+  [
+    {
+      "item": "purple_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_bed"
+          "item": "purple_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_bed"
+          "item": "air"
         },
         {
-          "item": "brown_bed"
+          "item": "air"
         },
         {
-          "item": "cyan_bed"
+          "item": "air"
         },
         {
-          "item": "gray_bed"
+          "item": "air"
         },
         {
-          "item": "green_bed"
+          "item": "air"
         },
         {
-          "item": "light_blue_bed"
-        },
-        {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_purple_carpet.json",
-    "item": "purple_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "purple_dye"
-      },
-      [
+    },
+    {
+      "item": "purple_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "purple_wool"
+          },
+          "2_key": {
+            "item": "purple_wool"
+          },
+          "3_key": {
+            "item": "purple_wool"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "purple_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_carpet"
+          "item": "purple_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_carpet"
+          "item": "air"
         },
         {
-          "item": "brown_carpet"
+          "item": "air"
         },
         {
-          "item": "cyan_carpet"
+          "item": "air"
         },
         {
-          "item": "gray_carpet"
+          "item": "air"
         },
         {
-          "item": "green_carpet"
+          "item": "air"
         },
         {
-          "item": "light_blue_carpet"
-        },
-        {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
+          "item": "air"
         }
       ]
-    ]
-  },
+    },
+    {
+      "item": "purple_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "purple_wool"
+          },
+          "2_key": {
+            "item": "purple_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
   {
-    "file": "dye_purple_wool.json",
     "item": "purple_wool",
     "count": 1,
     "patterns": {},
@@ -10947,127 +13151,269 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
+      ],
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
-  {
-    "file": "dye_red_bed.json",
-    "item": "red_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "red_dye"
-      },
-      [
+  [
+    {
+      "item": "red_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_bed"
+          "item": "red_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "yellow_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_bed"
+          "item": "air"
         },
         {
-          "item": "brown_bed"
+          "item": "air"
         },
         {
-          "item": "cyan_bed"
+          "item": "air"
         },
         {
-          "item": "gray_bed"
+          "item": "air"
         },
         {
-          "item": "green_bed"
+          "item": "air"
         },
         {
-          "item": "light_blue_bed"
-        },
-        {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "yellow_bed"
-        },
-        {
-          "item": "white_bed"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_red_carpet.json",
-    "item": "red_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "red_dye"
-      },
-      [
+    },
+    {
+      "item": "red_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "red_wool"
+          },
+          "2_key": {
+            "item": "red_wool"
+          },
+          "3_key": {
+            "item": "red_wool"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "red_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_carpet"
+          "item": "red_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_carpet"
+          "item": "air"
         },
         {
-          "item": "brown_carpet"
+          "item": "air"
         },
         {
-          "item": "cyan_carpet"
+          "item": "air"
         },
         {
-          "item": "gray_carpet"
+          "item": "air"
         },
         {
-          "item": "green_carpet"
+          "item": "air"
         },
         {
-          "item": "light_blue_carpet"
-        },
-        {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "yellow_carpet"
-        },
-        {
-          "item": "white_carpet"
+          "item": "air"
         }
       ]
-    ]
-  },
+    },
+    {
+      "item": "red_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "red_wool"
+          },
+          "2_key": {
+            "item": "red_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
   {
-    "file": "dye_red_wool.json",
     "item": "red_wool",
     "count": 1,
     "patterns": {},
@@ -11121,301 +13467,626 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
+      ],
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
-  {
-    "file": "dye_white_bed.json",
-    "item": "white_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "white_dye"
-      },
-      [
+  [
+    {
+      "item": "white_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_bed"
+          "item": "white_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "yellow_bed"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_bed"
+          "item": "air"
         },
         {
-          "item": "brown_bed"
+          "item": "air"
         },
         {
-          "item": "cyan_bed"
+          "item": "air"
         },
         {
-          "item": "gray_bed"
+          "item": "air"
         },
         {
-          "item": "green_bed"
+          "item": "air"
         },
         {
-          "item": "light_blue_bed"
-        },
-        {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "yellow_bed"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_white_carpet.json",
-    "item": "white_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "white_dye"
-      },
-      [
+    },
+    {
+      "item": "white_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "white_wool"
+          },
+          "2_key": {
+            "item": "white_wool"
+          },
+          "3_key": {
+            "item": "white_wool"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "white_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_carpet"
+          "item": "white_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "yellow_carpet"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_carpet"
+          "item": "air"
         },
         {
-          "item": "brown_carpet"
+          "item": "air"
         },
         {
-          "item": "cyan_carpet"
+          "item": "air"
         },
         {
-          "item": "gray_carpet"
+          "item": "air"
         },
         {
-          "item": "green_carpet"
+          "item": "air"
         },
         {
-          "item": "light_blue_carpet"
-        },
-        {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "yellow_carpet"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_white_wool.json",
-    "item": "white_wool",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "white_dye"
-      },
-      [
+    },
+    {
+      "item": "white_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "white_wool"
+          },
+          "2_key": {
+            "item": "white_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "white_wool",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_wool"
+          "item": "white_dye"
+        },
+        [
+          {
+            "item": "black_wool"
+          },
+          {
+            "item": "blue_wool"
+          },
+          {
+            "item": "brown_wool"
+          },
+          {
+            "item": "cyan_wool"
+          },
+          {
+            "item": "gray_wool"
+          },
+          {
+            "item": "green_wool"
+          },
+          {
+            "item": "light_blue_wool"
+          },
+          {
+            "item": "light_gray_wool"
+          },
+          {
+            "item": "lime_wool"
+          },
+          {
+            "item": "magenta_wool"
+          },
+          {
+            "item": "orange_wool"
+          },
+          {
+            "item": "pink_wool"
+          },
+          {
+            "item": "purple_wool"
+          },
+          {
+            "item": "red_wool"
+          },
+          {
+            "item": "yellow_wool"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_wool"
+          "item": "air"
         },
         {
-          "item": "brown_wool"
+          "item": "air"
         },
         {
-          "item": "cyan_wool"
+          "item": "air"
         },
         {
-          "item": "gray_wool"
+          "item": "air"
         },
         {
-          "item": "green_wool"
+          "item": "air"
         },
         {
-          "item": "light_blue_wool"
-        },
-        {
-          "item": "light_gray_wool"
-        },
-        {
-          "item": "lime_wool"
-        },
-        {
-          "item": "magenta_wool"
-        },
-        {
-          "item": "orange_wool"
-        },
-        {
-          "item": "pink_wool"
-        },
-        {
-          "item": "purple_wool"
-        },
-        {
-          "item": "red_wool"
-        },
-        {
-          "item": "yellow_wool"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_yellow_bed.json",
-    "item": "yellow_bed",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "yellow_dye"
-      },
-      [
+    },
+    {
+      "item": "white_wool",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "string"
+          },
+          "2_key": {
+            "item": "string"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "item": "string"
+          },
+          "2_key": {
+            "item": "string"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "yellow_bed",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_bed"
+          "item": "yellow_dye"
+        },
+        [
+          {
+            "item": "black_bed"
+          },
+          {
+            "item": "blue_bed"
+          },
+          {
+            "item": "brown_bed"
+          },
+          {
+            "item": "cyan_bed"
+          },
+          {
+            "item": "gray_bed"
+          },
+          {
+            "item": "green_bed"
+          },
+          {
+            "item": "light_blue_bed"
+          },
+          {
+            "item": "light_gray_bed"
+          },
+          {
+            "item": "lime_bed"
+          },
+          {
+            "item": "magenta_bed"
+          },
+          {
+            "item": "orange_bed"
+          },
+          {
+            "item": "pink_bed"
+          },
+          {
+            "item": "purple_bed"
+          },
+          {
+            "item": "red_bed"
+          },
+          {
+            "item": "white_bed"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_bed"
+          "item": "air"
         },
         {
-          "item": "brown_bed"
+          "item": "air"
         },
         {
-          "item": "cyan_bed"
+          "item": "air"
         },
         {
-          "item": "gray_bed"
+          "item": "air"
         },
         {
-          "item": "green_bed"
+          "item": "air"
         },
         {
-          "item": "light_blue_bed"
-        },
-        {
-          "item": "light_gray_bed"
-        },
-        {
-          "item": "lime_bed"
-        },
-        {
-          "item": "magenta_bed"
-        },
-        {
-          "item": "orange_bed"
-        },
-        {
-          "item": "pink_bed"
-        },
-        {
-          "item": "purple_bed"
-        },
-        {
-          "item": "red_bed"
-        },
-        {
-          "item": "white_bed"
+          "item": "air"
         }
       ]
-    ]
-  },
-  {
-    "file": "dye_yellow_carpet.json",
-    "item": "yellow_carpet",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "yellow_dye"
-      },
-      [
+    },
+    {
+      "item": "yellow_bed",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "yellow_wool"
+          },
+          "2_key": {
+            "item": "yellow_wool"
+          },
+          "3_key": {
+            "item": "yellow_wool"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "tag": "planks"
+          },
+          "3_key": {
+            "tag": "planks"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "item": "yellow_carpet",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
         {
-          "item": "black_carpet"
+          "item": "yellow_dye"
+        },
+        [
+          {
+            "item": "black_carpet"
+          },
+          {
+            "item": "blue_carpet"
+          },
+          {
+            "item": "brown_carpet"
+          },
+          {
+            "item": "cyan_carpet"
+          },
+          {
+            "item": "gray_carpet"
+          },
+          {
+            "item": "green_carpet"
+          },
+          {
+            "item": "light_blue_carpet"
+          },
+          {
+            "item": "light_gray_carpet"
+          },
+          {
+            "item": "lime_carpet"
+          },
+          {
+            "item": "magenta_carpet"
+          },
+          {
+            "item": "orange_carpet"
+          },
+          {
+            "item": "pink_carpet"
+          },
+          {
+            "item": "purple_carpet"
+          },
+          {
+            "item": "red_carpet"
+          },
+          {
+            "item": "white_carpet"
+          }
+        ],
+        {
+          "item": "air"
         },
         {
-          "item": "blue_carpet"
+          "item": "air"
         },
         {
-          "item": "brown_carpet"
+          "item": "air"
         },
         {
-          "item": "cyan_carpet"
+          "item": "air"
         },
         {
-          "item": "gray_carpet"
+          "item": "air"
         },
         {
-          "item": "green_carpet"
+          "item": "air"
         },
         {
-          "item": "light_blue_carpet"
-        },
-        {
-          "item": "light_gray_carpet"
-        },
-        {
-          "item": "lime_carpet"
-        },
-        {
-          "item": "magenta_carpet"
-        },
-        {
-          "item": "orange_carpet"
-        },
-        {
-          "item": "pink_carpet"
-        },
-        {
-          "item": "purple_carpet"
-        },
-        {
-          "item": "red_carpet"
-        },
-        {
-          "item": "white_carpet"
+          "item": "air"
         }
       ]
-    ]
-  },
+    },
+    {
+      "item": "yellow_carpet",
+      "count": 3,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "yellow_wool"
+          },
+          "2_key": {
+            "item": "yellow_wool"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        },
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
+        }
+      }
+    }
+  ],
   {
-    "file": "dye_yellow_wool.json",
     "item": "yellow_wool",
     "count": 1,
     "patterns": {},
@@ -11469,22 +14140,65 @@ const recipes = [
         {
           "item": "white_wool"
         }
-      ]
+      ],
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
   {
-    "file": "emerald.json",
     "item": "emerald",
     "count": 9,
     "patterns": {},
     "ingredients": [
       {
         "item": "emerald_block"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "emerald_block.json",
     "item": "emerald_block",
     "count": 1,
     "patterns": {
@@ -11524,7 +14238,6 @@ const recipes = [
     }
   },
   {
-    "file": "enchanting_table.json",
     "item": "enchanting_table",
     "count": 1,
     "patterns": {
@@ -11564,7 +14277,6 @@ const recipes = [
     }
   },
   {
-    "file": "ender_chest.json",
     "item": "ender_chest",
     "count": 1,
     "patterns": {
@@ -11604,7 +14316,6 @@ const recipes = [
     }
   },
   {
-    "file": "ender_eye.json",
     "item": "ender_eye",
     "count": 1,
     "patterns": {},
@@ -11614,11 +14325,31 @@ const recipes = [
       },
       {
         "item": "blaze_powder"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "end_crystal.json",
     "item": "end_crystal",
     "count": 1,
     "patterns": {
@@ -11658,7 +14389,6 @@ const recipes = [
     }
   },
   {
-    "file": "end_rod.json",
     "item": "end_rod",
     "count": 4,
     "patterns": {
@@ -11698,7 +14428,6 @@ const recipes = [
     }
   },
   {
-    "file": "end_stone_bricks.json",
     "item": "end_stone_bricks",
     "count": 4,
     "patterns": {
@@ -11738,7 +14467,6 @@ const recipes = [
     }
   },
   {
-    "file": "end_stone_brick_slab.json",
     "item": "end_stone_brick_slab",
     "count": 6,
     "patterns": {
@@ -11778,7 +14506,6 @@ const recipes = [
     }
   },
   {
-    "file": "end_stone_brick_stairs.json",
     "item": "end_stone_brick_stairs",
     "count": 4,
     "patterns": {
@@ -11818,7 +14545,6 @@ const recipes = [
     }
   },
   {
-    "file": "end_stone_brick_wall.json",
     "item": "end_stone_brick_wall",
     "count": 6,
     "patterns": {
@@ -11858,7 +14584,6 @@ const recipes = [
     }
   },
   {
-    "file": "exposed_cut_copper.json",
     "item": "exposed_cut_copper",
     "count": 4,
     "patterns": {
@@ -11898,7 +14623,6 @@ const recipes = [
     }
   },
   {
-    "file": "exposed_cut_copper_slab.json",
     "item": "exposed_cut_copper_slab",
     "count": 6,
     "patterns": {
@@ -11938,7 +14662,6 @@ const recipes = [
     }
   },
   {
-    "file": "exposed_cut_copper_stairs.json",
     "item": "exposed_cut_copper_stairs",
     "count": 4,
     "patterns": {
@@ -11978,7 +14701,6 @@ const recipes = [
     }
   },
   {
-    "file": "eye_armor_trim_smithing_template.json",
     "item": "eye_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -12018,7 +14740,6 @@ const recipes = [
     }
   },
   {
-    "file": "fermented_spider_eye.json",
     "item": "fermented_spider_eye",
     "count": 1,
     "patterns": {},
@@ -12031,11 +14752,28 @@ const recipes = [
       },
       {
         "item": "sugar"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "firework_rocket_simple.json",
     "item": "firework_rocket",
     "count": 3,
     "patterns": {},
@@ -12045,11 +14783,31 @@ const recipes = [
       },
       {
         "item": "paper"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "fire_charge.json",
     "item": "fire_charge",
     "count": 3,
     "patterns": {},
@@ -12067,11 +14825,28 @@ const recipes = [
         {
           "item": "charcoal"
         }
-      ]
+      ],
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      }
     ]
   },
   {
-    "file": "fishing_rod.json",
     "item": "fishing_rod",
     "count": 1,
     "patterns": {
@@ -12111,7 +14886,6 @@ const recipes = [
     }
   },
   {
-    "file": "fletching_table.json",
     "item": "fletching_table",
     "count": 1,
     "patterns": {
@@ -12151,7 +14925,6 @@ const recipes = [
     }
   },
   {
-    "file": "flint_and_steel.json",
     "item": "flint_and_steel",
     "count": 1,
     "patterns": {},
@@ -12161,11 +14934,31 @@ const recipes = [
       },
       {
         "item": "flint"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "flower_banner_pattern.json",
     "item": "flower_banner_pattern",
     "count": 1,
     "patterns": {},
@@ -12175,11 +14968,31 @@ const recipes = [
       },
       {
         "item": "oxeye_daisy"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "flower_pot.json",
     "item": "flower_pot",
     "count": 1,
     "patterns": {
@@ -12219,7 +15032,6 @@ const recipes = [
     }
   },
   {
-    "file": "furnace.json",
     "item": "furnace",
     "count": 1,
     "patterns": {
@@ -12259,7 +15071,6 @@ const recipes = [
     }
   },
   {
-    "file": "furnace_minecart.json",
     "item": "furnace_minecart",
     "count": 1,
     "patterns": {},
@@ -12269,11 +15080,31 @@ const recipes = [
       },
       {
         "item": "minecart"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "glass_bottle.json",
     "item": "glass_bottle",
     "count": 3,
     "patterns": {
@@ -12313,7 +15144,6 @@ const recipes = [
     }
   },
   {
-    "file": "glass_pane.json",
     "item": "glass_pane",
     "count": 16,
     "patterns": {
@@ -12353,7 +15183,6 @@ const recipes = [
     }
   },
   {
-    "file": "glistering_melon_slice.json",
     "item": "glistering_melon_slice",
     "count": 1,
     "patterns": {
@@ -12393,7 +15222,6 @@ const recipes = [
     }
   },
   {
-    "file": "glowstone.json",
     "item": "glowstone",
     "count": 1,
     "patterns": {
@@ -12433,7 +15261,6 @@ const recipes = [
     }
   },
   {
-    "file": "glow_item_frame.json",
     "item": "glow_item_frame",
     "count": 1,
     "patterns": {},
@@ -12443,11 +15270,31 @@ const recipes = [
       },
       {
         "item": "glow_ink_sac"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "golden_apple.json",
     "item": "golden_apple",
     "count": 1,
     "patterns": {
@@ -12487,7 +15334,6 @@ const recipes = [
     }
   },
   {
-    "file": "golden_axe.json",
     "item": "golden_axe",
     "count": 1,
     "patterns": {
@@ -12527,7 +15373,6 @@ const recipes = [
     }
   },
   {
-    "file": "golden_boots.json",
     "item": "golden_boots",
     "count": 1,
     "patterns": {
@@ -12567,7 +15412,6 @@ const recipes = [
     }
   },
   {
-    "file": "golden_carrot.json",
     "item": "golden_carrot",
     "count": 1,
     "patterns": {
@@ -12607,7 +15451,6 @@ const recipes = [
     }
   },
   {
-    "file": "golden_chestplate.json",
     "item": "golden_chestplate",
     "count": 1,
     "patterns": {
@@ -12647,7 +15490,6 @@ const recipes = [
     }
   },
   {
-    "file": "golden_helmet.json",
     "item": "golden_helmet",
     "count": 1,
     "patterns": {
@@ -12687,7 +15529,6 @@ const recipes = [
     }
   },
   {
-    "file": "golden_hoe.json",
     "item": "golden_hoe",
     "count": 1,
     "patterns": {
@@ -12727,7 +15568,6 @@ const recipes = [
     }
   },
   {
-    "file": "golden_leggings.json",
     "item": "golden_leggings",
     "count": 1,
     "patterns": {
@@ -12767,7 +15607,6 @@ const recipes = [
     }
   },
   {
-    "file": "golden_pickaxe.json",
     "item": "golden_pickaxe",
     "count": 1,
     "patterns": {
@@ -12807,7 +15646,6 @@ const recipes = [
     }
   },
   {
-    "file": "golden_shovel.json",
     "item": "golden_shovel",
     "count": 1,
     "patterns": {
@@ -12847,7 +15685,6 @@ const recipes = [
     }
   },
   {
-    "file": "golden_sword.json",
     "item": "golden_sword",
     "count": 1,
     "patterns": {
@@ -12887,7 +15724,6 @@ const recipes = [
     }
   },
   {
-    "file": "gold_block.json",
     "item": "gold_block",
     "count": 1,
     "patterns": {
@@ -12926,70 +15762,116 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "gold_ingot_from_gold_block.json",
-    "item": "gold_ingot",
-    "count": 9,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "gold_block"
-      }
-    ]
-  },
-  {
-    "file": "gold_ingot_from_nuggets.json",
-    "item": "gold_ingot",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "gold_nugget"
+  [
+    {
+      "item": "gold_ingot",
+      "count": 9,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "gold_block"
         },
-        "2_key": {
-          "item": "gold_nugget"
+        {
+          "item": "air"
         },
-        "3_key": {
-          "item": "gold_nugget"
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "gold_nugget"
+      ]
+    },
+    {
+      "item": "gold_ingot",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "gold_nugget"
+          },
+          "2_key": {
+            "item": "gold_nugget"
+          },
+          "3_key": {
+            "item": "gold_nugget"
+          }
         },
-        "2_key": {
-          "item": "gold_nugget"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "gold_nugget"
+          },
+          "2_key": {
+            "item": "gold_nugget"
+          },
+          "3_key": {
+            "item": "gold_nugget"
+          }
         },
-        "3_key": {
-          "item": "gold_nugget"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "gold_nugget"
-        },
-        "2_key": {
-          "item": "gold_nugget"
-        },
-        "3_key": {
-          "item": "gold_nugget"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "gold_nugget"
+          },
+          "2_key": {
+            "item": "gold_nugget"
+          },
+          "3_key": {
+            "item": "gold_nugget"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "gold_nugget.json",
     "item": "gold_nugget",
     "count": 9,
     "patterns": {},
     "ingredients": [
       {
         "item": "gold_ingot"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "granite.json",
     "item": "granite",
     "count": 1,
     "patterns": {},
@@ -12999,11 +15881,31 @@ const recipes = [
       },
       {
         "item": "quartz"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "granite_slab.json",
     "item": "granite_slab",
     "count": 6,
     "patterns": {
@@ -13043,7 +15945,6 @@ const recipes = [
     }
   },
   {
-    "file": "granite_stairs.json",
     "item": "granite_stairs",
     "count": 4,
     "patterns": {
@@ -13083,7 +15984,6 @@ const recipes = [
     }
   },
   {
-    "file": "granite_wall.json",
     "item": "granite_wall",
     "count": 6,
     "patterns": {
@@ -13123,7 +16023,6 @@ const recipes = [
     }
   },
   {
-    "file": "gray_banner.json",
     "item": "gray_banner",
     "count": 1,
     "patterns": {
@@ -13163,47 +16062,6 @@ const recipes = [
     }
   },
   {
-    "file": "gray_bed.json",
-    "item": "gray_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "gray_wool"
-        },
-        "2_key": {
-          "item": "gray_wool"
-        },
-        "3_key": {
-          "item": "gray_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "gray_candle.json",
     "item": "gray_candle",
     "count": 1,
     "patterns": {},
@@ -13213,51 +16071,31 @@ const recipes = [
       },
       {
         "item": "gray_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "gray_carpet.json",
-    "item": "gray_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "gray_wool"
-        },
-        "2_key": {
-          "item": "gray_wool"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "gray_concrete_powder.json",
     "item": "gray_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -13292,7 +16130,6 @@ const recipes = [
     ]
   },
   {
-    "file": "gray_dye.json",
     "item": "gray_dye",
     "count": 2,
     "patterns": {},
@@ -13302,11 +16139,31 @@ const recipes = [
       },
       {
         "item": "white_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "gray_stained_glass.json",
     "item": "gray_stained_glass",
     "count": 8,
     "patterns": {
@@ -13345,88 +16202,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "gray_stained_glass_pane.json",
-    "item": "gray_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "gray_stained_glass"
+  [
+    {
+      "item": "gray_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "gray_stained_glass"
+          },
+          "2_key": {
+            "item": "gray_stained_glass"
+          },
+          "3_key": {
+            "item": "gray_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "gray_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "gray_stained_glass"
+          },
+          "2_key": {
+            "item": "gray_stained_glass"
+          },
+          "3_key": {
+            "item": "gray_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "gray_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "gray_stained_glass"
+      }
+    },
+    {
+      "item": "gray_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "gray_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "gray_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "gray_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "gray_stained_glass_pane_from_glass_pane.json",
-    "item": "gray_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "gray_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "gray_terracotta.json",
     "item": "gray_terracotta",
     "count": 8,
     "patterns": {
@@ -13466,7 +16322,6 @@ const recipes = [
     }
   },
   {
-    "file": "green_banner.json",
     "item": "green_banner",
     "count": 1,
     "patterns": {
@@ -13506,47 +16361,6 @@ const recipes = [
     }
   },
   {
-    "file": "green_bed.json",
-    "item": "green_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "green_wool"
-        },
-        "2_key": {
-          "item": "green_wool"
-        },
-        "3_key": {
-          "item": "green_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "green_candle.json",
     "item": "green_candle",
     "count": 1,
     "patterns": {},
@@ -13556,51 +16370,31 @@ const recipes = [
       },
       {
         "item": "green_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "green_carpet.json",
-    "item": "green_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "green_wool"
-        },
-        "2_key": {
-          "item": "green_wool"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "green_concrete_powder.json",
     "item": "green_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -13635,7 +16429,6 @@ const recipes = [
     ]
   },
   {
-    "file": "green_stained_glass.json",
     "item": "green_stained_glass",
     "count": 8,
     "patterns": {
@@ -13674,88 +16467,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "green_stained_glass_pane.json",
-    "item": "green_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "green_stained_glass"
+  [
+    {
+      "item": "green_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "green_stained_glass"
+          },
+          "2_key": {
+            "item": "green_stained_glass"
+          },
+          "3_key": {
+            "item": "green_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "green_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "green_stained_glass"
+          },
+          "2_key": {
+            "item": "green_stained_glass"
+          },
+          "3_key": {
+            "item": "green_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "green_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "green_stained_glass"
+      }
+    },
+    {
+      "item": "green_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "green_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "green_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "green_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "green_stained_glass_pane_from_glass_pane.json",
-    "item": "green_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "green_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "green_terracotta.json",
     "item": "green_terracotta",
     "count": 8,
     "patterns": {
@@ -13795,7 +16587,6 @@ const recipes = [
     }
   },
   {
-    "file": "grindstone.json",
     "item": "grindstone",
     "count": 1,
     "patterns": {
@@ -13835,7 +16626,6 @@ const recipes = [
     }
   },
   {
-    "file": "hay_block.json",
     "item": "hay_block",
     "count": 1,
     "patterns": {},
@@ -13870,7 +16660,6 @@ const recipes = [
     ]
   },
   {
-    "file": "heavy_weighted_pressure_plate.json",
     "item": "heavy_weighted_pressure_plate",
     "count": 1,
     "patterns": {
@@ -13910,7 +16699,6 @@ const recipes = [
     }
   },
   {
-    "file": "honeycomb_block.json",
     "item": "honeycomb_block",
     "count": 1,
     "patterns": {
@@ -13950,7 +16738,6 @@ const recipes = [
     }
   },
   {
-    "file": "honey_block.json",
     "item": "honey_block",
     "count": 1,
     "patterns": {
@@ -13990,7 +16777,6 @@ const recipes = [
     }
   },
   {
-    "file": "honey_bottle.json",
     "item": "honey_bottle",
     "count": 4,
     "patterns": {},
@@ -14009,11 +16795,22 @@ const recipes = [
       },
       {
         "item": "glass_bottle"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "hopper.json",
     "item": "hopper",
     "count": 1,
     "patterns": {
@@ -14053,7 +16850,6 @@ const recipes = [
     }
   },
   {
-    "file": "hopper_minecart.json",
     "item": "hopper_minecart",
     "count": 1,
     "patterns": {},
@@ -14063,11 +16859,31 @@ const recipes = [
       },
       {
         "item": "minecart"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "host_armor_trim_smithing_template.json",
     "item": "host_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -14107,7 +16923,6 @@ const recipes = [
     }
   },
   {
-    "file": "iron_axe.json",
     "item": "iron_axe",
     "count": 1,
     "patterns": {
@@ -14147,7 +16962,6 @@ const recipes = [
     }
   },
   {
-    "file": "iron_bars.json",
     "item": "iron_bars",
     "count": 16,
     "patterns": {
@@ -14187,7 +17001,6 @@ const recipes = [
     }
   },
   {
-    "file": "iron_block.json",
     "item": "iron_block",
     "count": 1,
     "patterns": {
@@ -14227,7 +17040,6 @@ const recipes = [
     }
   },
   {
-    "file": "iron_boots.json",
     "item": "iron_boots",
     "count": 1,
     "patterns": {
@@ -14267,7 +17079,6 @@ const recipes = [
     }
   },
   {
-    "file": "iron_chestplate.json",
     "item": "iron_chestplate",
     "count": 1,
     "patterns": {
@@ -14307,7 +17118,6 @@ const recipes = [
     }
   },
   {
-    "file": "iron_door.json",
     "item": "iron_door",
     "count": 3,
     "patterns": {
@@ -14347,7 +17157,6 @@ const recipes = [
     }
   },
   {
-    "file": "iron_helmet.json",
     "item": "iron_helmet",
     "count": 1,
     "patterns": {
@@ -14387,7 +17196,6 @@ const recipes = [
     }
   },
   {
-    "file": "iron_hoe.json",
     "item": "iron_hoe",
     "count": 1,
     "patterns": {
@@ -14426,59 +17234,82 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "iron_ingot_from_iron_block.json",
-    "item": "iron_ingot",
-    "count": 9,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "iron_block"
-      }
-    ]
-  },
-  {
-    "file": "iron_ingot_from_nuggets.json",
-    "item": "iron_ingot",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "iron_nugget"
+  [
+    {
+      "item": "iron_ingot",
+      "count": 9,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "iron_block"
         },
-        "2_key": {
-          "item": "iron_nugget"
+        {
+          "item": "air"
         },
-        "3_key": {
-          "item": "iron_nugget"
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "iron_nugget"
+      ]
+    },
+    {
+      "item": "iron_ingot",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "iron_nugget"
+          },
+          "2_key": {
+            "item": "iron_nugget"
+          },
+          "3_key": {
+            "item": "iron_nugget"
+          }
         },
-        "2_key": {
-          "item": "iron_nugget"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "iron_nugget"
+          },
+          "2_key": {
+            "item": "iron_nugget"
+          },
+          "3_key": {
+            "item": "iron_nugget"
+          }
         },
-        "3_key": {
-          "item": "iron_nugget"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "iron_nugget"
-        },
-        "2_key": {
-          "item": "iron_nugget"
-        },
-        "3_key": {
-          "item": "iron_nugget"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "iron_nugget"
+          },
+          "2_key": {
+            "item": "iron_nugget"
+          },
+          "3_key": {
+            "item": "iron_nugget"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "iron_leggings.json",
     "item": "iron_leggings",
     "count": 1,
     "patterns": {
@@ -14518,18 +17349,40 @@ const recipes = [
     }
   },
   {
-    "file": "iron_nugget.json",
     "item": "iron_nugget",
     "count": 9,
     "patterns": {},
     "ingredients": [
       {
         "item": "iron_ingot"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "iron_pickaxe.json",
     "item": "iron_pickaxe",
     "count": 1,
     "patterns": {
@@ -14569,7 +17422,6 @@ const recipes = [
     }
   },
   {
-    "file": "iron_shovel.json",
     "item": "iron_shovel",
     "count": 1,
     "patterns": {
@@ -14609,7 +17461,6 @@ const recipes = [
     }
   },
   {
-    "file": "iron_sword.json",
     "item": "iron_sword",
     "count": 1,
     "patterns": {
@@ -14649,7 +17500,6 @@ const recipes = [
     }
   },
   {
-    "file": "iron_trapdoor.json",
     "item": "iron_trapdoor",
     "count": 1,
     "patterns": {
@@ -14689,7 +17539,6 @@ const recipes = [
     }
   },
   {
-    "file": "item_frame.json",
     "item": "item_frame",
     "count": 1,
     "patterns": {
@@ -14729,7 +17578,6 @@ const recipes = [
     }
   },
   {
-    "file": "jack_o_lantern.json",
     "item": "jack_o_lantern",
     "count": 1,
     "patterns": {
@@ -14769,7 +17617,6 @@ const recipes = [
     }
   },
   {
-    "file": "jukebox.json",
     "item": "jukebox",
     "count": 1,
     "patterns": {
@@ -14809,7 +17656,6 @@ const recipes = [
     }
   },
   {
-    "file": "jungle_boat.json",
     "item": "jungle_boat",
     "count": 1,
     "patterns": {
@@ -14849,18 +17695,40 @@ const recipes = [
     }
   },
   {
-    "file": "jungle_button.json",
     "item": "jungle_button",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "jungle_planks"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "jungle_chest_boat.json",
     "item": "jungle_chest_boat",
     "count": 1,
     "patterns": {},
@@ -14870,11 +17738,31 @@ const recipes = [
       },
       {
         "item": "jungle_boat"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "jungle_door.json",
     "item": "jungle_door",
     "count": 3,
     "patterns": {
@@ -14914,7 +17802,6 @@ const recipes = [
     }
   },
   {
-    "file": "jungle_fence.json",
     "item": "jungle_fence",
     "count": 3,
     "patterns": {
@@ -14954,7 +17841,6 @@ const recipes = [
     }
   },
   {
-    "file": "jungle_fence_gate.json",
     "item": "jungle_fence_gate",
     "count": 1,
     "patterns": {
@@ -14994,7 +17880,6 @@ const recipes = [
     }
   },
   {
-    "file": "jungle_hanging_sign.json",
     "item": "jungle_hanging_sign",
     "count": 6,
     "patterns": {
@@ -15034,18 +17919,40 @@ const recipes = [
     }
   },
   {
-    "file": "jungle_planks.json",
     "item": "jungle_planks",
     "count": 4,
     "patterns": {},
     "ingredients": [
       {
         "tag": "jungle_logs"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "jungle_pressure_plate.json",
     "item": "jungle_pressure_plate",
     "count": 1,
     "patterns": {
@@ -15085,7 +17992,6 @@ const recipes = [
     }
   },
   {
-    "file": "jungle_sign.json",
     "item": "jungle_sign",
     "count": 3,
     "patterns": {
@@ -15125,7 +18031,6 @@ const recipes = [
     }
   },
   {
-    "file": "jungle_slab.json",
     "item": "jungle_slab",
     "count": 6,
     "patterns": {
@@ -15165,7 +18070,6 @@ const recipes = [
     }
   },
   {
-    "file": "jungle_stairs.json",
     "item": "jungle_stairs",
     "count": 4,
     "patterns": {
@@ -15205,7 +18109,6 @@ const recipes = [
     }
   },
   {
-    "file": "jungle_trapdoor.json",
     "item": "jungle_trapdoor",
     "count": 2,
     "patterns": {
@@ -15245,7 +18148,6 @@ const recipes = [
     }
   },
   {
-    "file": "jungle_wood.json",
     "item": "jungle_wood",
     "count": 3,
     "patterns": {
@@ -15285,7 +18187,6 @@ const recipes = [
     }
   },
   {
-    "file": "ladder.json",
     "item": "ladder",
     "count": 3,
     "patterns": {
@@ -15325,7 +18226,6 @@ const recipes = [
     }
   },
   {
-    "file": "lantern.json",
     "item": "lantern",
     "count": 1,
     "patterns": {
@@ -15365,7 +18265,6 @@ const recipes = [
     }
   },
   {
-    "file": "lapis_block.json",
     "item": "lapis_block",
     "count": 1,
     "patterns": {
@@ -15405,18 +18304,40 @@ const recipes = [
     }
   },
   {
-    "file": "lapis_lazuli.json",
     "item": "lapis_lazuli",
     "count": 9,
     "patterns": {},
     "ingredients": [
       {
         "item": "lapis_block"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "lead.json",
     "item": "lead",
     "count": 2,
     "patterns": {
@@ -15456,7 +18377,6 @@ const recipes = [
     }
   },
   {
-    "file": "leather.json",
     "item": "leather",
     "count": 1,
     "patterns": {
@@ -15496,7 +18416,6 @@ const recipes = [
     }
   },
   {
-    "file": "leather_boots.json",
     "item": "leather_boots",
     "count": 1,
     "patterns": {
@@ -15536,7 +18455,6 @@ const recipes = [
     }
   },
   {
-    "file": "leather_chestplate.json",
     "item": "leather_chestplate",
     "count": 1,
     "patterns": {
@@ -15576,7 +18494,6 @@ const recipes = [
     }
   },
   {
-    "file": "leather_helmet.json",
     "item": "leather_helmet",
     "count": 1,
     "patterns": {
@@ -15616,7 +18533,6 @@ const recipes = [
     }
   },
   {
-    "file": "leather_horse_armor.json",
     "item": "leather_horse_armor",
     "count": 1,
     "patterns": {
@@ -15656,7 +18572,6 @@ const recipes = [
     }
   },
   {
-    "file": "leather_leggings.json",
     "item": "leather_leggings",
     "count": 1,
     "patterns": {
@@ -15696,7 +18611,6 @@ const recipes = [
     }
   },
   {
-    "file": "lectern.json",
     "item": "lectern",
     "count": 1,
     "patterns": {
@@ -15736,7 +18650,6 @@ const recipes = [
     }
   },
   {
-    "file": "lever.json",
     "item": "lever",
     "count": 1,
     "patterns": {
@@ -15776,7 +18689,6 @@ const recipes = [
     }
   },
   {
-    "file": "lightning_rod.json",
     "item": "lightning_rod",
     "count": 1,
     "patterns": {
@@ -15816,7 +18728,6 @@ const recipes = [
     }
   },
   {
-    "file": "light_blue_banner.json",
     "item": "light_blue_banner",
     "count": 1,
     "patterns": {
@@ -15856,47 +18767,6 @@ const recipes = [
     }
   },
   {
-    "file": "light_blue_bed.json",
-    "item": "light_blue_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "light_blue_wool"
-        },
-        "2_key": {
-          "item": "light_blue_wool"
-        },
-        "3_key": {
-          "item": "light_blue_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "light_blue_candle.json",
     "item": "light_blue_candle",
     "count": 1,
     "patterns": {},
@@ -15906,51 +18776,31 @@ const recipes = [
       },
       {
         "item": "light_blue_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "light_blue_carpet.json",
-    "item": "light_blue_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "light_blue_wool"
-        },
-        "2_key": {
-          "item": "light_blue_wool"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "light_blue_concrete_powder.json",
     "item": "light_blue_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -15984,33 +18834,77 @@ const recipes = [
       }
     ]
   },
+  [
+    {
+      "item": "light_blue_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "blue_orchid"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "light_blue_dye",
+      "count": 2,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "blue_dye"
+        },
+        {
+          "item": "white_dye"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "light_blue_dye_from_blue_orchid.json",
-    "item": "light_blue_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "blue_orchid"
-      }
-    ]
-  },
-  {
-    "file": "light_blue_dye_from_blue_white_dye.json",
-    "item": "light_blue_dye",
-    "count": 2,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "blue_dye"
-      },
-      {
-        "item": "white_dye"
-      }
-    ]
-  },
-  {
-    "file": "light_blue_stained_glass.json",
     "item": "light_blue_stained_glass",
     "count": 8,
     "patterns": {
@@ -16049,88 +18943,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "light_blue_stained_glass_pane.json",
-    "item": "light_blue_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "light_blue_stained_glass"
+  [
+    {
+      "item": "light_blue_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "light_blue_stained_glass"
+          },
+          "2_key": {
+            "item": "light_blue_stained_glass"
+          },
+          "3_key": {
+            "item": "light_blue_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "light_blue_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "light_blue_stained_glass"
+          },
+          "2_key": {
+            "item": "light_blue_stained_glass"
+          },
+          "3_key": {
+            "item": "light_blue_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "light_blue_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "light_blue_stained_glass"
+      }
+    },
+    {
+      "item": "light_blue_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "light_blue_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "light_blue_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "light_blue_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "light_blue_stained_glass_pane_from_glass_pane.json",
-    "item": "light_blue_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "light_blue_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "light_blue_terracotta.json",
     "item": "light_blue_terracotta",
     "count": 8,
     "patterns": {
@@ -16170,7 +19063,6 @@ const recipes = [
     }
   },
   {
-    "file": "light_gray_banner.json",
     "item": "light_gray_banner",
     "count": 1,
     "patterns": {
@@ -16210,47 +19102,6 @@ const recipes = [
     }
   },
   {
-    "file": "light_gray_bed.json",
-    "item": "light_gray_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "light_gray_wool"
-        },
-        "2_key": {
-          "item": "light_gray_wool"
-        },
-        "3_key": {
-          "item": "light_gray_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "light_gray_candle.json",
     "item": "light_gray_candle",
     "count": 1,
     "patterns": {},
@@ -16260,51 +19111,31 @@ const recipes = [
       },
       {
         "item": "light_gray_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "light_gray_carpet.json",
-    "item": "light_gray_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "light_gray_wool"
-        },
-        "2_key": {
-          "item": "light_gray_wool"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "light_gray_concrete_powder.json",
     "item": "light_gray_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -16338,72 +19169,179 @@ const recipes = [
       }
     ]
   },
+  [
+    {
+      "item": "light_gray_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "azure_bluet"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "light_gray_dye",
+      "count": 3,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "black_dye"
+        },
+        {
+          "item": "white_dye"
+        },
+        {
+          "item": "white_dye"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "light_gray_dye",
+      "count": 2,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "gray_dye"
+        },
+        {
+          "item": "white_dye"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "light_gray_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "oxeye_daisy"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "light_gray_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "white_tulip"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "light_gray_dye_from_azure_bluet.json",
-    "item": "light_gray_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "azure_bluet"
-      }
-    ]
-  },
-  {
-    "file": "light_gray_dye_from_black_white_dye.json",
-    "item": "light_gray_dye",
-    "count": 3,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "black_dye"
-      },
-      {
-        "item": "white_dye"
-      },
-      {
-        "item": "white_dye"
-      }
-    ]
-  },
-  {
-    "file": "light_gray_dye_from_gray_white_dye.json",
-    "item": "light_gray_dye",
-    "count": 2,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "gray_dye"
-      },
-      {
-        "item": "white_dye"
-      }
-    ]
-  },
-  {
-    "file": "light_gray_dye_from_oxeye_daisy.json",
-    "item": "light_gray_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "oxeye_daisy"
-      }
-    ]
-  },
-  {
-    "file": "light_gray_dye_from_white_tulip.json",
-    "item": "light_gray_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "white_tulip"
-      }
-    ]
-  },
-  {
-    "file": "light_gray_stained_glass.json",
     "item": "light_gray_stained_glass",
     "count": 8,
     "patterns": {
@@ -16442,88 +19380,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "light_gray_stained_glass_pane.json",
-    "item": "light_gray_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "light_gray_stained_glass"
+  [
+    {
+      "item": "light_gray_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "light_gray_stained_glass"
+          },
+          "2_key": {
+            "item": "light_gray_stained_glass"
+          },
+          "3_key": {
+            "item": "light_gray_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "light_gray_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "light_gray_stained_glass"
+          },
+          "2_key": {
+            "item": "light_gray_stained_glass"
+          },
+          "3_key": {
+            "item": "light_gray_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "light_gray_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "light_gray_stained_glass"
+      }
+    },
+    {
+      "item": "light_gray_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "light_gray_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "light_gray_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "light_gray_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "light_gray_stained_glass_pane_from_glass_pane.json",
-    "item": "light_gray_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "light_gray_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "light_gray_terracotta.json",
     "item": "light_gray_terracotta",
     "count": 8,
     "patterns": {
@@ -16563,7 +19500,6 @@ const recipes = [
     }
   },
   {
-    "file": "light_weighted_pressure_plate.json",
     "item": "light_weighted_pressure_plate",
     "count": 1,
     "patterns": {
@@ -16603,7 +19539,6 @@ const recipes = [
     }
   },
   {
-    "file": "lime_banner.json",
     "item": "lime_banner",
     "count": 1,
     "patterns": {
@@ -16643,47 +19578,6 @@ const recipes = [
     }
   },
   {
-    "file": "lime_bed.json",
-    "item": "lime_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "lime_wool"
-        },
-        "2_key": {
-          "item": "lime_wool"
-        },
-        "3_key": {
-          "item": "lime_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "lime_candle.json",
     "item": "lime_candle",
     "count": 1,
     "patterns": {},
@@ -16693,51 +19587,31 @@ const recipes = [
       },
       {
         "item": "lime_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "lime_carpet.json",
-    "item": "lime_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "lime_wool"
-        },
-        "2_key": {
-          "item": "lime_wool"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "lime_concrete_powder.json",
     "item": "lime_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -16772,7 +19646,6 @@ const recipes = [
     ]
   },
   {
-    "file": "lime_dye.json",
     "item": "lime_dye",
     "count": 2,
     "patterns": {},
@@ -16782,11 +19655,31 @@ const recipes = [
       },
       {
         "item": "white_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "lime_stained_glass.json",
     "item": "lime_stained_glass",
     "count": 8,
     "patterns": {
@@ -16825,88 +19718,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "lime_stained_glass_pane.json",
-    "item": "lime_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "lime_stained_glass"
+  [
+    {
+      "item": "lime_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "lime_stained_glass"
+          },
+          "2_key": {
+            "item": "lime_stained_glass"
+          },
+          "3_key": {
+            "item": "lime_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "lime_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "lime_stained_glass"
+          },
+          "2_key": {
+            "item": "lime_stained_glass"
+          },
+          "3_key": {
+            "item": "lime_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "lime_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "lime_stained_glass"
+      }
+    },
+    {
+      "item": "lime_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "lime_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "lime_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "lime_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "lime_stained_glass_pane_from_glass_pane.json",
-    "item": "lime_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "lime_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "lime_terracotta.json",
     "item": "lime_terracotta",
     "count": 8,
     "patterns": {
@@ -16946,7 +19838,6 @@ const recipes = [
     }
   },
   {
-    "file": "lodestone.json",
     "item": "lodestone",
     "count": 1,
     "patterns": {
@@ -16986,7 +19877,6 @@ const recipes = [
     }
   },
   {
-    "file": "loom.json",
     "item": "loom",
     "count": 1,
     "patterns": {
@@ -17026,7 +19916,6 @@ const recipes = [
     }
   },
   {
-    "file": "magenta_banner.json",
     "item": "magenta_banner",
     "count": 1,
     "patterns": {
@@ -17066,47 +19955,6 @@ const recipes = [
     }
   },
   {
-    "file": "magenta_bed.json",
-    "item": "magenta_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "magenta_wool"
-        },
-        "2_key": {
-          "item": "magenta_wool"
-        },
-        "3_key": {
-          "item": "magenta_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "magenta_candle.json",
     "item": "magenta_candle",
     "count": 1,
     "patterns": {},
@@ -17116,51 +19964,31 @@ const recipes = [
       },
       {
         "item": "magenta_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "magenta_carpet.json",
-    "item": "magenta_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "magenta_wool"
-        },
-        "2_key": {
-          "item": "magenta_wool"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "magenta_concrete_powder.json",
     "item": "magenta_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -17194,81 +20022,179 @@ const recipes = [
       }
     ]
   },
+  [
+    {
+      "item": "magenta_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "allium"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "magenta_dye",
+      "count": 3,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "blue_dye"
+        },
+        {
+          "item": "red_dye"
+        },
+        {
+          "item": "pink_dye"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "magenta_dye",
+      "count": 4,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "blue_dye"
+        },
+        {
+          "item": "red_dye"
+        },
+        {
+          "item": "red_dye"
+        },
+        {
+          "item": "white_dye"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "magenta_dye",
+      "count": 2,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "lilac"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "magenta_dye",
+      "count": 2,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "purple_dye"
+        },
+        {
+          "item": "pink_dye"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "magenta_dye_from_allium.json",
-    "item": "magenta_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "allium"
-      }
-    ]
-  },
-  {
-    "file": "magenta_dye_from_blue_red_pink.json",
-    "item": "magenta_dye",
-    "count": 3,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "blue_dye"
-      },
-      {
-        "item": "red_dye"
-      },
-      {
-        "item": "pink_dye"
-      }
-    ]
-  },
-  {
-    "file": "magenta_dye_from_blue_red_white_dye.json",
-    "item": "magenta_dye",
-    "count": 4,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "blue_dye"
-      },
-      {
-        "item": "red_dye"
-      },
-      {
-        "item": "red_dye"
-      },
-      {
-        "item": "white_dye"
-      }
-    ]
-  },
-  {
-    "file": "magenta_dye_from_lilac.json",
-    "item": "magenta_dye",
-    "count": 2,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "lilac"
-      }
-    ]
-  },
-  {
-    "file": "magenta_dye_from_purple_and_pink.json",
-    "item": "magenta_dye",
-    "count": 2,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "purple_dye"
-      },
-      {
-        "item": "pink_dye"
-      }
-    ]
-  },
-  {
-    "file": "magenta_stained_glass.json",
     "item": "magenta_stained_glass",
     "count": 8,
     "patterns": {
@@ -17307,88 +20233,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "magenta_stained_glass_pane.json",
-    "item": "magenta_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "magenta_stained_glass"
+  [
+    {
+      "item": "magenta_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "magenta_stained_glass"
+          },
+          "2_key": {
+            "item": "magenta_stained_glass"
+          },
+          "3_key": {
+            "item": "magenta_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "magenta_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "magenta_stained_glass"
+          },
+          "2_key": {
+            "item": "magenta_stained_glass"
+          },
+          "3_key": {
+            "item": "magenta_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "magenta_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "magenta_stained_glass"
+      }
+    },
+    {
+      "item": "magenta_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "magenta_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "magenta_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "magenta_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "magenta_stained_glass_pane_from_glass_pane.json",
-    "item": "magenta_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "magenta_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "magenta_terracotta.json",
     "item": "magenta_terracotta",
     "count": 8,
     "patterns": {
@@ -17428,7 +20353,6 @@ const recipes = [
     }
   },
   {
-    "file": "magma_block.json",
     "item": "magma_block",
     "count": 1,
     "patterns": {
@@ -17468,7 +20392,6 @@ const recipes = [
     }
   },
   {
-    "file": "magma_cream.json",
     "item": "magma_cream",
     "count": 1,
     "patterns": {},
@@ -17478,11 +20401,31 @@ const recipes = [
       },
       {
         "item": "slime_ball"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "mangrove_boat.json",
     "item": "mangrove_boat",
     "count": 1,
     "patterns": {
@@ -17522,18 +20465,40 @@ const recipes = [
     }
   },
   {
-    "file": "mangrove_button.json",
     "item": "mangrove_button",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "mangrove_planks"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "mangrove_chest_boat.json",
     "item": "mangrove_chest_boat",
     "count": 1,
     "patterns": {},
@@ -17543,11 +20508,31 @@ const recipes = [
       },
       {
         "item": "mangrove_boat"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "mangrove_door.json",
     "item": "mangrove_door",
     "count": 3,
     "patterns": {
@@ -17587,7 +20572,6 @@ const recipes = [
     }
   },
   {
-    "file": "mangrove_fence.json",
     "item": "mangrove_fence",
     "count": 3,
     "patterns": {
@@ -17627,7 +20611,6 @@ const recipes = [
     }
   },
   {
-    "file": "mangrove_fence_gate.json",
     "item": "mangrove_fence_gate",
     "count": 1,
     "patterns": {
@@ -17667,7 +20650,6 @@ const recipes = [
     }
   },
   {
-    "file": "mangrove_hanging_sign.json",
     "item": "mangrove_hanging_sign",
     "count": 6,
     "patterns": {
@@ -17707,18 +20689,40 @@ const recipes = [
     }
   },
   {
-    "file": "mangrove_planks.json",
     "item": "mangrove_planks",
     "count": 4,
     "patterns": {},
     "ingredients": [
       {
         "tag": "mangrove_logs"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "mangrove_pressure_plate.json",
     "item": "mangrove_pressure_plate",
     "count": 1,
     "patterns": {
@@ -17758,7 +20762,6 @@ const recipes = [
     }
   },
   {
-    "file": "mangrove_sign.json",
     "item": "mangrove_sign",
     "count": 3,
     "patterns": {
@@ -17798,7 +20801,6 @@ const recipes = [
     }
   },
   {
-    "file": "mangrove_slab.json",
     "item": "mangrove_slab",
     "count": 6,
     "patterns": {
@@ -17838,7 +20840,6 @@ const recipes = [
     }
   },
   {
-    "file": "mangrove_stairs.json",
     "item": "mangrove_stairs",
     "count": 4,
     "patterns": {
@@ -17878,7 +20879,6 @@ const recipes = [
     }
   },
   {
-    "file": "mangrove_trapdoor.json",
     "item": "mangrove_trapdoor",
     "count": 2,
     "patterns": {
@@ -17918,7 +20918,6 @@ const recipes = [
     }
   },
   {
-    "file": "mangrove_wood.json",
     "item": "mangrove_wood",
     "count": 3,
     "patterns": {
@@ -17958,7 +20957,6 @@ const recipes = [
     }
   },
   {
-    "file": "map.json",
     "item": "map",
     "count": 1,
     "patterns": {
@@ -17998,7 +20996,6 @@ const recipes = [
     }
   },
   {
-    "file": "melon.json",
     "item": "melon",
     "count": 1,
     "patterns": {},
@@ -18033,18 +21030,40 @@ const recipes = [
     ]
   },
   {
-    "file": "melon_seeds.json",
     "item": "melon_seeds",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "melon_slice"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "minecart.json",
     "item": "minecart",
     "count": 1,
     "patterns": {
@@ -18084,7 +21103,6 @@ const recipes = [
     }
   },
   {
-    "file": "mojang_banner_pattern.json",
     "item": "mojang_banner_pattern",
     "count": 1,
     "patterns": {},
@@ -18094,39 +21112,101 @@ const recipes = [
       },
       {
         "item": "enchanted_golden_apple"
-      }
-    ]
-  },
-  {
-    "file": "mossy_cobblestone_from_moss_block.json",
-    "item": "mossy_cobblestone",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "cobblestone"
       },
       {
-        "item": "moss_block"
-      }
-    ]
-  },
-  {
-    "file": "mossy_cobblestone_from_vine.json",
-    "item": "mossy_cobblestone",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "cobblestone"
+        "item": "air"
       },
       {
-        "item": "vine"
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
+  [
+    {
+      "item": "mossy_cobblestone",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "cobblestone"
+        },
+        {
+          "item": "moss_block"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "mossy_cobblestone",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "cobblestone"
+        },
+        {
+          "item": "vine"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "mossy_cobblestone_slab.json",
     "item": "mossy_cobblestone_slab",
     "count": 6,
     "patterns": {
@@ -18166,7 +21246,6 @@ const recipes = [
     }
   },
   {
-    "file": "mossy_cobblestone_stairs.json",
     "item": "mossy_cobblestone_stairs",
     "count": 4,
     "patterns": {
@@ -18206,7 +21285,6 @@ const recipes = [
     }
   },
   {
-    "file": "mossy_cobblestone_wall.json",
     "item": "mossy_cobblestone_wall",
     "count": 6,
     "patterns": {
@@ -18245,36 +21323,77 @@ const recipes = [
       }
     }
   },
+  [
+    {
+      "item": "mossy_stone_bricks",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "stone_bricks"
+        },
+        {
+          "item": "moss_block"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "mossy_stone_bricks",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "stone_bricks"
+        },
+        {
+          "item": "vine"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "mossy_stone_bricks_from_moss_block.json",
-    "item": "mossy_stone_bricks",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "stone_bricks"
-      },
-      {
-        "item": "moss_block"
-      }
-    ]
-  },
-  {
-    "file": "mossy_stone_bricks_from_vine.json",
-    "item": "mossy_stone_bricks",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "stone_bricks"
-      },
-      {
-        "item": "vine"
-      }
-    ]
-  },
-  {
-    "file": "mossy_stone_brick_slab.json",
     "item": "mossy_stone_brick_slab",
     "count": 6,
     "patterns": {
@@ -18314,7 +21433,6 @@ const recipes = [
     }
   },
   {
-    "file": "mossy_stone_brick_stairs.json",
     "item": "mossy_stone_brick_stairs",
     "count": 4,
     "patterns": {
@@ -18354,7 +21472,6 @@ const recipes = [
     }
   },
   {
-    "file": "mossy_stone_brick_wall.json",
     "item": "mossy_stone_brick_wall",
     "count": 6,
     "patterns": {
@@ -18394,7 +21511,6 @@ const recipes = [
     }
   },
   {
-    "file": "moss_carpet.json",
     "item": "moss_carpet",
     "count": 3,
     "patterns": {
@@ -18434,7 +21550,6 @@ const recipes = [
     }
   },
   {
-    "file": "muddy_mangrove_roots.json",
     "item": "muddy_mangrove_roots",
     "count": 1,
     "patterns": {},
@@ -18444,11 +21559,31 @@ const recipes = [
       },
       {
         "item": "mangrove_roots"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "mud_bricks.json",
     "item": "mud_bricks",
     "count": 4,
     "patterns": {
@@ -18488,7 +21623,6 @@ const recipes = [
     }
   },
   {
-    "file": "mud_brick_slab.json",
     "item": "mud_brick_slab",
     "count": 6,
     "patterns": {
@@ -18528,7 +21662,6 @@ const recipes = [
     }
   },
   {
-    "file": "mud_brick_stairs.json",
     "item": "mud_brick_stairs",
     "count": 4,
     "patterns": {
@@ -18568,7 +21701,6 @@ const recipes = [
     }
   },
   {
-    "file": "mud_brick_wall.json",
     "item": "mud_brick_wall",
     "count": 6,
     "patterns": {
@@ -18608,7 +21740,6 @@ const recipes = [
     }
   },
   {
-    "file": "mushroom_stew.json",
     "item": "mushroom_stew",
     "count": 1,
     "patterns": {},
@@ -18621,11 +21752,28 @@ const recipes = [
       },
       {
         "item": "bowl"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "music_disc_5.json",
     "item": "music_disc_5",
     "count": 1,
     "patterns": {},
@@ -18660,13 +21808,11 @@ const recipes = [
     ]
   },
   {
-    "file": "netherite_axe_smithing.json",
     "item": "netherite_axe",
     "count": 1,
     "patterns": {}
   },
   {
-    "file": "netherite_block.json",
     "item": "netherite_block",
     "count": 1,
     "patterns": {
@@ -18706,98 +21852,116 @@ const recipes = [
     }
   },
   {
-    "file": "netherite_boots_smithing.json",
     "item": "netherite_boots",
     "count": 1,
     "patterns": {}
   },
   {
-    "file": "netherite_chestplate_smithing.json",
     "item": "netherite_chestplate",
     "count": 1,
     "patterns": {}
   },
   {
-    "file": "netherite_helmet_smithing.json",
     "item": "netherite_helmet",
     "count": 1,
     "patterns": {}
   },
   {
-    "file": "netherite_hoe_smithing.json",
     "item": "netherite_hoe",
     "count": 1,
     "patterns": {}
   },
+  [
+    {
+      "item": "netherite_ingot",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "netherite_scrap"
+        },
+        {
+          "item": "netherite_scrap"
+        },
+        {
+          "item": "netherite_scrap"
+        },
+        {
+          "item": "netherite_scrap"
+        },
+        {
+          "item": "gold_ingot"
+        },
+        {
+          "item": "gold_ingot"
+        },
+        {
+          "item": "gold_ingot"
+        },
+        {
+          "item": "gold_ingot"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "netherite_ingot",
+      "count": 9,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "netherite_block"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "netherite_ingot.json",
-    "item": "netherite_ingot",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "netherite_scrap"
-      },
-      {
-        "item": "netherite_scrap"
-      },
-      {
-        "item": "netherite_scrap"
-      },
-      {
-        "item": "netherite_scrap"
-      },
-      {
-        "item": "gold_ingot"
-      },
-      {
-        "item": "gold_ingot"
-      },
-      {
-        "item": "gold_ingot"
-      },
-      {
-        "item": "gold_ingot"
-      }
-    ]
-  },
-  {
-    "file": "netherite_ingot_from_netherite_block.json",
-    "item": "netherite_ingot",
-    "count": 9,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "netherite_block"
-      }
-    ]
-  },
-  {
-    "file": "netherite_leggings_smithing.json",
     "item": "netherite_leggings",
     "count": 1,
     "patterns": {}
   },
   {
-    "file": "netherite_pickaxe_smithing.json",
     "item": "netherite_pickaxe",
     "count": 1,
     "patterns": {}
   },
   {
-    "file": "netherite_shovel_smithing.json",
     "item": "netherite_shovel",
     "count": 1,
     "patterns": {}
   },
   {
-    "file": "netherite_sword_smithing.json",
     "item": "netherite_sword",
     "count": 1,
     "patterns": {}
   },
   {
-    "file": "netherite_upgrade_smithing_template.json",
     "item": "netherite_upgrade_smithing_template",
     "count": 2,
     "patterns": {
@@ -18837,7 +22001,6 @@ const recipes = [
     }
   },
   {
-    "file": "nether_bricks.json",
     "item": "nether_bricks",
     "count": 1,
     "patterns": {
@@ -18877,7 +22040,6 @@ const recipes = [
     }
   },
   {
-    "file": "nether_brick_fence.json",
     "item": "nether_brick_fence",
     "count": 6,
     "patterns": {
@@ -18917,7 +22079,6 @@ const recipes = [
     }
   },
   {
-    "file": "nether_brick_slab.json",
     "item": "nether_brick_slab",
     "count": 6,
     "patterns": {
@@ -18957,7 +22118,6 @@ const recipes = [
     }
   },
   {
-    "file": "nether_brick_stairs.json",
     "item": "nether_brick_stairs",
     "count": 4,
     "patterns": {
@@ -18997,7 +22157,6 @@ const recipes = [
     }
   },
   {
-    "file": "nether_brick_wall.json",
     "item": "nether_brick_wall",
     "count": 6,
     "patterns": {
@@ -19037,7 +22196,6 @@ const recipes = [
     }
   },
   {
-    "file": "nether_wart_block.json",
     "item": "nether_wart_block",
     "count": 1,
     "patterns": {},
@@ -19072,7 +22230,6 @@ const recipes = [
     ]
   },
   {
-    "file": "note_block.json",
     "item": "note_block",
     "count": 1,
     "patterns": {
@@ -19112,7 +22269,6 @@ const recipes = [
     }
   },
   {
-    "file": "oak_boat.json",
     "item": "oak_boat",
     "count": 1,
     "patterns": {
@@ -19152,18 +22308,40 @@ const recipes = [
     }
   },
   {
-    "file": "oak_button.json",
     "item": "oak_button",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "oak_planks"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "oak_chest_boat.json",
     "item": "oak_chest_boat",
     "count": 1,
     "patterns": {},
@@ -19173,11 +22351,31 @@ const recipes = [
       },
       {
         "item": "oak_boat"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "oak_door.json",
     "item": "oak_door",
     "count": 3,
     "patterns": {
@@ -19217,7 +22415,6 @@ const recipes = [
     }
   },
   {
-    "file": "oak_fence.json",
     "item": "oak_fence",
     "count": 3,
     "patterns": {
@@ -19257,7 +22454,6 @@ const recipes = [
     }
   },
   {
-    "file": "oak_fence_gate.json",
     "item": "oak_fence_gate",
     "count": 1,
     "patterns": {
@@ -19297,7 +22493,6 @@ const recipes = [
     }
   },
   {
-    "file": "oak_hanging_sign.json",
     "item": "oak_hanging_sign",
     "count": 6,
     "patterns": {
@@ -19337,18 +22532,40 @@ const recipes = [
     }
   },
   {
-    "file": "oak_planks.json",
     "item": "oak_planks",
     "count": 4,
     "patterns": {},
     "ingredients": [
       {
         "tag": "oak_logs"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "oak_pressure_plate.json",
     "item": "oak_pressure_plate",
     "count": 1,
     "patterns": {
@@ -19388,7 +22605,6 @@ const recipes = [
     }
   },
   {
-    "file": "oak_sign.json",
     "item": "oak_sign",
     "count": 3,
     "patterns": {
@@ -19428,7 +22644,6 @@ const recipes = [
     }
   },
   {
-    "file": "oak_slab.json",
     "item": "oak_slab",
     "count": 6,
     "patterns": {
@@ -19468,7 +22683,6 @@ const recipes = [
     }
   },
   {
-    "file": "oak_stairs.json",
     "item": "oak_stairs",
     "count": 4,
     "patterns": {
@@ -19508,7 +22722,6 @@ const recipes = [
     }
   },
   {
-    "file": "oak_trapdoor.json",
     "item": "oak_trapdoor",
     "count": 2,
     "patterns": {
@@ -19548,7 +22761,6 @@ const recipes = [
     }
   },
   {
-    "file": "oak_wood.json",
     "item": "oak_wood",
     "count": 3,
     "patterns": {
@@ -19588,7 +22800,6 @@ const recipes = [
     }
   },
   {
-    "file": "observer.json",
     "item": "observer",
     "count": 1,
     "patterns": {
@@ -19628,7 +22839,6 @@ const recipes = [
     }
   },
   {
-    "file": "orange_banner.json",
     "item": "orange_banner",
     "count": 1,
     "patterns": {
@@ -19668,47 +22878,6 @@ const recipes = [
     }
   },
   {
-    "file": "orange_bed.json",
-    "item": "orange_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "orange_wool"
-        },
-        "2_key": {
-          "item": "orange_wool"
-        },
-        "3_key": {
-          "item": "orange_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "orange_candle.json",
     "item": "orange_candle",
     "count": 1,
     "patterns": {},
@@ -19718,51 +22887,31 @@ const recipes = [
       },
       {
         "item": "orange_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "orange_carpet.json",
-    "item": "orange_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "orange_wool"
-        },
-        "2_key": {
-          "item": "orange_wool"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "orange_concrete_powder.json",
     "item": "orange_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -19796,44 +22945,111 @@ const recipes = [
       }
     ]
   },
+  [
+    {
+      "item": "orange_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "orange_tulip"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "orange_dye",
+      "count": 2,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "red_dye"
+        },
+        {
+          "item": "yellow_dye"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "orange_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "torchflower"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "orange_dye_from_orange_tulip.json",
-    "item": "orange_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "orange_tulip"
-      }
-    ]
-  },
-  {
-    "file": "orange_dye_from_red_yellow.json",
-    "item": "orange_dye",
-    "count": 2,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "red_dye"
-      },
-      {
-        "item": "yellow_dye"
-      }
-    ]
-  },
-  {
-    "file": "orange_dye_from_torchflower.json",
-    "item": "orange_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "torchflower"
-      }
-    ]
-  },
-  {
-    "file": "orange_stained_glass.json",
     "item": "orange_stained_glass",
     "count": 8,
     "patterns": {
@@ -19872,88 +23088,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "orange_stained_glass_pane.json",
-    "item": "orange_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "orange_stained_glass"
+  [
+    {
+      "item": "orange_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "orange_stained_glass"
+          },
+          "2_key": {
+            "item": "orange_stained_glass"
+          },
+          "3_key": {
+            "item": "orange_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "orange_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "orange_stained_glass"
+          },
+          "2_key": {
+            "item": "orange_stained_glass"
+          },
+          "3_key": {
+            "item": "orange_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "orange_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "orange_stained_glass"
+      }
+    },
+    {
+      "item": "orange_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "orange_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "orange_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "orange_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "orange_stained_glass_pane_from_glass_pane.json",
-    "item": "orange_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "orange_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "orange_terracotta.json",
     "item": "orange_terracotta",
     "count": 8,
     "patterns": {
@@ -19993,7 +23208,6 @@ const recipes = [
     }
   },
   {
-    "file": "oxidized_cut_copper.json",
     "item": "oxidized_cut_copper",
     "count": 4,
     "patterns": {
@@ -20033,7 +23247,6 @@ const recipes = [
     }
   },
   {
-    "file": "oxidized_cut_copper_slab.json",
     "item": "oxidized_cut_copper_slab",
     "count": 6,
     "patterns": {
@@ -20073,7 +23286,6 @@ const recipes = [
     }
   },
   {
-    "file": "oxidized_cut_copper_stairs.json",
     "item": "oxidized_cut_copper_stairs",
     "count": 4,
     "patterns": {
@@ -20113,7 +23325,6 @@ const recipes = [
     }
   },
   {
-    "file": "packed_ice.json",
     "item": "packed_ice",
     "count": 1,
     "patterns": {},
@@ -20148,7 +23359,6 @@ const recipes = [
     ]
   },
   {
-    "file": "packed_mud.json",
     "item": "packed_mud",
     "count": 1,
     "patterns": {},
@@ -20158,11 +23368,31 @@ const recipes = [
       },
       {
         "item": "wheat"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "painting.json",
     "item": "painting",
     "count": 1,
     "patterns": {
@@ -20202,7 +23432,6 @@ const recipes = [
     }
   },
   {
-    "file": "paper.json",
     "item": "paper",
     "count": 3,
     "patterns": {
@@ -20242,7 +23471,6 @@ const recipes = [
     }
   },
   {
-    "file": "pink_banner.json",
     "item": "pink_banner",
     "count": 1,
     "patterns": {
@@ -20282,47 +23510,6 @@ const recipes = [
     }
   },
   {
-    "file": "pink_bed.json",
-    "item": "pink_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "pink_wool"
-        },
-        "2_key": {
-          "item": "pink_wool"
-        },
-        "3_key": {
-          "item": "pink_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "pink_candle.json",
     "item": "pink_candle",
     "count": 1,
     "patterns": {},
@@ -20332,51 +23519,31 @@ const recipes = [
       },
       {
         "item": "pink_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "pink_carpet.json",
-    "item": "pink_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "pink_wool"
-        },
-        "2_key": {
-          "item": "pink_wool"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "pink_concrete_powder.json",
     "item": "pink_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -20410,55 +23577,145 @@ const recipes = [
       }
     ]
   },
+  [
+    {
+      "item": "pink_dye",
+      "count": 2,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "peony"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "pink_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "pink_petals"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "pink_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "pink_tulip"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "pink_dye",
+      "count": 2,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "red_dye"
+        },
+        {
+          "item": "white_dye"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "pink_dye_from_peony.json",
-    "item": "pink_dye",
-    "count": 2,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "peony"
-      }
-    ]
-  },
-  {
-    "file": "pink_dye_from_pink_petals.json",
-    "item": "pink_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "pink_petals"
-      }
-    ]
-  },
-  {
-    "file": "pink_dye_from_pink_tulip.json",
-    "item": "pink_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "pink_tulip"
-      }
-    ]
-  },
-  {
-    "file": "pink_dye_from_red_white_dye.json",
-    "item": "pink_dye",
-    "count": 2,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "red_dye"
-      },
-      {
-        "item": "white_dye"
-      }
-    ]
-  },
-  {
-    "file": "pink_stained_glass.json",
     "item": "pink_stained_glass",
     "count": 8,
     "patterns": {
@@ -20497,88 +23754,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "pink_stained_glass_pane.json",
-    "item": "pink_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "pink_stained_glass"
+  [
+    {
+      "item": "pink_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "pink_stained_glass"
+          },
+          "2_key": {
+            "item": "pink_stained_glass"
+          },
+          "3_key": {
+            "item": "pink_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "pink_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "pink_stained_glass"
+          },
+          "2_key": {
+            "item": "pink_stained_glass"
+          },
+          "3_key": {
+            "item": "pink_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "pink_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "pink_stained_glass"
+      }
+    },
+    {
+      "item": "pink_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "pink_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "pink_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "pink_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "pink_stained_glass_pane_from_glass_pane.json",
-    "item": "pink_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "pink_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "pink_terracotta.json",
     "item": "pink_terracotta",
     "count": 8,
     "patterns": {
@@ -20618,7 +23874,6 @@ const recipes = [
     }
   },
   {
-    "file": "piston.json",
     "item": "piston",
     "count": 1,
     "patterns": {
@@ -20658,7 +23913,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_andesite.json",
     "item": "polished_andesite",
     "count": 4,
     "patterns": {
@@ -20698,7 +23952,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_andesite_slab.json",
     "item": "polished_andesite_slab",
     "count": 6,
     "patterns": {
@@ -20738,7 +23991,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_andesite_stairs.json",
     "item": "polished_andesite_stairs",
     "count": 4,
     "patterns": {
@@ -20778,7 +24030,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_basalt.json",
     "item": "polished_basalt",
     "count": 4,
     "patterns": {
@@ -20818,7 +24069,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_blackstone.json",
     "item": "polished_blackstone",
     "count": 4,
     "patterns": {
@@ -20858,7 +24108,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_blackstone_bricks.json",
     "item": "polished_blackstone_bricks",
     "count": 4,
     "patterns": {
@@ -20898,7 +24147,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_blackstone_brick_slab.json",
     "item": "polished_blackstone_brick_slab",
     "count": 6,
     "patterns": {
@@ -20938,7 +24186,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_blackstone_brick_stairs.json",
     "item": "polished_blackstone_brick_stairs",
     "count": 4,
     "patterns": {
@@ -20978,7 +24225,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_blackstone_brick_wall.json",
     "item": "polished_blackstone_brick_wall",
     "count": 6,
     "patterns": {
@@ -21018,18 +24264,40 @@ const recipes = [
     }
   },
   {
-    "file": "polished_blackstone_button.json",
     "item": "polished_blackstone_button",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "polished_blackstone"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "polished_blackstone_pressure_plate.json",
     "item": "polished_blackstone_pressure_plate",
     "count": 1,
     "patterns": {
@@ -21069,7 +24337,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_blackstone_slab.json",
     "item": "polished_blackstone_slab",
     "count": 6,
     "patterns": {
@@ -21109,7 +24376,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_blackstone_stairs.json",
     "item": "polished_blackstone_stairs",
     "count": 4,
     "patterns": {
@@ -21149,7 +24415,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_blackstone_wall.json",
     "item": "polished_blackstone_wall",
     "count": 6,
     "patterns": {
@@ -21189,7 +24454,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_deepslate.json",
     "item": "polished_deepslate",
     "count": 4,
     "patterns": {
@@ -21229,7 +24493,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_deepslate_slab.json",
     "item": "polished_deepslate_slab",
     "count": 6,
     "patterns": {
@@ -21269,7 +24532,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_deepslate_stairs.json",
     "item": "polished_deepslate_stairs",
     "count": 4,
     "patterns": {
@@ -21309,7 +24571,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_deepslate_wall.json",
     "item": "polished_deepslate_wall",
     "count": 6,
     "patterns": {
@@ -21349,7 +24610,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_diorite.json",
     "item": "polished_diorite",
     "count": 4,
     "patterns": {
@@ -21389,7 +24649,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_diorite_slab.json",
     "item": "polished_diorite_slab",
     "count": 6,
     "patterns": {
@@ -21429,7 +24688,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_diorite_stairs.json",
     "item": "polished_diorite_stairs",
     "count": 4,
     "patterns": {
@@ -21469,7 +24727,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_granite.json",
     "item": "polished_granite",
     "count": 4,
     "patterns": {
@@ -21509,7 +24766,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_granite_slab.json",
     "item": "polished_granite_slab",
     "count": 6,
     "patterns": {
@@ -21549,7 +24805,6 @@ const recipes = [
     }
   },
   {
-    "file": "polished_granite_stairs.json",
     "item": "polished_granite_stairs",
     "count": 4,
     "patterns": {
@@ -21589,7 +24844,6 @@ const recipes = [
     }
   },
   {
-    "file": "powered_rail.json",
     "item": "powered_rail",
     "count": 6,
     "patterns": {
@@ -21629,7 +24883,6 @@ const recipes = [
     }
   },
   {
-    "file": "prismarine.json",
     "item": "prismarine",
     "count": 1,
     "patterns": {
@@ -21669,7 +24922,6 @@ const recipes = [
     }
   },
   {
-    "file": "prismarine_bricks.json",
     "item": "prismarine_bricks",
     "count": 1,
     "patterns": {},
@@ -21704,7 +24956,6 @@ const recipes = [
     ]
   },
   {
-    "file": "prismarine_brick_slab.json",
     "item": "prismarine_brick_slab",
     "count": 6,
     "patterns": {
@@ -21744,7 +24995,6 @@ const recipes = [
     }
   },
   {
-    "file": "prismarine_brick_stairs.json",
     "item": "prismarine_brick_stairs",
     "count": 4,
     "patterns": {
@@ -21784,7 +25034,6 @@ const recipes = [
     }
   },
   {
-    "file": "prismarine_slab.json",
     "item": "prismarine_slab",
     "count": 6,
     "patterns": {
@@ -21824,7 +25073,6 @@ const recipes = [
     }
   },
   {
-    "file": "prismarine_stairs.json",
     "item": "prismarine_stairs",
     "count": 4,
     "patterns": {
@@ -21864,7 +25112,6 @@ const recipes = [
     }
   },
   {
-    "file": "prismarine_wall.json",
     "item": "prismarine_wall",
     "count": 6,
     "patterns": {
@@ -21904,7 +25151,6 @@ const recipes = [
     }
   },
   {
-    "file": "pumpkin_pie.json",
     "item": "pumpkin_pie",
     "count": 1,
     "patterns": {},
@@ -21917,22 +25163,62 @@ const recipes = [
       },
       {
         "item": "egg"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "pumpkin_seeds.json",
     "item": "pumpkin_seeds",
     "count": 4,
     "patterns": {},
     "ingredients": [
       {
         "item": "pumpkin"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "purple_banner.json",
     "item": "purple_banner",
     "count": 1,
     "patterns": {
@@ -21972,47 +25258,6 @@ const recipes = [
     }
   },
   {
-    "file": "purple_bed.json",
-    "item": "purple_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "purple_wool"
-        },
-        "2_key": {
-          "item": "purple_wool"
-        },
-        "3_key": {
-          "item": "purple_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "purple_candle.json",
     "item": "purple_candle",
     "count": 1,
     "patterns": {},
@@ -22022,51 +25267,31 @@ const recipes = [
       },
       {
         "item": "purple_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "purple_carpet.json",
-    "item": "purple_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "purple_wool"
-        },
-        "2_key": {
-          "item": "purple_wool"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "purple_concrete_powder.json",
     "item": "purple_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -22101,7 +25326,6 @@ const recipes = [
     ]
   },
   {
-    "file": "purple_dye.json",
     "item": "purple_dye",
     "count": 2,
     "patterns": {},
@@ -22111,11 +25335,31 @@ const recipes = [
       },
       {
         "item": "red_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "purple_stained_glass.json",
     "item": "purple_stained_glass",
     "count": 8,
     "patterns": {
@@ -22154,88 +25398,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "purple_stained_glass_pane.json",
-    "item": "purple_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "purple_stained_glass"
+  [
+    {
+      "item": "purple_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "purple_stained_glass"
+          },
+          "2_key": {
+            "item": "purple_stained_glass"
+          },
+          "3_key": {
+            "item": "purple_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "purple_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "purple_stained_glass"
+          },
+          "2_key": {
+            "item": "purple_stained_glass"
+          },
+          "3_key": {
+            "item": "purple_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "purple_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "purple_stained_glass"
+      }
+    },
+    {
+      "item": "purple_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "purple_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "purple_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "purple_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "purple_stained_glass_pane_from_glass_pane.json",
-    "item": "purple_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "purple_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "purple_terracotta.json",
     "item": "purple_terracotta",
     "count": 8,
     "patterns": {
@@ -22275,7 +25518,6 @@ const recipes = [
     }
   },
   {
-    "file": "purpur_block.json",
     "item": "purpur_block",
     "count": 4,
     "patterns": {
@@ -22315,7 +25557,6 @@ const recipes = [
     }
   },
   {
-    "file": "purpur_pillar.json",
     "item": "purpur_pillar",
     "count": 1,
     "patterns": {
@@ -22355,7 +25596,6 @@ const recipes = [
     }
   },
   {
-    "file": "purpur_slab.json",
     "item": "purpur_slab",
     "count": 6,
     "patterns": {
@@ -22410,7 +25650,6 @@ const recipes = [
     }
   },
   {
-    "file": "purpur_stairs.json",
     "item": "purpur_stairs",
     "count": 4,
     "patterns": {
@@ -22480,7 +25719,6 @@ const recipes = [
     }
   },
   {
-    "file": "quartz_block.json",
     "item": "quartz_block",
     "count": 1,
     "patterns": {
@@ -22520,7 +25758,6 @@ const recipes = [
     }
   },
   {
-    "file": "quartz_bricks.json",
     "item": "quartz_bricks",
     "count": 4,
     "patterns": {
@@ -22560,7 +25797,6 @@ const recipes = [
     }
   },
   {
-    "file": "quartz_pillar.json",
     "item": "quartz_pillar",
     "count": 2,
     "patterns": {
@@ -22600,7 +25836,6 @@ const recipes = [
     }
   },
   {
-    "file": "quartz_slab.json",
     "item": "quartz_slab",
     "count": 6,
     "patterns": {
@@ -22664,7 +25899,6 @@ const recipes = [
     }
   },
   {
-    "file": "quartz_stairs.json",
     "item": "quartz_stairs",
     "count": 4,
     "patterns": {
@@ -22751,54 +25985,77 @@ const recipes = [
       }
     }
   },
+  [
+    {
+      "item": "rabbit_stew",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "baked_potato"
+        },
+        {
+          "item": "cooked_rabbit"
+        },
+        {
+          "item": "bowl"
+        },
+        {
+          "item": "carrot"
+        },
+        {
+          "item": "brown_mushroom"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "rabbit_stew",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "baked_potato"
+        },
+        {
+          "item": "cooked_rabbit"
+        },
+        {
+          "item": "bowl"
+        },
+        {
+          "item": "carrot"
+        },
+        {
+          "item": "red_mushroom"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "rabbit_stew_from_brown_mushroom.json",
-    "item": "rabbit_stew",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "baked_potato"
-      },
-      {
-        "item": "cooked_rabbit"
-      },
-      {
-        "item": "bowl"
-      },
-      {
-        "item": "carrot"
-      },
-      {
-        "item": "brown_mushroom"
-      }
-    ]
-  },
-  {
-    "file": "rabbit_stew_from_red_mushroom.json",
-    "item": "rabbit_stew",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "baked_potato"
-      },
-      {
-        "item": "cooked_rabbit"
-      },
-      {
-        "item": "bowl"
-      },
-      {
-        "item": "carrot"
-      },
-      {
-        "item": "red_mushroom"
-      }
-    ]
-  },
-  {
-    "file": "rail.json",
     "item": "rail",
     "count": 16,
     "patterns": {
@@ -22838,7 +26095,6 @@ const recipes = [
     }
   },
   {
-    "file": "raiser_armor_trim_smithing_template.json",
     "item": "raiser_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -22878,18 +26134,40 @@ const recipes = [
     }
   },
   {
-    "file": "raw_copper.json",
     "item": "raw_copper",
     "count": 9,
     "patterns": {},
     "ingredients": [
       {
         "item": "raw_copper_block"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "raw_copper_block.json",
     "item": "raw_copper_block",
     "count": 1,
     "patterns": {
@@ -22929,18 +26207,40 @@ const recipes = [
     }
   },
   {
-    "file": "raw_gold.json",
     "item": "raw_gold",
     "count": 9,
     "patterns": {},
     "ingredients": [
       {
         "item": "raw_gold_block"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "raw_gold_block.json",
     "item": "raw_gold_block",
     "count": 1,
     "patterns": {
@@ -22980,18 +26280,40 @@ const recipes = [
     }
   },
   {
-    "file": "raw_iron.json",
     "item": "raw_iron",
     "count": 9,
     "patterns": {},
     "ingredients": [
       {
         "item": "raw_iron_block"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "raw_iron_block.json",
     "item": "raw_iron_block",
     "count": 1,
     "patterns": {
@@ -23031,7 +26353,6 @@ const recipes = [
     }
   },
   {
-    "file": "recovery_compass.json",
     "item": "recovery_compass",
     "count": 1,
     "patterns": {
@@ -23071,18 +26392,40 @@ const recipes = [
     }
   },
   {
-    "file": "redstone.json",
     "item": "redstone",
     "count": 9,
     "patterns": {},
     "ingredients": [
       {
         "item": "redstone_block"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "redstone_block.json",
     "item": "redstone_block",
     "count": 1,
     "patterns": {
@@ -23122,7 +26465,6 @@ const recipes = [
     }
   },
   {
-    "file": "redstone_lamp.json",
     "item": "redstone_lamp",
     "count": 1,
     "patterns": {
@@ -23162,7 +26504,6 @@ const recipes = [
     }
   },
   {
-    "file": "redstone_torch.json",
     "item": "redstone_torch",
     "count": 1,
     "patterns": {
@@ -23202,7 +26543,6 @@ const recipes = [
     }
   },
   {
-    "file": "red_banner.json",
     "item": "red_banner",
     "count": 1,
     "patterns": {
@@ -23242,47 +26582,6 @@ const recipes = [
     }
   },
   {
-    "file": "red_bed.json",
-    "item": "red_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "red_wool"
-        },
-        "2_key": {
-          "item": "red_wool"
-        },
-        "3_key": {
-          "item": "red_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "red_candle.json",
     "item": "red_candle",
     "count": 1,
     "patterns": {},
@@ -23292,51 +26591,31 @@ const recipes = [
       },
       {
         "item": "red_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "red_carpet.json",
-    "item": "red_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "red_wool"
-        },
-        "2_key": {
-          "item": "red_wool"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "red_concrete_powder.json",
     "item": "red_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -23370,52 +26649,145 @@ const recipes = [
       }
     ]
   },
+  [
+    {
+      "item": "red_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "beetroot"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "red_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "poppy"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "red_dye",
+      "count": 2,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "rose_bush"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "red_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "red_tulip"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "red_dye_from_beetroot.json",
-    "item": "red_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "beetroot"
-      }
-    ]
-  },
-  {
-    "file": "red_dye_from_poppy.json",
-    "item": "red_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "poppy"
-      }
-    ]
-  },
-  {
-    "file": "red_dye_from_rose_bush.json",
-    "item": "red_dye",
-    "count": 2,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "rose_bush"
-      }
-    ]
-  },
-  {
-    "file": "red_dye_from_tulip.json",
-    "item": "red_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "red_tulip"
-      }
-    ]
-  },
-  {
-    "file": "red_nether_bricks.json",
     "item": "red_nether_bricks",
     "count": 1,
     "patterns": {
@@ -23455,7 +26827,6 @@ const recipes = [
     }
   },
   {
-    "file": "red_nether_brick_slab.json",
     "item": "red_nether_brick_slab",
     "count": 6,
     "patterns": {
@@ -23495,7 +26866,6 @@ const recipes = [
     }
   },
   {
-    "file": "red_nether_brick_stairs.json",
     "item": "red_nether_brick_stairs",
     "count": 4,
     "patterns": {
@@ -23535,7 +26905,6 @@ const recipes = [
     }
   },
   {
-    "file": "red_nether_brick_wall.json",
     "item": "red_nether_brick_wall",
     "count": 6,
     "patterns": {
@@ -23575,7 +26944,6 @@ const recipes = [
     }
   },
   {
-    "file": "red_sandstone.json",
     "item": "red_sandstone",
     "count": 1,
     "patterns": {
@@ -23615,7 +26983,6 @@ const recipes = [
     }
   },
   {
-    "file": "red_sandstone_slab.json",
     "item": "red_sandstone_slab",
     "count": 6,
     "patterns": {
@@ -23670,7 +27037,6 @@ const recipes = [
     }
   },
   {
-    "file": "red_sandstone_stairs.json",
     "item": "red_sandstone_stairs",
     "count": 4,
     "patterns": {
@@ -23758,7 +27124,6 @@ const recipes = [
     }
   },
   {
-    "file": "red_sandstone_wall.json",
     "item": "red_sandstone_wall",
     "count": 6,
     "patterns": {
@@ -23798,7 +27163,6 @@ const recipes = [
     }
   },
   {
-    "file": "red_stained_glass.json",
     "item": "red_stained_glass",
     "count": 8,
     "patterns": {
@@ -23837,88 +27201,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "red_stained_glass_pane.json",
-    "item": "red_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "red_stained_glass"
+  [
+    {
+      "item": "red_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "red_stained_glass"
+          },
+          "2_key": {
+            "item": "red_stained_glass"
+          },
+          "3_key": {
+            "item": "red_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "red_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "red_stained_glass"
+          },
+          "2_key": {
+            "item": "red_stained_glass"
+          },
+          "3_key": {
+            "item": "red_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "red_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "red_stained_glass"
+      }
+    },
+    {
+      "item": "red_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "red_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "red_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "red_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "red_stained_glass_pane_from_glass_pane.json",
-    "item": "red_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "red_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "red_terracotta.json",
     "item": "red_terracotta",
     "count": 8,
     "patterns": {
@@ -23958,7 +27321,6 @@ const recipes = [
     }
   },
   {
-    "file": "repeater.json",
     "item": "repeater",
     "count": 1,
     "patterns": {
@@ -23998,7 +27360,6 @@ const recipes = [
     }
   },
   {
-    "file": "respawn_anchor.json",
     "item": "respawn_anchor",
     "count": 1,
     "patterns": {
@@ -24038,7 +27399,6 @@ const recipes = [
     }
   },
   {
-    "file": "rib_armor_trim_smithing_template.json",
     "item": "rib_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -24078,7 +27438,6 @@ const recipes = [
     }
   },
   {
-    "file": "sandstone.json",
     "item": "sandstone",
     "count": 1,
     "patterns": {
@@ -24118,7 +27477,6 @@ const recipes = [
     }
   },
   {
-    "file": "sandstone_slab.json",
     "item": "sandstone_slab",
     "count": 6,
     "patterns": {
@@ -24173,7 +27531,6 @@ const recipes = [
     }
   },
   {
-    "file": "sandstone_stairs.json",
     "item": "sandstone_stairs",
     "count": 4,
     "patterns": {
@@ -24261,7 +27618,6 @@ const recipes = [
     }
   },
   {
-    "file": "sandstone_wall.json",
     "item": "sandstone_wall",
     "count": 6,
     "patterns": {
@@ -24301,7 +27657,6 @@ const recipes = [
     }
   },
   {
-    "file": "scaffolding.json",
     "item": "scaffolding",
     "count": 6,
     "patterns": {
@@ -24341,7 +27696,6 @@ const recipes = [
     }
   },
   {
-    "file": "sea_lantern.json",
     "item": "sea_lantern",
     "count": 1,
     "patterns": {
@@ -24381,7 +27735,6 @@ const recipes = [
     }
   },
   {
-    "file": "sentry_armor_trim_smithing_template.json",
     "item": "sentry_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -24421,7 +27774,6 @@ const recipes = [
     }
   },
   {
-    "file": "shaper_armor_trim_smithing_template.json",
     "item": "shaper_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -24461,7 +27813,6 @@ const recipes = [
     }
   },
   {
-    "file": "shears.json",
     "item": "shears",
     "count": 1,
     "patterns": {
@@ -24501,7 +27852,6 @@ const recipes = [
     }
   },
   {
-    "file": "shield.json",
     "item": "shield",
     "count": 1,
     "patterns": {
@@ -24541,7 +27891,6 @@ const recipes = [
     }
   },
   {
-    "file": "shulker_box.json",
     "item": "shulker_box",
     "count": 1,
     "patterns": {
@@ -24581,7 +27930,6 @@ const recipes = [
     }
   },
   {
-    "file": "silence_armor_trim_smithing_template.json",
     "item": "silence_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -24621,7 +27969,6 @@ const recipes = [
     }
   },
   {
-    "file": "skull_banner_pattern.json",
     "item": "skull_banner_pattern",
     "count": 1,
     "patterns": {},
@@ -24631,22 +27978,65 @@ const recipes = [
       },
       {
         "item": "wither_skeleton_skull"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "slime_ball.json",
     "item": "slime_ball",
     "count": 9,
     "patterns": {},
     "ingredients": [
       {
         "item": "slime_block"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "slime_block.json",
     "item": "slime_block",
     "count": 1,
     "patterns": {
@@ -24686,7 +28076,6 @@ const recipes = [
     }
   },
   {
-    "file": "smithing_table.json",
     "item": "smithing_table",
     "count": 1,
     "patterns": {
@@ -24726,7 +28115,6 @@ const recipes = [
     }
   },
   {
-    "file": "smoker.json",
     "item": "smoker",
     "count": 1,
     "patterns": {
@@ -24766,7 +28154,6 @@ const recipes = [
     }
   },
   {
-    "file": "smooth_quartz_slab.json",
     "item": "smooth_quartz_slab",
     "count": 6,
     "patterns": {
@@ -24806,7 +28193,6 @@ const recipes = [
     }
   },
   {
-    "file": "smooth_quartz_stairs.json",
     "item": "smooth_quartz_stairs",
     "count": 4,
     "patterns": {
@@ -24846,7 +28232,6 @@ const recipes = [
     }
   },
   {
-    "file": "smooth_red_sandstone_slab.json",
     "item": "smooth_red_sandstone_slab",
     "count": 6,
     "patterns": {
@@ -24886,7 +28271,6 @@ const recipes = [
     }
   },
   {
-    "file": "smooth_red_sandstone_stairs.json",
     "item": "smooth_red_sandstone_stairs",
     "count": 4,
     "patterns": {
@@ -24926,7 +28310,6 @@ const recipes = [
     }
   },
   {
-    "file": "smooth_sandstone_slab.json",
     "item": "smooth_sandstone_slab",
     "count": 6,
     "patterns": {
@@ -24966,7 +28349,6 @@ const recipes = [
     }
   },
   {
-    "file": "smooth_sandstone_stairs.json",
     "item": "smooth_sandstone_stairs",
     "count": 4,
     "patterns": {
@@ -25006,7 +28388,6 @@ const recipes = [
     }
   },
   {
-    "file": "smooth_stone_slab.json",
     "item": "smooth_stone_slab",
     "count": 6,
     "patterns": {
@@ -25046,7 +28427,6 @@ const recipes = [
     }
   },
   {
-    "file": "snout_armor_trim_smithing_template.json",
     "item": "snout_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -25086,7 +28466,6 @@ const recipes = [
     }
   },
   {
-    "file": "snow.json",
     "item": "snow",
     "count": 6,
     "patterns": {
@@ -25126,7 +28505,6 @@ const recipes = [
     }
   },
   {
-    "file": "snow_block.json",
     "item": "snow_block",
     "count": 1,
     "patterns": {
@@ -25166,7 +28544,6 @@ const recipes = [
     }
   },
   {
-    "file": "soul_campfire.json",
     "item": "soul_campfire",
     "count": 1,
     "patterns": {
@@ -25206,7 +28583,6 @@ const recipes = [
     }
   },
   {
-    "file": "soul_lantern.json",
     "item": "soul_lantern",
     "count": 1,
     "patterns": {
@@ -25246,7 +28622,6 @@ const recipes = [
     }
   },
   {
-    "file": "soul_torch.json",
     "item": "soul_torch",
     "count": 4,
     "patterns": {
@@ -25291,7 +28666,6 @@ const recipes = [
     }
   },
   {
-    "file": "spectral_arrow.json",
     "item": "spectral_arrow",
     "count": 2,
     "patterns": {
@@ -25331,7 +28705,6 @@ const recipes = [
     }
   },
   {
-    "file": "spire_armor_trim_smithing_template.json",
     "item": "spire_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -25371,7 +28744,6 @@ const recipes = [
     }
   },
   {
-    "file": "spruce_boat.json",
     "item": "spruce_boat",
     "count": 1,
     "patterns": {
@@ -25411,18 +28783,40 @@ const recipes = [
     }
   },
   {
-    "file": "spruce_button.json",
     "item": "spruce_button",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "spruce_planks"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "spruce_chest_boat.json",
     "item": "spruce_chest_boat",
     "count": 1,
     "patterns": {},
@@ -25432,11 +28826,31 @@ const recipes = [
       },
       {
         "item": "spruce_boat"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "spruce_door.json",
     "item": "spruce_door",
     "count": 3,
     "patterns": {
@@ -25476,7 +28890,6 @@ const recipes = [
     }
   },
   {
-    "file": "spruce_fence.json",
     "item": "spruce_fence",
     "count": 3,
     "patterns": {
@@ -25516,7 +28929,6 @@ const recipes = [
     }
   },
   {
-    "file": "spruce_fence_gate.json",
     "item": "spruce_fence_gate",
     "count": 1,
     "patterns": {
@@ -25556,7 +28968,6 @@ const recipes = [
     }
   },
   {
-    "file": "spruce_hanging_sign.json",
     "item": "spruce_hanging_sign",
     "count": 6,
     "patterns": {
@@ -25596,18 +29007,40 @@ const recipes = [
     }
   },
   {
-    "file": "spruce_planks.json",
     "item": "spruce_planks",
     "count": 4,
     "patterns": {},
     "ingredients": [
       {
         "tag": "spruce_logs"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "spruce_pressure_plate.json",
     "item": "spruce_pressure_plate",
     "count": 1,
     "patterns": {
@@ -25647,7 +29080,6 @@ const recipes = [
     }
   },
   {
-    "file": "spruce_sign.json",
     "item": "spruce_sign",
     "count": 3,
     "patterns": {
@@ -25687,7 +29119,6 @@ const recipes = [
     }
   },
   {
-    "file": "spruce_slab.json",
     "item": "spruce_slab",
     "count": 6,
     "patterns": {
@@ -25727,7 +29158,6 @@ const recipes = [
     }
   },
   {
-    "file": "spruce_stairs.json",
     "item": "spruce_stairs",
     "count": 4,
     "patterns": {
@@ -25767,7 +29197,6 @@ const recipes = [
     }
   },
   {
-    "file": "spruce_trapdoor.json",
     "item": "spruce_trapdoor",
     "count": 2,
     "patterns": {
@@ -25807,7 +29236,6 @@ const recipes = [
     }
   },
   {
-    "file": "spruce_wood.json",
     "item": "spruce_wood",
     "count": 3,
     "patterns": {
@@ -25847,7 +29275,6 @@ const recipes = [
     }
   },
   {
-    "file": "spyglass.json",
     "item": "spyglass",
     "count": 1,
     "patterns": {
@@ -25886,48 +29313,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "stick.json",
-    "item": "stick",
-    "count": 4,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "tag": "planks"
+  [
+    {
+      "item": "stick",
+      "count": 4,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "air"
+        "pattern_row_2": {
+          "1_key": {
+            "tag": "planks"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
+      }
+    },
+    {
+      "item": "stick",
+      "count": 1,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "bamboo"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "air"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "bamboo"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "sticky_piston.json",
     "item": "sticky_piston",
     "count": 1,
     "patterns": {
@@ -25967,47 +29433,6 @@ const recipes = [
     }
   },
   {
-    "file": "stick_from_bamboo_item.json",
-    "item": "stick",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "bamboo"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "bamboo"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "stonecutter.json",
     "item": "stonecutter",
     "count": 1,
     "patterns": {
@@ -26047,7 +29472,6 @@ const recipes = [
     }
   },
   {
-    "file": "stone_axe.json",
     "item": "stone_axe",
     "count": 1,
     "patterns": {
@@ -26087,7 +29511,6 @@ const recipes = [
     }
   },
   {
-    "file": "stone_bricks.json",
     "item": "stone_bricks",
     "count": 4,
     "patterns": {
@@ -26127,7 +29550,6 @@ const recipes = [
     }
   },
   {
-    "file": "stone_brick_slab.json",
     "item": "stone_brick_slab",
     "count": 6,
     "patterns": {
@@ -26167,7 +29589,6 @@ const recipes = [
     }
   },
   {
-    "file": "stone_brick_stairs.json",
     "item": "stone_brick_stairs",
     "count": 4,
     "patterns": {
@@ -26207,7 +29628,6 @@ const recipes = [
     }
   },
   {
-    "file": "stone_brick_wall.json",
     "item": "stone_brick_wall",
     "count": 6,
     "patterns": {
@@ -26247,18 +29667,40 @@ const recipes = [
     }
   },
   {
-    "file": "stone_button.json",
     "item": "stone_button",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "stone"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "stone_hoe.json",
     "item": "stone_hoe",
     "count": 1,
     "patterns": {
@@ -26298,7 +29740,6 @@ const recipes = [
     }
   },
   {
-    "file": "stone_pickaxe.json",
     "item": "stone_pickaxe",
     "count": 1,
     "patterns": {
@@ -26338,7 +29779,6 @@ const recipes = [
     }
   },
   {
-    "file": "stone_pressure_plate.json",
     "item": "stone_pressure_plate",
     "count": 1,
     "patterns": {
@@ -26378,7 +29818,6 @@ const recipes = [
     }
   },
   {
-    "file": "stone_shovel.json",
     "item": "stone_shovel",
     "count": 1,
     "patterns": {
@@ -26418,7 +29857,6 @@ const recipes = [
     }
   },
   {
-    "file": "stone_slab.json",
     "item": "stone_slab",
     "count": 6,
     "patterns": {
@@ -26458,7 +29896,6 @@ const recipes = [
     }
   },
   {
-    "file": "stone_stairs.json",
     "item": "stone_stairs",
     "count": 4,
     "patterns": {
@@ -26498,7 +29935,6 @@ const recipes = [
     }
   },
   {
-    "file": "stone_sword.json",
     "item": "stone_sword",
     "count": 1,
     "patterns": {
@@ -26538,7 +29974,6 @@ const recipes = [
     }
   },
   {
-    "file": "stripped_acacia_wood.json",
     "item": "stripped_acacia_wood",
     "count": 3,
     "patterns": {
@@ -26578,7 +30013,6 @@ const recipes = [
     }
   },
   {
-    "file": "stripped_birch_wood.json",
     "item": "stripped_birch_wood",
     "count": 3,
     "patterns": {
@@ -26618,7 +30052,6 @@ const recipes = [
     }
   },
   {
-    "file": "stripped_cherry_wood.json",
     "item": "stripped_cherry_wood",
     "count": 3,
     "patterns": {
@@ -26658,7 +30091,6 @@ const recipes = [
     }
   },
   {
-    "file": "stripped_crimson_hyphae.json",
     "item": "stripped_crimson_hyphae",
     "count": 3,
     "patterns": {
@@ -26698,7 +30130,6 @@ const recipes = [
     }
   },
   {
-    "file": "stripped_dark_oak_wood.json",
     "item": "stripped_dark_oak_wood",
     "count": 3,
     "patterns": {
@@ -26738,7 +30169,6 @@ const recipes = [
     }
   },
   {
-    "file": "stripped_jungle_wood.json",
     "item": "stripped_jungle_wood",
     "count": 3,
     "patterns": {
@@ -26778,7 +30208,6 @@ const recipes = [
     }
   },
   {
-    "file": "stripped_mangrove_wood.json",
     "item": "stripped_mangrove_wood",
     "count": 3,
     "patterns": {
@@ -26818,7 +30247,6 @@ const recipes = [
     }
   },
   {
-    "file": "stripped_oak_wood.json",
     "item": "stripped_oak_wood",
     "count": 3,
     "patterns": {
@@ -26858,7 +30286,6 @@ const recipes = [
     }
   },
   {
-    "file": "stripped_spruce_wood.json",
     "item": "stripped_spruce_wood",
     "count": 3,
     "patterns": {
@@ -26898,7 +30325,6 @@ const recipes = [
     }
   },
   {
-    "file": "stripped_warped_hyphae.json",
     "item": "stripped_warped_hyphae",
     "count": 3,
     "patterns": {
@@ -26937,30 +30363,77 @@ const recipes = [
       }
     }
   },
+  [
+    {
+      "item": "sugar",
+      "count": 3,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "honey_bottle"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "sugar",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "sugar_cane"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "sugar_from_honey_bottle.json",
-    "item": "sugar",
-    "count": 3,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "honey_bottle"
-      }
-    ]
-  },
-  {
-    "file": "sugar_from_sugar_cane.json",
-    "item": "sugar",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "sugar_cane"
-      }
-    ]
-  },
-  {
-    "file": "target.json",
     "item": "target",
     "count": 1,
     "patterns": {
@@ -27000,7 +30473,6 @@ const recipes = [
     }
   },
   {
-    "file": "tide_armor_trim_smithing_template.json",
     "item": "tide_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -27040,7 +30512,6 @@ const recipes = [
     }
   },
   {
-    "file": "tinted_glass.json",
     "item": "tinted_glass",
     "count": 2,
     "patterns": {
@@ -27080,7 +30551,6 @@ const recipes = [
     }
   },
   {
-    "file": "tnt.json",
     "item": "tnt",
     "count": 1,
     "patterns": {
@@ -27140,7 +30610,6 @@ const recipes = [
     }
   },
   {
-    "file": "tnt_minecart.json",
     "item": "tnt_minecart",
     "count": 1,
     "patterns": {},
@@ -27150,11 +30619,31 @@ const recipes = [
       },
       {
         "item": "minecart"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "torch.json",
     "item": "torch",
     "count": 4,
     "patterns": {
@@ -27199,7 +30688,6 @@ const recipes = [
     }
   },
   {
-    "file": "trapped_chest.json",
     "item": "trapped_chest",
     "count": 1,
     "patterns": {},
@@ -27209,11 +30697,31 @@ const recipes = [
       },
       {
         "item": "tripwire_hook"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "tripwire_hook.json",
     "item": "tripwire_hook",
     "count": 2,
     "patterns": {
@@ -27253,7 +30761,6 @@ const recipes = [
     }
   },
   {
-    "file": "turtle_helmet.json",
     "item": "turtle_helmet",
     "count": 1,
     "patterns": {
@@ -27293,7 +30800,6 @@ const recipes = [
     }
   },
   {
-    "file": "vex_armor_trim_smithing_template.json",
     "item": "vex_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -27333,7 +30839,6 @@ const recipes = [
     }
   },
   {
-    "file": "ward_armor_trim_smithing_template.json",
     "item": "ward_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -27373,18 +30878,40 @@ const recipes = [
     }
   },
   {
-    "file": "warped_button.json",
     "item": "warped_button",
     "count": 1,
     "patterns": {},
     "ingredients": [
       {
         "item": "warped_planks"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "warped_door.json",
     "item": "warped_door",
     "count": 3,
     "patterns": {
@@ -27424,7 +30951,6 @@ const recipes = [
     }
   },
   {
-    "file": "warped_fence.json",
     "item": "warped_fence",
     "count": 3,
     "patterns": {
@@ -27464,7 +30990,6 @@ const recipes = [
     }
   },
   {
-    "file": "warped_fence_gate.json",
     "item": "warped_fence_gate",
     "count": 1,
     "patterns": {
@@ -27504,7 +31029,6 @@ const recipes = [
     }
   },
   {
-    "file": "warped_fungus_on_a_stick.json",
     "item": "warped_fungus_on_a_stick",
     "count": 1,
     "patterns": {
@@ -27544,7 +31068,6 @@ const recipes = [
     }
   },
   {
-    "file": "warped_hanging_sign.json",
     "item": "warped_hanging_sign",
     "count": 6,
     "patterns": {
@@ -27584,7 +31107,6 @@ const recipes = [
     }
   },
   {
-    "file": "warped_hyphae.json",
     "item": "warped_hyphae",
     "count": 3,
     "patterns": {
@@ -27624,18 +31146,40 @@ const recipes = [
     }
   },
   {
-    "file": "warped_planks.json",
     "item": "warped_planks",
     "count": 4,
     "patterns": {},
     "ingredients": [
       {
         "tag": "warped_stems"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "warped_pressure_plate.json",
     "item": "warped_pressure_plate",
     "count": 1,
     "patterns": {
@@ -27675,7 +31219,6 @@ const recipes = [
     }
   },
   {
-    "file": "warped_sign.json",
     "item": "warped_sign",
     "count": 3,
     "patterns": {
@@ -27715,7 +31258,6 @@ const recipes = [
     }
   },
   {
-    "file": "warped_slab.json",
     "item": "warped_slab",
     "count": 6,
     "patterns": {
@@ -27755,7 +31297,6 @@ const recipes = [
     }
   },
   {
-    "file": "warped_stairs.json",
     "item": "warped_stairs",
     "count": 4,
     "patterns": {
@@ -27795,7 +31336,6 @@ const recipes = [
     }
   },
   {
-    "file": "warped_trapdoor.json",
     "item": "warped_trapdoor",
     "count": 2,
     "patterns": {
@@ -27835,7 +31375,6 @@ const recipes = [
     }
   },
   {
-    "file": "waxed_copper_block_from_honeycomb.json",
     "item": "waxed_copper_block",
     "count": 1,
     "patterns": {},
@@ -27845,173 +31384,256 @@ const recipes = [
       },
       {
         "item": "honeycomb"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
-  {
-    "file": "waxed_cut_copper.json",
-    "item": "waxed_cut_copper",
-    "count": 4,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "waxed_copper_block"
+  [
+    {
+      "item": "waxed_cut_copper",
+      "count": 4,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "waxed_copper_block"
+          },
+          "2_key": {
+            "item": "waxed_copper_block"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "waxed_copper_block"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "waxed_copper_block"
+          },
+          "2_key": {
+            "item": "waxed_copper_block"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "waxed_copper_block"
-        },
-        "2_key": {
-          "item": "waxed_copper_block"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "waxed_cut_copper",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "cut_copper"
+        },
+        {
+          "item": "honeycomb"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
-  {
-    "file": "waxed_cut_copper_from_honeycomb.json",
-    "item": "waxed_cut_copper",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "cut_copper"
-      },
-      {
-        "item": "honeycomb"
-      }
-    ]
-  },
-  {
-    "file": "waxed_cut_copper_slab.json",
-    "item": "waxed_cut_copper_slab",
-    "count": 6,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "waxed_cut_copper"
+  ],
+  [
+    {
+      "item": "waxed_cut_copper_slab",
+      "count": 6,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "waxed_cut_copper"
+          },
+          "2_key": {
+            "item": "waxed_cut_copper"
+          },
+          "3_key": {
+            "item": "waxed_cut_copper"
+          }
         },
-        "2_key": {
-          "item": "waxed_cut_copper"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "waxed_cut_copper"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "waxed_cut_copper_slab",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "cut_copper_slab"
+        },
+        {
+          "item": "honeycomb"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
-  {
-    "file": "waxed_cut_copper_slab_from_honeycomb.json",
-    "item": "waxed_cut_copper_slab",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "cut_copper_slab"
-      },
-      {
-        "item": "honeycomb"
-      }
-    ]
-  },
-  {
-    "file": "waxed_cut_copper_stairs.json",
-    "item": "waxed_cut_copper_stairs",
-    "count": 4,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "waxed_cut_copper"
+  ],
+  [
+    {
+      "item": "waxed_cut_copper_stairs",
+      "count": 4,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "waxed_cut_copper"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "air"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "waxed_cut_copper"
+          },
+          "2_key": {
+            "item": "waxed_cut_copper"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "waxed_cut_copper"
-        },
-        "2_key": {
-          "item": "waxed_cut_copper"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "waxed_cut_copper"
-        },
-        "2_key": {
-          "item": "waxed_cut_copper"
-        },
-        "3_key": {
-          "item": "waxed_cut_copper"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "waxed_cut_copper"
+          },
+          "2_key": {
+            "item": "waxed_cut_copper"
+          },
+          "3_key": {
+            "item": "waxed_cut_copper"
+          }
         }
       }
+    },
+    {
+      "item": "waxed_cut_copper_stairs",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "cut_copper_stairs"
+        },
+        {
+          "item": "honeycomb"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
+  ],
   {
-    "file": "waxed_cut_copper_stairs_from_honeycomb.json",
-    "item": "waxed_cut_copper_stairs",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "cut_copper_stairs"
-      },
-      {
-        "item": "honeycomb"
-      }
-    ]
-  },
-  {
-    "file": "waxed_exposed_copper_from_honeycomb.json",
     "item": "waxed_exposed_copper",
     "count": 1,
     "patterns": {},
@@ -28021,173 +31643,256 @@ const recipes = [
       },
       {
         "item": "honeycomb"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
-  {
-    "file": "waxed_exposed_cut_copper.json",
-    "item": "waxed_exposed_cut_copper",
-    "count": 4,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "waxed_exposed_copper"
+  [
+    {
+      "item": "waxed_exposed_cut_copper",
+      "count": 4,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "waxed_exposed_copper"
+          },
+          "2_key": {
+            "item": "waxed_exposed_copper"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "waxed_exposed_copper"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "waxed_exposed_copper"
+          },
+          "2_key": {
+            "item": "waxed_exposed_copper"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "waxed_exposed_copper"
-        },
-        "2_key": {
-          "item": "waxed_exposed_copper"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "waxed_exposed_cut_copper",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "exposed_cut_copper"
+        },
+        {
+          "item": "honeycomb"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
-  {
-    "file": "waxed_exposed_cut_copper_from_honeycomb.json",
-    "item": "waxed_exposed_cut_copper",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "exposed_cut_copper"
-      },
-      {
-        "item": "honeycomb"
-      }
-    ]
-  },
-  {
-    "file": "waxed_exposed_cut_copper_slab.json",
-    "item": "waxed_exposed_cut_copper_slab",
-    "count": 6,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "waxed_exposed_cut_copper"
+  ],
+  [
+    {
+      "item": "waxed_exposed_cut_copper_slab",
+      "count": 6,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "waxed_exposed_cut_copper"
+          },
+          "2_key": {
+            "item": "waxed_exposed_cut_copper"
+          },
+          "3_key": {
+            "item": "waxed_exposed_cut_copper"
+          }
         },
-        "2_key": {
-          "item": "waxed_exposed_cut_copper"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "waxed_exposed_cut_copper"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "waxed_exposed_cut_copper_slab",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "exposed_cut_copper_slab"
+        },
+        {
+          "item": "honeycomb"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
-  {
-    "file": "waxed_exposed_cut_copper_slab_from_honeycomb.json",
-    "item": "waxed_exposed_cut_copper_slab",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "exposed_cut_copper_slab"
-      },
-      {
-        "item": "honeycomb"
-      }
-    ]
-  },
-  {
-    "file": "waxed_exposed_cut_copper_stairs.json",
-    "item": "waxed_exposed_cut_copper_stairs",
-    "count": 4,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "waxed_exposed_cut_copper"
+  ],
+  [
+    {
+      "item": "waxed_exposed_cut_copper_stairs",
+      "count": 4,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "waxed_exposed_cut_copper"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "air"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "waxed_exposed_cut_copper"
+          },
+          "2_key": {
+            "item": "waxed_exposed_cut_copper"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "waxed_exposed_cut_copper"
-        },
-        "2_key": {
-          "item": "waxed_exposed_cut_copper"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "waxed_exposed_cut_copper"
-        },
-        "2_key": {
-          "item": "waxed_exposed_cut_copper"
-        },
-        "3_key": {
-          "item": "waxed_exposed_cut_copper"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "waxed_exposed_cut_copper"
+          },
+          "2_key": {
+            "item": "waxed_exposed_cut_copper"
+          },
+          "3_key": {
+            "item": "waxed_exposed_cut_copper"
+          }
         }
       }
+    },
+    {
+      "item": "waxed_exposed_cut_copper_stairs",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "exposed_cut_copper_stairs"
+        },
+        {
+          "item": "honeycomb"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
+  ],
   {
-    "file": "waxed_exposed_cut_copper_stairs_from_honeycomb.json",
-    "item": "waxed_exposed_cut_copper_stairs",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "exposed_cut_copper_stairs"
-      },
-      {
-        "item": "honeycomb"
-      }
-    ]
-  },
-  {
-    "file": "waxed_oxidized_copper_from_honeycomb.json",
     "item": "waxed_oxidized_copper",
     "count": 1,
     "patterns": {},
@@ -28197,173 +31902,256 @@ const recipes = [
       },
       {
         "item": "honeycomb"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
-  {
-    "file": "waxed_oxidized_cut_copper.json",
-    "item": "waxed_oxidized_cut_copper",
-    "count": 4,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "waxed_oxidized_copper"
+  [
+    {
+      "item": "waxed_oxidized_cut_copper",
+      "count": 4,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "waxed_oxidized_copper"
+          },
+          "2_key": {
+            "item": "waxed_oxidized_copper"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "waxed_oxidized_copper"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "waxed_oxidized_copper"
+          },
+          "2_key": {
+            "item": "waxed_oxidized_copper"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "waxed_oxidized_copper"
-        },
-        "2_key": {
-          "item": "waxed_oxidized_copper"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "waxed_oxidized_cut_copper",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "oxidized_cut_copper"
+        },
+        {
+          "item": "honeycomb"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
-  {
-    "file": "waxed_oxidized_cut_copper_from_honeycomb.json",
-    "item": "waxed_oxidized_cut_copper",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "oxidized_cut_copper"
-      },
-      {
-        "item": "honeycomb"
-      }
-    ]
-  },
-  {
-    "file": "waxed_oxidized_cut_copper_slab.json",
-    "item": "waxed_oxidized_cut_copper_slab",
-    "count": 6,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "waxed_oxidized_cut_copper"
+  ],
+  [
+    {
+      "item": "waxed_oxidized_cut_copper_slab",
+      "count": 6,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "waxed_oxidized_cut_copper"
+          },
+          "2_key": {
+            "item": "waxed_oxidized_cut_copper"
+          },
+          "3_key": {
+            "item": "waxed_oxidized_cut_copper"
+          }
         },
-        "2_key": {
-          "item": "waxed_oxidized_cut_copper"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "waxed_oxidized_cut_copper"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "waxed_oxidized_cut_copper_slab",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "oxidized_cut_copper_slab"
+        },
+        {
+          "item": "honeycomb"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
-  {
-    "file": "waxed_oxidized_cut_copper_slab_from_honeycomb.json",
-    "item": "waxed_oxidized_cut_copper_slab",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "oxidized_cut_copper_slab"
-      },
-      {
-        "item": "honeycomb"
-      }
-    ]
-  },
-  {
-    "file": "waxed_oxidized_cut_copper_stairs.json",
-    "item": "waxed_oxidized_cut_copper_stairs",
-    "count": 4,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "waxed_oxidized_cut_copper"
+  ],
+  [
+    {
+      "item": "waxed_oxidized_cut_copper_stairs",
+      "count": 4,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "waxed_oxidized_cut_copper"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "air"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "waxed_oxidized_cut_copper"
+          },
+          "2_key": {
+            "item": "waxed_oxidized_cut_copper"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "waxed_oxidized_cut_copper"
-        },
-        "2_key": {
-          "item": "waxed_oxidized_cut_copper"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "waxed_oxidized_cut_copper"
-        },
-        "2_key": {
-          "item": "waxed_oxidized_cut_copper"
-        },
-        "3_key": {
-          "item": "waxed_oxidized_cut_copper"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "waxed_oxidized_cut_copper"
+          },
+          "2_key": {
+            "item": "waxed_oxidized_cut_copper"
+          },
+          "3_key": {
+            "item": "waxed_oxidized_cut_copper"
+          }
         }
       }
+    },
+    {
+      "item": "waxed_oxidized_cut_copper_stairs",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "oxidized_cut_copper_stairs"
+        },
+        {
+          "item": "honeycomb"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
+  ],
   {
-    "file": "waxed_oxidized_cut_copper_stairs_from_honeycomb.json",
-    "item": "waxed_oxidized_cut_copper_stairs",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "oxidized_cut_copper_stairs"
-      },
-      {
-        "item": "honeycomb"
-      }
-    ]
-  },
-  {
-    "file": "waxed_weathered_copper_from_honeycomb.json",
     "item": "waxed_weathered_copper",
     "count": 1,
     "patterns": {},
@@ -28373,173 +32161,256 @@ const recipes = [
       },
       {
         "item": "honeycomb"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
-  {
-    "file": "waxed_weathered_cut_copper.json",
-    "item": "waxed_weathered_cut_copper",
-    "count": 4,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "waxed_weathered_copper"
+  [
+    {
+      "item": "waxed_weathered_cut_copper",
+      "count": 4,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "waxed_weathered_copper"
+          },
+          "2_key": {
+            "item": "waxed_weathered_copper"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "waxed_weathered_copper"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "waxed_weathered_copper"
+          },
+          "2_key": {
+            "item": "waxed_weathered_copper"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "waxed_weathered_copper"
-        },
-        "2_key": {
-          "item": "waxed_weathered_copper"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "waxed_weathered_cut_copper",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "weathered_cut_copper"
+        },
+        {
+          "item": "honeycomb"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
-  {
-    "file": "waxed_weathered_cut_copper_from_honeycomb.json",
-    "item": "waxed_weathered_cut_copper",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "weathered_cut_copper"
-      },
-      {
-        "item": "honeycomb"
-      }
-    ]
-  },
-  {
-    "file": "waxed_weathered_cut_copper_slab.json",
-    "item": "waxed_weathered_cut_copper_slab",
-    "count": 6,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "waxed_weathered_cut_copper"
+  ],
+  [
+    {
+      "item": "waxed_weathered_cut_copper_slab",
+      "count": 6,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "waxed_weathered_cut_copper"
+          },
+          "2_key": {
+            "item": "waxed_weathered_cut_copper"
+          },
+          "3_key": {
+            "item": "waxed_weathered_cut_copper"
+          }
         },
-        "2_key": {
-          "item": "waxed_weathered_cut_copper"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "waxed_weathered_cut_copper"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
       }
+    },
+    {
+      "item": "waxed_weathered_cut_copper_slab",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "weathered_cut_copper_slab"
+        },
+        {
+          "item": "honeycomb"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
-  {
-    "file": "waxed_weathered_cut_copper_slab_from_honeycomb.json",
-    "item": "waxed_weathered_cut_copper_slab",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "weathered_cut_copper_slab"
-      },
-      {
-        "item": "honeycomb"
-      }
-    ]
-  },
-  {
-    "file": "waxed_weathered_cut_copper_stairs.json",
-    "item": "waxed_weathered_cut_copper_stairs",
-    "count": 4,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "waxed_weathered_cut_copper"
+  ],
+  [
+    {
+      "item": "waxed_weathered_cut_copper_stairs",
+      "count": 4,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "waxed_weathered_cut_copper"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "2_key": {
-          "item": "air"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "waxed_weathered_cut_copper"
+          },
+          "2_key": {
+            "item": "waxed_weathered_cut_copper"
+          },
+          "3_key": {
+            "item": "air"
+          }
         },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "waxed_weathered_cut_copper"
-        },
-        "2_key": {
-          "item": "waxed_weathered_cut_copper"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "waxed_weathered_cut_copper"
-        },
-        "2_key": {
-          "item": "waxed_weathered_cut_copper"
-        },
-        "3_key": {
-          "item": "waxed_weathered_cut_copper"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "waxed_weathered_cut_copper"
+          },
+          "2_key": {
+            "item": "waxed_weathered_cut_copper"
+          },
+          "3_key": {
+            "item": "waxed_weathered_cut_copper"
+          }
         }
       }
+    },
+    {
+      "item": "waxed_weathered_cut_copper_stairs",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "weathered_cut_copper_stairs"
+        },
+        {
+          "item": "honeycomb"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
     }
-  },
+  ],
   {
-    "file": "waxed_weathered_cut_copper_stairs_from_honeycomb.json",
-    "item": "waxed_weathered_cut_copper_stairs",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "weathered_cut_copper_stairs"
-      },
-      {
-        "item": "honeycomb"
-      }
-    ]
-  },
-  {
-    "file": "wayfinder_armor_trim_smithing_template.json",
     "item": "wayfinder_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -28579,7 +32450,6 @@ const recipes = [
     }
   },
   {
-    "file": "weathered_cut_copper.json",
     "item": "weathered_cut_copper",
     "count": 4,
     "patterns": {
@@ -28619,7 +32489,6 @@ const recipes = [
     }
   },
   {
-    "file": "weathered_cut_copper_slab.json",
     "item": "weathered_cut_copper_slab",
     "count": 6,
     "patterns": {
@@ -28659,7 +32528,6 @@ const recipes = [
     }
   },
   {
-    "file": "weathered_cut_copper_stairs.json",
     "item": "weathered_cut_copper_stairs",
     "count": 4,
     "patterns": {
@@ -28699,18 +32567,40 @@ const recipes = [
     }
   },
   {
-    "file": "wheat.json",
     "item": "wheat",
     "count": 9,
     "patterns": {},
     "ingredients": [
       {
         "item": "hay_block"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "white_banner.json",
     "item": "white_banner",
     "count": 1,
     "patterns": {
@@ -28750,47 +32640,6 @@ const recipes = [
     }
   },
   {
-    "file": "white_bed.json",
-    "item": "white_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "white_wool"
-        },
-        "2_key": {
-          "item": "white_wool"
-        },
-        "3_key": {
-          "item": "white_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "white_candle.json",
     "item": "white_candle",
     "count": 1,
     "patterns": {},
@@ -28800,51 +32649,31 @@ const recipes = [
       },
       {
         "item": "white_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "white_carpet.json",
-    "item": "white_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "white_wool"
-        },
-        "2_key": {
-          "item": "white_wool"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "white_concrete_powder.json",
     "item": "white_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -28878,30 +32707,77 @@ const recipes = [
       }
     ]
   },
+  [
+    {
+      "item": "white_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "bone_meal"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "white_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "lily_of_the_valley"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "white_dye.json",
-    "item": "white_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "bone_meal"
-      }
-    ]
-  },
-  {
-    "file": "white_dye_from_lily_of_the_valley.json",
-    "item": "white_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "lily_of_the_valley"
-      }
-    ]
-  },
-  {
-    "file": "white_stained_glass.json",
     "item": "white_stained_glass",
     "count": 8,
     "patterns": {
@@ -28940,88 +32816,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "white_stained_glass_pane.json",
-    "item": "white_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "white_stained_glass"
+  [
+    {
+      "item": "white_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "white_stained_glass"
+          },
+          "2_key": {
+            "item": "white_stained_glass"
+          },
+          "3_key": {
+            "item": "white_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "white_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "white_stained_glass"
+          },
+          "2_key": {
+            "item": "white_stained_glass"
+          },
+          "3_key": {
+            "item": "white_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "white_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "white_stained_glass"
+      }
+    },
+    {
+      "item": "white_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "white_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "white_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "white_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "white_stained_glass_pane_from_glass_pane.json",
-    "item": "white_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "white_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "white_terracotta.json",
     "item": "white_terracotta",
     "count": 8,
     "patterns": {
@@ -29061,47 +32936,6 @@ const recipes = [
     }
   },
   {
-    "file": "white_wool_from_string.json",
-    "item": "white_wool",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "string"
-        },
-        "2_key": {
-          "item": "string"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "string"
-        },
-        "2_key": {
-          "item": "string"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "wild_armor_trim_smithing_template.json",
     "item": "wild_armor_trim_smithing_template",
     "count": 2,
     "patterns": {
@@ -29141,7 +32975,6 @@ const recipes = [
     }
   },
   {
-    "file": "wooden_axe.json",
     "item": "wooden_axe",
     "count": 1,
     "patterns": {
@@ -29181,7 +33014,6 @@ const recipes = [
     }
   },
   {
-    "file": "wooden_hoe.json",
     "item": "wooden_hoe",
     "count": 1,
     "patterns": {
@@ -29221,7 +33053,6 @@ const recipes = [
     }
   },
   {
-    "file": "wooden_pickaxe.json",
     "item": "wooden_pickaxe",
     "count": 1,
     "patterns": {
@@ -29261,7 +33092,6 @@ const recipes = [
     }
   },
   {
-    "file": "wooden_shovel.json",
     "item": "wooden_shovel",
     "count": 1,
     "patterns": {
@@ -29301,7 +33131,6 @@ const recipes = [
     }
   },
   {
-    "file": "wooden_sword.json",
     "item": "wooden_sword",
     "count": 1,
     "patterns": {
@@ -29341,7 +33170,6 @@ const recipes = [
     }
   },
   {
-    "file": "writable_book.json",
     "item": "writable_book",
     "count": 1,
     "patterns": {},
@@ -29354,11 +33182,28 @@ const recipes = [
       },
       {
         "item": "feather"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "yellow_banner.json",
     "item": "yellow_banner",
     "count": 1,
     "patterns": {
@@ -29398,47 +33243,6 @@ const recipes = [
     }
   },
   {
-    "file": "yellow_bed.json",
-    "item": "yellow_bed",
-    "count": 1,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "yellow_wool"
-        },
-        "2_key": {
-          "item": "yellow_wool"
-        },
-        "3_key": {
-          "item": "yellow_wool"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "tag": "planks"
-        },
-        "2_key": {
-          "tag": "planks"
-        },
-        "3_key": {
-          "tag": "planks"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "yellow_candle.json",
     "item": "yellow_candle",
     "count": 1,
     "patterns": {},
@@ -29448,51 +33252,31 @@ const recipes = [
       },
       {
         "item": "yellow_dye"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
+      },
+      {
+        "item": "air"
       }
     ]
   },
   {
-    "file": "yellow_carpet.json",
-    "item": "yellow_carpet",
-    "count": 3,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "yellow_wool"
-        },
-        "2_key": {
-          "item": "yellow_wool"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
-        }
-      }
-    }
-  },
-  {
-    "file": "yellow_concrete_powder.json",
     "item": "yellow_concrete_powder",
     "count": 8,
     "patterns": {},
@@ -29526,30 +33310,77 @@ const recipes = [
       }
     ]
   },
+  [
+    {
+      "item": "yellow_dye",
+      "count": 1,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "dandelion"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    },
+    {
+      "item": "yellow_dye",
+      "count": 2,
+      "patterns": {},
+      "ingredients": [
+        {
+          "item": "sunflower"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        },
+        {
+          "item": "air"
+        }
+      ]
+    }
+  ],
   {
-    "file": "yellow_dye_from_dandelion.json",
-    "item": "yellow_dye",
-    "count": 1,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "dandelion"
-      }
-    ]
-  },
-  {
-    "file": "yellow_dye_from_sunflower.json",
-    "item": "yellow_dye",
-    "count": 2,
-    "patterns": {},
-    "ingredients": [
-      {
-        "item": "sunflower"
-      }
-    ]
-  },
-  {
-    "file": "yellow_stained_glass.json",
     "item": "yellow_stained_glass",
     "count": 8,
     "patterns": {
@@ -29588,88 +33419,87 @@ const recipes = [
       }
     }
   },
-  {
-    "file": "yellow_stained_glass_pane.json",
-    "item": "yellow_stained_glass_pane",
-    "count": 16,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "yellow_stained_glass"
+  [
+    {
+      "item": "yellow_stained_glass_pane",
+      "count": 16,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "yellow_stained_glass"
+          },
+          "2_key": {
+            "item": "yellow_stained_glass"
+          },
+          "3_key": {
+            "item": "yellow_stained_glass"
+          }
         },
-        "2_key": {
-          "item": "yellow_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "yellow_stained_glass"
+          },
+          "2_key": {
+            "item": "yellow_stained_glass"
+          },
+          "3_key": {
+            "item": "yellow_stained_glass"
+          }
         },
-        "3_key": {
-          "item": "yellow_stained_glass"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "air"
+          },
+          "2_key": {
+            "item": "air"
+          },
+          "3_key": {
+            "item": "air"
+          }
         }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "yellow_stained_glass"
+      }
+    },
+    {
+      "item": "yellow_stained_glass_pane",
+      "count": 8,
+      "patterns": {
+        "pattern_row_1": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "2_key": {
-          "item": "yellow_stained_glass"
+        "pattern_row_2": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "yellow_dye"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         },
-        "3_key": {
-          "item": "yellow_stained_glass"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "air"
-        },
-        "2_key": {
-          "item": "air"
-        },
-        "3_key": {
-          "item": "air"
+        "pattern_row_3": {
+          "1_key": {
+            "item": "glass_pane"
+          },
+          "2_key": {
+            "item": "glass_pane"
+          },
+          "3_key": {
+            "item": "glass_pane"
+          }
         }
       }
     }
-  },
+  ],
   {
-    "file": "yellow_stained_glass_pane_from_glass_pane.json",
-    "item": "yellow_stained_glass_pane",
-    "count": 8,
-    "patterns": {
-      "pattern_row_1": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_2": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "yellow_dye"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      },
-      "pattern_row_3": {
-        "1_key": {
-          "item": "glass_pane"
-        },
-        "2_key": {
-          "item": "glass_pane"
-        },
-        "3_key": {
-          "item": "glass_pane"
-        }
-      }
-    }
-  },
-  {
-    "file": "yellow_terracotta.json",
     "item": "yellow_terracotta",
     "count": 8,
     "patterns": {

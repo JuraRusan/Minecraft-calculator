@@ -7,7 +7,7 @@ import VariablesRecipes from "../../modals/variables-recipes/VariablesRecipes";
 import styles from "./ViewOneItem.module.scss";
 import "aos/dist/aos.css";
 
-const ViewOneItem = ({itemName, indexVariables, number, setIndexVariables}) => {
+const ViewOneItem = ({itemName, indexVariables, number, setIndexVariables, indexIngredients, setIndexIngredients}) => {
 
   const [modalIsOpenVariables, setIsOpenVariables] = useState(false);
 
