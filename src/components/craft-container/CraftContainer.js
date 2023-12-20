@@ -105,15 +105,12 @@ const CraftContainer = ({indexGlobal, count, type}) => {
   useMemo(() => {
     setIndexVariables(VARIABLES)
 
-    const o = Array.isArray(recipes_array[indexGlobal])
-      ? recipes_array[indexGlobal][recipesVariables]
-      : recipes_array[indexGlobal]
+    const currentRecipe = recipes_array[indexGlobal];
+    const o = Array.isArray(currentRecipe)
+      ? currentRecipe[recipesVariables]
+      : currentRecipe;
 
-    if (Array.isArray(recipes_array[indexGlobal])) {
-      setShowButton(true)
-    } else {
-      setShowButton(false)
-    }
+    setShowButton(Array.isArray(currentRecipe));
 
     if (!o.ingredients) {
       setRecipesActive({
@@ -146,6 +143,7 @@ const CraftContainer = ({indexGlobal, count, type}) => {
 
       setRecipesActive(finalObject);
     }
+    // eslint-disable-next-line
   }, [indexGlobal, recipesVariables, indexVariables[0].active, indexVariables[1].active, indexVariables[2].active, indexVariables[3].active, indexVariables[4].active, indexVariables[5].active, indexVariables[6].active, indexVariables[7].active, indexVariables[8].active])
 
 
@@ -155,9 +153,6 @@ const CraftContainer = ({indexGlobal, count, type}) => {
   //     scrollContainer.scrollLeft = (scrollContainer.scrollWidth - scrollContainer.clientWidth) / 2;
   //   }
   // }, [calculatedValues.length, type]);
-
-  console.log(indexVariables)
-  console.log(recipesActive)
 
   return (
     <div
@@ -234,109 +229,3 @@ const CraftContainer = ({indexGlobal, count, type}) => {
 };
 
 export default CraftContainer;
-
-
-// const ingredientsArray = o.ingredients;
-// const maxKeys = 9;
-//
-// const initialKeys = Array.from({length: maxKeys}, (_, i) => i + 1);
-//
-// const updatedKeys = initialKeys.reduce((acc, key, index) => {
-//   setIndexVariables(VARIABLES)
-//   const y = Array.isArray(ingredientsArray[index]) ? ingredientsArray[index][indexVariables[key].active] : ingredientsArray[index]
-//   if (index < ingredientsArray.length) {
-//     acc[`${key}_key`] = !y.tag ? y.item : Variables(key, indexVariables, setIndexVariables, y.tag)
-//   } else {
-//     acc[`${key}_key`] = "air"
-//   }
-//   // setIndexVariables(VARIABLES)
-//   // if (index < ingredientsArray.length) {
-//   //   const y = Array.isArray(ingredientsArray[index]) ? ingredientsArray[index][indexIngredients[index].active] : ingredientsArray[index]
-//   //   acc[`${key}_key`] = !y.tag ? y.item : Variables(key, indexVariables, setIndexVariables, y.tag)
-//   //   const s = Array.isArray(ingredientsArray[index]) ? ingredientsArray[index] : []
-//   //
-//   //   updateIngredients(key, s, !ingredientsArray[index].length ? 0 : ingredientsArray[index].length, true);
-//   // } else {
-//   //   acc[`${key}_key`] = "air";
-//   //
-//   //   updateIngredients(key, [], 0, false);
-//   // }
-//   return acc;
-// }, {});
-
-// const finalObject = {
-//   // ...updatedKeys,
-//   "1_key": Array.isArray(o.ingredients[0]) ?        !o.ingredients[0][0].tag ? o.ingredients[0][0].item : Variables(1, indexVariables, setIndexVariables, o.ingredients[0][0].tag)      : !o.ingredients[0].tag ? o.ingredients[0].item : Variables(1, indexVariables, setIndexVariables, o.ingredients[0].tag),
-//   "2_key": Array.isArray(o.ingredients[1]) ?        !o.ingredients[1][0].tag ? o.ingredients[1][0].item : Variables(2, indexVariables, setIndexVariables, o.ingredients[1][0].tag)      : !o.ingredients[1].tag ? o.ingredients[1].item : Variables(2, indexVariables, setIndexVariables, o.ingredients[1].tag),
-//   "3_key": Array.isArray(o.ingredients[2]) ?        !o.ingredients[2][0].tag ? o.ingredients[2][0].item : Variables(3, indexVariables, setIndexVariables, o.ingredients[2][0].tag)      : !o.ingredients[2].tag ? o.ingredients[2].item : Variables(3, indexVariables, setIndexVariables, o.ingredients[2].tag),
-//   "4_key": Array.isArray(o.ingredients[3]) ?        !o.ingredients[3][0].tag ? o.ingredients[3][0].item : Variables(4, indexVariables, setIndexVariables, o.ingredients[3][0].tag)      : !o.ingredients[3].tag ? o.ingredients[3].item : Variables(4, indexVariables, setIndexVariables, o.ingredients[3].tag),
-//   "5_key": Array.isArray(o.ingredients[4]) ?        !o.ingredients[4][0].tag ? o.ingredients[4][0].item : Variables(5, indexVariables, setIndexVariables, o.ingredients[4][0].tag)      : !o.ingredients[4].tag ? o.ingredients[4].item : Variables(5, indexVariables, setIndexVariables, o.ingredients[4].tag),
-//   "6_key": Array.isArray(o.ingredients[5]) ?        !o.ingredients[5][0].tag ? o.ingredients[5][0].item : Variables(6, indexVariables, setIndexVariables, o.ingredients[5][0].tag)      : !o.ingredients[5].tag ? o.ingredients[5].item : Variables(6, indexVariables, setIndexVariables, o.ingredients[5].tag),
-//   "7_key": Array.isArray(o.ingredients[6]) ?        !o.ingredients[6][0].tag ? o.ingredients[6][0].item : Variables(7, indexVariables, setIndexVariables, o.ingredients[6][0].tag)      : !o.ingredients[6].tag ? o.ingredients[6].item : Variables(7, indexVariables, setIndexVariables, o.ingredients[6].tag),
-//   "8_key": Array.isArray(o.ingredients[7]) ?        !o.ingredients[7][0].tag ? o.ingredients[7][0].item : Variables(8, indexVariables, setIndexVariables, o.ingredients[7][0].tag)      : !o.ingredients[7].tag ? o.ingredients[7].item : Variables(8, indexVariables, setIndexVariables, o.ingredients[7].tag),
-//   "9_key": Array.isArray(o.ingredients[8]) ?        !o.ingredients[8][0].tag ? o.ingredients[8][0].item : Variables(9, indexVariables, setIndexVariables, o.ingredients[8][0].tag)      : !o.ingredients[8].tag ? o.ingredients[8].item : Variables(9, indexVariables, setIndexVariables, o.ingredients[8].tag),
-//   "output_key": o.item,
-//   "output_count": o.count,
-// };
-// setRecipesActive(finalObject);
-
-
-// const updateIngredients = (key, allIngredients, maxLength, booleanModal) => {
-//   // setIndexIngredients(prevIngredients => {
-//   //   return prevIngredients.map(ingredient => {
-//   //     if (ingredient.key === key) {
-//   //       return {
-//   //         ...ingredient,
-//   //         allIngredients: allIngredients,
-//   //         max_length: maxLength,
-//   //         booleanModal: booleanModal,
-//   //       };
-//   //     } else {
-//   //       return ingredient;
-//   //     }
-//   //   });
-//   // });
-//   setIndexVariables(prevVariables => {
-//     return prevVariables.map(variables => {
-//       if (variables.key === key) {
-//         return {
-//           ...variables,
-//           globalTag: allIngredients.map(obj => obj.item),
-//           max_length: maxLength,
-//           booleanModal: booleanModal,
-//         };
-//       } else {
-//         return variables;
-//       }
-//     });
-//   });
-// };
-
-// const updateIngredients = (key, allIngredients, maxLength, booleanModal) => {
-//   setIndexVariables(prevVariables => {
-//     return prevVariables.map(variables => {
-//       if (variables.key === key) {
-//         return {
-//           ...variables,
-//           globalTag: allIngredients.map(obj => obj.item),
-//           max_length: maxLength,
-//           booleanModal: booleanModal,
-//         };
-//       } else {
-//         return variables;
-//       }
-//     });
-//   });
-// };
-
-// const updateIngredients = (key, allIngredients, maxLength, booleanModal) => {
-//   setIndexVariables(prevVariables => {
-//     prevVariables.forEach(variables => {
-//       if (variables.key === key) {
-//         variables.globalTag = allIngredients?.map(obj => obj.item);
-//         variables.max_length = maxLength;
-//         variables.booleanModal = booleanModal;
-//       }
-//     });
-//   });
-// };
