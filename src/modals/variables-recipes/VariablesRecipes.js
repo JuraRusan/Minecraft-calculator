@@ -2,8 +2,10 @@ import React from 'react';
 import classNames from "classnames";
 import Modal from "react-modal";
 import NameFormat from "../../functions/NameFormat";
+import {LazyLoadImage} from "react-lazy-load-image-component";
 
 import styles from "./VariablesRecipes.module.scss"
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const VariablesRecipes = ({open, close, setIndexVariables, indexVariables, number}) => {
 
@@ -33,7 +35,7 @@ const VariablesRecipes = ({open, close, setIndexVariables, indexVariables, numbe
                 key={index}
                 onClick={() => handleItemClick(indexVariables[number - 1].key, index)}
               >
-                <img
+                <LazyLoadImage
                   className={classNames(styles["image"])}
                   src={`./image/minecraft-item/${el}.webp`}
                   alt="none"

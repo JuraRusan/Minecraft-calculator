@@ -1,6 +1,5 @@
-import React, {useEffect, useMemo, useState} from 'react';
+import React, {useMemo, useState} from 'react';
 import classNames from "classnames";
-import AOS from "aos";
 import ViewOneItem from "../view-one-item/ViewOneItem";
 import NameFormat from "../../functions/NameFormat";
 import {recipes_array} from "../../data/recipes_array";
@@ -9,9 +8,10 @@ import LineOutput from "../line-output/LineOutput";
 import roundToMultiple from "../../functions/RoundToMultiple";
 import Decomposed from "../decomposed/decomposed";
 import MiniButton from "../mini-button/MiniButton";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import styles from "./CraftContainer.module.scss";
-import "aos/dist/aos.css";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const RECIPES = {
   "1_key": "air",
@@ -79,10 +79,6 @@ const CraftContainer = ({indexGlobal, count, type}) => {
 
     return result;
   }, [recipesActive, count]);
-
-  useEffect(() => {
-    AOS.init({duration: 350});
-  }, []);
 
   function updateIngredients(key, active, allIngredients, maxLength, booleanModal, item) {
     setIndexVariables(prevState => {
@@ -182,10 +178,9 @@ const CraftContainer = ({indexGlobal, count, type}) => {
             <h2 className={classNames(styles["name"])}>{NameFormat(recipesActive.output_key)}</h2>
           }
           <div className={classNames(styles["output"])}>
-            <img
+            <LazyLoadImage
               src={`./image/minecraft-item/${recipesActive.output_key}.webp`}
               alt="none"
-              data-aos="flip-left"
               width="100%"
               height="100%"
             />
@@ -212,7 +207,7 @@ const CraftContainer = ({indexGlobal, count, type}) => {
       <div className={classNames(styles["output_result_container"])}>
         {Object.keys(calculatedValues).map((key, i) => (
           <div key={i} className={classNames(styles["result_one"])}>
-            <img
+            <LazyLoadImage
               src={`./image/minecraft-item/${key}.webp`}
               alt="none"
               width="24px"

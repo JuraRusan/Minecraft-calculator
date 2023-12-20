@@ -4,8 +4,10 @@ import Modal from "react-modal";
 import {recipes_array} from "../../data/recipes_array";
 import {debounce} from "lodash";
 import NameFormat from "../../functions/NameFormat";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import styles from "./AllRecipes.module.scss"
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const AllRecipes = ({open, close, setIndexGlobal}) => {
 
@@ -47,12 +49,12 @@ const AllRecipes = ({open, close, setIndexGlobal}) => {
                   setSearch('')
                 }}
               >
-                <img
+                <LazyLoadImage
                   src={`./image/minecraft-item/${recipes}.webp`}
                   className={classNames(styles["image"])}
-                  alt="#"
                   width="100%"
                   height="100%"
+                  alt="#"
                 />
                 <label className={classNames(styles["name_recipes"])}>{NameFormat(recipes)}</label>
               </div>
