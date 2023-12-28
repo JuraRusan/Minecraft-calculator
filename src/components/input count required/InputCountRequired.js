@@ -33,7 +33,7 @@ const InputCountRequired = ({indexGlobal, setCount, setShowError, maxCount}) => 
     <input
       ref={inputRef}
       name="count"
-      placeholder="required"
+      placeholder="required number of crafting"
       className={classNames(styles["count_input"])}
       onChange={debounce((e) => {
         handleChangeCount(e)
