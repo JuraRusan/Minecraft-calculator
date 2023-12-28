@@ -73,8 +73,10 @@ const CraftContainer = ({indexGlobal, count, type}) => {
       }
     }
 
+    const f = count / recipesActive.output_count
+
     for (const key in result) {
-      result[key] *= count;
+      result[key] *= roundToMultiple(f, 1);
     }
 
     return result;
