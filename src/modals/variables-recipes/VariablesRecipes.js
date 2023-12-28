@@ -42,6 +42,7 @@ const VariablesRecipes = ({open, close, setIndexVariables, indexVariables, numbe
                   width="100%"
                   height="100%"
                   title={NameFormat(el)}
+                  effect="blur"
                 />
               </div>
             ))}

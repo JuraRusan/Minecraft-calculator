@@ -185,6 +185,7 @@ const CraftContainer = ({indexGlobal, count, type}) => {
               alt="none"
               width="100%"
               height="100%"
+              effect="blur"
             />
             {recipesActive.output_key === "air" ? null :
               <span className={classNames(styles["count"])}>{recipesActive.output_count}</span>
@@ -214,6 +215,7 @@ const CraftContainer = ({indexGlobal, count, type}) => {
               alt="none"
               width="24px"
               height="24px"
+              effect="blur"
             />
             <p className={classNames(styles["name"])}>{NameFormat(key)}</p>
             <LineOutput numbers={calculatedValues[key]}/>

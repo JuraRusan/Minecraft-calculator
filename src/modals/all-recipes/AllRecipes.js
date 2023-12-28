@@ -55,6 +55,7 @@ const AllRecipes = ({open, close, setIndexGlobal}) => {
                   width="100%"
                   height="100%"
                   alt="#"
+                  effect="blur"
                 />
                 <label className={classNames(styles["name_recipes"])}>{NameFormat(recipes)}</label>
               </div>
