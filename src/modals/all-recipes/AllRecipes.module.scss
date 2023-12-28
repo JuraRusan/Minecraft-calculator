@@ -53,6 +53,7 @@
   .row_recipes_one {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     cursor: pointer;
     transition: all 0.35s ease;
     margin: 1px 0;
@@ -62,12 +63,13 @@
     }
 
     .image {
-      width: 28px;
-      min-width: 28px;
-      max-width: 28px;
-      height: 28px;
-      min-height: 28px;
-      max-height: 28px;
+      display: flex;
+      width: 28px !important;
+      min-width: 28px !important;
+      max-width: 28px !important;
+      height: 28px !important;
+      min-height: 28px !important;
+      max-height: 28px !important;
       margin: 0 4px;
       cursor: pointer;
     }
