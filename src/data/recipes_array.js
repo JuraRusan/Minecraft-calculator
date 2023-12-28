@@ -28581,14 +28581,9 @@ const recipes = [
     "count": 4,
     "patterns": {
       "pattern_row_1": {
-        "1_key": [
-          {
-            "item": "coal"
-          },
-          {
-            "item": "charcoal"
-          }
-        ],
+        "1_key": {
+          "tag": "coals"
+        },
         "2_key": {
           "item": "air"
         },
