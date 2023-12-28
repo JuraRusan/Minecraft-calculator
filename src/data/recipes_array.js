@@ -21808,11 +21808,6 @@ const recipes = [
     ]
   },
   {
-    "item": "netherite_axe",
-    "count": 1,
-    "patterns": {}
-  },
-  {
     "item": "netherite_block",
     "count": 1,
     "patterns": {
@@ -21850,26 +21845,6 @@ const recipes = [
         }
       }
     }
-  },
-  {
-    "item": "netherite_boots",
-    "count": 1,
-    "patterns": {}
-  },
-  {
-    "item": "netherite_chestplate",
-    "count": 1,
-    "patterns": {}
-  },
-  {
-    "item": "netherite_helmet",
-    "count": 1,
-    "patterns": {}
-  },
-  {
-    "item": "netherite_hoe",
-    "count": 1,
-    "patterns": {}
   },
   [
     {
@@ -21941,26 +21916,6 @@ const recipes = [
       ]
     }
   ],
-  {
-    "item": "netherite_leggings",
-    "count": 1,
-    "patterns": {}
-  },
-  {
-    "item": "netherite_pickaxe",
-    "count": 1,
-    "patterns": {}
-  },
-  {
-    "item": "netherite_shovel",
-    "count": 1,
-    "patterns": {}
-  },
-  {
-    "item": "netherite_sword",
-    "count": 1,
-    "patterns": {}
-  },
   {
     "item": "netherite_upgrade_smithing_template",
     "count": 2,
