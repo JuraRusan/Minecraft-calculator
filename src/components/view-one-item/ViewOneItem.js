@@ -1,11 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import classNames from "classnames";
-import AOS from "aos";
 import NameFormat from "../../functions/NameFormat";
 import VariablesRecipes from "../../modals/variables-recipes/VariablesRecipes";
 
 import styles from "./ViewOneItem.module.scss";
-import "aos/dist/aos.css";
 
 const ViewOneItem = ({itemName, indexVariables, number, setIndexVariables, indexIngredients, setIndexIngredients}) => {
 
@@ -20,10 +18,6 @@ const ViewOneItem = ({itemName, indexVariables, number, setIndexVariables, index
   function closeModalVariables() {
     setIsOpenVariables(false);
   }
-
-  useEffect(() => {
-    AOS.init({duration: 350});
-  }, []);
 
   return (
     <>

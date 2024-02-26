@@ -1,4 +1,4 @@
-import React, {useMemo, useState} from 'react';
+import React, {useEffect, useMemo, useState} from 'react';
 import classNames from "classnames";
 import ViewOneItem from "../view-one-item/ViewOneItem";
 import NameFormat from "../../functions/NameFormat";
@@ -8,7 +8,7 @@ import LineOutput from "../line-output/LineOutput";
 import roundToMultiple from "../../functions/RoundToMultiple";
 import Decomposed from "../decomposed/decomposed";
 import MiniButton from "../mini-button/MiniButton";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import {LazyLoadImage} from 'react-lazy-load-image-component';
 
 import styles from "./CraftContainer.module.scss";
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -123,18 +123,14 @@ const CraftContainer = ({indexGlobal, count, type}) => {
     // eslint-disable-next-line
   }, [indexGlobal, recipesVariables, indexVariables[0].active, indexVariables[1].active, indexVariables[2].active, indexVariables[3].active, indexVariables[4].active, indexVariables[5].active, indexVariables[6].active, indexVariables[7].active, indexVariables[8].active])
 
-  // useEffect(() => {
-  //   const scrollContainer = document.getElementById("scroll_container");
-  //   if (scrollContainer) {
-  //     scrollContainer.scrollLeft = (scrollContainer.scrollWidth - scrollContainer.clientWidth) / 2;
-  //   }
-  // }, [calculatedValues.length, type]);
+  useEffect(() => {
+    if (indexGlobal === 0) {
+      setIndexVariables(VARIABLES)
+    }
+  }, [indexGlobal])
 
   return (
-    <div
-      // id="scroll_container"
-      className={classNames(styles["craft_container"], {[styles["lock_wight"]]: type === true})}
-    >
+    <div className={classNames(styles["craft_container"], {[styles["lock_wight"]]: type === true})}>
       <div className={classNames(styles["required_round_count"])}>
         <LineOutput numbers={roundToMultiple(count, recipesActive.output_count)}/>
       </div>

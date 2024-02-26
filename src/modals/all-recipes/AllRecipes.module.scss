@@ -33,7 +33,7 @@
     width: 100%;
     height: 32px;
     outline: none;
-    background: $site-color-12;
+    background: $site-color-13;
     border: none;
     border-bottom: 1px solid $site-color-5;
     transition: all 0.25s ease-in-out;
@@ -41,6 +41,9 @@
     padding: 0 8px;
     margin-bottom: 4px;
     font-size: 12px;
+    top: 0;
+    position: sticky;
+    z-index: 1;
 
     &:hover,
     &:focus,

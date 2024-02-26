@@ -29,50 +29,11 @@ div#root {
   position: relative;
   box-shadow: 0 0 1000px 150px $site-color-12 inset;
 
-  .notifications_box {
-    display: flex;
-    flex-direction: column;
-    z-index: 3;
-    top: 90px;
-    left: 0;
-    position: fixed;
-    background: $site-color-12;
-    width: 350px;
-    height: 150px;
-    padding: 16px 5px 5px 5px;
-    border: 1px solid $site-color-5;
-    border-left: none;
-    border-bottom-right-radius: 4px;
-    border-top-right-radius: 4px;
-
-    .title {
-      font-size: 16px;
-      font-weight: 600;
-      text-align: center;
-      color: $site-color-9;
-      height: 32px;
-      line-height: 32px;
-      margin-bottom: 16px;
-    }
-
-    .info {
-      font-size: 12px;
-      font-weight: 400;
-      text-align: center;
-      color: $site-color-2;
-      height: auto;
-      line-height: 1.45;
-    }
-
-    .link {
-      font-weight: inherit;
-      color: $site-color-8;
-      text-decoration: none;
-    }
-  }
-
   .shadow_top {
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     left: 0;
     right: 0;
     top: 0;
@@ -85,6 +46,9 @@ div#root {
 
   .shadow_bottom {
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     left: 0;
     right: 0;
     bottom: 0;
@@ -98,9 +62,34 @@ div#root {
   .index {
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     z-index: 2;
+  }
+
+  .notifications_footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-bottom: 4px;
+
+    .info {
+      font-size: 12px;
+      font-weight: 400;
+      text-align: center;
+      color: $site-color-2;
+      height: auto;
+      line-height: 1.45;
+      margin: 4px 0;
+    }
+
+    .link {
+      font-weight: inherit;
+      color: $site-color-8;
+      text-decoration: none;
+      padding-left: 4px;
+    }
   }
 }
 
