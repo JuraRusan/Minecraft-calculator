@@ -122,12 +122,8 @@ const CraftCalculator = () => {
         <MiniButton onClick={openModalRecipes} label={load_lang_app.book_button} />
         <MiniButton onClick={incrementIndexGlobal} label="&#129146;" disabled={indexGlobal === RECIPES.length - 1} />
         <MiniButton onClick={openModalLanguages} label={load_lang_app.language_button} />
-        {modalIsOpenRecipes && (
-          <AllRecipes open={modalIsOpenRecipes} close={closeModalRecipes} setIndexGlobal={setIndexGlobal} />
-        )}
-        {modalIsOpenLanguages && (
-          <AppLanguages open={modalIsOpenLanguages} close={closeModalLanguages} setSelectLang={setSelectLang} />
-        )}
+        <AllRecipes open={modalIsOpenRecipes} close={closeModalRecipes} setIndexGlobal={setIndexGlobal} />
+        <AppLanguages open={modalIsOpenLanguages} close={closeModalLanguages} setSelectLang={setSelectLang} />
       </div>
       <div className={classNames(styles["required_input_count"])}>
         <input
