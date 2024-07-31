@@ -1,4 +1,4 @@
-@import "./Variables.scss";
+@import "src/Variables";
 
 html {
   height: 100%;
@@ -25,71 +25,17 @@ div#root {
   width: 100%;
   height: auto;
   min-height: 100vh;
-  background: $site-color-4;
   position: relative;
-  box-shadow: 0 0 1000px 150px $site-color-12 inset;
+  background: url(image/bg.webp) no-repeat center;
 
-  .shadow_top {
-    position: fixed;
+  .content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 1;
-    height: 200px;
-    width: 100%;
-    background: $site-color-3;
-    background: linear-gradient(180deg, $site-color-3 0%, transparent 100%);
-  }
-
-  .shadow_bottom {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    height: 200px;
-    width: 100%;
-    background: $site-color-3;
-    background: linear-gradient(0deg, $site-color-3 0%, transparent 100%);
-  }
-
-  .index {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 2;
-  }
-
-  .notifications_footer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    justify-content: space-between;
+    min-height: 100vh;
     height: auto;
-    padding-bottom: 4px;
-
-    .info {
-      font-size: 12px;
-      font-weight: 400;
-      text-align: center;
-      color: $site-color-2;
-      height: auto;
-      line-height: 1.45;
-      margin: 4px 0;
-    }
-
-    .link {
-      font-weight: inherit;
-      color: $site-color-8;
-      text-decoration: none;
-      padding-left: 4px;
-    }
+    width: auto;
+    backdrop-filter: blur(16px);
   }
 }
 

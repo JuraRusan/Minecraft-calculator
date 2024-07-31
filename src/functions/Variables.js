@@ -1,5 +1,5 @@
 export default function Variables(key, item, setIndexVariables, indexVariables) {
-  setIndexVariables(prevIndexVariables => {
+  setIndexVariables((prevIndexVariables) => {
     const newIndexVariables = [...prevIndexVariables];
 
     newIndexVariables[key] = {
@@ -7,11 +7,11 @@ export default function Variables(key, item, setIndexVariables, indexVariables) 
       globalTag: item,
       max_length: item.length,
       active: indexVariables[key].active,
-      booleanModal: item.length > 1
+      booleanModal: item.length > 1,
     };
 
     return newIndexVariables;
   });
 
-  return item[indexVariables[key].active]
+  return item[indexVariables[key].active];
 }

@@ -1,0 +1,76 @@
+@import "src/Variables";
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  .modal_main_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 98;
+    width: 100%;
+    height: 100vh;
+    outline: none;
+    animation: 0.22s ease show;
+
+    .window {
+      display: flex;
+      position: relative;
+      width: auto;
+      height: 100vh;
+      animation: 0.22s ease show;
+      background: $site-color-1;
+
+      .modal_close {
+        position: absolute;
+        left: -48px;
+        top: 20px;
+        width: 40px;
+        height: 40px;
+        padding: 0 0 7px 0;
+        font-size: 26px;
+        color: $site-color-2;
+        background: transparent;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+        transition: all 0.25s ease;
+
+        &:hover {
+          color: $site-color-9;
+        }
+      }
+    }
+
+    .recipes {
+      width: 500px;
+    }
+
+    .languages {
+      width: 350px;
+    }
+
+    .variables {
+      width: 534px;
+    }
+
+  }
+
+  .overlay_modal_full {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 99;
+    backdrop-filter: blur(4px);
+  }
+}

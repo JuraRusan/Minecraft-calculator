@@ -2,7 +2,7 @@ $site-color-1: rgba(24, 24, 27, 1); // for hover
 $site-color-2: rgba(244, 244, 244, 1); // text
 $site-color-3: rgba(17, 17, 20, 1); // main background + header
 $site-color-4: rgba(39, 39, 42, 1); // modals
-$site-color-5: rgba(255, 255, 255, 0.1); // borders to a greater extent
+$site-color-5: rgba(255, 255, 255, 0.02); // borders to a greater extent
 $site-color-6: rgba(113, 113, 122, 1); // scroll
 $site-color-7: rgba(39, 39, 42, 1); // scroll background
 $site-color-8: rgba(0, 255, 0, 1); // colors
@@ -11,3 +11,5 @@ $site-color-10: rgba(228, 0, 127, 1); // colors
 $site-color-11: rgba(255, 0, 0, 1); // colors
 $site-color-12: rgba(17, 17, 20, 0.5); // some kind of modal field
 $site-color-13: rgba(28, 28, 31, 1); // $site-color-4 + $site-color-12
+$site-color-14: rgba(26, 26, 26, 0.8); // box-shadow
+$site-color-15: darken($site-color-2, 75%); // box-shadow

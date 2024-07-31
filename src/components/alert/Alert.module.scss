@@ -1,4 +1,4 @@
-@import "../../Variables";
+@import "src/Variables";
 
 @keyframes slide-up {
   0% {
@@ -20,15 +20,15 @@
   position: fixed;
   left: 50%;
   transform: translate(-50%);
-  bottom: 25px;
-  border: 1px solid $site-color-5;
+  bottom: 16px;
+  border: 2px solid $site-color-5;
   border-radius: 4px;
-  background: $site-color-12;
+  background: $site-color-1;
   animation: slide-up 0.35s ease-in-out;
 
   .message {
-    color: $site-color-2;
-    font-size: 13px;
+    color: $site-color-11;
+    font-size: 14px;
     padding: 0 16px;
   }
 }

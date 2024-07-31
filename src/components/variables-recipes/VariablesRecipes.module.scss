@@ -1,0 +1,30 @@
+@import "src/Variables";
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  height: min-content;
+  padding: 8px;
+
+  .box_one_variant {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background: $site-color-13;
+    border: 2px solid $site-color-5;
+    border-radius: 6px;
+    margin: 2px;
+    cursor: pointer;
+    transition: all 0.35s ease;
+
+    .image {
+      width: 64px;
+      height: 64px;
+      margin: 2px;
+      transition: all 0.35s ease;
+    }
+  }
+}

@@ -1,12 +1,11 @@
-import React, {useMemo, useState} from 'react';
+import React, { useMemo, useState } from "react";
 import classNames from "classnames";
-import {recipes_array} from "../../data/recipes_array";
+import { recipes_array } from "../../data/recipes_array";
 import CraftContainer from "../craft-container/CraftContainer";
 
-import styles from "./decomposed.module.scss"
+import styles from "./decomposed.module.scss";
 
-const Decomposed = ({result}) => {
-
+const Decomposed = ({ result }) => {
   const [decomposedShow, setDecomposedShow] = useState(false);
 
   const decomposed = useMemo(() => {
@@ -17,7 +16,7 @@ const Decomposed = ({result}) => {
           const el = Array.isArray(recipes_array[i]) ? recipes_array[i][0] : recipes_array[i];
           const compareValueOut = el.item;
           if (key === compareValueOut) {
-            matchingIndexes.push({id: i, item: el.item, count: result[key]});
+            matchingIndexes.push({ id: i, item: el.item, count: result[key] });
           }
         }
       }
@@ -37,12 +36,12 @@ const Decomposed = ({result}) => {
   const uniqueCheckboxId = generateUniqueId();
 
   if (!decomposed) {
-    return null
+    return null;
   }
 
   return (
     <>
-      {decomposed.length !== 0 &&
+      {decomposed.length !== 0 && (
         <>
           <input
             className={classNames(styles["input_checkbox"])}
@@ -53,22 +52,22 @@ const Decomposed = ({result}) => {
           />
           <label htmlFor={uniqueCheckboxId} className={classNames(styles["custom_checkbox_label"])}></label>
         </>
-      }
-      {decomposedShow &&
+      )}
+      {decomposedShow && (
         <div className={classNames(styles["decomposed"])}>
           {decomposed.map((el, i) => {
             return (
               <div className={classNames(styles["key_wrapper"])} key={i}>
                 <div className={classNames(styles["space_tab"])}></div>
-                <CraftContainer indexGlobal={el.id} count={el.count} type={false}/>
+                <CraftContainer indexGlobal={el.id} count={el.count} type={false} />
                 <div className={classNames(styles["space_tab"])}></div>
               </div>
-            )
+            );
           })}
         </div>
-      }
+      )}
     </>
-  )
+  );
 };
 
 export default Decomposed;

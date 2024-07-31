@@ -1,0 +1,28 @@
+@import "src/Variables";
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+}
+
+.name {
+  line-height: 36px;
+  height: 36px;
+  color: $site-color-2;
+  font-size: 14px;
+  margin-right: 4px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  padding: 0 12px;
+
+  &:hover {
+    color: $site-color-9;
+  }
+}
