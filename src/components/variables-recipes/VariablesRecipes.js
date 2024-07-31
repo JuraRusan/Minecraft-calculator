@@ -7,13 +7,14 @@ import { useSelector } from "react-redux";
 import styles from "./VariablesRecipes.module.scss";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
-const VariablesRecipes = ({ open, close, setIndexVariables, indexVariables, number }) => {
+const VariablesRecipes = ({ open, close, setIndexVariables, indexVariables, slot, variant }) => {
   const load_lang = useSelector((state) => state.lang_item);
 
-  const handleItemClick = (key, index) => {
-    const updatedIndexVariables = indexVariables.map((item) => (item.key === key ? { ...item, active: index } : item));
+  const handleItemClick = (index) => {
+    const updatedVariables = [...indexVariables];
+    updatedVariables[slot] = index;
+    setIndexVariables(updatedVariables);
 
-    setIndexVariables(updatedIndexVariables);
     close();
   };
 
@@ -22,12 +23,8 @@ const VariablesRecipes = ({ open, close, setIndexVariables, indexVariables, numb
       <div className={classNames(styles["wrapper"])}>
         {!open ? null : (
           <>
-            {indexVariables[number].globalTag.map((el, index) => (
-              <div
-                className={classNames(styles["box_one_variant"])}
-                key={index}
-                onClick={() => handleItemClick(indexVariables[number].key, index)}
-              >
+            {variant.map((el, index) => (
+              <div className={classNames(styles["box_one_variant"])} key={index} onClick={() => handleItemClick(index)}>
                 <LazyLoadImage
                   className={classNames(styles["image"])}
                   src={`./image/minecraft-item/${el}.webp`}

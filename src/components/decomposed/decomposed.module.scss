@@ -13,20 +13,20 @@
   cursor: pointer;
   width: 20px;
   height: 20px;
-  background: $site-color-12;
-  border: 1px solid $site-color-5;
+  background: $site-color-4;
+  border: 2px solid $site-color-5;
   border-radius: 4px;
-  margin: 2px auto;
+  margin: 6px auto;
   transition: all 0.35s ease;
 
   &:hover {
     &:after {
-      border-color: $site-color-8;
+      border-color: $site-color-9;
     }
   }
 
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     top: 38.5%;

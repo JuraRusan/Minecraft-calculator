@@ -2,34 +2,16 @@ const air = [
   {
     item: "air",
     count: 1,
-    patterns: [
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
+    ingredients: [
+      { item: ["air"] },
+      { item: ["air"] },
+      { item: ["air"] },
+      { item: ["air"] },
+      { item: ["air"] },
+      { item: ["air"] },
+      { item: ["air"] },
+      { item: ["air"] },
+      { item: ["air"] },
     ],
   },
 ];

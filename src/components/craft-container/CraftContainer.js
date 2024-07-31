@@ -2,10 +2,9 @@ import React, { useEffect, useMemo, useState } from "react";
 import classNames from "classnames";
 import ViewOneItem from "../view-one-item/ViewOneItem";
 import { RECIPES } from "../../data/Recipes";
-import Variables from "../../functions/Variables";
 import LineOutput from "../line-output/LineOutput";
 import roundToMultiple from "../../functions/RoundToMultiple";
-// import Decomposed from "../decomposed/decomposed";
+import Decomposed from "../decomposed/decomposed";
 import MiniButton from "../mini-button/MiniButton";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useSelector } from "react-redux";
@@ -26,17 +25,7 @@ const DEFAULT = {
   output_slot: "air",
   output_count: 1,
 };
-const VARIABLES = [
-  { key: 1, globalTag: [], active: 0, max_length: 0, booleanModal: false },
-  { key: 2, globalTag: [], active: 0, max_length: 0, booleanModal: false },
-  { key: 3, globalTag: [], active: 0, max_length: 0, booleanModal: false },
-  { key: 4, globalTag: [], active: 0, max_length: 0, booleanModal: false },
-  { key: 5, globalTag: [], active: 0, max_length: 0, booleanModal: false },
-  { key: 6, globalTag: [], active: 0, max_length: 0, booleanModal: false },
-  { key: 7, globalTag: [], active: 0, max_length: 0, booleanModal: false },
-  { key: 8, globalTag: [], active: 0, max_length: 0, booleanModal: false },
-  { key: 9, globalTag: [], active: 0, max_length: 0, booleanModal: false },
-];
+const VARIABLES = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 const CraftContainer = ({ indexGlobal, count, type }) => {
   const [indexVariables, setIndexVariables] = useState(VARIABLES);
@@ -86,12 +75,13 @@ const CraftContainer = ({ indexGlobal, count, type }) => {
 
   /* --- useEffect --- */
   useEffect(() => {
-    if (!indexGlobal) {
+    if (indexGlobal) {
       setIndexVariables(VARIABLES);
       setRecipesVariables(0);
-      return;
     }
+  }, [indexGlobal]);
 
+  useEffect(() => {
     const currentRecipe = RECIPES[indexGlobal];
     const check = Array.isArray(currentRecipe) ? currentRecipe[recipesVariables] : currentRecipe;
 
@@ -99,34 +89,20 @@ const CraftContainer = ({ indexGlobal, count, type }) => {
 
     if (check.ingredients) {
       setRecipesActive({
-        "0_slot": Variables(0, check.ingredients[0].item, setIndexVariables, indexVariables),
-        "1_slot": Variables(1, check.ingredients[1].item, setIndexVariables, indexVariables),
-        "2_slot": Variables(2, check.ingredients[2].item, setIndexVariables, indexVariables),
-        "3_slot": Variables(3, check.ingredients[3].item, setIndexVariables, indexVariables),
-        "4_slot": Variables(4, check.ingredients[4].item, setIndexVariables, indexVariables),
-        "5_slot": Variables(5, check.ingredients[5].item, setIndexVariables, indexVariables),
-        "6_slot": Variables(6, check.ingredients[6].item, setIndexVariables, indexVariables),
-        "7_slot": Variables(7, check.ingredients[7].item, setIndexVariables, indexVariables),
-        "8_slot": Variables(8, check.ingredients[8].item, setIndexVariables, indexVariables),
+        "0_slot": check.ingredients[0].item[indexVariables[0]],
+        "1_slot": check.ingredients[1].item[indexVariables[1]],
+        "2_slot": check.ingredients[2].item[indexVariables[2]],
+        "3_slot": check.ingredients[3].item[indexVariables[3]],
+        "4_slot": check.ingredients[4].item[indexVariables[4]],
+        "5_slot": check.ingredients[5].item[indexVariables[5]],
+        "6_slot": check.ingredients[6].item[indexVariables[6]],
+        "7_slot": check.ingredients[7].item[indexVariables[7]],
+        "8_slot": check.ingredients[8].item[indexVariables[8]],
         output_slot: check.item,
         output_count: check.count,
       });
     }
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [
-    indexGlobal,
-    recipesVariables,
-    indexVariables[0].active,
-    indexVariables[1].active,
-    indexVariables[2].active,
-    indexVariables[3].active,
-    indexVariables[4].active,
-    indexVariables[5].active,
-    indexVariables[6].active,
-    indexVariables[7].active,
-    indexVariables[8].active,
-  ]);
+  }, [indexGlobal, recipesVariables, indexVariables]);
 
   return (
     <div className={classNames(styles["craft_container"], { [styles["lock_wight"]]: type === true })}>
@@ -138,10 +114,12 @@ const CraftContainer = ({ indexGlobal, count, type }) => {
           {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((number) => (
             <ViewOneItem
               key={number}
+              slot={number}
+              indexGlobal={indexGlobal}
               itemName={recipesActive[`${number}_slot`]}
               indexVariables={indexVariables}
               setIndexVariables={setIndexVariables}
-              number={number.toString()}
+              recipesVariables={recipesVariables}
             />
           ))}
         </div>
@@ -191,7 +169,7 @@ const CraftContainer = ({ indexGlobal, count, type }) => {
           </div>
         ))}
       </div>
-      {/*<Decomposed result={calculatedValues} />*/}
+      <Decomposed result={calculatedValues} />
     </div>
   );
 };

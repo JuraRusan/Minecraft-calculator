@@ -2,29 +2,34 @@ import React, { useState } from "react";
 import classNames from "classnames";
 import VariablesRecipes from "../variables-recipes/VariablesRecipes";
 import { useSelector } from "react-redux";
+import { RECIPES } from "../../data/Recipes";
 
 import styles from "./ViewOneItem.module.scss";
 
-const ViewOneItem = ({ itemName, indexVariables, number, setIndexVariables }) => {
+const ViewOneItem = ({ indexGlobal, itemName, indexVariables, slot, setIndexVariables, recipesVariables }) => {
   const [modalIsOpenVariables, setIsOpenVariables] = useState(false);
 
   const load_lang_item = useSelector((state) => state.lang_item);
 
-  function openModalVariables() {
-    if (indexVariables[number].booleanModal) {
+  const check = Array.isArray(RECIPES[indexGlobal])
+    ? RECIPES[indexGlobal][recipesVariables].ingredients[slot].item
+    : RECIPES[indexGlobal].ingredients[slot].item;
+
+  const openModalVariables = () => {
+    if (check.length > 1) {
       setIsOpenVariables(true);
     }
-  }
+  };
 
-  function closeModalVariables() {
+  const closeModalVariables = () => {
     setIsOpenVariables(false);
-  }
+  };
 
   return (
     <>
       <div
         className={
-          !indexVariables[number].booleanModal
+          check.length <= 1
             ? classNames(styles["view_one_item"])
             : classNames(styles["view_one_item"], styles["view_one_item_hover"])
         }
@@ -38,7 +43,7 @@ const ViewOneItem = ({ itemName, indexVariables, number, setIndexVariables }) =>
           height="100%"
           title={load_lang_item[itemName]}
         />
-        {!indexVariables[number].booleanModal ? null : <span className={classNames(styles["help_variant"])}>!</span>}
+        {check.length <= 1 ? null : <span className={classNames(styles["help_variant"])}>!</span>}
       </div>
       {modalIsOpenVariables && (
         <VariablesRecipes
@@ -46,7 +51,8 @@ const ViewOneItem = ({ itemName, indexVariables, number, setIndexVariables }) =>
           close={closeModalVariables}
           setIndexVariables={setIndexVariables}
           indexVariables={indexVariables}
-          number={number}
+          slot={slot}
+          variant={check}
         />
       )}
     </>

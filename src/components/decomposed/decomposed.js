@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import classNames from "classnames";
-import { recipes_array } from "../../data/recipes_array";
 import CraftContainer from "../craft-container/CraftContainer";
+import { RECIPES } from "../../data/Recipes";
 
 import styles from "./decomposed.module.scss";
 
@@ -12,8 +12,8 @@ const Decomposed = ({ result }) => {
     const matchingIndexes = [];
     for (const key in result) {
       if (result?.[key]) {
-        for (let i = 0; i < recipes_array.length; i++) {
-          const el = Array.isArray(recipes_array[i]) ? recipes_array[i][0] : recipes_array[i];
+        for (let i = 0; i < RECIPES.length; i++) {
+          const el = Array.isArray(RECIPES[i]) ? RECIPES[i][0] : RECIPES[i];
           const compareValueOut = el.item;
           if (key === compareValueOut) {
             matchingIndexes.push({ id: i, item: el.item, count: result[key] });
