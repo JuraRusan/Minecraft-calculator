@@ -45,16 +45,14 @@ const ViewOneItem = ({ indexGlobal, itemName, indexVariables, slot, setIndexVari
         />
         {check.length <= 1 ? null : <span className={classNames(styles["help_variant"])}>!</span>}
       </div>
-      {modalIsOpenVariables && (
-        <VariablesRecipes
-          open={modalIsOpenVariables}
-          close={closeModalVariables}
-          setIndexVariables={setIndexVariables}
-          indexVariables={indexVariables}
-          slot={slot}
-          variant={check}
-        />
-      )}
+      <VariablesRecipes
+        open={modalIsOpenVariables}
+        close={closeModalVariables}
+        setIndexVariables={setIndexVariables}
+        indexVariables={indexVariables}
+        slot={slot}
+        variant={check}
+      />
     </>
   );
 };
