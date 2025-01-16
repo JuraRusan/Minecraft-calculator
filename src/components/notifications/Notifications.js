@@ -13,7 +13,7 @@ const Notifications = () => {
       <p className={classNames(styles["info"])}>
         {load_lang_app.report}
         <a
-          href="https://github.com/JuraRusan/Minecraft-calculator/issues"
+          href="https://github.com/JuraRusan/Minecraft-calculator"
           target="_blank"
           rel="noreferrer"
           className={classNames(styles["link"])}
