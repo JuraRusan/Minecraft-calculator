@@ -1349,6 +1349,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -1364,6 +1365,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -1379,6 +1381,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -1394,6 +1397,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -1412,6 +1416,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -1427,6 +1432,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -1442,6 +1448,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -1457,6 +1464,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -1511,6 +1519,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -1526,6 +1535,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -1541,6 +1551,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -1565,6 +1576,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -1580,6 +1592,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -1595,6 +1608,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -2253,6 +2267,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -2268,6 +2283,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -2283,6 +2299,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -2824,6 +2841,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -2839,6 +2857,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -2854,6 +2873,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -3486,6 +3506,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -3501,6 +3522,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -3516,6 +3538,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -3540,6 +3563,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -3555,6 +3579,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -3570,12 +3595,46 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
           "bamboo_planks",
           "cherry_planks",
         ],
+      },
+    ],
+  },
+  {
+    item: "bordure_indented_banner_pattern",
+    count: 1,
+    ingredients: [
+      {
+        item: ["paper"],
+      },
+      {
+        item: ["vine"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
       },
     ],
   },
@@ -3624,6 +3683,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -3642,6 +3702,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -3660,6 +3721,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -3934,6 +3996,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -3949,6 +4012,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -3964,6 +4028,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -4416,6 +4481,39 @@ const recipes_array = [
     ],
   },
   {
+    item: "bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: ["string"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["leather"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "cake",
     count: 1,
     ingredients: [
@@ -4509,6 +4607,10 @@ const recipes_array = [
           "dark_oak_wood",
           "stripped_dark_oak_log",
           "stripped_dark_oak_wood",
+          "pale_oak_log",
+          "pale_oak_wood",
+          "stripped_pale_oak_log",
+          "stripped_pale_oak_wood",
           "oak_log",
           "oak_wood",
           "stripped_oak_log",
@@ -4553,6 +4655,10 @@ const recipes_array = [
           "dark_oak_wood",
           "stripped_dark_oak_log",
           "stripped_dark_oak_wood",
+          "pale_oak_log",
+          "pale_oak_wood",
+          "stripped_pale_oak_log",
+          "stripped_pale_oak_wood",
           "oak_log",
           "oak_wood",
           "stripped_oak_log",
@@ -4597,6 +4703,10 @@ const recipes_array = [
           "dark_oak_wood",
           "stripped_dark_oak_log",
           "stripped_dark_oak_wood",
+          "pale_oak_log",
+          "pale_oak_wood",
+          "stripped_pale_oak_log",
+          "stripped_pale_oak_wood",
           "oak_log",
           "oak_wood",
           "stripped_oak_log",
@@ -4724,6 +4834,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -4739,6 +4850,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -4757,6 +4869,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -4772,6 +4885,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5324,6 +5438,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5339,6 +5454,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5354,6 +5470,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5369,6 +5486,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5387,6 +5505,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5402,6 +5521,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5417,6 +5537,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5432,6 +5553,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5486,6 +5608,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5501,6 +5624,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5516,6 +5640,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5531,6 +5656,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -5546,6 +5672,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -5561,6 +5688,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -5576,6 +5704,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5591,6 +5720,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5606,6 +5736,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -5795,6 +5926,39 @@ const recipes_array = [
       },
       {
         item: ["red_sandstone_slab"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "chiseled_resin_bricks",
+    count: 1,
+    ingredients: [
+      {
+        item: ["resin_brick_slab"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["resin_brick_slab"],
       },
       {
         item: ["air"],
@@ -6419,6 +6583,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -6437,6 +6602,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -6452,6 +6618,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -6470,6 +6637,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -6485,6 +6653,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -6500,6 +6669,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -6515,6 +6685,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -6868,6 +7039,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -6883,6 +7055,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -6901,6 +7074,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -6916,6 +7090,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -6931,6 +7106,39 @@ const recipes_array = [
       },
       {
         item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "creaking_heart",
+    count: 1,
+    ingredients: [
+      {
+        item: ["air"],
+      },
+      {
+        item: ["pale_oak_log"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["resin_block"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["pale_oak_log"],
       },
       {
         item: ["air"],
@@ -7685,6 +7893,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -7700,6 +7909,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -7715,6 +7925,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -8726,6 +8937,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -8741,6 +8953,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -8756,6 +8969,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -10055,6 +10269,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -10070,6 +10285,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -10085,6 +10301,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -10308,6 +10525,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -10323,6 +10541,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -10338,6 +10557,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -10561,6 +10781,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -10576,6 +10797,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -10591,6 +10813,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -10814,6 +11037,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -10829,6 +11053,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -10844,6 +11069,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -11067,6 +11293,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -11082,6 +11309,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -11097,6 +11325,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -11320,6 +11549,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -11335,6 +11565,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -11350,6 +11581,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -11573,6 +11805,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -11588,6 +11821,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -11603,6 +11837,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -11826,6 +12061,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -11841,6 +12077,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -11856,6 +12093,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -12079,6 +12317,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -12094,6 +12333,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -12109,6 +12349,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -12332,6 +12573,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -12347,6 +12589,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -12362,6 +12605,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -12585,6 +12829,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -12600,6 +12845,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -12615,6 +12861,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -12873,6 +13120,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -12888,6 +13136,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -12903,6 +13152,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -13683,6 +13933,39 @@ const recipes_array = [
     ],
   },
   {
+    item: "field_masoned_banner_pattern",
+    count: 1,
+    ingredients: [
+      {
+        item: ["paper"],
+      },
+      {
+        item: ["bricks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "firework_rocket",
     count: 3,
     ingredients: [
@@ -13802,6 +14085,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -13817,6 +14101,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -13835,6 +14120,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -13850,6 +14136,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -14953,39 +15240,74 @@ const recipes_array = [
       },
     ],
   },
-  {
-    item: "gray_dye",
-    count: 2,
-    ingredients: [
-      {
-        item: ["black_dye"],
-      },
-      {
-        item: ["white_dye"],
-      },
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
-      {
-        item: ["air"],
-      },
-    ],
-  },
+  [
+    {
+      item: "gray_dye",
+      count: 2,
+      ingredients: [
+        {
+          item: ["black_dye"],
+        },
+        {
+          item: ["white_dye"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "gray_dye",
+      count: 1,
+      ingredients: [
+        {
+          item: ["closed_eyeblossom"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+  ],
   {
     item: "gray_stained_glass",
     count: 8,
@@ -15374,6 +15696,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -15392,6 +15715,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -16282,6 +16606,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -16297,6 +16622,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -16312,6 +16638,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -16327,6 +16654,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -16345,6 +16673,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -16360,6 +16689,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -16375,6 +16705,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -16390,6 +16721,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -17236,6 +17568,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -17251,6 +17584,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -17266,6 +17600,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -17293,6 +17628,7 @@ const recipes_array = [
           "jungle_slab",
           "acacia_slab",
           "dark_oak_slab",
+          "pale_oak_slab",
           "crimson_slab",
           "warped_slab",
           "mangrove_slab",
@@ -18425,6 +18761,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -18440,6 +18777,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -20529,6 +20867,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -20544,6 +20883,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -20559,6 +20899,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -20574,6 +20915,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -20592,6 +20934,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -20607,6 +20950,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -20622,6 +20966,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -20637,6 +20982,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -21246,6 +21592,39 @@ const recipes_array = [
       count: 1,
       ingredients: [
         {
+          item: ["open_eyeblossom"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "orange_dye",
+      count: 1,
+      ingredients: [
+        {
           item: ["orange_tulip"],
         },
         {
@@ -21790,6 +22169,501 @@ const recipes_array = [
     ],
   },
   {
+    item: "pale_moss_carpet",
+    count: 3,
+    ingredients: [
+      {
+        item: ["pale_moss_block"],
+      },
+      {
+        item: ["pale_moss_block"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_boat",
+    count: 1,
+    ingredients: [
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_button",
+    count: 1,
+    ingredients: [
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_chest_boat",
+    count: 1,
+    ingredients: [
+      {
+        item: ["chest"],
+      },
+      {
+        item: ["pale_oak_boat"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_door",
+    count: 3,
+    ingredients: [
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_fence",
+    count: 3,
+    ingredients: [
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["stick"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["stick"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_fence_gate",
+    count: 1,
+    ingredients: [
+      {
+        item: ["stick"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["stick"],
+      },
+      {
+        item: ["stick"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["stick"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_hanging_sign",
+    count: 6,
+    ingredients: [
+      {
+        item: ["chain"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["chain"],
+      },
+      {
+        item: ["stripped_pale_oak_log"],
+      },
+      {
+        item: ["stripped_pale_oak_log"],
+      },
+      {
+        item: ["stripped_pale_oak_log"],
+      },
+      {
+        item: ["stripped_pale_oak_log"],
+      },
+      {
+        item: ["stripped_pale_oak_log"],
+      },
+      {
+        item: ["stripped_pale_oak_log"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_planks",
+    count: 4,
+    ingredients: [
+      {
+        item: ["pale_oak_log", "pale_oak_wood", "stripped_pale_oak_log", "stripped_pale_oak_wood"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_pressure_plate",
+    count: 1,
+    ingredients: [
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_sign",
+    count: 3,
+    ingredients: [
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["stick"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_slab",
+    count: 6,
+    ingredients: [
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_stairs",
+    count: 4,
+    ingredients: [
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_trapdoor",
+    count: 2,
+    ingredients: [
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["pale_oak_planks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "pale_oak_wood",
+    count: 3,
+    ingredients: [
+      {
+        item: ["pale_oak_log"],
+      },
+      {
+        item: ["pale_oak_log"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["pale_oak_log"],
+      },
+      {
+        item: ["pale_oak_log"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "paper",
     count: 3,
     ingredients: [
@@ -22201,6 +23075,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -22216,6 +23091,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -22231,6 +23107,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -25237,6 +26114,204 @@ const recipes_array = [
     ],
   },
   {
+    item: "resin_block",
+    count: 1,
+    ingredients: [
+      {
+        item: ["resin_clump"],
+      },
+      {
+        item: ["resin_clump"],
+      },
+      {
+        item: ["resin_clump"],
+      },
+      {
+        item: ["resin_clump"],
+      },
+      {
+        item: ["resin_clump"],
+      },
+      {
+        item: ["resin_clump"],
+      },
+      {
+        item: ["resin_clump"],
+      },
+      {
+        item: ["resin_clump"],
+      },
+      {
+        item: ["resin_clump"],
+      },
+    ],
+  },
+  {
+    item: "resin_bricks",
+    count: 1,
+    ingredients: [
+      {
+        item: ["resin_brick"],
+      },
+      {
+        item: ["resin_brick"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["resin_brick"],
+      },
+      {
+        item: ["resin_brick"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "resin_brick_slab",
+    count: 6,
+    ingredients: [
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "resin_brick_stairs",
+    count: 4,
+    ingredients: [
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["resin_bricks"],
+      },
+    ],
+  },
+  {
+    item: "resin_brick_wall",
+    count: 6,
+    ingredients: [
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["resin_bricks"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "resin_clump",
+    count: 9,
+    ingredients: [
+      {
+        item: ["resin_block"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "respawn_anchor",
     count: 1,
     ingredients: [
@@ -25611,6 +26686,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -25629,6 +26705,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -25644,6 +26721,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -25659,6 +26737,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -25674,6 +26753,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -25692,6 +26772,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -25890,6 +26971,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -25905,6 +26987,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -25923,6 +27006,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -25938,6 +27022,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -25963,6 +27048,10 @@ const recipes_array = [
           "dark_oak_wood",
           "stripped_dark_oak_log",
           "stripped_dark_oak_wood",
+          "pale_oak_log",
+          "pale_oak_wood",
+          "stripped_pale_oak_log",
+          "stripped_pale_oak_wood",
           "oak_log",
           "oak_wood",
           "stripped_oak_log",
@@ -26010,6 +27099,10 @@ const recipes_array = [
           "dark_oak_wood",
           "stripped_dark_oak_log",
           "stripped_dark_oak_wood",
+          "pale_oak_log",
+          "pale_oak_wood",
+          "stripped_pale_oak_log",
+          "stripped_pale_oak_wood",
           "oak_log",
           "oak_wood",
           "stripped_oak_log",
@@ -26057,6 +27150,10 @@ const recipes_array = [
           "dark_oak_wood",
           "stripped_dark_oak_log",
           "stripped_dark_oak_wood",
+          "pale_oak_log",
+          "pale_oak_wood",
+          "stripped_pale_oak_log",
+          "stripped_pale_oak_wood",
           "oak_log",
           "oak_wood",
           "stripped_oak_log",
@@ -26104,6 +27201,10 @@ const recipes_array = [
           "dark_oak_wood",
           "stripped_dark_oak_log",
           "stripped_dark_oak_wood",
+          "pale_oak_log",
+          "pale_oak_wood",
+          "stripped_pale_oak_log",
+          "stripped_pale_oak_wood",
           "oak_log",
           "oak_wood",
           "stripped_oak_log",
@@ -26505,6 +27606,10 @@ const recipes_array = [
           "dark_oak_wood",
           "stripped_dark_oak_log",
           "stripped_dark_oak_wood",
+          "pale_oak_log",
+          "pale_oak_wood",
+          "stripped_pale_oak_log",
+          "stripped_pale_oak_wood",
           "oak_log",
           "oak_wood",
           "stripped_oak_log",
@@ -26549,6 +27654,10 @@ const recipes_array = [
           "dark_oak_wood",
           "stripped_dark_oak_log",
           "stripped_dark_oak_wood",
+          "pale_oak_log",
+          "pale_oak_wood",
+          "stripped_pale_oak_log",
+          "stripped_pale_oak_wood",
           "oak_log",
           "oak_wood",
           "stripped_oak_log",
@@ -26593,6 +27702,10 @@ const recipes_array = [
           "dark_oak_wood",
           "stripped_dark_oak_log",
           "stripped_dark_oak_wood",
+          "pale_oak_log",
+          "pale_oak_wood",
+          "stripped_pale_oak_log",
+          "stripped_pale_oak_wood",
           "oak_log",
           "oak_wood",
           "stripped_oak_log",
@@ -27273,6 +28386,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -27294,6 +28408,7 @@ const recipes_array = [
             "jungle_planks",
             "acacia_planks",
             "dark_oak_planks",
+            "pale_oak_planks",
             "crimson_planks",
             "warped_planks",
             "mangrove_planks",
@@ -28112,6 +29227,39 @@ const recipes_array = [
     ],
   },
   {
+    item: "stripped_pale_oak_wood",
+    count: 3,
+    ingredients: [
+      {
+        item: ["stripped_pale_oak_log"],
+      },
+      {
+        item: ["stripped_pale_oak_log"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["stripped_pale_oak_log"],
+      },
+      {
+        item: ["stripped_pale_oak_log"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "stripped_spruce_wood",
     count: 3,
     ingredients: [
@@ -28226,6 +29374,536 @@ const recipes_array = [
         },
         {
           item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+  ],
+  [
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["allium"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["azure_bluet"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["blue_orchid"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["closed_eyeblossom"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["cornflower"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["dandelion"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["lily_of_the_valley"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["open_eyeblossom"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["orange_tulip"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["oxeye_daisy"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["pink_tulip"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["poppy"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["red_tulip"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["torchflower"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["white_tulip"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+        {
+          item: ["air"],
+        },
+      ],
+    },
+    {
+      item: "suspicious_stew",
+      count: 1,
+      ingredients: [
+        {
+          item: ["bowl"],
+        },
+        {
+          item: ["brown_mushroom"],
+        },
+        {
+          item: ["red_mushroom"],
+        },
+        {
+          item: ["wither_rose"],
         },
         {
           item: ["air"],
@@ -28506,6 +30184,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -31984,6 +33663,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -31999,6 +33679,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -32017,6 +33698,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -32053,6 +33735,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -32068,6 +33751,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -32110,6 +33794,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -32125,6 +33810,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -32140,6 +33826,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -32179,6 +33866,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -32224,6 +33912,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
@@ -32245,6 +33934,7 @@ const recipes_array = [
           "jungle_planks",
           "acacia_planks",
           "dark_oak_planks",
+          "pale_oak_planks",
           "crimson_planks",
           "warped_planks",
           "mangrove_planks",
