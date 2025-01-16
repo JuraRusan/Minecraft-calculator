@@ -2,4 +2,14 @@
 
 .main_wrapper {
   display: flex;
+  position: relative;
+
+  .ver {
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    font-size: 18px;
+    font-weight: 800 !important;
+    color: $site-color-7;
+  }
 }
