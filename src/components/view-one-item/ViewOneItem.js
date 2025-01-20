@@ -12,8 +12,8 @@ const ViewOneItem = ({ indexGlobal, itemName, indexVariables, slot, setIndexVari
   const load_lang_item = useSelector((state) => state.lang_item);
 
   const check = Array.isArray(RECIPES[indexGlobal])
-    ? RECIPES[indexGlobal][recipesVariables].ingredients[slot].item
-    : RECIPES[indexGlobal].ingredients[slot].item;
+    ? RECIPES[indexGlobal][recipesVariables].ingredients[slot]
+    : RECIPES[indexGlobal].ingredients[slot];
 
   const openModalVariables = () => {
     if (check.length > 1) {

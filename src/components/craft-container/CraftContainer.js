@@ -89,15 +89,15 @@ const CraftContainer = ({ indexGlobal, count, type }) => {
 
     if (check.ingredients) {
       setRecipesActive({
-        "0_slot": check.ingredients[0].item[indexVariables[0]],
-        "1_slot": check.ingredients[1].item[indexVariables[1]],
-        "2_slot": check.ingredients[2].item[indexVariables[2]],
-        "3_slot": check.ingredients[3].item[indexVariables[3]],
-        "4_slot": check.ingredients[4].item[indexVariables[4]],
-        "5_slot": check.ingredients[5].item[indexVariables[5]],
-        "6_slot": check.ingredients[6].item[indexVariables[6]],
-        "7_slot": check.ingredients[7].item[indexVariables[7]],
-        "8_slot": check.ingredients[8].item[indexVariables[8]],
+        "0_slot": check.ingredients[0][indexVariables[0]],
+        "1_slot": check.ingredients[1][indexVariables[1]],
+        "2_slot": check.ingredients[2][indexVariables[2]],
+        "3_slot": check.ingredients[3][indexVariables[3]],
+        "4_slot": check.ingredients[4][indexVariables[4]],
+        "5_slot": check.ingredients[5][indexVariables[5]],
+        "6_slot": check.ingredients[6][indexVariables[6]],
+        "7_slot": check.ingredients[7][indexVariables[7]],
+        "8_slot": check.ingredients[8][indexVariables[8]],
         output_slot: check.item,
         output_count: check.count,
       });
