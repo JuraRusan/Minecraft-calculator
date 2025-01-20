@@ -2369,6 +2369,57 @@ const recipes_array = [
     },
   ],
   {
+    item: "black_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "black_candle",
     count: 1,
     ingredients: [
@@ -2586,6 +2637,57 @@ const recipes_array = [
       ],
     },
   ],
+  {
+    item: "black_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
   {
     item: "black_stained_glass",
     count: 8,
@@ -2943,6 +3045,57 @@ const recipes_array = [
     },
   ],
   {
+    item: "blue_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "blue_candle",
     count: 1,
     ingredients: [
@@ -3190,6 +3343,57 @@ const recipes_array = [
       },
       {
         item: ["packed_ice"],
+      },
+    ],
+  },
+  {
+    item: "blue_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
       },
     ],
   },
@@ -4098,6 +4302,57 @@ const recipes_array = [
     },
   ],
   {
+    item: "brown_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "brown_candle",
     count: 1,
     ingredients: [
@@ -4253,6 +4508,57 @@ const recipes_array = [
     ingredients: [
       {
         item: ["cocoa_beans"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "brown_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
       },
       {
         item: ["air"],
@@ -7995,6 +8301,57 @@ const recipes_array = [
     },
   ],
   {
+    item: "cyan_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "cyan_candle",
     count: 1,
     ingredients: [
@@ -8212,6 +8569,57 @@ const recipes_array = [
       ],
     },
   ],
+  {
+    item: "cyan_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
   {
     item: "cyan_stained_glass",
     count: 8,
@@ -15175,6 +15583,57 @@ const recipes_array = [
     ],
   },
   {
+    item: "gray_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "gray_candle",
     count: 1,
     ingredients: [
@@ -15308,6 +15767,57 @@ const recipes_array = [
       ],
     },
   ],
+  {
+    item: "gray_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
   {
     item: "gray_stained_glass",
     count: 8,
@@ -15476,6 +15986,57 @@ const recipes_array = [
     ],
   },
   {
+    item: "green_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "green_candle",
     count: 1,
     ingredients: [
@@ -15538,6 +16099,57 @@ const recipes_array = [
       },
       {
         item: ["gravel"],
+      },
+    ],
+  },
+  {
+    item: "green_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
       },
     ],
   },
@@ -17741,6 +18353,57 @@ const recipes_array = [
     ],
   },
   {
+    item: "light_blue_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "light_blue_candle",
     count: 1,
     ingredients: [
@@ -17874,6 +18537,57 @@ const recipes_array = [
       ],
     },
   ],
+  {
+    item: "light_blue_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
   {
     item: "light_blue_stained_glass",
     count: 8,
@@ -18035,6 +18749,57 @@ const recipes_array = [
       },
       {
         item: ["stick"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "light_gray_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
       },
       {
         item: ["air"],
@@ -18275,6 +19040,57 @@ const recipes_array = [
     },
   ],
   {
+    item: "light_gray_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "light_gray_stained_glass",
     count: 8,
     ingredients: [
@@ -18475,6 +19291,57 @@ const recipes_array = [
     ],
   },
   {
+    item: "lime_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "lime_candle",
     count: 1,
     ingredients: [
@@ -18549,6 +19416,57 @@ const recipes_array = [
       },
       {
         item: ["white_dye"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "lime_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
       },
       {
         item: ["air"],
@@ -18866,6 +19784,57 @@ const recipes_array = [
     ],
   },
   {
+    item: "magenta_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "magenta_candle",
     count: 1,
     ingredients: [
@@ -19098,6 +20067,57 @@ const recipes_array = [
       ],
     },
   ],
+  {
+    item: "magenta_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
   {
     item: "magenta_stained_glass",
     count: 8,
@@ -21521,6 +22541,57 @@ const recipes_array = [
     ],
   },
   {
+    item: "orange_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "orange_candle",
     count: 1,
     ingredients: [
@@ -21720,6 +22791,57 @@ const recipes_array = [
       ],
     },
   ],
+  {
+    item: "orange_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
   {
     item: "orange_stained_glass",
     count: 8,
@@ -22730,6 +23852,57 @@ const recipes_array = [
     ],
   },
   {
+    item: "pink_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "pink_candle",
     count: 1,
     ingredients: [
@@ -22929,6 +24102,57 @@ const recipes_array = [
       ],
     },
   ],
+  {
+    item: "pink_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
   {
     item: "pink_stained_glass",
     count: 8,
@@ -24423,6 +25647,57 @@ const recipes_array = [
     ],
   },
   {
+    item: "purple_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "purple_candle",
     count: 1,
     ingredients: [
@@ -24497,6 +25772,57 @@ const recipes_array = [
       },
       {
         item: ["red_dye"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "purple_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
       },
       {
         item: ["air"],
@@ -25483,6 +26809,57 @@ const recipes_array = [
     ],
   },
   {
+    item: "red_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "red_candle",
     count: 1,
     ingredients: [
@@ -25934,6 +27311,57 @@ const recipes_array = [
       },
       {
         item: ["red_sandstone"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
+    item: "red_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
       },
       {
         item: ["air"],
@@ -33285,6 +34713,57 @@ const recipes_array = [
     ],
   },
   {
+    item: "white_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "white_candle",
     count: 1,
     ingredients: [
@@ -33418,6 +34897,57 @@ const recipes_array = [
       ],
     },
   ],
+  {
+    item: "white_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
   {
     item: "white_stained_glass",
     count: 8,
@@ -34026,6 +35556,57 @@ const recipes_array = [
     ],
   },
   {
+    item: "yellow_bundle",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "bundle",
+          "black_bundle",
+          "blue_bundle",
+          "brown_bundle",
+          "cyan_bundle",
+          "gray_bundle",
+          "green_bundle",
+          "light_blue_bundle",
+          "light_gray_bundle",
+          "lime_bundle",
+          "magenta_bundle",
+          "orange_bundle",
+          "pink_bundle",
+          "purple_bundle",
+          "red_bundle",
+          "yellow_bundle",
+          "white_bundle",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
+  {
     item: "yellow_candle",
     count: 1,
     ingredients: [
@@ -34159,6 +35740,57 @@ const recipes_array = [
       ],
     },
   ],
+  {
+    item: "yellow_shulker_box",
+    count: 1,
+    ingredients: [
+      {
+        item: [
+          "shulker_box",
+          "black_shulker_box",
+          "blue_shulker_box",
+          "brown_shulker_box",
+          "cyan_shulker_box",
+          "gray_shulker_box",
+          "green_shulker_box",
+          "light_blue_shulker_box",
+          "light_gray_shulker_box",
+          "lime_shulker_box",
+          "magenta_shulker_box",
+          "orange_shulker_box",
+          "pink_shulker_box",
+          "purple_shulker_box",
+          "red_shulker_box",
+          "white_shulker_box",
+          "yellow_shulker_box",
+        ],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+      {
+        item: ["air"],
+      },
+    ],
+  },
   {
     item: "yellow_stained_glass",
     count: 8,
