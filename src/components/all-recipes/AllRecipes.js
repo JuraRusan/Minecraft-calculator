@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import classNames from "classnames";
 import MyModal from "../my_modal/MyModal";
 import { RECIPES } from "../../data/Recipes";
 import { debounce } from "lodash";
@@ -36,22 +35,22 @@ const AllRecipes = ({ open, close, setIndexGlobal }) => {
 
   return (
     <MyModal open={open} close={close} type="recipes">
-      <div className={classNames(styles["wrapper"])}>
+      <div className={styles["wrapper_recipes"]}>
         <input
           type="search"
           autoFocus={true}
           placeholder={load_lang_app.search_recipes}
-          className={classNames(styles["search_recipes"])}
+          className={styles["search_recipes"]}
           onChange={debounce((e) => setSearch(e.target.value.toLowerCase()), 350)}
         />
-        <div className={classNames(styles["list"])}>
+        <div className={styles["list"]}>
           {RECIPES.map((el, i) => {
             const recipes = Array.isArray(el) ? el[0].item : el.item;
             const keys = Object.keys(filtered);
 
             return recipes === "air" || !keys.includes(recipes) ? null : (
               <div
-                className={classNames(styles["row_recipes_one"])}
+                className={styles["row_recipes_one"]}
                 key={i}
                 onClick={() => {
                   close();
@@ -61,13 +60,13 @@ const AllRecipes = ({ open, close, setIndexGlobal }) => {
               >
                 <LazyLoadImage
                   src={`./image/minecraft-item/${recipes}.webp`}
-                  wrapperClassName={classNames(styles["image"])}
+                  wrapperClassName={styles["image"]}
                   width="100%"
                   height="100%"
                   alt={load_lang_item[recipes]}
                   effect="blur"
                 />
-                <label className={classNames(styles["name_recipes"])}>{load_lang_item[recipes]}</label>
+                <label className={styles["name_recipes"]}>{load_lang_item[recipes]}</label>
               </div>
             );
           })}

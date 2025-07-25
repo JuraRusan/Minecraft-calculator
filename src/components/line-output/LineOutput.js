@@ -1,5 +1,4 @@
 import React from "react";
-import classNames from "classnames";
 import { useSelector } from "react-redux";
 
 import styles from "./LineOutput.module.scss";
@@ -16,16 +15,12 @@ const LineOutput = ({ numbers }) => {
   const load_lang_app = useSelector((state) => state.lang_app);
 
   return (
-    <div className={classNames(styles["calculated"])}>
-      <div className={classNames(styles["output_count_box"])}>
+    <div className={styles["calculated"]}>
+      <div className={styles["output_count_box"]}>
         {!funcStack && !funcShulker ? null : <label>{count} = </label>}
         {funcShulker === 0 ? null : (
           <>
-            <img
-              className={classNames(styles["output_image_shulker"])}
-              src="./image/minecraft-item/shulker_box.webp"
-              alt="none"
-            />
+            <img className={styles["output_image_shulker"]} src="./image/minecraft-item/shulker_box.webp" alt="none" />
             <span>{funcShulker}</span>
             <label>× 1728</label>
             {count % 1728 !== 0 && (funcStack > 0 || funcItem > 0) && <label> + </label>}

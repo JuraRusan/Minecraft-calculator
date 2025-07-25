@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import classNames from "classnames";
+import CN from "classnames";
 import VariablesRecipes from "../variables-recipes/VariablesRecipes";
 import { useSelector } from "react-redux";
 import { RECIPES } from "../../data/Recipes";
@@ -28,22 +28,20 @@ const ViewOneItem = ({ indexGlobal, itemName, indexVariables, slot, setIndexVari
   return (
     <>
       <div
-        className={
-          check.length <= 1
-            ? classNames(styles["view_one_item"])
-            : classNames(styles["view_one_item"], styles["view_one_item_hover"])
-        }
+        className={CN(styles["view_one_item"], {
+          [styles["view_one_item_hover"]]: check.length > 1,
+        })}
         onClick={openModalVariables}
       >
         <img
-          className={classNames(styles["image"])}
+          className={styles["image"]}
           src={`./image/minecraft-item/${itemName}.webp`}
           alt="none"
           width="100%"
           height="100%"
           title={load_lang_item[itemName]}
         />
-        {check.length <= 1 ? null : <span className={classNames(styles["help_variant"])}>!</span>}
+        {check.length <= 1 ? null : <span className={styles["help_variant"]}>!</span>}
       </div>
       <VariablesRecipes
         open={modalIsOpenVariables}

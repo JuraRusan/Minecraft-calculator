@@ -1,5 +1,4 @@
 import React, { useMemo, useState } from "react";
-import classNames from "classnames";
 import CraftContainer from "../craft-container/CraftContainer";
 import { RECIPES } from "../../data/Recipes";
 
@@ -44,23 +43,23 @@ const Decomposed = ({ result }) => {
       {decomposed.length !== 0 && (
         <>
           <input
-            className={classNames(styles["input_checkbox"])}
+            className={styles["input_checkbox"]}
             type="checkbox"
             id={uniqueCheckboxId}
             onChange={handleCheckboxChange}
             checked={decomposedShow}
           />
-          <label htmlFor={uniqueCheckboxId} className={classNames(styles["custom_checkbox_label"])}></label>
+          <label htmlFor={uniqueCheckboxId} className={styles["custom_checkbox_label"]}></label>
         </>
       )}
       {decomposedShow && (
-        <div className={classNames(styles["decomposed"])}>
+        <div className={styles["decomposed"]}>
           {decomposed.map((el, i) => {
             return (
-              <div className={classNames(styles["key_wrapper"])} key={i}>
-                <div className={classNames(styles["space_tab"])}></div>
+              <div className={styles["key_wrapper"]} key={i}>
+                <div className={styles["space_tab"]}></div>
                 <CraftContainer indexGlobal={el.id} count={el.count} type={false} />
-                <div className={classNames(styles["space_tab"])}></div>
+                <div className={styles["space_tab"]}></div>
               </div>
             );
           })}

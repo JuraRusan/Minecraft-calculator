@@ -1,5 +1,4 @@
 import React from "react";
-import classNames from "classnames";
 import MyModal from "../my_modal/MyModal";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useSelector } from "react-redux";
@@ -20,11 +19,11 @@ const VariablesRecipes = ({ open, close, setIndexVariables, indexVariables, slot
 
   return (
     <MyModal open={open} close={close} type="variables">
-      <div className={classNames(styles["wrapper"])}>
+      <div className={styles["wrapper_variables"]}>
         {variant.map((el, index) => (
-          <div className={classNames(styles["box_one_variant"])} key={index} onClick={() => handleItemClick(index)}>
+          <div className={styles["box_one_variant"]} key={index} onClick={() => handleItemClick(index)}>
             <LazyLoadImage
-              className={classNames(styles["image"])}
+              className={styles["image"]}
               src={`./image/minecraft-item/${el}.webp`}
               alt="none"
               width="100%"

@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import classNames from "classnames";
 import CraftContainer from "../craft-container/CraftContainer";
 import Alert from "../alert/Alert";
 import { debounce } from "lodash";
@@ -115,8 +114,8 @@ const CraftCalculator = () => {
   }, [dispatch, selectLang]);
 
   return (
-    <div className={classNames(styles["calculator"])}>
-      <div className={classNames(styles["recipes_swipe_button"])}>
+    <div className={styles["calculator"]}>
+      <div className={styles["recipes_swipe_button"]}>
         <MiniButton onClick={resetIndex} label={load_lang_app.reset_button} />
         <MiniButton onClick={decrementIndexGlobal} label="&#129144;" disabled={indexGlobal < 2} />
         <MiniButton onClick={openModalRecipes} label={load_lang_app.book_button} />
@@ -125,11 +124,11 @@ const CraftCalculator = () => {
         <AllRecipes open={modalIsOpenRecipes} close={closeModalRecipes} setIndexGlobal={setIndexGlobal} />
         <AppLanguages open={modalIsOpenLanguages} close={closeModalLanguages} setSelectLang={setSelectLang} />
       </div>
-      <div className={classNames(styles["required_input_count"])}>
+      <div className={styles["required_input_count"]}>
         <input
           ref={inputRef}
           placeholder={load_lang_app.required_count}
-          className={classNames(styles["count_input"])}
+          className={styles["count_input"]}
           onChange={debounce((e) => {
             handleChangeCount(e);
           }, 350)}

@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from "react";
-import classNames from "classnames";
+import CN from "classnames";
 import ReactModal from "react-modal";
 
 import styles from "./MyModal.module.scss";
 
 const MyModal = ({ type, open = false, showClose = true, close = () => {}, children, param }) => {
   const [modal, setModal] = useState(false);
+
+  const handleClose = () => {
+    setModal(false);
+    close();
+  };
 
   useEffect(() => {
     if (open) {
@@ -20,26 +25,20 @@ const MyModal = ({ type, open = false, showClose = true, close = () => {}, child
   return (
     <ReactModal
       isOpen={modal}
-      className={classNames(styles["modal_main_box"])}
-      overlayClassName={classNames(styles["overlay_modal_full"])}
+      className={styles["modal_main_box"]}
+      overlayClassName={styles["overlay_modal_full"]}
       ariaHideApp={false}
       {...param}
     >
       <div
-        className={classNames(styles["window"], {
+        className={CN(styles["window"], {
           [styles["recipes"]]: type === "recipes",
           [styles["languages"]]: type === "languages",
           [styles["variables"]]: type === "variables",
         })}
       >
         {showClose && (
-          <button
-            onClick={() => {
-              setModal(false);
-              close();
-            }}
-            className={classNames(styles["modal_close"])}
-          >
+          <button onClick={handleClose} className={styles["modal_close"]}>
             &#128473;
           </button>
         )}
