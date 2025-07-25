@@ -35,7 +35,7 @@ const ViewOneItem = ({ indexGlobal, itemName, indexVariables, slot, setIndexVari
       >
         <img
           className={styles["image"]}
-          src={`./image/minecraft-item/${itemName}.webp`}
+          src={process.env.PUBLIC_URL + `/image/minecraft-item/${itemName}.webp`}
           alt="none"
           width="100%"
           height="100%"

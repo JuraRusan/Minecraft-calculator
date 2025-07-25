@@ -20,7 +20,11 @@ const LineOutput = ({ numbers }) => {
         {!funcStack && !funcShulker ? null : <label>{count} = </label>}
         {funcShulker === 0 ? null : (
           <>
-            <img className={styles["output_image_shulker"]} src="./image/minecraft-item/shulker_box.webp" alt="none" />
+            <img
+              className={styles["output_image_shulker"]}
+              src={process.env.PUBLIC_URL + "/image/minecraft-item/shulker_box.webp"}
+              alt="none"
+            />
             <span>{funcShulker}</span>
             <label>× 1728</label>
             {count % 1728 !== 0 && (funcStack > 0 || funcItem > 0) && <label> + </label>}

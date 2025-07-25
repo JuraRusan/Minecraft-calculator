@@ -59,7 +59,7 @@ const AllRecipes = ({ open, close, setIndexGlobal }) => {
                 }}
               >
                 <LazyLoadImage
-                  src={`./image/minecraft-item/${recipes}.webp`}
+                  src={process.env.PUBLIC_URL + `/image/minecraft-item/${recipes}.webp`}
                   wrapperClassName={styles["image"]}
                   width="100%"
                   height="100%"

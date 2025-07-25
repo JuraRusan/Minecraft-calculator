@@ -24,7 +24,7 @@ const VariablesRecipes = ({ open, close, setIndexVariables, indexVariables, slot
           <div className={styles["box_one_variant"]} key={index} onClick={() => handleItemClick(index)}>
             <LazyLoadImage
               className={styles["image"]}
-              src={`./image/minecraft-item/${el}.webp`}
+              src={process.env.PUBLIC_URL + `/image/minecraft-item/${el}.webp`}
               alt="none"
               width="100%"
               height="100%"

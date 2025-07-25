@@ -136,7 +136,7 @@ const CraftContainer = ({ indexGlobal, count, type }) => {
           )}
           <div className={styles["output"]}>
             <LazyLoadImage
-              src={`./image/minecraft-item/${recipesActive.output_slot}.webp`}
+              src={process.env.PUBLIC_URL + `/image/minecraft-item/${recipesActive.output_slot}.webp`}
               alt="none"
               width="100%"
               height="100%"
@@ -162,7 +162,7 @@ const CraftContainer = ({ indexGlobal, count, type }) => {
         {Object.keys(calculatedValues).map((key, i) => (
           <div key={i} className={styles["result_one"]}>
             <LazyLoadImage
-              src={`./image/minecraft-item/${key}.webp`}
+              src={process.env.PUBLIC_URL + `/image/minecraft-item/${key}.webp`}
               alt="none"
               width="22px"
               height="22px"
