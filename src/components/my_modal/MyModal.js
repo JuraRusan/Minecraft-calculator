@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import CN from "classnames";
 import ReactModal from "react-modal";
+import CloseSVGComponent from "../../svg/CloseSVGComponent";
 
 import styles from "./MyModal.module.scss";
 
@@ -38,8 +39,8 @@ const MyModal = ({ type, open = false, showClose = true, close = () => {}, child
         })}
       >
         {showClose && (
-          <button onClick={handleClose} className={styles["modal_close"]}>
-            &#128473;
+          <button onClick={handleClose} className={CN(styles["button"], styles["_close"])}>
+            <CloseSVGComponent width="30px" height="30px" />
           </button>
         )}
         {children}

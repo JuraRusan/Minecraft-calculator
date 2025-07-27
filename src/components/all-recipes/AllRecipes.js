@@ -26,6 +26,12 @@ const AllRecipes = ({ open, close, setIndexGlobal }) => {
 
   const filtered = filter();
 
+  const handleSetIndex = (i) => {
+    close();
+    setIndexGlobal(i);
+    setSearch("");
+  };
+
   /* --- useEffect --- */
   useEffect(() => {
     if (!open) {
@@ -43,31 +49,23 @@ const AllRecipes = ({ open, close, setIndexGlobal }) => {
           className={styles["search_recipes"]}
           onChange={debounce((e) => setSearch(e.target.value.toLowerCase()), 350)}
         />
-        <div className={styles["list"]}>
+        <div className={styles["items"]}>
           {RECIPES.map((el, i) => {
             const recipes = Array.isArray(el) ? el[0].item : el.item;
             const keys = Object.keys(filtered);
 
             return recipes === "air" || !keys.includes(recipes) ? null : (
-              <div
-                className={styles["row_recipes_one"]}
+              <LazyLoadImage
                 key={i}
-                onClick={() => {
-                  close();
-                  setIndexGlobal(i);
-                  setSearch("");
-                }}
-              >
-                <LazyLoadImage
-                  src={process.env.PUBLIC_URL + `/image/minecraft-item/${recipes}.webp`}
-                  wrapperClassName={styles["image"]}
-                  width="100%"
-                  height="100%"
-                  alt={load_lang_item[recipes]}
-                  effect="blur"
-                />
-                <label className={styles["name_recipes"]}>{load_lang_item[recipes]}</label>
-              </div>
+                onClick={() => handleSetIndex(i)}
+                src={process.env.PUBLIC_URL + `/image/minecraft-item/${recipes}.webp`}
+                wrapperClassName={styles["image_block"]}
+                width="100%"
+                height="100%"
+                effect="blur"
+                alt={load_lang_item[recipes]}
+                title={load_lang_item[recipes]}
+              />
             );
           })}
         </div>
