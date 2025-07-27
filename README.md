@@ -6,7 +6,7 @@ Whether you are working on complex building projects, automating processes, or j
 
 ## Current Crafting Recipes
 
-- **ver. Minecraft 1.21.4**
+- **ver. Minecraft 1.21.8**
 
 ## Features
 
@@ -33,7 +33,7 @@ Images used were created with the [Isometric Renders](https://modrinth.com/mod/i
 
 ## Актуальные крафты
 
-- **ver. Minecraft 1.21.4**
+- **ver. Minecraft 1.21.8**
 
 ## Возможности
 
