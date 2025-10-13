@@ -58,7 +58,7 @@ const AllRecipes = ({ open, close, setIndexGlobal }) => {
               <LazyLoadImage
                 key={i}
                 onClick={() => handleSetIndex(i)}
-                src={process.env.PUBLIC_URL + `/image/minecraft-item/${recipes}.webp`}
+                src={process.env.PUBLIC_URL + `/image/item-assets/${recipes.toUpperCase()}.webp`}
                 wrapperClassName={styles["image_block"]}
                 width="100%"
                 height="100%"

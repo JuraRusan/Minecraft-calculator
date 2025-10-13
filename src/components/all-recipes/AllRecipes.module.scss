@@ -53,6 +53,7 @@ $height-param: 64px;
       min-height: $height-param;
       max-height: $height-param;
       cursor: pointer;
+      padding: 8px;
 
       &:nth-child(2n) {
         background: rgba(255, 255, 255, 0.04);

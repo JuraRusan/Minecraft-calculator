@@ -136,7 +136,7 @@ const CraftContainer = ({ indexGlobal, count, type }) => {
           )}
           <div className={styles["output"]}>
             <LazyLoadImage
-              src={process.env.PUBLIC_URL + `/image/minecraft-item/${recipesActive.output_slot}.webp`}
+              src={process.env.PUBLIC_URL + `/image/item-assets/${recipesActive.output_slot.toUpperCase()}.webp`}
               alt="none"
               width="100%"
               height="100%"
@@ -162,10 +162,11 @@ const CraftContainer = ({ indexGlobal, count, type }) => {
         {Object.keys(calculatedValues).map((key, i) => (
           <div key={i} className={styles["result_one"]}>
             <LazyLoadImage
-              src={process.env.PUBLIC_URL + `/image/minecraft-item/${key}.webp`}
+              src={process.env.PUBLIC_URL + `/image/item-assets/${key.toUpperCase()}.webp`}
+              className={styles["img"]}
               alt="none"
-              width="22px"
-              height="22px"
+              width="auto"
+              height="auto"
               effect="blur"
             />
             <p className={styles["name"]}>{load_lang_item[key]} -</p>

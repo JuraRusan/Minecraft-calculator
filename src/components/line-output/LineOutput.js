@@ -22,7 +22,7 @@ const LineOutput = ({ numbers }) => {
           <>
             <img
               className={styles["output_image_shulker"]}
-              src={process.env.PUBLIC_URL + "/image/minecraft-item/shulker_box.webp"}
+              src={process.env.PUBLIC_URL + "/image/item-assets/SHULKER_BOX.webp"}
               alt="none"
             />
             <span>{funcShulker}</span>
