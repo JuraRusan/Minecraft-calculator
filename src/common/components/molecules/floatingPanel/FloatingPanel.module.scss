@@ -1,0 +1,77 @@
+.container {
+  position: fixed;
+  width: auto;
+  min-width: 330px;
+  background: var(--main11);
+  border-radius: 8px;
+  border: 3px solid var(--main7);
+  z-index: 80;
+  user-select: none;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    cursor: move;
+    padding: 4px 2px;
+    overflow: hidden;
+
+    .title {
+      margin: 0 0 0 8px;
+      color: var(--main1);
+      width: 100%;
+    }
+
+    .styled {
+      background: var(--main9);
+      height: 28px;
+      width: 28px;
+      text-align: center;
+      border: none;
+      border-radius: 4px;
+      padding: 4px;
+      margin: 2px;
+      transition: all 0.25s ease;
+      cursor: pointer;
+
+      svg {
+        path {
+          fill: var(--main5);
+        }
+      }
+
+      &:hover {
+        svg {
+          path {
+            fill: var(--main1);
+          }
+        }
+      }
+    }
+
+    .move {
+      background: transparent;
+      cursor: help;
+
+      &:disabled {
+        svg {
+          path {
+            fill: var(--main8);
+          }
+        }
+      }
+
+      &:hover {
+        svg {
+          path {
+            fill: var(--main8);
+          }
+        }
+      }
+    }
+  }
+
+  .body {
+    border-top: 2px solid var(--main7);
+    padding: 16px;
+  }
+}

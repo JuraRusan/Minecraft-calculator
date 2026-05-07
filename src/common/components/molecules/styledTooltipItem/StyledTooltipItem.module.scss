@@ -1,0 +1,12 @@
+.root {
+  opacity: 1;
+}
+
+.body {
+  min-height: 0;
+  border: 2px solid var(--main7);
+  background-color: var(--main11);
+  box-shadow: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+}

@@ -1,53 +1,109 @@
 # Minecraft Calculator
 
-**Minecraft Calculator** — is a tool designed for calculations and optimization in Minecraft.
-Whether you are working on complex building projects, automating processes, or just want to make the most efficient use of resources, this calculator will be your indispensable assistant.
-![prew.png](prew.png)
+**Minecraft Calculator** — це інструмент для розрахунків та оптимізації у Minecraft.  
+Незалежно від того, чи працюєте ви над складними будівельними проєктами, автоматизацією процесів або просто намагаєтесь ефективніше використовувати ресурси, цей калькулятор допоможе вам краще планувати.
 
-## Current Crafting Recipes
+![Preview](./public/open-graph.webp)
 
-- **ver. Minecraft 1.21.9/10**
+## Підтримувана версія Minecraft
 
-## Features
+- **Minecraft Java Edition 1.21.9/10**
 
-- **Resource Calculation:** Find out how many materials you will need for your project.
-- **Recipe Optimization:** Quickly find the most efficient crafting method.
+### Підтримувані типи рецептів
 
-## Contributing
+- Верстак (формений крафт)
+- Верстак (безформений крафт)
+- Трансмутація
+- Каменеріз
+- Переплавка
+- Плавка
+- Копчення
+- Готування на багатті
+- Ковальське покращення
 
-If you have ideas or found a bug, please create an [issue](https://github.com/JuraRusan/Minecraft-calculator/issues).
+> Рецепти варильної стійки плануються в майбутніх оновленнях.
+
+## Можливості
+
+- **Розрахунок ресурсів:** Оцінюйте кількість матеріалів, необхідних для ваших проєктів.
+- **Оптимізація рецептів:** Знаходьте найефективніші шляхи крафту.
+- **Рекурсивні дерева крафту:** Розкладайте рецепти до базових інгредієнтів.
+- **Підтримка палива:** Розраховуйте необхідну кількість палива для рецептів, пов’язаних із піччю.
+
+## Дані
+
+- Ігрові дані (`recipes`, `fuels`, `stacks`) зберігаються у форматі JSON в `public/data/`.
+- Генеруються за допомогою власного скрипта на основі оригінальних файлів даних Minecraft (Java Edition).
+
+> JSON-файли генеруються автоматично. **Не редагуйте їх вручну**.
+
+## Внесок у проєкт
+
+Якщо у вас є ідеї, пропозиції або ви знайшли помилку — створіть [issue](https://github.com/JuraRusan/Minecraft-calculator/issues).
 
 ---
 
-This website is not an official product of Mojang. It was developed by an enthusiast to provide a helpful tool for Minecraft players. All features are created solely for personal and public use and are not affiliated with the official support or development of Mojang.
+Цей вебсайт не пов’язаний із Mojang і не підтримується компанією.  
+Він був створений як незалежний проєкт для допомоги гравцям Minecraft.
 
-Images used were created with the [Isometric Renders](https://modrinth.com/mod/isometric-renders) mod.
+Зображення були створені за допомогою моду [Isometric Renders](https://modrinth.com/mod/isometric-renders) або взяті з [mc-assets](https://github.com/Owen1212055/mc-assets).  
+Деякі текстури та іконки, використані в проєкті, не були створені мною та належать їхнім відповідним власникам.
 
-### Created with love for Minecraft 🌱
+### Створено з любов’ю до Minecraft 🌱
+
+---
 
 # Minecraft Calculator
 
-**Minecraft Calculator** — это инструмент, созданный для расчётов и оптимизации в игре Minecraft.
-Если вы занимаетесь сложными строительными проектами, автоматизацией процессов или просто хотите максимально эффективно использовать ресурсы, этот калькулятор станет незаменимым помощником.
-![prew.png](prew.png)
+**Minecraft Calculator** is a tool for calculations and optimization in Minecraft.  
+Whether you're working on complex building projects, automating processes, or simply trying to use resources efficiently, this calculator helps you plan better.
 
-## Актуальные крафты
+![Preview](./public/open-graph.webp)
 
-- **ver. Minecraft 1.21.9/10**
+## Supported Minecraft Version
 
-## Возможности
+- **Minecraft Java Edition 1.21.9/10**
 
-- **Расчёт ресурсов:** Узнайте, сколько материалов понадобится для вашего проекта.
-- **Оптимизация рецептов:** Быстро находите оптимальный способ крафта.
+### Supported Recipe Types
 
-## Вклад в проект
+- Crafting Table (Shaped)
+- Crafting Table (Shapeless)
+- Crafting Transmute
+- Stonecutting
+- Smelting
+- Blasting
+- Smoking
+- Campfire Cooking
+- Smithing Transform
 
-Если у вас есть идеи или вы нашли баг, создайте [issue](https://github.com/JuraRusan/Minecraft-calculator/issues).
+> Brewing Stand recipes are planned for future updates.
+
+## Features
+
+- **Resource Calculation:** Estimate materials required for your projects.
+- **Recipe Optimization:** Find the most efficient crafting paths.
+- **Recursive Craft Trees:** Break recipes down into base ingredients.
+- **Fuel Support:** Calculate fuel requirements for furnace-based recipes.
+
+## Data
+
+- Game data (`recipes`, `fuels`, `stacks`) is stored as JSON in `public/data/`.
+- Generated using a custom script based on original Minecraft (Java Edition) data files.
+
+> JSON files are auto-generated. **Do not edit them manually**.
+
+## Contributing
+
+If you have ideas, suggestions, or found a bug, please open an [issue](https://github.com/JuraRusan/Minecraft-calculator/issues).
 
 ---
 
-Этот сайт не является официальным продуктом компании Mojang. Он был разработан энтузиастом с целью предоставить полезный инструмент для игроков Minecraft. Все функции созданы исключительно для личного и публичного использования и не связаны с официальной поддержкой или разработкой Mojang.
+This website is not affiliated with or endorsed by Mojang.  
+It was created as an independent project to help Minecraft players.
 
-Изображения, которые используются, были созданы с помощью мода [Isometric Renders](https://modrinth.com/mod/isometric-renders).
+Images were created using the [Isometric Renders](https://modrinth.com/mod/isometric-renders) mod or taken from [mc-assets](https://github.com/Owen1212055/mc-assets).  
+Some textures and icons used in the project are not created by me and belong to their respective owners.
 
-### Создано с любовью к Minecraft 🌱
+### Created with love for Minecraft 🌱
+
+---
