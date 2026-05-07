@@ -1,0 +1,55 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+
+  .versions {
+    position: absolute;
+    left: 23%;
+    top: 32px;
+    color: var(--main8);
+  }
+
+  .container_row_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 32px auto 0 auto;
+
+    .identical_width {
+      width: 140px;
+    }
+
+    .spacing_buttons {
+      margin: 0 4px;
+    }
+  }
+
+  .required_input_count {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    min-width: 400px;
+    width: auto;
+    margin: 8px auto;
+    position: relative;
+
+    .help {
+      width: 24px;
+      position: absolute;
+      right: -28px;
+      color: var(--main3);
+    }
+
+    .help_tooltip {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

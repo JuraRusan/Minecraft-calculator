@@ -1,50 +1,70 @@
-@import "src/Variables";
-
-html {
-  height: 100%;
-  width: 100%;
-}
-
-body {
-  height: 100%;
-  width: 100%;
-}
-
-div#root {
-  height: 100%;
-  width: 100%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.main_body_page {
+.main {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: auto;
   min-height: 100vh;
   position: relative;
-  background: url(image/bg.webp) no-repeat center;
+  background: var(--main0);
 
-  .content {
+  .glow {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(160px);
+    opacity: 0.3;
+  }
+
+  ._one {
+    width: 300px;
+    height: 300px;
+    background: var(--main1);
+    top: 10%;
+    left: 15%;
+  }
+
+  ._two {
+    width: 400px;
+    height: 400px;
+    background: var(--main2);
+    top: 40%;
+    left: 50%;
+  }
+
+  ._three {
+    width: 280px;
+    height: 280px;
+    background: var(--main3);
+    top: 70%;
+    left: 80%;
+  }
+
+  ._four {
+    width: 220px;
+    height: 220px;
+    background: var(--main4);
+    top: 70%;
+    left: 20%;
+  }
+
+  .footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-    height: auto;
-    width: auto;
-    backdrop-filter: blur(16px);
+    margin-top: auto;
+    padding: 16px 0;
   }
 }
 
 *::-webkit-scrollbar {
   width: 8px;
-  background-color: $site-color-7;
+  background-color: var(--main7);
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: $site-color-6;
+  background-color: var(--main6);
   transition: 2s all ease;
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
 }

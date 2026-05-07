@@ -1,0 +1,111 @@
+$height-param: 64px;
+
+.wrapper_content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 70vw;
+  height: 65vh;
+  min-width: 0;
+  min-height: 0;
+
+  .filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 88%;
+    margin: 0 auto 8px auto;
+
+    .position {
+      margin: 4px;
+    }
+  }
+
+  .search {
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+
+  .items,
+  .no_results {
+    flex: 1;
+    width: 100%;
+    min-height: 0;
+  }
+
+  .no_results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 4px;
+      display: none;
+    }
+
+    .image {
+      display: flex;
+      width: $height-param;
+      min-width: $height-param;
+      max-width: $height-param;
+      height: $height-param;
+      min-height: $height-param;
+      max-height: $height-param;
+      cursor: pointer;
+      padding: 6px;
+      transition: all 0.25s ease;
+
+      &:hover {
+        background: var(--main10);
+      }
+    }
+  }
+
+  .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 6px auto;
+    max-width: 80%;
+
+    .buttons {
+      margin: 4px;
+    }
+  }
+}
+
+.settings {
+  width: 35vw;
+  height: auto;
+}
+
+.variables {
+  width: 45vw;
+  height: 30vh;
+}
+
+.fuels {
+  width: 60vw;
+  height: 55vh;
+}
+
+.burn_container {
+  display: flex;
+  flex-direction: row;
+
+  .fuel {
+    color: var(--main1);
+  }
+}

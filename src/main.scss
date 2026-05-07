@@ -1,0 +1,41 @@
+@use "./theme/light";
+@use "./theme/dark";
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+SC&display=swap");
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", "Noto Sans SC", sans-serif;
+}
+
+.rc-tooltip-arrow {
+  margin-left: -7px !important;
+  border-width: 0 7px 7px !important;
+  border-bottom-color: var(--main6) !important;
+}
+
+.styled_toaster {
+  background:
+    linear-gradient(var(--main10), transparent, var(--main10)) top / 100% 2px no-repeat,
+    linear-gradient(to bottom, var(--main10), transparent) left / 2px 100% no-repeat,
+    linear-gradient(to bottom, var(--main10), transparent) right / 2px 100% no-repeat,
+    var(--main9) !important;
+}
+
+.progress_toaster_bar {
+  background: var(--main4) !important;
+}
+
+.Toastify__progress-bar--bg {
+  background: var(--main4) !important;
+  opacity: 0.25 !important;
+}

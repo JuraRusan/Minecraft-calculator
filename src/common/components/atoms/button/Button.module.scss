@@ -1,0 +1,30 @@
+.button {
+  width: auto;
+  height: 28px;
+  padding: 0 12px;
+  cursor: pointer;
+  border: 2px solid var(--main10);
+  border-radius: 2px;
+  background: var(--main9);
+  color: var(--main5);
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+
+  &:hover {
+    color: var(--main1);
+  }
+
+  &:disabled {
+    cursor: default;
+    color: var(--main8);
+
+    &:hover {
+      color: var(--main8);
+    }
+  }
+}
+
+.active {
+  color: var(--main2);
+}

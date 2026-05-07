@@ -1,49 +1,67 @@
 {
   "name": "Minecraft-calculator",
-  "homepage": "./",
-  "version": "0.3.6",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "aos": "^2.3.4",
-    "classnames": "^2.3.2",
-    "module": "^1.2.5",
-    "prettier": "^3.3.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-lazy-load-image-component": "^1.6.0",
-    "react-modal": "^3.16.1",
-    "react-redux": "^9.1.2",
-    "react-router-dom": "^6.25.1",
-    "react-scripts": "5.0.1",
-    "redux": "^5.0.1",
-    "sass": "^1.53.0",
-    "web-vitals": "^2.1.4"
-  },
+  "version": "0.4.0",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prepare": "husky"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
+  "lint-staged": {
+    "*": [
+      "prettier --ignore-unknown --write"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "classnames": "^2.5.1",
+    "expr-eval": "^2.0.2",
+    "i18next": "^25.8.19",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "i18next-resources-to-backend": "^1.2.1",
+    "lodash-es": "^4.18.1",
+    "ramda": "^0.32.0",
+    "rc-tooltip": "^6.4.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-i18next": "^16.5.8",
+    "react-indiana-drag-scroll": "^3.0.4-alpha",
+    "react-lazy-load-image-component": "^1.6.3",
+    "react-modal": "^3.16.3",
+    "react-redux": "^9.2.0",
+    "react-toastify": "^11.0.5",
+    "redux": "^5.0.1",
+    "sass": "^1.98.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@eslint/js": "^9.39.4",
+    "@types/lodash": "^4.17.24",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^25.6.0",
+    "@types/ramda": "^0.31.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-lazy-load-image-component": "^1.6.5",
+    "@types/react-modal": "^3.16.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "globals": "^17.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.0",
+    "vite": "^8.0.8",
+    "vite-plugin-pwa": "^1.3.0",
+    "vite-plugin-svgr": "^4.5.0"
   }
 }
