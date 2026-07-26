@@ -1,7 +1,7 @@
 import type { TreeNode } from "@/common/helpers/tree.ts";
 import type { CraftingType, RecipeType, VariablesType } from "@/types/types.ts";
 
-export const VERSION = "1.21.9/10";
+export const VERSION = "26.2";
 
 export const DEFAULT_FLOATING_POSITION = { x: 75, y: 75 };
 
