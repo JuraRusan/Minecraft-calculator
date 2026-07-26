@@ -1824,21 +1824,21 @@
       "ingredients": [
         ["black_dye"],
         [
+          "white_bed",
+          "orange_bed",
+          "magenta_bed",
+          "light_blue_bed",
+          "yellow_bed",
+          "lime_bed",
+          "pink_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "cyan_bed",
+          "purple_bed",
           "blue_bed",
           "brown_bed",
-          "cyan_bed",
-          "gray_bed",
           "green_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "magenta_bed",
-          "orange_bed",
-          "pink_bed",
-          "purple_bed",
-          "red_bed",
-          "yellow_bed",
-          "white_bed"
+          "red_bed"
         ],
         ["air"],
         ["air"],
@@ -1857,22 +1857,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["black_dye"],
       ["air"],
@@ -1904,21 +1904,21 @@
       "ingredients": [
         ["black_dye"],
         [
+          "white_carpet",
+          "orange_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
+          "yellow_carpet",
+          "lime_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
           "blue_carpet",
           "brown_carpet",
-          "cyan_carpet",
-          "gray_carpet",
           "green_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "magenta_carpet",
-          "orange_carpet",
-          "pink_carpet",
-          "purple_carpet",
-          "red_carpet",
-          "yellow_carpet",
-          "white_carpet"
+          "red_carpet"
         ],
         ["air"],
         ["air"],
@@ -2287,21 +2287,21 @@
       "ingredients": [
         ["black_dye"],
         [
+          "white_harness",
+          "orange_harness",
+          "magenta_harness",
+          "light_blue_harness",
+          "yellow_harness",
+          "lime_harness",
+          "pink_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "cyan_harness",
+          "purple_harness",
           "blue_harness",
           "brown_harness",
-          "cyan_harness",
-          "gray_harness",
           "green_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "magenta_harness",
-          "orange_harness",
-          "pink_harness",
-          "purple_harness",
-          "red_harness",
-          "yellow_harness",
-          "white_harness"
+          "red_harness"
         ],
         ["air"],
         ["air"],
@@ -2320,22 +2320,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["black_dye"],
       ["air"],
@@ -2514,21 +2514,21 @@
       "ingredients": [
         ["blue_dye"],
         [
-          "black_bed",
-          "brown_bed",
-          "cyan_bed",
-          "gray_bed",
-          "green_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "magenta_bed",
+          "white_bed",
           "orange_bed",
-          "pink_bed",
-          "purple_bed",
-          "red_bed",
+          "magenta_bed",
+          "light_blue_bed",
           "yellow_bed",
-          "white_bed"
+          "lime_bed",
+          "pink_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "cyan_bed",
+          "purple_bed",
+          "brown_bed",
+          "green_bed",
+          "red_bed",
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -2547,22 +2547,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["blue_dye"],
       ["air"],
@@ -2594,21 +2594,21 @@
       "ingredients": [
         ["blue_dye"],
         [
-          "black_carpet",
-          "brown_carpet",
-          "cyan_carpet",
-          "gray_carpet",
-          "green_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "magenta_carpet",
+          "white_carpet",
           "orange_carpet",
-          "pink_carpet",
-          "purple_carpet",
-          "red_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
           "yellow_carpet",
-          "white_carpet"
+          "lime_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
+          "brown_carpet",
+          "green_carpet",
+          "red_carpet",
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -2977,21 +2977,21 @@
       "ingredients": [
         ["blue_dye"],
         [
-          "black_harness",
-          "brown_harness",
-          "cyan_harness",
-          "gray_harness",
-          "green_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "magenta_harness",
+          "white_harness",
           "orange_harness",
-          "pink_harness",
-          "purple_harness",
-          "red_harness",
+          "magenta_harness",
+          "light_blue_harness",
           "yellow_harness",
-          "white_harness"
+          "lime_harness",
+          "pink_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "cyan_harness",
+          "purple_harness",
+          "brown_harness",
+          "green_harness",
+          "red_harness",
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -3026,22 +3026,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["blue_dye"],
       ["air"],
@@ -3784,21 +3784,21 @@
       "ingredients": [
         ["brown_dye"],
         [
-          "black_bed",
-          "blue_bed",
-          "cyan_bed",
-          "gray_bed",
-          "green_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "magenta_bed",
+          "white_bed",
           "orange_bed",
-          "pink_bed",
-          "purple_bed",
-          "red_bed",
+          "magenta_bed",
+          "light_blue_bed",
           "yellow_bed",
-          "white_bed"
+          "lime_bed",
+          "pink_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "cyan_bed",
+          "purple_bed",
+          "blue_bed",
+          "green_bed",
+          "red_bed",
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -3817,22 +3817,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["brown_dye"],
       ["air"],
@@ -3864,21 +3864,21 @@
       "ingredients": [
         ["brown_dye"],
         [
-          "black_carpet",
-          "blue_carpet",
-          "cyan_carpet",
-          "gray_carpet",
-          "green_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "magenta_carpet",
+          "white_carpet",
           "orange_carpet",
-          "pink_carpet",
-          "purple_carpet",
-          "red_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
           "yellow_carpet",
-          "white_carpet"
+          "lime_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
+          "blue_carpet",
+          "green_carpet",
+          "red_carpet",
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -4239,21 +4239,21 @@
       "ingredients": [
         ["brown_dye"],
         [
-          "black_harness",
-          "blue_harness",
-          "cyan_harness",
-          "gray_harness",
-          "green_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "magenta_harness",
+          "white_harness",
           "orange_harness",
-          "pink_harness",
-          "purple_harness",
-          "red_harness",
+          "magenta_harness",
+          "light_blue_harness",
           "yellow_harness",
-          "white_harness"
+          "lime_harness",
+          "pink_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "cyan_harness",
+          "purple_harness",
+          "blue_harness",
+          "green_harness",
+          "red_harness",
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -4272,22 +4272,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["brown_dye"],
       ["air"],
@@ -5484,6 +5484,30 @@
   [
     {
       "crafting_type": "crafting_shaped",
+      "item": "chiseled_cinnabar",
+      "count": 1,
+      "ingredients": [
+        ["cinnabar_slab"],
+        ["air"],
+        ["air"],
+        ["cinnabar_slab"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "chiseled_cinnabar",
+      "count": 1,
+      "ingredients": [["cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
       "item": "chiseled_copper",
       "count": 1,
       "ingredients": [
@@ -5533,6 +5557,12 @@
       "item": "chiseled_deepslate",
       "count": 1,
       "ingredients": [["cobbled_deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "chiseled_deepslate",
+      "count": 1,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
   [
@@ -5708,6 +5738,20 @@
   [
     {
       "crafting_type": "crafting_shaped",
+      "item": "chiseled_sulfur",
+      "count": 1,
+      "ingredients": [["sulfur_slab"], ["air"], ["air"], ["sulfur_slab"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "chiseled_sulfur",
+      "count": 1,
+      "ingredients": [["sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
       "item": "chiseled_tuff",
       "count": 1,
       "ingredients": [["tuff_slab"], ["air"], ["air"], ["tuff_slab"], ["air"], ["air"], ["air"], ["air"], ["air"]]
@@ -5753,6 +5797,206 @@
       "item": "chiseled_tuff_bricks",
       "count": 1,
       "ingredients": [["tuff"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "cinnabar_bricks",
+      "count": 4,
+      "ingredients": [
+        ["polished_cinnabar"],
+        ["polished_cinnabar"],
+        ["air"],
+        ["polished_cinnabar"],
+        ["polished_cinnabar"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_bricks",
+      "count": 1,
+      "ingredients": [["cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_bricks",
+      "count": 1,
+      "ingredients": [["polished_cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "cinnabar_brick_slab",
+      "count": 6,
+      "ingredients": [
+        ["cinnabar_bricks"],
+        ["cinnabar_bricks"],
+        ["cinnabar_bricks"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_brick_slab",
+      "count": 2,
+      "ingredients": [["cinnabar_bricks"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_brick_slab",
+      "count": 2,
+      "ingredients": [["cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_brick_slab",
+      "count": 2,
+      "ingredients": [["polished_cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "cinnabar_brick_stairs",
+      "count": 4,
+      "ingredients": [
+        ["cinnabar_bricks"],
+        ["air"],
+        ["air"],
+        ["cinnabar_bricks"],
+        ["cinnabar_bricks"],
+        ["air"],
+        ["cinnabar_bricks"],
+        ["cinnabar_bricks"],
+        ["cinnabar_bricks"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_brick_stairs",
+      "count": 1,
+      "ingredients": [["cinnabar_bricks"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_brick_stairs",
+      "count": 1,
+      "ingredients": [["cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_brick_stairs",
+      "count": 1,
+      "ingredients": [["polished_cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "cinnabar_brick_wall",
+      "count": 6,
+      "ingredients": [
+        ["cinnabar_bricks"],
+        ["cinnabar_bricks"],
+        ["cinnabar_bricks"],
+        ["cinnabar_bricks"],
+        ["cinnabar_bricks"],
+        ["cinnabar_bricks"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_brick_wall",
+      "count": 1,
+      "ingredients": [["cinnabar_bricks"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_brick_wall",
+      "count": 1,
+      "ingredients": [["cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_brick_wall",
+      "count": 1,
+      "ingredients": [["polished_cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "cinnabar_slab",
+      "count": 6,
+      "ingredients": [["cinnabar"], ["cinnabar"], ["cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_slab",
+      "count": 2,
+      "ingredients": [["cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "cinnabar_stairs",
+      "count": 4,
+      "ingredients": [
+        ["cinnabar"],
+        ["air"],
+        ["air"],
+        ["cinnabar"],
+        ["cinnabar"],
+        ["air"],
+        ["cinnabar"],
+        ["cinnabar"],
+        ["cinnabar"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_stairs",
+      "count": 1,
+      "ingredients": [["cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "cinnabar_wall",
+      "count": 6,
+      "ingredients": [
+        ["cinnabar"],
+        ["cinnabar"],
+        ["cinnabar"],
+        ["cinnabar"],
+        ["cinnabar"],
+        ["cinnabar"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cinnabar_wall",
+      "count": 1,
+      "ingredients": [["cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
   {
@@ -7035,6 +7279,12 @@
       ["diamond"]
     ]
   },
+  {
+    "crafting_type": "stonecutting",
+    "item": "cobbled_deepslate",
+    "count": 1,
+    "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+  },
   [
     {
       "crafting_type": "crafting_shaped",
@@ -7057,6 +7307,12 @@
       "item": "cobbled_deepslate_slab",
       "count": 2,
       "ingredients": [["cobbled_deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cobbled_deepslate_slab",
+      "count": 2,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
   [
@@ -7081,6 +7337,12 @@
       "item": "cobbled_deepslate_stairs",
       "count": 1,
       "ingredients": [["cobbled_deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cobbled_deepslate_stairs",
+      "count": 1,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
   [
@@ -7105,8 +7367,20 @@
       "item": "cobbled_deepslate_wall",
       "count": 1,
       "ingredients": [["cobbled_deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cobbled_deepslate_wall",
+      "count": 1,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
+  {
+    "crafting_type": "stonecutting",
+    "item": "cobblestone",
+    "count": 1,
+    "ingredients": [["stone"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+  },
   [
     {
       "crafting_type": "crafting_shaped",
@@ -7129,6 +7403,12 @@
       "item": "cobblestone_slab",
       "count": 2,
       "ingredients": [["cobblestone"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cobblestone_slab",
+      "count": 2,
+      "ingredients": [["stone"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
   [
@@ -7153,6 +7433,12 @@
       "item": "cobblestone_stairs",
       "count": 1,
       "ingredients": [["cobblestone"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cobblestone_stairs",
+      "count": 1,
+      "ingredients": [["stone"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
   [
@@ -7177,6 +7463,12 @@
       "item": "cobblestone_wall",
       "count": 1,
       "ingredients": [["cobblestone"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "cobblestone_wall",
+      "count": 1,
+      "ingredients": [["stone"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
   {
@@ -13752,11 +14044,13 @@
           "copper_axe",
           "copper_hoe",
           "copper_sword",
+          "copper_spear",
           "copper_helmet",
           "copper_chestplate",
           "copper_leggings",
           "copper_boots",
-          "copper_horse_armor"
+          "copper_horse_armor",
+          "copper_nautilus_armor"
         ],
         [
           "lava_bucket",
@@ -14066,11 +14360,13 @@
           "copper_axe",
           "copper_hoe",
           "copper_sword",
+          "copper_spear",
           "copper_helmet",
           "copper_chestplate",
           "copper_leggings",
           "copper_boots",
-          "copper_horse_armor"
+          "copper_horse_armor",
+          "copper_nautilus_armor"
         ],
         [
           "lava_bucket",
@@ -14389,6 +14685,12 @@
     "item": "copper_shovel",
     "count": 1,
     "ingredients": [["copper_ingot"], ["air"], ["air"], ["stick"], ["air"], ["air"], ["stick"], ["air"], ["air"]]
+  },
+  {
+    "crafting_type": "crafting_shaped",
+    "item": "copper_spear",
+    "count": 1,
+    "ingredients": [["air"], ["air"], ["copper_ingot"], ["air"], ["stick"], ["air"], ["stick"], ["air"], ["air"]]
   },
   {
     "crafting_type": "crafting_shaped",
@@ -16534,21 +16836,21 @@
       "ingredients": [
         ["cyan_dye"],
         [
-          "black_bed",
+          "white_bed",
+          "orange_bed",
+          "magenta_bed",
+          "light_blue_bed",
+          "yellow_bed",
+          "lime_bed",
+          "pink_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "purple_bed",
           "blue_bed",
           "brown_bed",
-          "gray_bed",
           "green_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "magenta_bed",
-          "orange_bed",
-          "pink_bed",
-          "purple_bed",
           "red_bed",
-          "yellow_bed",
-          "white_bed"
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -16567,22 +16869,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["cyan_dye"],
       ["air"],
@@ -16614,21 +16916,21 @@
       "ingredients": [
         ["cyan_dye"],
         [
-          "black_carpet",
+          "white_carpet",
+          "orange_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
+          "yellow_carpet",
+          "lime_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "purple_carpet",
           "blue_carpet",
           "brown_carpet",
-          "gray_carpet",
           "green_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "magenta_carpet",
-          "orange_carpet",
-          "pink_carpet",
-          "purple_carpet",
           "red_carpet",
-          "yellow_carpet",
-          "white_carpet"
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -16997,21 +17299,21 @@
       "ingredients": [
         ["cyan_dye"],
         [
-          "black_harness",
+          "white_harness",
+          "orange_harness",
+          "magenta_harness",
+          "light_blue_harness",
+          "yellow_harness",
+          "lime_harness",
+          "pink_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "purple_harness",
           "blue_harness",
           "brown_harness",
-          "gray_harness",
           "green_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "magenta_harness",
-          "orange_harness",
-          "pink_harness",
-          "purple_harness",
           "red_harness",
-          "yellow_harness",
-          "white_harness"
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -17030,22 +17332,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["cyan_dye"],
       ["air"],
@@ -17798,6 +18100,12 @@
       "crafting_type": "stonecutting",
       "item": "deepslate_bricks",
       "count": 1,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "deepslate_bricks",
+      "count": 1,
       "ingredients": [["polished_deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
@@ -17829,6 +18137,12 @@
       "item": "deepslate_brick_slab",
       "count": 2,
       "ingredients": [["deepslate_bricks"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "deepslate_brick_slab",
+      "count": 2,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     },
     {
       "crafting_type": "stonecutting",
@@ -17870,6 +18184,12 @@
       "crafting_type": "stonecutting",
       "item": "deepslate_brick_stairs",
       "count": 1,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "deepslate_brick_stairs",
+      "count": 1,
       "ingredients": [["polished_deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
@@ -17901,6 +18221,12 @@
       "item": "deepslate_brick_wall",
       "count": 1,
       "ingredients": [["deepslate_bricks"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "deepslate_brick_wall",
+      "count": 1,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     },
     {
       "crafting_type": "stonecutting",
@@ -17942,6 +18268,12 @@
       "crafting_type": "stonecutting",
       "item": "deepslate_tiles",
       "count": 1,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "deepslate_tiles",
+      "count": 1,
       "ingredients": [["polished_deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
@@ -17973,6 +18305,12 @@
       "item": "deepslate_tile_slab",
       "count": 2,
       "ingredients": [["deepslate_bricks"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "deepslate_tile_slab",
+      "count": 2,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     },
     {
       "crafting_type": "stonecutting",
@@ -18020,6 +18358,12 @@
       "crafting_type": "stonecutting",
       "item": "deepslate_tile_stairs",
       "count": 1,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "deepslate_tile_stairs",
+      "count": 1,
       "ingredients": [["deepslate_tiles"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     },
     {
@@ -18057,6 +18401,12 @@
       "item": "deepslate_tile_wall",
       "count": 1,
       "ingredients": [["deepslate_bricks"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "deepslate_tile_wall",
+      "count": 1,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     },
     {
       "crafting_type": "stonecutting",
@@ -19393,6 +19743,12 @@
   },
   {
     "crafting_type": "crafting_shaped",
+    "item": "diamond_spear",
+    "count": 1,
+    "ingredients": [["air"], ["air"], ["diamond"], ["air"], ["stick"], ["air"], ["stick"], ["air"], ["air"]]
+  },
+  {
+    "crafting_type": "crafting_shaped",
     "item": "diamond_sword",
     "count": 1,
     "ingredients": [["diamond"], ["air"], ["air"], ["diamond"], ["air"], ["air"], ["stick"], ["air"], ["air"]]
@@ -20200,21 +20556,21 @@
     "ingredients": [
       ["black_dye"],
       [
+        "white_wool",
+        "orange_wool",
+        "magenta_wool",
+        "light_blue_wool",
+        "yellow_wool",
+        "lime_wool",
+        "pink_wool",
+        "gray_wool",
+        "light_gray_wool",
+        "cyan_wool",
+        "purple_wool",
         "blue_wool",
         "brown_wool",
-        "cyan_wool",
-        "gray_wool",
         "green_wool",
-        "light_blue_wool",
-        "light_gray_wool",
-        "lime_wool",
-        "magenta_wool",
-        "orange_wool",
-        "pink_wool",
-        "purple_wool",
-        "red_wool",
-        "yellow_wool",
-        "white_wool"
+        "red_wool"
       ],
       ["air"],
       ["air"],
@@ -20232,21 +20588,21 @@
     "ingredients": [
       ["blue_dye"],
       [
-        "black_wool",
-        "brown_wool",
-        "cyan_wool",
-        "gray_wool",
-        "green_wool",
-        "light_blue_wool",
-        "light_gray_wool",
-        "lime_wool",
-        "magenta_wool",
+        "white_wool",
         "orange_wool",
-        "pink_wool",
-        "purple_wool",
-        "red_wool",
+        "magenta_wool",
+        "light_blue_wool",
         "yellow_wool",
-        "white_wool"
+        "lime_wool",
+        "pink_wool",
+        "gray_wool",
+        "light_gray_wool",
+        "cyan_wool",
+        "purple_wool",
+        "brown_wool",
+        "green_wool",
+        "red_wool",
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -20264,21 +20620,21 @@
     "ingredients": [
       ["brown_dye"],
       [
-        "black_wool",
-        "blue_wool",
-        "cyan_wool",
-        "gray_wool",
-        "green_wool",
-        "light_blue_wool",
-        "light_gray_wool",
-        "lime_wool",
-        "magenta_wool",
+        "white_wool",
         "orange_wool",
-        "pink_wool",
-        "purple_wool",
-        "red_wool",
+        "magenta_wool",
+        "light_blue_wool",
         "yellow_wool",
-        "white_wool"
+        "lime_wool",
+        "pink_wool",
+        "gray_wool",
+        "light_gray_wool",
+        "cyan_wool",
+        "purple_wool",
+        "blue_wool",
+        "green_wool",
+        "red_wool",
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -20296,21 +20652,21 @@
     "ingredients": [
       ["cyan_dye"],
       [
-        "black_wool",
+        "white_wool",
+        "orange_wool",
+        "magenta_wool",
+        "light_blue_wool",
+        "yellow_wool",
+        "lime_wool",
+        "pink_wool",
+        "gray_wool",
+        "light_gray_wool",
+        "purple_wool",
         "blue_wool",
         "brown_wool",
-        "gray_wool",
         "green_wool",
-        "light_blue_wool",
-        "light_gray_wool",
-        "lime_wool",
-        "magenta_wool",
-        "orange_wool",
-        "pink_wool",
-        "purple_wool",
         "red_wool",
-        "yellow_wool",
-        "white_wool"
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -20329,21 +20685,21 @@
       "ingredients": [
         ["gray_dye"],
         [
-          "black_bed",
+          "white_bed",
+          "orange_bed",
+          "magenta_bed",
+          "light_blue_bed",
+          "yellow_bed",
+          "lime_bed",
+          "pink_bed",
+          "light_gray_bed",
+          "cyan_bed",
+          "purple_bed",
           "blue_bed",
           "brown_bed",
-          "cyan_bed",
           "green_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "magenta_bed",
-          "orange_bed",
-          "pink_bed",
-          "purple_bed",
           "red_bed",
-          "yellow_bed",
-          "white_bed"
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -20418,21 +20774,21 @@
       "ingredients": [
         ["gray_dye"],
         [
-          "black_carpet",
+          "white_carpet",
+          "orange_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
+          "yellow_carpet",
+          "lime_carpet",
+          "pink_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
           "blue_carpet",
           "brown_carpet",
-          "cyan_carpet",
           "green_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "magenta_carpet",
-          "orange_carpet",
-          "pink_carpet",
-          "purple_carpet",
           "red_carpet",
-          "yellow_carpet",
-          "white_carpet"
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -20458,21 +20814,21 @@
       "ingredients": [
         ["gray_dye"],
         [
-          "black_harness",
+          "white_harness",
+          "orange_harness",
+          "magenta_harness",
+          "light_blue_harness",
+          "yellow_harness",
+          "lime_harness",
+          "pink_harness",
+          "light_gray_harness",
+          "cyan_harness",
+          "purple_harness",
           "blue_harness",
           "brown_harness",
-          "cyan_harness",
           "green_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "magenta_harness",
-          "orange_harness",
-          "pink_harness",
-          "purple_harness",
           "red_harness",
-          "yellow_harness",
-          "white_harness"
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -20507,21 +20863,21 @@
     "ingredients": [
       ["gray_dye"],
       [
-        "black_wool",
+        "white_wool",
+        "orange_wool",
+        "magenta_wool",
+        "light_blue_wool",
+        "yellow_wool",
+        "lime_wool",
+        "pink_wool",
+        "light_gray_wool",
+        "cyan_wool",
+        "purple_wool",
         "blue_wool",
         "brown_wool",
-        "cyan_wool",
         "green_wool",
-        "light_blue_wool",
-        "light_gray_wool",
-        "lime_wool",
-        "magenta_wool",
-        "orange_wool",
-        "pink_wool",
-        "purple_wool",
         "red_wool",
-        "yellow_wool",
-        "white_wool"
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -20540,21 +20896,21 @@
       "ingredients": [
         ["green_dye"],
         [
-          "black_bed",
+          "white_bed",
+          "orange_bed",
+          "magenta_bed",
+          "light_blue_bed",
+          "yellow_bed",
+          "lime_bed",
+          "pink_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "cyan_bed",
+          "purple_bed",
           "blue_bed",
           "brown_bed",
-          "cyan_bed",
-          "gray_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "magenta_bed",
-          "orange_bed",
-          "pink_bed",
-          "purple_bed",
           "red_bed",
-          "yellow_bed",
-          "white_bed"
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -20629,21 +20985,21 @@
       "ingredients": [
         ["green_dye"],
         [
-          "black_carpet",
+          "white_carpet",
+          "orange_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
+          "yellow_carpet",
+          "lime_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
           "blue_carpet",
           "brown_carpet",
-          "cyan_carpet",
-          "gray_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "magenta_carpet",
-          "orange_carpet",
-          "pink_carpet",
-          "purple_carpet",
           "red_carpet",
-          "yellow_carpet",
-          "white_carpet"
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -20669,21 +21025,21 @@
       "ingredients": [
         ["green_dye"],
         [
-          "black_harness",
+          "white_harness",
+          "orange_harness",
+          "magenta_harness",
+          "light_blue_harness",
+          "yellow_harness",
+          "lime_harness",
+          "pink_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "cyan_harness",
+          "purple_harness",
           "blue_harness",
           "brown_harness",
-          "cyan_harness",
-          "gray_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "magenta_harness",
-          "orange_harness",
-          "pink_harness",
-          "purple_harness",
           "red_harness",
-          "yellow_harness",
-          "white_harness"
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -20718,21 +21074,21 @@
     "ingredients": [
       ["green_dye"],
       [
-        "black_wool",
+        "white_wool",
+        "orange_wool",
+        "magenta_wool",
+        "light_blue_wool",
+        "yellow_wool",
+        "lime_wool",
+        "pink_wool",
+        "gray_wool",
+        "light_gray_wool",
+        "cyan_wool",
+        "purple_wool",
         "blue_wool",
         "brown_wool",
-        "cyan_wool",
-        "gray_wool",
-        "light_blue_wool",
-        "light_gray_wool",
-        "lime_wool",
-        "magenta_wool",
-        "orange_wool",
-        "pink_wool",
-        "purple_wool",
         "red_wool",
-        "yellow_wool",
-        "white_wool"
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -20751,21 +21107,21 @@
       "ingredients": [
         ["light_blue_dye"],
         [
-          "black_bed",
+          "white_bed",
+          "orange_bed",
+          "magenta_bed",
+          "yellow_bed",
+          "lime_bed",
+          "pink_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "cyan_bed",
+          "purple_bed",
           "blue_bed",
           "brown_bed",
-          "cyan_bed",
-          "gray_bed",
           "green_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "magenta_bed",
-          "orange_bed",
-          "pink_bed",
-          "purple_bed",
           "red_bed",
-          "yellow_bed",
-          "white_bed"
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -20840,21 +21196,21 @@
       "ingredients": [
         ["light_blue_dye"],
         [
-          "black_carpet",
+          "white_carpet",
+          "orange_carpet",
+          "magenta_carpet",
+          "yellow_carpet",
+          "lime_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
           "blue_carpet",
           "brown_carpet",
-          "cyan_carpet",
-          "gray_carpet",
           "green_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "magenta_carpet",
-          "orange_carpet",
-          "pink_carpet",
-          "purple_carpet",
           "red_carpet",
-          "yellow_carpet",
-          "white_carpet"
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -20890,21 +21246,21 @@
       "ingredients": [
         ["light_blue_dye"],
         [
-          "black_harness",
+          "white_harness",
+          "orange_harness",
+          "magenta_harness",
+          "yellow_harness",
+          "lime_harness",
+          "pink_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "cyan_harness",
+          "purple_harness",
           "blue_harness",
           "brown_harness",
-          "cyan_harness",
-          "gray_harness",
           "green_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "magenta_harness",
-          "orange_harness",
-          "pink_harness",
-          "purple_harness",
           "red_harness",
-          "yellow_harness",
-          "white_harness"
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -20939,21 +21295,21 @@
     "ingredients": [
       ["light_blue_dye"],
       [
-        "black_wool",
+        "white_wool",
+        "orange_wool",
+        "magenta_wool",
+        "yellow_wool",
+        "lime_wool",
+        "pink_wool",
+        "gray_wool",
+        "light_gray_wool",
+        "cyan_wool",
+        "purple_wool",
         "blue_wool",
         "brown_wool",
-        "cyan_wool",
-        "gray_wool",
         "green_wool",
-        "light_gray_wool",
-        "lime_wool",
-        "magenta_wool",
-        "orange_wool",
-        "pink_wool",
-        "purple_wool",
         "red_wool",
-        "yellow_wool",
-        "white_wool"
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -20972,21 +21328,21 @@
       "ingredients": [
         ["light_gray_dye"],
         [
-          "black_bed",
+          "white_bed",
+          "orange_bed",
+          "magenta_bed",
+          "light_blue_bed",
+          "yellow_bed",
+          "lime_bed",
+          "pink_bed",
+          "gray_bed",
+          "cyan_bed",
+          "purple_bed",
           "blue_bed",
           "brown_bed",
-          "cyan_bed",
-          "gray_bed",
           "green_bed",
-          "light_blue_bed",
-          "lime_bed",
-          "magenta_bed",
-          "orange_bed",
-          "pink_bed",
-          "purple_bed",
           "red_bed",
-          "yellow_bed",
-          "white_bed"
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -21061,21 +21417,21 @@
       "ingredients": [
         ["light_gray_dye"],
         [
-          "black_carpet",
+          "white_carpet",
+          "orange_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
+          "yellow_carpet",
+          "lime_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
           "blue_carpet",
           "brown_carpet",
-          "cyan_carpet",
-          "gray_carpet",
           "green_carpet",
-          "light_blue_carpet",
-          "lime_carpet",
-          "magenta_carpet",
-          "orange_carpet",
-          "pink_carpet",
-          "purple_carpet",
           "red_carpet",
-          "yellow_carpet",
-          "white_carpet"
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -21111,21 +21467,21 @@
       "ingredients": [
         ["light_gray_dye"],
         [
-          "black_harness",
+          "white_harness",
+          "orange_harness",
+          "magenta_harness",
+          "light_blue_harness",
+          "yellow_harness",
+          "lime_harness",
+          "pink_harness",
+          "gray_harness",
+          "cyan_harness",
+          "purple_harness",
           "blue_harness",
           "brown_harness",
-          "cyan_harness",
-          "gray_harness",
           "green_harness",
-          "light_blue_harness",
-          "lime_harness",
-          "magenta_harness",
-          "orange_harness",
-          "pink_harness",
-          "purple_harness",
           "red_harness",
-          "yellow_harness",
-          "white_harness"
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -21160,21 +21516,21 @@
     "ingredients": [
       ["light_gray_dye"],
       [
-        "black_wool",
+        "white_wool",
+        "orange_wool",
+        "magenta_wool",
+        "light_blue_wool",
+        "yellow_wool",
+        "lime_wool",
+        "pink_wool",
+        "gray_wool",
+        "cyan_wool",
+        "purple_wool",
         "blue_wool",
         "brown_wool",
-        "cyan_wool",
-        "gray_wool",
         "green_wool",
-        "light_blue_wool",
-        "lime_wool",
-        "magenta_wool",
-        "orange_wool",
-        "pink_wool",
-        "purple_wool",
         "red_wool",
-        "yellow_wool",
-        "white_wool"
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -21193,21 +21549,21 @@
       "ingredients": [
         ["lime_dye"],
         [
-          "black_bed",
+          "white_bed",
+          "orange_bed",
+          "magenta_bed",
+          "light_blue_bed",
+          "yellow_bed",
+          "pink_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "cyan_bed",
+          "purple_bed",
           "blue_bed",
           "brown_bed",
-          "cyan_bed",
-          "gray_bed",
           "green_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "magenta_bed",
-          "orange_bed",
-          "pink_bed",
-          "purple_bed",
           "red_bed",
-          "yellow_bed",
-          "white_bed"
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -21282,21 +21638,21 @@
       "ingredients": [
         ["lime_dye"],
         [
-          "black_carpet",
+          "white_carpet",
+          "orange_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
+          "yellow_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
           "blue_carpet",
           "brown_carpet",
-          "cyan_carpet",
-          "gray_carpet",
           "green_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "magenta_carpet",
-          "orange_carpet",
-          "pink_carpet",
-          "purple_carpet",
           "red_carpet",
-          "yellow_carpet",
-          "white_carpet"
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -21322,21 +21678,21 @@
       "ingredients": [
         ["lime_dye"],
         [
-          "black_harness",
+          "white_harness",
+          "orange_harness",
+          "magenta_harness",
+          "light_blue_harness",
+          "yellow_harness",
+          "pink_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "cyan_harness",
+          "purple_harness",
           "blue_harness",
           "brown_harness",
-          "cyan_harness",
-          "gray_harness",
           "green_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "magenta_harness",
-          "orange_harness",
-          "pink_harness",
-          "purple_harness",
           "red_harness",
-          "yellow_harness",
-          "white_harness"
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -21371,21 +21727,21 @@
     "ingredients": [
       ["lime_dye"],
       [
-        "black_wool",
+        "white_wool",
+        "orange_wool",
+        "magenta_wool",
+        "light_blue_wool",
+        "yellow_wool",
+        "pink_wool",
+        "gray_wool",
+        "light_gray_wool",
+        "cyan_wool",
+        "purple_wool",
         "blue_wool",
         "brown_wool",
-        "cyan_wool",
-        "gray_wool",
         "green_wool",
-        "light_blue_wool",
-        "light_gray_wool",
-        "magenta_wool",
-        "orange_wool",
-        "pink_wool",
-        "purple_wool",
         "red_wool",
-        "yellow_wool",
-        "white_wool"
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -21404,21 +21760,21 @@
       "ingredients": [
         ["magenta_dye"],
         [
-          "black_bed",
+          "white_bed",
+          "orange_bed",
+          "light_blue_bed",
+          "yellow_bed",
+          "lime_bed",
+          "pink_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "cyan_bed",
+          "purple_bed",
           "blue_bed",
           "brown_bed",
-          "cyan_bed",
-          "gray_bed",
           "green_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "orange_bed",
-          "pink_bed",
-          "purple_bed",
           "red_bed",
-          "yellow_bed",
-          "white_bed"
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -21493,21 +21849,21 @@
       "ingredients": [
         ["magenta_dye"],
         [
-          "black_carpet",
+          "white_carpet",
+          "orange_carpet",
+          "light_blue_carpet",
+          "yellow_carpet",
+          "lime_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
           "blue_carpet",
           "brown_carpet",
-          "cyan_carpet",
-          "gray_carpet",
           "green_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "orange_carpet",
-          "pink_carpet",
-          "purple_carpet",
           "red_carpet",
-          "yellow_carpet",
-          "white_carpet"
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -21533,21 +21889,21 @@
       "ingredients": [
         ["magenta_dye"],
         [
-          "black_harness",
+          "white_harness",
+          "orange_harness",
+          "light_blue_harness",
+          "yellow_harness",
+          "lime_harness",
+          "pink_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "cyan_harness",
+          "purple_harness",
           "blue_harness",
           "brown_harness",
-          "cyan_harness",
-          "gray_harness",
           "green_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "orange_harness",
-          "pink_harness",
-          "purple_harness",
           "red_harness",
-          "yellow_harness",
-          "white_harness"
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -21582,21 +21938,21 @@
     "ingredients": [
       ["magenta_dye"],
       [
-        "black_wool",
+        "white_wool",
+        "orange_wool",
+        "light_blue_wool",
+        "yellow_wool",
+        "lime_wool",
+        "pink_wool",
+        "gray_wool",
+        "light_gray_wool",
+        "cyan_wool",
+        "purple_wool",
         "blue_wool",
         "brown_wool",
-        "cyan_wool",
-        "gray_wool",
         "green_wool",
-        "light_blue_wool",
-        "light_gray_wool",
-        "lime_wool",
-        "orange_wool",
-        "pink_wool",
-        "purple_wool",
         "red_wool",
-        "yellow_wool",
-        "white_wool"
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -21615,21 +21971,21 @@
       "ingredients": [
         ["orange_dye"],
         [
-          "black_bed",
+          "white_bed",
+          "magenta_bed",
+          "light_blue_bed",
+          "yellow_bed",
+          "lime_bed",
+          "pink_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "cyan_bed",
+          "purple_bed",
           "blue_bed",
           "brown_bed",
-          "cyan_bed",
-          "gray_bed",
           "green_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "magenta_bed",
-          "pink_bed",
-          "purple_bed",
           "red_bed",
-          "yellow_bed",
-          "white_bed"
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -21704,21 +22060,21 @@
       "ingredients": [
         ["orange_dye"],
         [
-          "black_carpet",
+          "white_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
+          "yellow_carpet",
+          "lime_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
           "blue_carpet",
           "brown_carpet",
-          "cyan_carpet",
-          "gray_carpet",
           "green_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "magenta_carpet",
-          "pink_carpet",
-          "purple_carpet",
           "red_carpet",
-          "yellow_carpet",
-          "white_carpet"
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -21744,21 +22100,21 @@
       "ingredients": [
         ["orange_dye"],
         [
-          "black_harness",
+          "white_harness",
+          "magenta_harness",
+          "light_blue_harness",
+          "yellow_harness",
+          "lime_harness",
+          "pink_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "cyan_harness",
+          "purple_harness",
           "blue_harness",
           "brown_harness",
-          "cyan_harness",
-          "gray_harness",
           "green_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "magenta_harness",
-          "pink_harness",
-          "purple_harness",
           "red_harness",
-          "yellow_harness",
-          "white_harness"
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -21793,21 +22149,21 @@
     "ingredients": [
       ["orange_dye"],
       [
-        "black_wool",
+        "white_wool",
+        "magenta_wool",
+        "light_blue_wool",
+        "yellow_wool",
+        "lime_wool",
+        "pink_wool",
+        "gray_wool",
+        "light_gray_wool",
+        "cyan_wool",
+        "purple_wool",
         "blue_wool",
         "brown_wool",
-        "cyan_wool",
-        "gray_wool",
         "green_wool",
-        "light_blue_wool",
-        "light_gray_wool",
-        "lime_wool",
-        "magenta_wool",
-        "pink_wool",
-        "purple_wool",
         "red_wool",
-        "yellow_wool",
-        "white_wool"
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -21826,21 +22182,21 @@
       "ingredients": [
         ["pink_dye"],
         [
-          "black_bed",
+          "white_bed",
+          "orange_bed",
+          "magenta_bed",
+          "light_blue_bed",
+          "yellow_bed",
+          "lime_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "cyan_bed",
+          "purple_bed",
           "blue_bed",
           "brown_bed",
-          "cyan_bed",
-          "gray_bed",
           "green_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "magenta_bed",
-          "orange_bed",
-          "purple_bed",
           "red_bed",
-          "yellow_bed",
-          "white_bed"
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -21915,21 +22271,21 @@
       "ingredients": [
         ["pink_dye"],
         [
-          "black_carpet",
+          "white_carpet",
+          "orange_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
+          "yellow_carpet",
+          "lime_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
           "blue_carpet",
           "brown_carpet",
-          "cyan_carpet",
-          "gray_carpet",
           "green_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "magenta_carpet",
-          "orange_carpet",
-          "purple_carpet",
           "red_carpet",
-          "yellow_carpet",
-          "white_carpet"
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -21955,21 +22311,21 @@
       "ingredients": [
         ["pink_dye"],
         [
-          "black_harness",
+          "white_harness",
+          "orange_harness",
+          "magenta_harness",
+          "light_blue_harness",
+          "yellow_harness",
+          "lime_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "cyan_harness",
+          "purple_harness",
           "blue_harness",
           "brown_harness",
-          "cyan_harness",
-          "gray_harness",
           "green_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "magenta_harness",
-          "orange_harness",
-          "purple_harness",
           "red_harness",
-          "yellow_harness",
-          "white_harness"
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -22004,21 +22360,21 @@
     "ingredients": [
       ["pink_dye"],
       [
-        "black_wool",
+        "white_wool",
+        "orange_wool",
+        "magenta_wool",
+        "light_blue_wool",
+        "yellow_wool",
+        "lime_wool",
+        "gray_wool",
+        "light_gray_wool",
+        "cyan_wool",
+        "purple_wool",
         "blue_wool",
         "brown_wool",
-        "cyan_wool",
-        "gray_wool",
         "green_wool",
-        "light_blue_wool",
-        "light_gray_wool",
-        "lime_wool",
-        "magenta_wool",
-        "orange_wool",
-        "purple_wool",
         "red_wool",
-        "yellow_wool",
-        "white_wool"
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -22037,21 +22393,21 @@
       "ingredients": [
         ["purple_dye"],
         [
-          "black_bed",
+          "white_bed",
+          "orange_bed",
+          "magenta_bed",
+          "light_blue_bed",
+          "yellow_bed",
+          "lime_bed",
+          "pink_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "cyan_bed",
           "blue_bed",
           "brown_bed",
-          "cyan_bed",
-          "gray_bed",
           "green_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "magenta_bed",
-          "orange_bed",
-          "pink_bed",
           "red_bed",
-          "yellow_bed",
-          "white_bed"
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -22126,21 +22482,21 @@
       "ingredients": [
         ["purple_dye"],
         [
-          "black_carpet",
+          "white_carpet",
+          "orange_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
+          "yellow_carpet",
+          "lime_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
           "blue_carpet",
           "brown_carpet",
-          "cyan_carpet",
-          "gray_carpet",
           "green_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "magenta_carpet",
-          "orange_carpet",
-          "pink_carpet",
           "red_carpet",
-          "yellow_carpet",
-          "white_carpet"
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -22166,21 +22522,21 @@
       "ingredients": [
         ["purple_dye"],
         [
-          "black_harness",
+          "white_harness",
+          "orange_harness",
+          "magenta_harness",
+          "light_blue_harness",
+          "yellow_harness",
+          "lime_harness",
+          "pink_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "cyan_harness",
           "blue_harness",
           "brown_harness",
-          "cyan_harness",
-          "gray_harness",
           "green_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "magenta_harness",
-          "orange_harness",
-          "pink_harness",
           "red_harness",
-          "yellow_harness",
-          "white_harness"
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -22215,21 +22571,21 @@
     "ingredients": [
       ["purple_dye"],
       [
-        "black_wool",
+        "white_wool",
+        "orange_wool",
+        "magenta_wool",
+        "light_blue_wool",
+        "yellow_wool",
+        "lime_wool",
+        "pink_wool",
+        "gray_wool",
+        "light_gray_wool",
+        "cyan_wool",
         "blue_wool",
         "brown_wool",
-        "cyan_wool",
-        "gray_wool",
         "green_wool",
-        "light_blue_wool",
-        "light_gray_wool",
-        "lime_wool",
-        "magenta_wool",
-        "orange_wool",
-        "pink_wool",
         "red_wool",
-        "yellow_wool",
-        "white_wool"
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -22248,21 +22604,21 @@
       "ingredients": [
         ["red_dye"],
         [
-          "black_bed",
+          "white_bed",
+          "orange_bed",
+          "magenta_bed",
+          "light_blue_bed",
+          "yellow_bed",
+          "lime_bed",
+          "pink_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "cyan_bed",
+          "purple_bed",
           "blue_bed",
           "brown_bed",
-          "cyan_bed",
-          "gray_bed",
           "green_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "magenta_bed",
-          "orange_bed",
-          "pink_bed",
-          "purple_bed",
-          "yellow_bed",
-          "white_bed"
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -22337,21 +22693,21 @@
       "ingredients": [
         ["red_dye"],
         [
-          "black_carpet",
+          "white_carpet",
+          "orange_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
+          "yellow_carpet",
+          "lime_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
           "blue_carpet",
           "brown_carpet",
-          "cyan_carpet",
-          "gray_carpet",
           "green_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "magenta_carpet",
-          "orange_carpet",
-          "pink_carpet",
-          "purple_carpet",
-          "yellow_carpet",
-          "white_carpet"
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -22377,21 +22733,21 @@
       "ingredients": [
         ["red_dye"],
         [
-          "black_harness",
+          "white_harness",
+          "orange_harness",
+          "magenta_harness",
+          "light_blue_harness",
+          "yellow_harness",
+          "lime_harness",
+          "pink_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "cyan_harness",
+          "purple_harness",
           "blue_harness",
           "brown_harness",
-          "cyan_harness",
-          "gray_harness",
           "green_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "magenta_harness",
-          "orange_harness",
-          "pink_harness",
-          "purple_harness",
-          "yellow_harness",
-          "white_harness"
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -22426,21 +22782,21 @@
     "ingredients": [
       ["red_dye"],
       [
-        "black_wool",
+        "white_wool",
+        "orange_wool",
+        "magenta_wool",
+        "light_blue_wool",
+        "yellow_wool",
+        "lime_wool",
+        "pink_wool",
+        "gray_wool",
+        "light_gray_wool",
+        "cyan_wool",
+        "purple_wool",
         "blue_wool",
         "brown_wool",
-        "cyan_wool",
-        "gray_wool",
         "green_wool",
-        "light_blue_wool",
-        "light_gray_wool",
-        "lime_wool",
-        "magenta_wool",
-        "orange_wool",
-        "pink_wool",
-        "purple_wool",
-        "yellow_wool",
-        "white_wool"
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -22459,21 +22815,21 @@
       "ingredients": [
         ["white_dye"],
         [
-          "black_bed",
+          "orange_bed",
+          "magenta_bed",
+          "light_blue_bed",
+          "yellow_bed",
+          "lime_bed",
+          "pink_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "cyan_bed",
+          "purple_bed",
           "blue_bed",
           "brown_bed",
-          "cyan_bed",
-          "gray_bed",
           "green_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "magenta_bed",
-          "orange_bed",
-          "pink_bed",
-          "purple_bed",
           "red_bed",
-          "yellow_bed"
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -22548,21 +22904,21 @@
       "ingredients": [
         ["white_dye"],
         [
-          "black_carpet",
+          "orange_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
+          "yellow_carpet",
+          "lime_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
           "blue_carpet",
           "brown_carpet",
-          "cyan_carpet",
-          "gray_carpet",
           "green_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "magenta_carpet",
-          "orange_carpet",
-          "pink_carpet",
-          "purple_carpet",
           "red_carpet",
-          "yellow_carpet"
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -22588,21 +22944,21 @@
       "ingredients": [
         ["white_dye"],
         [
-          "black_harness",
+          "orange_harness",
+          "magenta_harness",
+          "light_blue_harness",
+          "yellow_harness",
+          "lime_harness",
+          "pink_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "cyan_harness",
+          "purple_harness",
           "blue_harness",
           "brown_harness",
-          "cyan_harness",
-          "gray_harness",
           "green_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "magenta_harness",
-          "orange_harness",
-          "pink_harness",
-          "purple_harness",
           "red_harness",
-          "yellow_harness"
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -22638,21 +22994,21 @@
       "ingredients": [
         ["white_dye"],
         [
-          "black_wool",
+          "orange_wool",
+          "magenta_wool",
+          "light_blue_wool",
+          "yellow_wool",
+          "lime_wool",
+          "pink_wool",
+          "gray_wool",
+          "light_gray_wool",
+          "cyan_wool",
+          "purple_wool",
           "blue_wool",
           "brown_wool",
-          "cyan_wool",
-          "gray_wool",
           "green_wool",
-          "light_blue_wool",
-          "light_gray_wool",
-          "lime_wool",
-          "magenta_wool",
-          "orange_wool",
-          "pink_wool",
-          "purple_wool",
           "red_wool",
-          "yellow_wool"
+          "black_wool"
         ],
         ["air"],
         ["air"],
@@ -22678,21 +23034,21 @@
       "ingredients": [
         ["yellow_dye"],
         [
-          "black_bed",
+          "white_bed",
+          "orange_bed",
+          "magenta_bed",
+          "light_blue_bed",
+          "lime_bed",
+          "pink_bed",
+          "gray_bed",
+          "light_gray_bed",
+          "cyan_bed",
+          "purple_bed",
           "blue_bed",
           "brown_bed",
-          "cyan_bed",
-          "gray_bed",
           "green_bed",
-          "light_blue_bed",
-          "light_gray_bed",
-          "lime_bed",
-          "magenta_bed",
-          "orange_bed",
-          "pink_bed",
-          "purple_bed",
           "red_bed",
-          "white_bed"
+          "black_bed"
         ],
         ["air"],
         ["air"],
@@ -22767,21 +23123,21 @@
       "ingredients": [
         ["yellow_dye"],
         [
-          "black_carpet",
+          "white_carpet",
+          "orange_carpet",
+          "magenta_carpet",
+          "light_blue_carpet",
+          "lime_carpet",
+          "pink_carpet",
+          "gray_carpet",
+          "light_gray_carpet",
+          "cyan_carpet",
+          "purple_carpet",
           "blue_carpet",
           "brown_carpet",
-          "cyan_carpet",
-          "gray_carpet",
           "green_carpet",
-          "light_blue_carpet",
-          "light_gray_carpet",
-          "lime_carpet",
-          "magenta_carpet",
-          "orange_carpet",
-          "pink_carpet",
-          "purple_carpet",
           "red_carpet",
-          "white_carpet"
+          "black_carpet"
         ],
         ["air"],
         ["air"],
@@ -22807,21 +23163,21 @@
       "ingredients": [
         ["yellow_dye"],
         [
-          "black_harness",
+          "white_harness",
+          "orange_harness",
+          "magenta_harness",
+          "light_blue_harness",
+          "lime_harness",
+          "pink_harness",
+          "gray_harness",
+          "light_gray_harness",
+          "cyan_harness",
+          "purple_harness",
           "blue_harness",
           "brown_harness",
-          "cyan_harness",
-          "gray_harness",
           "green_harness",
-          "light_blue_harness",
-          "light_gray_harness",
-          "lime_harness",
-          "magenta_harness",
-          "orange_harness",
-          "pink_harness",
-          "purple_harness",
           "red_harness",
-          "white_harness"
+          "black_harness"
         ],
         ["air"],
         ["air"],
@@ -22856,21 +23212,21 @@
     "ingredients": [
       ["yellow_dye"],
       [
-        "black_wool",
+        "white_wool",
+        "orange_wool",
+        "magenta_wool",
+        "light_blue_wool",
+        "lime_wool",
+        "pink_wool",
+        "gray_wool",
+        "light_gray_wool",
+        "cyan_wool",
+        "purple_wool",
         "blue_wool",
         "brown_wool",
-        "cyan_wool",
-        "gray_wool",
         "green_wool",
-        "light_blue_wool",
-        "light_gray_wool",
-        "lime_wool",
-        "magenta_wool",
-        "orange_wool",
-        "pink_wool",
-        "purple_wool",
         "red_wool",
-        "white_wool"
+        "black_wool"
       ],
       ["air"],
       ["air"],
@@ -25070,6 +25426,22 @@
   },
   {
     "crafting_type": "crafting_shaped",
+    "item": "golden_dandelion",
+    "count": 1,
+    "ingredients": [
+      ["gold_nugget"],
+      ["gold_nugget"],
+      ["gold_nugget"],
+      ["gold_nugget"],
+      ["dandelion"],
+      ["gold_nugget"],
+      ["gold_nugget"],
+      ["gold_nugget"],
+      ["gold_nugget"]
+    ]
+  },
+  {
+    "crafting_type": "crafting_shaped",
     "item": "golden_helmet",
     "count": 1,
     "ingredients": [
@@ -25127,6 +25499,12 @@
     "item": "golden_shovel",
     "count": 1,
     "ingredients": [["gold_ingot"], ["air"], ["air"], ["stick"], ["air"], ["air"], ["stick"], ["air"], ["air"]]
+  },
+  {
+    "crafting_type": "crafting_shaped",
+    "item": "golden_spear",
+    "count": 1,
+    "ingredients": [["air"], ["air"], ["gold_ingot"], ["air"], ["stick"], ["air"], ["stick"], ["air"], ["air"]]
   },
   {
     "crafting_type": "crafting_shaped",
@@ -27618,11 +27996,13 @@
           "golden_axe",
           "golden_hoe",
           "golden_sword",
+          "golden_spear",
           "golden_helmet",
           "golden_chestplate",
           "golden_leggings",
           "golden_boots",
-          "golden_horse_armor"
+          "golden_horse_armor",
+          "golden_nautilus_armor"
         ],
         [
           "lava_bucket",
@@ -27932,11 +28312,13 @@
           "golden_axe",
           "golden_hoe",
           "golden_sword",
+          "golden_spear",
           "golden_helmet",
           "golden_chestplate",
           "golden_leggings",
           "golden_boots",
-          "golden_horse_armor"
+          "golden_horse_armor",
+          "golden_nautilus_armor"
         ],
         [
           "lava_bucket",
@@ -28325,22 +28707,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["gray_dye"],
       ["air"],
@@ -28698,22 +29080,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["gray_dye"],
       ["air"],
@@ -28814,22 +29196,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["green_dye"],
       ["air"],
@@ -29476,22 +29858,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["green_dye"],
       ["air"],
@@ -31721,11 +32103,13 @@
           "iron_axe",
           "iron_hoe",
           "iron_sword",
+          "iron_spear",
           "iron_helmet",
           "iron_chestplate",
           "iron_leggings",
           "iron_boots",
           "iron_horse_armor",
+          "iron_nautilus_armor",
           "chainmail_helmet",
           "chainmail_chestplate",
           "chainmail_leggings",
@@ -32039,6 +32423,7 @@
           "iron_axe",
           "iron_hoe",
           "iron_sword",
+          "iron_spear",
           "iron_helmet",
           "iron_chestplate",
           "iron_leggings",
@@ -32047,7 +32432,8 @@
           "chainmail_helmet",
           "chainmail_chestplate",
           "chainmail_leggings",
-          "chainmail_boots"
+          "chainmail_boots",
+          "iron_nautilus_armor"
         ],
         [
           "lava_bucket",
@@ -32366,6 +32752,12 @@
     "item": "iron_shovel",
     "count": 1,
     "ingredients": [["iron_ingot"], ["air"], ["air"], ["stick"], ["air"], ["air"], ["stick"], ["air"], ["air"]]
+  },
+  {
+    "crafting_type": "crafting_shaped",
+    "item": "iron_spear",
+    "count": 1,
+    "ingredients": [["air"], ["air"], ["iron_ingot"], ["air"], ["stick"], ["air"], ["stick"], ["air"], ["air"]]
   },
   {
     "crafting_type": "crafting_shaped",
@@ -34499,22 +34891,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["light_blue_dye"],
       ["air"],
@@ -34872,22 +35264,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["light_blue_dye"],
       ["air"],
@@ -34988,22 +35380,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["light_gray_dye"],
       ["air"],
@@ -35379,22 +35771,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["light_gray_dye"],
       ["air"],
@@ -35501,22 +35893,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["lime_dye"],
       ["air"],
@@ -36171,22 +36563,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["lime_dye"],
       ["air"],
@@ -36351,22 +36743,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["magenta_dye"],
       ["air"],
@@ -36752,22 +37144,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["magenta_dye"],
       ["air"],
@@ -37092,6 +37484,12 @@
     "item": "map",
     "count": 1,
     "ingredients": [["paper"], ["paper"], ["paper"], ["paper"], ["compass"], ["paper"], ["paper"], ["paper"], ["paper"]]
+  },
+  {
+    "crafting_type": "crafting_transmute",
+    "item": "filled_map",
+    "count": 1,
+    "ingredients": [["filled_map"], ["map"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
   },
   {
     "crafting_type": "crafting_shapeless",
@@ -37452,6 +37850,22 @@
     ]
   },
   {
+    "crafting_type": "crafting_shaped",
+    "item": "name_tag",
+    "count": 1,
+    "ingredients": [
+      ["air"],
+      ["copper_nugget", "iron_nugget", "gold_nugget"],
+      ["air"],
+      ["paper"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
     "crafting_type": "smithing_transform",
     "item": "netherite_axe",
     "count": 1,
@@ -37547,6 +37961,22 @@
       ["air"]
     ]
   },
+  {
+    "crafting_type": "smithing_transform",
+    "item": "netherite_horse_armor",
+    "count": 1,
+    "ingredients": [
+      ["netherite_upgrade_smithing_template"],
+      ["diamond_horse_armor"],
+      ["netherite_ingot"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
   [
     {
       "crafting_type": "crafting_shapeless",
@@ -37578,6 +38008,22 @@
     "ingredients": [
       ["netherite_upgrade_smithing_template"],
       ["diamond_leggings"],
+      ["netherite_ingot"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "smithing_transform",
+    "item": "netherite_nautilus_armor",
+    "count": 1,
+    "ingredients": [
+      ["netherite_upgrade_smithing_template"],
+      ["diamond_nautilus_armor"],
       ["netherite_ingot"],
       ["air"],
       ["air"],
@@ -38218,6 +38664,22 @@
     "ingredients": [
       ["netherite_upgrade_smithing_template"],
       ["diamond_shovel"],
+      ["netherite_ingot"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "smithing_transform",
+    "item": "netherite_spear",
+    "count": 1,
+    "ingredients": [
+      ["netherite_upgrade_smithing_template"],
+      ["diamond_spear"],
       ["netherite_ingot"],
       ["air"],
       ["air"],
@@ -39041,22 +39503,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["orange_dye"],
       ["air"],
@@ -39426,22 +39888,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["orange_dye"],
       ["air"],
@@ -39993,22 +40455,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["pink_dye"],
       ["air"],
@@ -40384,22 +40846,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["pink_dye"],
       ["air"],
@@ -40937,6 +41399,120 @@
   [
     {
       "crafting_type": "crafting_shaped",
+      "item": "polished_cinnabar",
+      "count": 4,
+      "ingredients": [
+        ["cinnabar"],
+        ["cinnabar"],
+        ["air"],
+        ["cinnabar"],
+        ["cinnabar"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_cinnabar",
+      "count": 1,
+      "ingredients": [["cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "polished_cinnabar_slab",
+      "count": 6,
+      "ingredients": [
+        ["polished_cinnabar"],
+        ["polished_cinnabar"],
+        ["polished_cinnabar"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_cinnabar_slab",
+      "count": 2,
+      "ingredients": [["cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_cinnabar_slab",
+      "count": 2,
+      "ingredients": [["polished_cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "polished_cinnabar_stairs",
+      "count": 4,
+      "ingredients": [
+        ["polished_cinnabar"],
+        ["air"],
+        ["air"],
+        ["polished_cinnabar"],
+        ["polished_cinnabar"],
+        ["air"],
+        ["polished_cinnabar"],
+        ["polished_cinnabar"],
+        ["polished_cinnabar"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_cinnabar_stairs",
+      "count": 1,
+      "ingredients": [["cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_cinnabar_stairs",
+      "count": 1,
+      "ingredients": [["polished_cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "polished_cinnabar_wall",
+      "count": 6,
+      "ingredients": [
+        ["polished_cinnabar"],
+        ["polished_cinnabar"],
+        ["polished_cinnabar"],
+        ["polished_cinnabar"],
+        ["polished_cinnabar"],
+        ["polished_cinnabar"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_cinnabar_wall",
+      "count": 1,
+      "ingredients": [["cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_cinnabar_wall",
+      "count": 1,
+      "ingredients": [["polished_cinnabar"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
       "item": "polished_deepslate",
       "count": 4,
       "ingredients": [
@@ -40956,6 +41532,12 @@
       "item": "polished_deepslate",
       "count": 1,
       "ingredients": [["cobbled_deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_deepslate",
+      "count": 1,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
   [
@@ -40980,6 +41562,12 @@
       "item": "polished_deepslate_slab",
       "count": 2,
       "ingredients": [["cobbled_deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_deepslate_slab",
+      "count": 2,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     },
     {
       "crafting_type": "stonecutting",
@@ -41015,6 +41603,12 @@
       "crafting_type": "stonecutting",
       "item": "polished_deepslate_stairs",
       "count": 1,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_deepslate_stairs",
+      "count": 1,
       "ingredients": [["polished_deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
@@ -41040,6 +41634,12 @@
       "item": "polished_deepslate_wall",
       "count": 1,
       "ingredients": [["cobbled_deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_deepslate_wall",
+      "count": 1,
+      "ingredients": [["deepslate"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     },
     {
       "crafting_type": "stonecutting",
@@ -41194,6 +41794,110 @@
       "item": "polished_granite_stairs",
       "count": 1,
       "ingredients": [["polished_granite"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "polished_sulfur",
+      "count": 4,
+      "ingredients": [["sulfur"], ["sulfur"], ["air"], ["sulfur"], ["sulfur"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_sulfur",
+      "count": 1,
+      "ingredients": [["sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "polished_sulfur_slab",
+      "count": 6,
+      "ingredients": [
+        ["polished_sulfur"],
+        ["polished_sulfur"],
+        ["polished_sulfur"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_sulfur_slab",
+      "count": 2,
+      "ingredients": [["polished_sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_sulfur_slab",
+      "count": 2,
+      "ingredients": [["sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "polished_sulfur_stairs",
+      "count": 4,
+      "ingredients": [
+        ["polished_sulfur"],
+        ["air"],
+        ["air"],
+        ["polished_sulfur"],
+        ["polished_sulfur"],
+        ["air"],
+        ["polished_sulfur"],
+        ["polished_sulfur"],
+        ["polished_sulfur"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_sulfur_stairs",
+      "count": 1,
+      "ingredients": [["polished_sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_sulfur_stairs",
+      "count": 1,
+      "ingredients": [["sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "polished_sulfur_wall",
+      "count": 6,
+      "ingredients": [
+        ["polished_sulfur"],
+        ["polished_sulfur"],
+        ["polished_sulfur"],
+        ["polished_sulfur"],
+        ["polished_sulfur"],
+        ["polished_sulfur"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_sulfur_wall",
+      "count": 1,
+      "ingredients": [["polished_sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "polished_sulfur_wall",
+      "count": 1,
+      "ingredients": [["sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
   [
@@ -41604,6 +42308,22 @@
     ]
   },
   {
+    "crafting_type": "crafting_shapeless",
+    "item": "potent_sulfur",
+    "count": 1,
+    "ingredients": [
+      ["sulfur"],
+      ["sulfur"],
+      ["sulfur"],
+      ["sulfur"],
+      ["sulfur"],
+      ["sulfur"],
+      ["sulfur"],
+      ["sulfur"],
+      ["sulfur"]
+    ]
+  },
+  {
     "crafting_type": "crafting_shaped",
     "item": "powered_rail",
     "count": 6,
@@ -41816,22 +42536,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["purple_dye"],
       ["air"],
@@ -42181,22 +42901,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["purple_dye"],
       ["air"],
@@ -44481,22 +45201,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["red_dye"],
       ["air"],
@@ -45022,22 +45742,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["red_dye"],
       ["air"],
@@ -49079,13 +49799,13 @@
       "crafting_type": "stonecutting",
       "item": "stone_brick_wall",
       "count": 1,
-      "ingredients": [["stone"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+      "ingredients": [["stone_bricks"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     },
     {
       "crafting_type": "stonecutting",
       "item": "stone_brick_wall",
       "count": 1,
-      "ingredients": [["stone_bricks"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+      "ingredients": [["stone"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
   {
@@ -49162,6 +49882,22 @@
       "ingredients": [["stone"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     }
   ],
+  {
+    "crafting_type": "crafting_shaped",
+    "item": "stone_spear",
+    "count": 1,
+    "ingredients": [
+      ["air"],
+      ["air"],
+      ["cobblestone", "blackstone", "cobbled_deepslate"],
+      ["air"],
+      ["stick"],
+      ["air"],
+      ["stick"],
+      ["air"],
+      ["air"]
+    ]
+  },
   [
     {
       "crafting_type": "crafting_shaped",
@@ -49384,6 +50120,202 @@
   ],
   [
     {
+      "crafting_type": "crafting_shaped",
+      "item": "sulfur_bricks",
+      "count": 4,
+      "ingredients": [
+        ["polished_sulfur"],
+        ["polished_sulfur"],
+        ["air"],
+        ["polished_sulfur"],
+        ["polished_sulfur"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_bricks",
+      "count": 1,
+      "ingredients": [["polished_sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_bricks",
+      "count": 1,
+      "ingredients": [["sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "sulfur_brick_slab",
+      "count": 6,
+      "ingredients": [
+        ["sulfur_bricks"],
+        ["sulfur_bricks"],
+        ["sulfur_bricks"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_brick_slab",
+      "count": 2,
+      "ingredients": [["polished_sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_brick_slab",
+      "count": 2,
+      "ingredients": [["sulfur_bricks"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_brick_slab",
+      "count": 2,
+      "ingredients": [["sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "sulfur_brick_stairs",
+      "count": 4,
+      "ingredients": [
+        ["sulfur_bricks"],
+        ["air"],
+        ["air"],
+        ["sulfur_bricks"],
+        ["sulfur_bricks"],
+        ["air"],
+        ["sulfur_bricks"],
+        ["sulfur_bricks"],
+        ["sulfur_bricks"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_brick_stairs",
+      "count": 1,
+      "ingredients": [["polished_sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_brick_stairs",
+      "count": 1,
+      "ingredients": [["sulfur_bricks"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_brick_stairs",
+      "count": 1,
+      "ingredients": [["sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "sulfur_brick_wall",
+      "count": 6,
+      "ingredients": [
+        ["sulfur_bricks"],
+        ["sulfur_bricks"],
+        ["sulfur_bricks"],
+        ["sulfur_bricks"],
+        ["sulfur_bricks"],
+        ["sulfur_bricks"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_brick_wall",
+      "count": 1,
+      "ingredients": [["polished_sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_brick_wall",
+      "count": 1,
+      "ingredients": [["sulfur_bricks"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_brick_wall",
+      "count": 1,
+      "ingredients": [["sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  {
+    "crafting_type": "crafting_shaped",
+    "item": "sulfur",
+    "count": 1,
+    "ingredients": [
+      ["sulfur_spike"],
+      ["sulfur_spike"],
+      ["air"],
+      ["sulfur_spike"],
+      ["sulfur_spike"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "sulfur_slab",
+      "count": 6,
+      "ingredients": [["sulfur"], ["sulfur"], ["sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_slab",
+      "count": 2,
+      "ingredients": [["sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "sulfur_stairs",
+      "count": 4,
+      "ingredients": [["sulfur"], ["air"], ["air"], ["sulfur"], ["sulfur"], ["air"], ["sulfur"], ["sulfur"], ["sulfur"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_stairs",
+      "count": 1,
+      "ingredients": [["sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
+      "crafting_type": "crafting_shaped",
+      "item": "sulfur_wall",
+      "count": 6,
+      "ingredients": [["sulfur"], ["sulfur"], ["sulfur"], ["sulfur"], ["sulfur"], ["sulfur"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "stonecutting",
+      "item": "sulfur_wall",
+      "count": 1,
+      "ingredients": [["sulfur"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    }
+  ],
+  [
+    {
       "crafting_type": "crafting_shapeless",
       "item": "suspicious_stew",
       "count": 1,
@@ -49472,6 +50404,22 @@
         ["brown_mushroom"],
         ["red_mushroom"],
         ["dandelion"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"],
+        ["air"]
+      ]
+    },
+    {
+      "crafting_type": "crafting_shapeless",
+      "item": "suspicious_stew",
+      "count": 1,
+      "ingredients": [
+        ["bowl"],
+        ["brown_mushroom"],
+        ["red_mushroom"],
+        ["golden_dandelion"],
         ["air"],
         ["air"],
         ["air"],
@@ -50482,11 +51430,11 @@
       "item": "waxed_chiseled_copper",
       "count": 1,
       "ingredients": [
-        ["waxed_cut_copper_slab"],
-        ["air"],
         ["air"],
         ["waxed_cut_copper_slab"],
         ["air"],
+        ["air"],
+        ["waxed_cut_copper_slab"],
         ["air"],
         ["air"],
         ["air"],
@@ -50742,11 +51690,11 @@
       "item": "waxed_exposed_chiseled_copper",
       "count": 1,
       "ingredients": [
-        ["waxed_exposed_cut_copper_slab"],
-        ["air"],
         ["air"],
         ["waxed_exposed_cut_copper_slab"],
         ["air"],
+        ["air"],
+        ["waxed_exposed_cut_copper_slab"],
         ["air"],
         ["air"],
         ["air"],
@@ -51164,11 +52112,11 @@
       "item": "waxed_oxidized_chiseled_copper",
       "count": 1,
       "ingredients": [
-        ["waxed_oxidized_cut_copper_slab"],
-        ["air"],
         ["air"],
         ["waxed_oxidized_cut_copper_slab"],
         ["air"],
+        ["air"],
+        ["waxed_oxidized_cut_copper_slab"],
         ["air"],
         ["air"],
         ["air"],
@@ -51580,11 +52528,11 @@
       "item": "waxed_weathered_chiseled_copper",
       "count": 1,
       "ingredients": [
-        ["waxed_weathered_cut_copper_slab"],
-        ["air"],
         ["air"],
         ["waxed_weathered_cut_copper_slab"],
         ["air"],
+        ["air"],
+        ["waxed_weathered_cut_copper_slab"],
         ["air"],
         ["air"],
         ["air"],
@@ -52239,22 +53187,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["white_dye"],
       ["air"],
@@ -52612,22 +53560,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["white_dye"],
       ["air"],
@@ -52926,6 +53874,35 @@
   },
   {
     "crafting_type": "crafting_shaped",
+    "item": "wooden_spear",
+    "count": 1,
+    "ingredients": [
+      ["air"],
+      ["air"],
+      [
+        "oak_planks",
+        "spruce_planks",
+        "birch_planks",
+        "jungle_planks",
+        "acacia_planks",
+        "dark_oak_planks",
+        "pale_oak_planks",
+        "crimson_planks",
+        "warped_planks",
+        "mangrove_planks",
+        "bamboo_planks",
+        "cherry_planks"
+      ],
+      ["air"],
+      ["stick"],
+      ["air"],
+      ["stick"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "crafting_shaped",
     "item": "wooden_sword",
     "count": 1,
     "ingredients": [
@@ -52995,22 +53972,22 @@
     "ingredients": [
       [
         "bundle",
-        "black_bundle",
+        "white_bundle",
+        "orange_bundle",
+        "magenta_bundle",
+        "light_blue_bundle",
+        "yellow_bundle",
+        "lime_bundle",
+        "pink_bundle",
+        "gray_bundle",
+        "light_gray_bundle",
+        "cyan_bundle",
+        "purple_bundle",
         "blue_bundle",
         "brown_bundle",
-        "cyan_bundle",
-        "gray_bundle",
         "green_bundle",
-        "light_blue_bundle",
-        "light_gray_bundle",
-        "lime_bundle",
-        "magenta_bundle",
-        "orange_bundle",
-        "pink_bundle",
-        "purple_bundle",
         "red_bundle",
-        "yellow_bundle",
-        "white_bundle"
+        "black_bundle"
       ],
       ["yellow_dye"],
       ["air"],
@@ -53050,6 +54027,12 @@
       "item": "yellow_dye",
       "count": 1,
       "ingredients": [["dandelion"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
+    },
+    {
+      "crafting_type": "crafting_shapeless",
+      "item": "yellow_dye",
+      "count": 1,
+      "ingredients": [["golden_dandelion"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"], ["air"]]
     },
     {
       "crafting_type": "crafting_shapeless",
@@ -53374,22 +54357,22 @@
     "ingredients": [
       [
         "shulker_box",
-        "black_shulker_box",
+        "white_shulker_box",
+        "orange_shulker_box",
+        "magenta_shulker_box",
+        "light_blue_shulker_box",
+        "yellow_shulker_box",
+        "lime_shulker_box",
+        "pink_shulker_box",
+        "gray_shulker_box",
+        "light_gray_shulker_box",
+        "cyan_shulker_box",
+        "purple_shulker_box",
         "blue_shulker_box",
         "brown_shulker_box",
-        "cyan_shulker_box",
-        "gray_shulker_box",
         "green_shulker_box",
-        "light_blue_shulker_box",
-        "light_gray_shulker_box",
-        "lime_shulker_box",
-        "magenta_shulker_box",
-        "orange_shulker_box",
-        "pink_shulker_box",
-        "purple_shulker_box",
         "red_shulker_box",
-        "white_shulker_box",
-        "yellow_shulker_box"
+        "black_shulker_box"
       ],
       ["yellow_dye"],
       ["air"],

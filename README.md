@@ -7,7 +7,7 @@
 
 ## Підтримувана версія Minecraft
 
-- **Minecraft Java Edition 1.21.9/10**
+- **Minecraft Java Edition 26.2**
 
 ### Підтримувані типи рецептів
 
@@ -62,7 +62,7 @@ Whether you're working on complex building projects, automating processes, or si
 
 ## Supported Minecraft Version
 
-- **Minecraft Java Edition 1.21.9/10**
+- **Minecraft Java Edition 26.2**
 
 ### Supported Recipe Types
 
