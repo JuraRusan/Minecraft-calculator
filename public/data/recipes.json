@@ -50957,22 +50957,6 @@
   },
   {
     "crafting_type": "crafting_imbue",
-    "item": "tipped_arrow_thick",
-    "count": 8,
-    "ingredients": [
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["lingering_potion_thick"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"]
-    ]
-  },
-  {
-    "crafting_type": "crafting_imbue",
     "item": "tipped_arrow_mundane",
     "count": 8,
     "ingredients": [
@@ -50989,6 +50973,22 @@
   },
   {
     "crafting_type": "crafting_imbue",
+    "item": "tipped_arrow_thick",
+    "count": 8,
+    "ingredients": [
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["lingering_potion_thick"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"]
+    ]
+  },
+  {
+    "crafting_type": "crafting_imbue",
     "item": "tipped_arrow_awkward",
     "count": 8,
     "ingredients": [
@@ -50997,70 +50997,6 @@
       ["arrow"],
       ["arrow"],
       ["lingering_potion_awkward"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"]
-    ]
-  },
-  {
-    "crafting_type": "crafting_imbue",
-    "item": "tipped_arrow_wind_charged",
-    "count": 8,
-    "ingredients": [
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["lingering_potion_wind_charged"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"]
-    ]
-  },
-  {
-    "crafting_type": "crafting_imbue",
-    "item": "tipped_arrow_oozing",
-    "count": 8,
-    "ingredients": [
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["lingering_potion_oozing"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"]
-    ]
-  },
-  {
-    "crafting_type": "crafting_imbue",
-    "item": "tipped_arrow_infested",
-    "count": 8,
-    "ingredients": [
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["lingering_potion_infested"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"]
-    ]
-  },
-  {
-    "crafting_type": "crafting_imbue",
-    "item": "tipped_arrow_weaving",
-    "count": 8,
-    "ingredients": [
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["lingering_potion_weaving"],
       ["arrow"],
       ["arrow"],
       ["arrow"],
@@ -51133,38 +51069,6 @@
   },
   {
     "crafting_type": "crafting_imbue",
-    "item": "tipped_arrow_fire_resistance",
-    "count": 8,
-    "ingredients": [
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["lingering_potion_fire_resistance"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"]
-    ]
-  },
-  {
-    "crafting_type": "crafting_imbue",
-    "item": "tipped_arrow_long_fire_resistance",
-    "count": 8,
-    "ingredients": [
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["lingering_potion_long_fire_resistance"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"]
-    ]
-  },
-  {
-    "crafting_type": "crafting_imbue",
     "item": "tipped_arrow_leaping",
     "count": 8,
     "ingredients": [
@@ -51205,6 +51109,86 @@
       ["arrow"],
       ["arrow"],
       ["lingering_potion_strong_leaping"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"]
+    ]
+  },
+  {
+    "crafting_type": "crafting_imbue",
+    "item": "tipped_arrow_fire_resistance",
+    "count": 8,
+    "ingredients": [
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["lingering_potion_fire_resistance"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"]
+    ]
+  },
+  {
+    "crafting_type": "crafting_imbue",
+    "item": "tipped_arrow_long_fire_resistance",
+    "count": 8,
+    "ingredients": [
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["lingering_potion_long_fire_resistance"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"]
+    ]
+  },
+  {
+    "crafting_type": "crafting_imbue",
+    "item": "tipped_arrow_swiftness",
+    "count": 8,
+    "ingredients": [
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["lingering_potion_swiftness"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"]
+    ]
+  },
+  {
+    "crafting_type": "crafting_imbue",
+    "item": "tipped_arrow_long_swiftness",
+    "count": 8,
+    "ingredients": [
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["lingering_potion_long_swiftness"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"]
+    ]
+  },
+  {
+    "crafting_type": "crafting_imbue",
+    "item": "tipped_arrow_strong_swiftness",
+    "count": 8,
+    "ingredients": [
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["lingering_potion_strong_swiftness"],
       ["arrow"],
       ["arrow"],
       ["arrow"],
@@ -51301,54 +51285,6 @@
       ["arrow"],
       ["arrow"],
       ["lingering_potion_strong_turtle_master"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"]
-    ]
-  },
-  {
-    "crafting_type": "crafting_imbue",
-    "item": "tipped_arrow_swiftness",
-    "count": 8,
-    "ingredients": [
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["lingering_potion_swiftness"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"]
-    ]
-  },
-  {
-    "crafting_type": "crafting_imbue",
-    "item": "tipped_arrow_long_swiftness",
-    "count": 8,
-    "ingredients": [
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["lingering_potion_long_swiftness"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"]
-    ]
-  },
-  {
-    "crafting_type": "crafting_imbue",
-    "item": "tipped_arrow_strong_swiftness",
-    "count": 8,
-    "ingredients": [
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["arrow"],
-      ["lingering_potion_strong_swiftness"],
       ["arrow"],
       ["arrow"],
       ["arrow"],
@@ -51653,6 +51589,70 @@
       ["arrow"],
       ["arrow"],
       ["lingering_potion_long_slow_falling"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"]
+    ]
+  },
+  {
+    "crafting_type": "crafting_imbue",
+    "item": "tipped_arrow_wind_charged",
+    "count": 8,
+    "ingredients": [
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["lingering_potion_wind_charged"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"]
+    ]
+  },
+  {
+    "crafting_type": "crafting_imbue",
+    "item": "tipped_arrow_weaving",
+    "count": 8,
+    "ingredients": [
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["lingering_potion_weaving"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"]
+    ]
+  },
+  {
+    "crafting_type": "crafting_imbue",
+    "item": "tipped_arrow_oozing",
+    "count": 8,
+    "ingredients": [
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["lingering_potion_oozing"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"]
+    ]
+  },
+  {
+    "crafting_type": "crafting_imbue",
+    "item": "tipped_arrow_infested",
+    "count": 8,
+    "ingredients": [
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["arrow"],
+      ["lingering_potion_infested"],
       ["arrow"],
       ["arrow"],
       ["arrow"],
@@ -55170,22 +55170,6 @@
       ["terracotta"]
     ]
   },
-  {
-    "crafting_type": "brewing",
-    "item": "potion_thick",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["glowstone_dust"],
-      ["potion_water"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
   [
     {
       "crafting_type": "brewing",
@@ -55382,11 +55366,11 @@
   ],
   {
     "crafting_type": "brewing",
-    "item": "potion_awkward",
+    "item": "potion_thick",
     "count": 1,
     "ingredients": [
       ["blaze_powder"],
-      ["nether_wart"],
+      ["glowstone_dust"],
       ["potion_water"],
       ["air"],
       ["air"],
@@ -55398,60 +55382,12 @@
   },
   {
     "crafting_type": "brewing",
-    "item": "potion_wind_charged",
+    "item": "potion_awkward",
     "count": 1,
     "ingredients": [
       ["blaze_powder"],
-      ["breeze_rod"],
-      ["potion_awkward"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "potion_oozing",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["slime_block"],
-      ["potion_awkward"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "potion_infested",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["stone"],
-      ["potion_awkward"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "potion_weaving",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["cobweb"],
-      ["potion_awkward"],
+      ["nether_wart"],
+      ["potion_water"],
       ["air"],
       ["air"],
       ["air"],
@@ -55544,38 +55480,6 @@
   ],
   {
     "crafting_type": "brewing",
-    "item": "potion_fire_resistance",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["magma_cream"],
-      ["potion_awkward"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "potion_long_fire_resistance",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["redstone"],
-      ["potion_fire_resistance"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
     "item": "potion_leaping",
     "count": 1,
     "ingredients": [
@@ -55614,6 +55518,86 @@
       ["blaze_powder"],
       ["glowstone_dust"],
       ["potion_leaping"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "potion_fire_resistance",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["magma_cream"],
+      ["potion_awkward"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "potion_long_fire_resistance",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["redstone"],
+      ["potion_fire_resistance"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "potion_swiftness",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["sugar"],
+      ["potion_awkward"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "potion_long_swiftness",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["redstone"],
+      ["potion_swiftness"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "potion_strong_swiftness",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["glowstone_dust"],
+      ["potion_swiftness"],
       ["air"],
       ["air"],
       ["air"],
@@ -55762,54 +55746,6 @@
       ["blaze_powder"],
       ["glowstone_dust"],
       ["potion_turtle_master"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "potion_swiftness",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["sugar"],
-      ["potion_awkward"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "potion_long_swiftness",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["redstone"],
-      ["potion_swiftness"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "potion_strong_swiftness",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["glowstone_dust"],
-      ["potion_swiftness"],
       ["air"],
       ["air"],
       ["air"],
@@ -56192,12 +56128,12 @@
   },
   {
     "crafting_type": "brewing",
-    "item": "splash_potion_water",
+    "item": "potion_wind_charged",
     "count": 1,
     "ingredients": [
       ["blaze_powder"],
-      ["gunpowder"],
-      ["potion_water"],
+      ["breeze_rod"],
+      ["potion_awkward"],
       ["air"],
       ["air"],
       ["air"],
@@ -56208,12 +56144,60 @@
   },
   {
     "crafting_type": "brewing",
-    "item": "splash_potion_thick",
+    "item": "potion_weaving",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["cobweb"],
+      ["potion_awkward"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "potion_oozing",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["slime_block"],
+      ["potion_awkward"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "potion_infested",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["stone"],
+      ["potion_awkward"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "splash_potion_water",
     "count": 1,
     "ingredients": [
       ["blaze_powder"],
       ["gunpowder"],
-      ["potion_thick"],
+      ["potion_water"],
       ["air"],
       ["air"],
       ["air"],
@@ -56240,76 +56224,28 @@
   },
   {
     "crafting_type": "brewing",
+    "item": "splash_potion_thick",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["gunpowder"],
+      ["potion_thick"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
     "item": "splash_potion_awkward",
     "count": 1,
     "ingredients": [
       ["blaze_powder"],
       ["gunpowder"],
       ["potion_awkward"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "splash_potion_wind_charged",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["gunpowder"],
-      ["potion_wind_charged"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "splash_potion_oozing",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["gunpowder"],
-      ["potion_oozing"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "splash_potion_infested",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["gunpowder"],
-      ["potion_infested"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "splash_potion_weaving",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["gunpowder"],
-      ["potion_weaving"],
       ["air"],
       ["air"],
       ["air"],
@@ -56384,38 +56320,6 @@
   },
   {
     "crafting_type": "brewing",
-    "item": "splash_potion_fire_resistance",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["gunpowder"],
-      ["potion_fire_resistance"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "splash_potion_long_fire_resistance",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["gunpowder"],
-      ["potion_long_fire_resistance"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
     "item": "splash_potion_leaping",
     "count": 1,
     "ingredients": [
@@ -56454,6 +56358,86 @@
       ["blaze_powder"],
       ["gunpowder"],
       ["potion_strong_leaping"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "splash_potion_fire_resistance",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["gunpowder"],
+      ["potion_fire_resistance"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "splash_potion_long_fire_resistance",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["gunpowder"],
+      ["potion_long_fire_resistance"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "splash_potion_swiftness",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["gunpowder"],
+      ["potion_swiftness"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "splash_potion_long_swiftness",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["gunpowder"],
+      ["potion_long_swiftness"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "splash_potion_strong_swiftness",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["gunpowder"],
+      ["potion_strong_swiftness"],
       ["air"],
       ["air"],
       ["air"],
@@ -56550,54 +56534,6 @@
       ["blaze_powder"],
       ["gunpowder"],
       ["potion_strong_turtle_master"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "splash_potion_swiftness",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["gunpowder"],
-      ["potion_swiftness"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "splash_potion_long_swiftness",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["gunpowder"],
-      ["potion_long_swiftness"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "splash_potion_strong_swiftness",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["gunpowder"],
-      ["potion_strong_swiftness"],
       ["air"],
       ["air"],
       ["air"],
@@ -56912,12 +56848,12 @@
   },
   {
     "crafting_type": "brewing",
-    "item": "lingering_potion_water",
+    "item": "splash_potion_wind_charged",
     "count": 1,
     "ingredients": [
       ["blaze_powder"],
-      ["dragon_breath"],
-      ["splash_potion_water"],
+      ["gunpowder"],
+      ["potion_wind_charged"],
       ["air"],
       ["air"],
       ["air"],
@@ -56928,12 +56864,60 @@
   },
   {
     "crafting_type": "brewing",
-    "item": "lingering_potion_thick",
+    "item": "splash_potion_weaving",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["gunpowder"],
+      ["potion_weaving"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "splash_potion_oozing",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["gunpowder"],
+      ["potion_oozing"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "splash_potion_infested",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["gunpowder"],
+      ["potion_infested"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "lingering_potion_water",
     "count": 1,
     "ingredients": [
       ["blaze_powder"],
       ["dragon_breath"],
-      ["splash_potion_thick"],
+      ["splash_potion_water"],
       ["air"],
       ["air"],
       ["air"],
@@ -56960,76 +56944,28 @@
   },
   {
     "crafting_type": "brewing",
+    "item": "lingering_potion_thick",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["dragon_breath"],
+      ["splash_potion_thick"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
     "item": "lingering_potion_awkward",
     "count": 1,
     "ingredients": [
       ["blaze_powder"],
       ["dragon_breath"],
       ["splash_potion_awkward"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "lingering_potion_wind_charged",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["dragon_breath"],
-      ["splash_potion_wind_charged"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "lingering_potion_oozing",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["dragon_breath"],
-      ["splash_potion_oozing"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "lingering_potion_infested",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["dragon_breath"],
-      ["splash_potion_infested"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "lingering_potion_weaving",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["dragon_breath"],
-      ["splash_potion_weaving"],
       ["air"],
       ["air"],
       ["air"],
@@ -57104,38 +57040,6 @@
   },
   {
     "crafting_type": "brewing",
-    "item": "lingering_potion_fire_resistance",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["dragon_breath"],
-      ["splash_potion_fire_resistance"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "lingering_potion_long_fire_resistance",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["dragon_breath"],
-      ["splash_potion_long_fire_resistance"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
     "item": "lingering_potion_leaping",
     "count": 1,
     "ingredients": [
@@ -57174,6 +57078,86 @@
       ["blaze_powder"],
       ["dragon_breath"],
       ["splash_potion_strong_leaping"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "lingering_potion_fire_resistance",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["dragon_breath"],
+      ["splash_potion_fire_resistance"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "lingering_potion_long_fire_resistance",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["dragon_breath"],
+      ["splash_potion_long_fire_resistance"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "lingering_potion_swiftness",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["dragon_breath"],
+      ["splash_potion_swiftness"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "lingering_potion_long_swiftness",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["dragon_breath"],
+      ["splash_potion_long_swiftness"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "lingering_potion_strong_swiftness",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["dragon_breath"],
+      ["splash_potion_strong_swiftness"],
       ["air"],
       ["air"],
       ["air"],
@@ -57270,54 +57254,6 @@
       ["blaze_powder"],
       ["dragon_breath"],
       ["splash_potion_strong_turtle_master"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "lingering_potion_swiftness",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["dragon_breath"],
-      ["splash_potion_swiftness"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "lingering_potion_long_swiftness",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["dragon_breath"],
-      ["splash_potion_long_swiftness"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"],
-      ["air"]
-    ]
-  },
-  {
-    "crafting_type": "brewing",
-    "item": "lingering_potion_strong_swiftness",
-    "count": 1,
-    "ingredients": [
-      ["blaze_powder"],
-      ["dragon_breath"],
-      ["splash_potion_strong_swiftness"],
       ["air"],
       ["air"],
       ["air"],
@@ -57622,6 +57558,70 @@
       ["blaze_powder"],
       ["dragon_breath"],
       ["splash_potion_long_slow_falling"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "lingering_potion_wind_charged",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["dragon_breath"],
+      ["splash_potion_wind_charged"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "lingering_potion_weaving",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["dragon_breath"],
+      ["splash_potion_weaving"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "lingering_potion_oozing",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["dragon_breath"],
+      ["splash_potion_oozing"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"],
+      ["air"]
+    ]
+  },
+  {
+    "crafting_type": "brewing",
+    "item": "lingering_potion_infested",
+    "count": 1,
+    "ingredients": [
+      ["blaze_powder"],
+      ["dragon_breath"],
+      ["splash_potion_infested"],
       ["air"],
       ["air"],
       ["air"],
