@@ -5,15 +5,15 @@ import { Trans, useTranslation } from "react-i18next";
 
 import { TransLink, Typography } from "@/common/components/atoms";
 import General from "@/pages/general/General.tsx";
-import { useAppSelector } from "@/store";
+import { useSelectedLanguages, useSelectedTheme } from "@/store";
 
 import styles from "./App.module.scss";
 
 function App() {
   const { t } = useTranslation();
 
-  const lang = useAppSelector((state) => state.selectedLanguages);
-  const theme = useAppSelector((state) => state.selectedTheme);
+  const lang = useSelectedLanguages();
+  const theme = useSelectedTheme();
 
   useEffect(() => {
     i18n.changeLanguage(lang);

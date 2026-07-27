@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import { Button, Modal, Spacer, Typography } from "@/common/components/atoms";
 import { languages, type LanguagesType } from "@/localization";
-import { appReducer, useAppDispatch, useAppSelector } from "@/store";
+import { setSelectedLanguages, setSelectedTheme, useSelectedLanguages, useSelectedTheme } from "@/store";
 import { themes, type ThemeType } from "@/theme";
 
 import styles from "./Modals.module.scss";
@@ -17,18 +17,16 @@ type SettingsProps = {
 const Settings: FC<SettingsProps> = ({ show, handleClose }) => {
   const { t } = useTranslation();
 
-  const activeLanguage = useAppSelector((state) => state.selectedLanguages);
-  const activeTheme = useAppSelector((state) => state.selectedTheme);
-
-  const actions = useAppDispatch();
+  const activeLanguage = useSelectedLanguages();
+  const activeTheme = useSelectedTheme();
 
   const handleSelectLanguage = (language: LanguagesType) => {
-    actions(appReducer.actions.setSelectedLanguages(language));
+    setSelectedLanguages(language);
     handleClose();
   };
 
   const handleSelectTheme = (t: ThemeType) => {
-    actions(appReducer.actions.setSelectedTheme(t));
+    setSelectedTheme(t);
     handleClose();
   };
 
