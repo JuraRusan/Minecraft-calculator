@@ -4,12 +4,14 @@ export type CraftingType =
   | "crafting_shaped"
   | "crafting_shapeless"
   | "crafting_transmute"
+  | "crafting_imbue"
   | "stonecutting"
   | "smelting"
   | "blasting"
   | "smoking"
   | "campfire_cooking"
-  | "smithing_transform";
+  | "smithing_transform"
+  | "brewing";
 
 export type Fuel = Record<string, number>;
 

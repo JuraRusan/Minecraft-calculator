@@ -1,5 +1,5 @@
 import type { TreeNode } from "@/common/helpers/tree.ts";
-import type { CraftingType, RecipeType, VariablesType } from "@/types/types.ts";
+import type { CraftingType, RecipeType, SlotKey, VariablesType } from "@/types/types.ts";
 
 export const VERSION = "26.2";
 
@@ -16,12 +16,14 @@ export const CRAFTING_TYPE: CraftingType[] = [
   "crafting_shaped",
   "crafting_shapeless",
   "crafting_transmute",
+  "crafting_imbue",
   "stonecutting",
   "smelting",
   "blasting",
   "smoking",
   "campfire_cooking",
   "smithing_transform",
+  "brewing",
 ];
 
 export const DEFAULT: RecipeType = {
@@ -52,3 +54,10 @@ export const DEFAULT_ROOT: TreeNode = {
 };
 
 export const TYPE_USE_FUELS: string[] = ["smelting", "blasting", "smoking"];
+
+export const BREWING_FUEL_YIELD: Record<string, number> = {
+  blaze_powder: 60,
+};
+
+export const BREWING_INGREDIENT_SLOT: SlotKey = "1_slot";
+export const BREWING_BATCH_SIZE = 3;

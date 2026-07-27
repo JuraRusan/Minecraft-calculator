@@ -2,7 +2,14 @@ import { getFuels, getRecipes } from "@/common/loadData.ts";
 import type { ItemKey } from "@/localization";
 import type { Recipe, RecipeEntry, RecipeType, SlotKey, VariablesType } from "@/types/types.ts";
 
-import { DEFAULT, TYPE_USE_FUELS, VARIABLES } from "./constants.ts";
+import {
+  BREWING_BATCH_SIZE,
+  BREWING_FUEL_YIELD,
+  BREWING_INGREDIENT_SLOT,
+  DEFAULT,
+  TYPE_USE_FUELS,
+  VARIABLES,
+} from "./constants.ts";
 import { roundToMultiple } from "./functions.ts";
 
 export type TreeNode = {
@@ -109,6 +116,19 @@ export const computeIngredients = (node: TreeNode): Record<string, number> => {
 
     for (const key in result) {
       result[key] *= multiplier;
+    }
+
+    if (active.crafting_type === "brewing") {
+      for (const key in BREWING_FUEL_YIELD) {
+        if (result[key]) {
+          result[key] = Math.ceil(result[key] / BREWING_FUEL_YIELD[key]);
+        }
+      }
+
+      const ingredient = active[BREWING_INGREDIENT_SLOT];
+      if (ingredient !== "air" && result[ingredient]) {
+        result[ingredient] = Math.ceil(result[ingredient] / BREWING_BATCH_SIZE);
+      }
     }
   }
 
