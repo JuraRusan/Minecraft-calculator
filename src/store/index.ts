@@ -1,5 +1,4 @@
-import { configureStore, createSlice, type PayloadAction } from "@reduxjs/toolkit";
-import { useDispatch, useSelector } from "react-redux";
+import { useSyncExternalStore } from "react";
 
 import type { LanguagesType } from "@/localization";
 import type { ThemeType } from "@/theme";
@@ -14,26 +13,43 @@ const DEFAULT_STATE: AppState = {
   selectedTheme: "dark",
 };
 
-export const appReducer = createSlice({
-  name: "appReducer",
-  initialState: DEFAULT_STATE,
-  reducers: {
-    setSelectedLanguages: (state, action: PayloadAction<LanguagesType>) => {
-      state.selectedLanguages = action.payload;
-    },
-    setSelectedTheme: (state, action: PayloadAction<ThemeType>) => {
-      state.selectedTheme = action.payload;
-    },
-  },
-});
+const STORAGE_KEY = "app-state";
 
-export const store = configureStore({
-  reducer: appReducer.reducer,
-});
+function loadState(): AppState {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? { ...DEFAULT_STATE, ...JSON.parse(raw) } : DEFAULT_STATE;
+  } catch {
+    return DEFAULT_STATE;
+  }
+}
 
-export type RootState = ReturnType<typeof store.getState>;
-export type AppDispatch = typeof store.dispatch;
-export type AppStore = typeof store;
+let state: AppState = loadState();
+const listeners = new Set<() => void>();
 
-export const useAppDispatch = useDispatch.withTypes<AppDispatch>();
-export const useAppSelector = useSelector.withTypes<RootState>();
+function setState(partial: Partial<AppState>) {
+  state = { ...state, ...partial };
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  listeners.forEach((listener) => listener());
+}
+
+function subscribe(listener: () => void) {
+  listeners.add(listener);
+  return () => listeners.delete(listener);
+}
+
+export function useSelectedLanguages() {
+  return useSyncExternalStore(subscribe, () => state.selectedLanguages);
+}
+
+export function useSelectedTheme() {
+  return useSyncExternalStore(subscribe, () => state.selectedTheme);
+}
+
+export function setSelectedLanguages(selectedLanguages: LanguagesType) {
+  setState({ selectedLanguages });
+}
+
+export function setSelectedTheme(selectedTheme: ThemeType) {
+  setState({ selectedTheme });
+}
