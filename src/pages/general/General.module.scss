@@ -9,9 +9,11 @@
 
   .versions {
     position: absolute;
-    left: 23%;
-    top: 32px;
+    left: 2px;
+    top: 2px;
     color: var(--main8);
+    z-index: 0;
+    font-style: italic;
   }
 
   .container_row_buttons {
@@ -21,6 +23,7 @@
     width: 100%;
     height: auto;
     margin: 32px auto 0 auto;
+    z-index: 1;
 
     .identical_width {
       width: 140px;
@@ -39,6 +42,7 @@
     width: auto;
     margin: 8px auto;
     position: relative;
+    z-index: 1;
 
     .help {
       width: 24px;
