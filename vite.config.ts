@@ -59,14 +59,6 @@ export default defineConfig({
           }
 
           if (
-            id.includes("node_modules/redux/") ||
-            id.includes("node_modules/react-redux/") ||
-            id.includes("node_modules/@reduxjs/toolkit/")
-          ) {
-            return "vendor-redux";
-          }
-
-          if (
             id.includes("node_modules/i18next/") ||
             id.includes("node_modules/react-i18next/") ||
             id.includes("node_modules/i18next-browser-languagedetector/")
