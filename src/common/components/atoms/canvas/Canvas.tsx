@@ -6,9 +6,19 @@ type Props = {
   height: number;
   overlay?: string;
   duration?: number;
+  direction?: "top-to-bottom" | "bottom-to-top";
+  mode?: "appear" | "disappear";
 };
 
-const Canvas: FC<Props> = ({ base, overlay, width, height, duration }) => {
+const Canvas: FC<Props> = ({
+  base,
+  overlay,
+  width,
+  height,
+  duration,
+  direction = "top-to-bottom",
+  mode = "disappear",
+}) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   const loadImage = (src: string): Promise<HTMLImageElement> => {
@@ -55,14 +65,16 @@ const Canvas: FC<Props> = ({ base, overlay, width, height, duration }) => {
         }
 
         const progress = elapsed / animDuration;
+        const effectiveProgress = mode === "appear" ? 1 - progress : progress;
 
         ctx.clearRect(0, 0, width, height);
         ctx.drawImage(baseImg, 0, 0, width, height);
 
-        const visibleHeight = overlayImg.height * (1 - progress);
+        const visibleHeight = overlayImg.height * (1 - effectiveProgress);
 
         if (visibleHeight > 0) {
-          const sourceY = overlayImg.height - visibleHeight;
+          const sourceY = direction === "bottom-to-top" ? 0 : overlayImg.height - visibleHeight;
+          const destY = direction === "bottom-to-top" ? 0 : (sourceY / overlayImg.height) * height;
 
           ctx.drawImage(
             overlayImg,
@@ -71,7 +83,7 @@ const Canvas: FC<Props> = ({ base, overlay, width, height, duration }) => {
             overlayImg.width,
             visibleHeight,
             0,
-            (sourceY / overlayImg.height) * height,
+            destY,
             width,
             (visibleHeight / overlayImg.height) * height,
           );
@@ -88,7 +100,7 @@ const Canvas: FC<Props> = ({ base, overlay, width, height, duration }) => {
     return () => {
       cancelAnimationFrame(animationFrame);
     };
-  }, [base, overlay, width, height, duration]);
+  }, [base, overlay, width, height, duration, direction, mode]);
 
   return <canvas ref={canvasRef} width={width} height={height} />;
 };

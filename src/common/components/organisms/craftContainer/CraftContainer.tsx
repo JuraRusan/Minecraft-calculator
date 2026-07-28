@@ -147,7 +147,38 @@ const CraftContainer: FC<CraftContainerProps> = ({ node, path, onUpdate, lockWig
     <div className={styles["campfire_wrapper"]}>
       <Item slot={0} itemName={recipesActive["0_slot"]} {...commonItemProps} fuel={false} />
       <div className={styles["canvas_container"]}>
-        <Canvas base="/assets/fire_template.png" width={38} height={38} />
+        <Canvas base="/assets/fire_overlay.png" width={38} height={38} />
+      </div>
+    </div>
+  );
+
+  const BrewingRender = (
+    <div className={styles["brewing_wrapper"]}>
+      <Item slot={0} itemName={recipesActive["0_slot"]} {...commonItemProps} fuel={false} />
+      <div className={styles["void"]} />
+      <Item slot={1} itemName={recipesActive["1_slot"]} {...commonItemProps} fuel={false} />
+      <div className={styles["void"]} />
+      <div className={styles["void"]} />
+      <div className={styles["void"]} />
+      <div className={styles["void"]} />
+      <div className={styles["void"]} />
+      <Item slot={2} itemName={recipesActive["2_slot"]} {...commonItemProps} fuel={false} />
+      <div className={styles["brewing_position"]}>
+        <Canvas base="/assets/brewing.png" width={52} height={40} />
+      </div>
+      <div className={styles["bubbles_animation"]}>
+        <Canvas
+          base="/assets/bubbles_template.png"
+          overlay="/assets/bubbles_overlay.png"
+          width={24}
+          height={58}
+          duration={20 * 1000}
+          direction="top-to-bottom"
+          mode="appear"
+        />
+      </div>
+      <div className={styles["fuel_position"]}>
+        <Canvas base="/assets/fuel_length.png" width={18 * 2} height={4 * 2} />
       </div>
     </div>
   );
@@ -160,6 +191,8 @@ const CraftContainer: FC<CraftContainerProps> = ({ node, path, onUpdate, lockWig
     recipeContentJSX = StonecuttingRender;
   } else if (recipesActive.crafting_type === "campfire_cooking") {
     recipeContentJSX = CampfireRender;
+  } else if (recipesActive.crafting_type === "brewing") {
+    recipeContentJSX = BrewingRender;
   } else {
     recipeContentJSX = WorkbenchRender;
   }

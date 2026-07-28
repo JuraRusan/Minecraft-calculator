@@ -129,6 +129,29 @@ const StyledTooltipItem: FC<StyledTooltipItemProps> = ({ children, template, ove
           </TypographyWrapper>
         );
       }
+      case "brewing": {
+        return (
+          <TypographyWrapper>
+            <Trans
+              i18nKey="app.general.category.brewing_description"
+              components={[<TransLink href="https://minecraft.wiki/w/Brewing" />]}
+            />
+          </TypographyWrapper>
+        );
+      }
+      case "crafting_imbue": {
+        return (
+          <TypographyWrapper>
+            <Trans
+              i18nKey="app.general.category.crafting_imbue_description"
+              components={[
+                <TransLink href="https://minecraft.wiki/w/Crafting_Table" />,
+                <TransLink href="https://minecraft.wiki/w/Crafter" />,
+              ]}
+            />
+          </TypographyWrapper>
+        );
+      }
     }
   };
 
