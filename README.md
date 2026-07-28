@@ -14,14 +14,16 @@
 - Верстак (формений крафт)
 - Верстак (безформений крафт)
 - Трансмутація
+- Обробка
 - Каменеріз
 - Переплавка
 - Плавка
 - Копчення
 - Готування на багатті
 - Ковальське покращення
+- Варильна стійка (варіння)
 
-> Рецепти варильної стійки плануються в майбутніх оновленнях.
+> ⚠️ Тип рецептів "Варильна стійка" ще може містити помилки.
 
 ## Можливості
 
@@ -69,14 +71,16 @@ Whether you're working on complex building projects, automating processes, or si
 - Crafting Table (Shaped)
 - Crafting Table (Shapeless)
 - Crafting Transmute
+- Crafting Imbue
 - Stonecutting
 - Smelting
 - Blasting
 - Smoking
 - Campfire Cooking
 - Smithing Transform
+- Brewing Stand
 
-> Brewing Stand recipes are planned for future updates.
+> ⚠️ The "Brewing Stand" recipe type may still contain bugs.
 
 ## Features
 
